@@ -1,0 +1,10 @@
+TITLE: Critical RCE in Widget Server Actively Exploited
+SOURCE: https://example.com/blog/widget-rce
+---
+Security researchers have observed active exploitation of a remote code
+execution vulnerability in Widget Server versions prior to 4.2.1. The flaw
+allows unauthenticated attackers to execute arbitrary code by sending a
+crafted request to the admin API endpoint. Proof-of-concept exploit code
+is publicly available and multiple ransomware affiliates have been
+observed using it to gain initial access before deploying ransomware
+payloads. Organizations running Widget Server should patch immediately.

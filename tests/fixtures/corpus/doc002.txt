@@ -1,0 +1,7 @@
+TITLE: Widget Server 4.3 Adds Dark Mode
+SOURCE: https://example.com/blog/widget-dark-mode
+---
+The latest Widget Server release adds a long-requested dark mode theme
+for the admin dashboard, along with minor performance improvements to
+the search indexing subsystem. No security-relevant changes are included
+in this release.
