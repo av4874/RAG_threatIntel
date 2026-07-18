@@ -48,6 +48,12 @@ def test_parse_llm_response_raises_on_missing_required_key():
         parse_llm_response(raw)
 
 
+def test_parse_llm_response_raises_on_non_dict_json():
+    raw = '["not", "a", "dict"]'
+    with pytest.raises(ValueError, match="could not parse LLM response as JSON"):
+        parse_llm_response(raw)
+
+
 def test_analyze_document_calls_client_with_built_prompt_and_parses_result():
     client = FakeLLMClient('{"summary": "s", "rationale": "r", "risk_score": 9}')
     result = analyze_document(client, "Widget RCE", ["chunk text"])

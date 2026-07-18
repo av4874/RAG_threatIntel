@@ -45,7 +45,7 @@ def parse_llm_response(raw: str) -> AnalysisResult:
             rationale=data["rationale"],
             risk_score=int(data["risk_score"]),
         )
-    except (json.JSONDecodeError, KeyError) as exc:
+    except (json.JSONDecodeError, KeyError, TypeError, ValueError) as exc:
         raise ValueError("could not parse LLM response as JSON") from exc
 
 
