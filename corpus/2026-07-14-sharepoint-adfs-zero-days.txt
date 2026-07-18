@@ -1,0 +1,36 @@
+TITLE: Microsoft July 2026 Patch Tuesday: Record 622 Vulnerabilities with Two Active Zero-Days
+SOURCE: https://thehackernews.com/2026/07/microsoft-patches-record-622-flaws.html
+---
+Microsoft released its largest Patch Tuesday on record, addressing 622 CVEs. Two of these flaws are currently under active exploitation by threat actors. The release represents more than triple the previous record of approximately 200 vulnerabilities from June 2026.
+
+CVE-2026-56164: SharePoint Server Elevation of Privilege
+
+This elevation-of-privilege flaw affects on-premises SharePoint Server and permits unauthenticated attackers to escalate privileges over the network without requiring credentials or user interaction.
+
+Microsoft credits Mandiant's incident responders and Google's FLARE team with discovery. The vulnerability is being exploited in active attacks, though Microsoft has not disclosed specific exploitation methods or threat actors. It is rated as fairly low on the CVSS severity scale, contrary to its real-world danger. Today marks the end of extended support for SharePoint Server 2016 and 2019, with no paid ESU program available.
+
+Mitigation: Beyond patching, enabling AMSI in Full Mode on the server provides additional protection. SharePoint has been an attacker target since the ToolShell chain in 2025.
+
+CVE-2026-56155: Active Directory Federation Services Privilege Escalation
+
+This flaw allows authenticated attackers already on a system to elevate privileges locally through weak access controls. AD FS signs tokens that the rest of the enterprise infrastructure trusts.
+
+Microsoft's DART incident-response unit discovered this vulnerability. It is rated as exploited despite being labeled as a "local" flaw. Actual privilege grants and exploitation methods remain undisclosed. This is critically important due to AD FS's role in enterprise authentication.
+
+Additional Zero-Day: CVE-2026-50661 (BitLocker Bypass)
+
+A third zero-day involves BitLocker and requires physical device access, making it less urgent for immediate patching despite public disclosure.
+
+SharePoint Authentication Bypass Chain
+
+CVE-2026-55040 is a JWT authentication bypass disclosed by Rapid7 Labs for their Pwn2Own Berlin entry. Severity ratings conflict significantly: Rapid7 rates it 5.3 with medium severity, while ZDI reads it as Critical at 9.1. The flaw was chained with a separate RCE bug to achieve unauthenticated remote code execution. Notably, the RCE component remains unpatched and Microsoft plans to address it in August.
+
+Vulnerability Distribution
+
+Windows dominates the release with 416 CVEs, including a top-scored VMSwitch RCE (CVE-2026-57092) at 9.9 and five DHCP remote code execution flaws. SharePoint Server accounts for 17 CVEs including both zero-days.
+
+Strategic Context and Remediation Guidance
+
+Microsoft indicated this surge reflects AI-assisted vulnerability discovery through its MDASH scanning system. Exploitation Timeline Concerns: modern patch diffing allows attackers to identify and exploit unfixed vulnerabilities within days, compressing the traditional "wait a week" buffer. This month's data demonstrates that CVSS severity ratings poorly predict real-world threat: both actively exploited flaws rate as mid-tier privilege escalations rather than headline 9.8 scores.
+
+Prioritization should rely on exploitation status via CISA's Known Exploited Vulnerabilities catalog, EPSS scores, and Microsoft's own exploitation indicators rather than CVSS numbers alone. Organizations must patch faster than historical practices, treating exploited flaws as the highest priority regardless of severity score.

@@ -1,0 +1,24 @@
+TITLE: Microsoft's July 2026 Patch Tuesday: 570 Vulnerabilities and 3 Zero-Days
+SOURCE: https://www.bleepingcomputer.com/news/microsoft/microsoft-july-2026-patch-tuesday-fixes-massive-570-flaws-3-zero-days/
+---
+Microsoft released its July 2026 Patch Tuesday updates, addressing what the company describes as "a record-breaking 570 flaws" with significant security implications across its product ecosystem.
+
+Overview of Vulnerabilities
+
+The patch batch includes 59 critical-severity vulnerabilities, with 48 classified as remote code execution issues, 9 as elevation of privilege flaws, 1 security bypass, and 1 spoofing vulnerability. The complete breakdown spans multiple vulnerability categories: 254 elevation of privilege issues, 145 remote code execution vulnerabilities, 102 information disclosure flaws, 35 denial of service vulnerabilities, 17 security feature bypasses, and 16 spoofing vulnerabilities.
+
+Zero-Day Vulnerabilities
+
+Three zero-day flaws received patches this month. Two were actively exploited in real-world attacks:
+
+CVE-2026-56155 affects Active Directory Federation Services, allowing "an authorized attacker to elevate privileges locally" through insufficient access control granularity. Microsoft's Detection and Response Team discovered this vulnerability.
+
+CVE-2026-56164 impacts Microsoft SharePoint Server, enabling remote attackers to gain elevated privileges through "missing authentication for critical function." Microsoft recommends enabling Antimalware Scan Interface (AMSI) and setting Request Body Scan mode to Full as mitigation measures. Researchers from Mandiant Incident Response and Google Cloud identified this flaw.
+
+CVE-2026-50661 represents a publicly disclosed Windows BitLocker bypass allowing attackers with physical access to "gain access to encrypted data" by circumventing device encryption.
+
+Contributing Factors to Volume
+
+Microsoft previously warned of increased patch volume due to implementing AI-powered vulnerability discovery systems to identify flaws in Windows code before attackers can exploit them.
+
+The report notes that excluded from this count are 468 Microsoft Edge vulnerabilities fixed by Google and flaws addressed earlier in July across various cloud services and platforms.

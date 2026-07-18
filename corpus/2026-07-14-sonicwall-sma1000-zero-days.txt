@@ -1,0 +1,32 @@
+TITLE: SonicWall SMA1000 Zero-Day Vulnerabilities: Full Technical Details
+SOURCE: https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-sma1000-flaws-exploited-in-zero-day-attacks-patch-now/
+---
+SonicWall has issued a critical security warning regarding two actively exploited vulnerabilities affecting its SMA1000 Secure Mobile Access appliance. The company confirmed that threat actors are actively leveraging these flaws in real-world attacks.
+
+CVE-2026-15409: Server-Side Request Forgery
+
+This vulnerability carries a critical CVSS score of 10.0. It exists in the SMA1000 Appliance Work Place interface and permits an unauthenticated remote attacker to manipulate the appliance into making requests to unintended destinations. The flaw does not require prior authentication, making it particularly dangerous as an initial access vector. Successful exploitation permits an unauthenticated attacker to open a websocket-based tunnel to arbitrary localhost-only services.
+
+CVE-2026-15410: Code Injection Vulnerability
+
+The second flaw, rated high-severity at CVSS 7.2, affects the SMA1000 Appliance Management Console. This post-authentication code injection issue allows authenticated administrators to execute arbitrary operating system commands. Despite requiring admin credentials, SonicWall assigned an overall advisory CVSS of 10.0, suggesting potential chaining with the unauthenticated flaw.
+
+Active Exploitation Confirmation
+
+SonicWall stated that it "investigated multiple cases indicating the active exploitation of the vulnerabilities." The company has not disclosed whether attackers combine both flaws in coordinated attacks, but it is assessed that attackers are chaining the two flaws together to take control of susceptible devices.
+
+Affected Products and Versions
+
+The vulnerabilities impact specific SMA1000 models: 6210, 7210, and 8200v running vulnerable platform-hotfix releases: 12.4.3-03245, 12.4.3-03387, 12.4.3-03434, 12.5.0-02283, 12.5.0-02624, and 12.5.0-02800. Fixed versions are available at 12.4.3-03453 and later, or 12.5.0-02835 and later. SonicWall clarified that SSL-VPN on firewalls and the SMA 100 Series remain unaffected.
+
+Indicators of Compromise
+
+Administrators should monitor for these IOC patterns: suspicious entries in extraweb_access.log showing requests to "/__api__/login or /__api__/logout with HTTP 200 status" or "/wsproxy with suspicious host parameters with 101 HTTP status" warrant investigation. Additionally, ctrl-service.log entries documenting "hotfix rollbacks with path traversal names" suggest potential compromise. The configuration file /var/lib/unit/conf.json should not contain routes for "/__api__/login or /__api__/logout" under normal circumstances.
+
+Remediation Requirements
+
+The advisory emphasized that "there are no workarounds or mitigations for these flaws other than installing the hotfixes." Organizations must upgrade immediately. If compromise is detected, remediation requires re-imaging physical appliances or redeploying virtual instances, resetting all user and administrator credentials, and clearing TOTP tokens.
+
+Government Response
+
+The U.S. Cybersecurity and Infrastructure Security Agency added both CVEs to its Known Exploited Vulnerabilities catalog. Federal agencies face a deadline of July 17, 2026, to secure systems or discontinue product use per Binding Operational Directive 26-04.
