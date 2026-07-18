@@ -1,0 +1,57 @@
+from datetime import datetime, timezone
+from pathlib import Path
+
+from threat_digest.audit import write_audit_record
+from threat_digest.chunking import chunk_text
+from threat_digest.corpus import load_corpus
+from threat_digest.digest import DigestItem, format_digest_markdown
+from threat_digest.llm_analysis import LLMClient, analyze_document, build_prompt
+from threat_digest.retrieval import retrieve_top_chunks_for_document
+
+
+def run_pipeline(
+    corpus_dir: Path,
+    output_dir: Path,
+    llm_client: LLMClient,
+    k: int = 5,
+) -> Path:
+    output_dir = Path(output_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
+    audit_path = output_dir / "audit.jsonl"
+
+    documents = load_corpus(corpus_dir)
+    digest_items = []
+
+    for document in documents:
+        chunks = chunk_text(document.text)
+        retrieved = retrieve_top_chunks_for_document(chunks, k=k)
+        retrieved_texts = [text for text, _score in retrieved]
+
+        prompt = build_prompt(document.title, retrieved_texts)
+        analysis = analyze_document(llm_client, document.title, retrieved_texts)
+
+        write_audit_record(
+            audit_path,
+            doc_id=document.doc_id,
+            retrieved_chunks=retrieved,
+            prompt=prompt,
+            raw_llm_output=llm_client.generate(prompt),
+            risk_score=analysis.risk_score,
+            timestamp=datetime.now(timezone.utc).isoformat(),
+        )
+
+        digest_items.append(
+            DigestItem(
+                doc_id=document.doc_id,
+                title=document.title,
+                source_url=document.source_url,
+                summary=analysis.summary,
+                rationale=analysis.rationale,
+                risk_score=analysis.risk_score,
+            )
+        )
+
+    digest_markdown = format_digest_markdown(digest_items)
+    digest_path = output_dir / "digest.md"
+    digest_path.write_text(digest_markdown, encoding="utf-8")
+    return digest_path
