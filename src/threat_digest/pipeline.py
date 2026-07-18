@@ -39,6 +39,7 @@ def run_pipeline(
                 retrieved_chunks=retrieved,
                 prompt=prompt,
                 raw_llm_output=raw_output,
+                # -1 sentinel: LLM output could not be parsed as JSON
                 risk_score=-1,
                 timestamp=datetime.now(timezone.utc).isoformat(),
             )

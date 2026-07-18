@@ -40,14 +40,13 @@ def parse_llm_response(raw: str) -> AnalysisResult:
     cleaned = re.sub(r"^```(?:json)?\s*|\s*```$", "", raw.strip())
     try:
         data = json.loads(cleaned)
-    except json.JSONDecodeError as exc:
+        return AnalysisResult(
+            summary=data["summary"],
+            rationale=data["rationale"],
+            risk_score=int(data["risk_score"]),
+        )
+    except (json.JSONDecodeError, KeyError) as exc:
         raise ValueError("could not parse LLM response as JSON") from exc
-
-    return AnalysisResult(
-        summary=data["summary"],
-        rationale=data["rationale"],
-        risk_score=int(data["risk_score"]),
-    )
 
 
 def analyze_document(client: LLMClient, title: str, chunks: list[str]) -> AnalysisResult:
