@@ -5,7 +5,7 @@ from threat_digest.audit import write_audit_record
 from threat_digest.chunking import chunk_text
 from threat_digest.corpus import load_corpus
 from threat_digest.digest import DigestItem, format_digest_markdown
-from threat_digest.llm_analysis import LLMClient, analyze_document, build_prompt
+from threat_digest.llm_analysis import LLMClient, build_prompt, parse_llm_response
 from threat_digest.retrieval import retrieve_top_chunks_for_document
 
 
@@ -28,14 +28,28 @@ def run_pipeline(
         retrieved_texts = [text for text, _score in retrieved]
 
         prompt = build_prompt(document.title, retrieved_texts)
-        analysis = analyze_document(llm_client, document.title, retrieved_texts)
+        raw_output = llm_client.generate(prompt)
+
+        try:
+            analysis = parse_llm_response(raw_output)
+        except ValueError:
+            write_audit_record(
+                audit_path,
+                doc_id=document.doc_id,
+                retrieved_chunks=retrieved,
+                prompt=prompt,
+                raw_llm_output=raw_output,
+                risk_score=-1,
+                timestamp=datetime.now(timezone.utc).isoformat(),
+            )
+            continue
 
         write_audit_record(
             audit_path,
             doc_id=document.doc_id,
             retrieved_chunks=retrieved,
             prompt=prompt,
-            raw_llm_output=llm_client.generate(prompt),
+            raw_llm_output=raw_output,
             risk_score=analysis.risk_score,
             timestamp=datetime.now(timezone.utc).isoformat(),
         )

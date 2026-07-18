@@ -21,6 +21,22 @@ class FakeLLMClient:
         )
 
 
+class PartiallyFailingLLMClient:
+    """Returns invalid JSON for the RCE doc, valid JSON for everything else,
+    so failure handling can be tested without killing the whole run."""
+
+    def generate(self, prompt: str) -> str:
+        if "Critical RCE in Widget Server" in prompt:
+            return "not valid json at all"
+        return json.dumps(
+            {
+                "summary": "generated summary",
+                "rationale": "generated rationale",
+                "risk_score": 3,
+            }
+        )
+
+
 def test_run_pipeline_writes_ranked_digest_and_audit_log(tmp_path):
     digest_path = run_pipeline(
         corpus_dir=FIXTURES,
@@ -40,3 +56,24 @@ def test_run_pipeline_writes_ranked_digest_and_audit_log(tmp_path):
     assert len(lines) == 2
     doc_ids = {json.loads(line)["doc_id"] for line in lines}
     assert doc_ids == {"doc001", "doc002"}
+
+
+def test_run_pipeline_continues_past_a_document_with_unparseable_llm_output(tmp_path):
+    digest_path = run_pipeline(
+        corpus_dir=FIXTURES,
+        output_dir=tmp_path,
+        llm_client=PartiallyFailingLLMClient(),
+        k=3,
+    )
+
+    digest_text = digest_path.read_text(encoding="utf-8")
+    assert "Widget Server 4.3 Adds Dark Mode" in digest_text
+    assert "Critical RCE in Widget Server" not in digest_text
+
+    audit_path = tmp_path / "audit.jsonl"
+    lines = audit_path.read_text(encoding="utf-8").strip().splitlines()
+    assert len(lines) == 2
+    records = {json.loads(line)["doc_id"]: json.loads(line) for line in lines}
+    assert records["doc001"]["risk_score"] == -1
+    assert records["doc001"]["raw_llm_output"] == "not valid json at all"
+    assert records["doc002"]["risk_score"] == 3
