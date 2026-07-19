@@ -59,7 +59,7 @@ def run_ingest(feed_urls: list[str], corpus_dir: Path, seen_path: Path) -> list[
 
 if __name__ == "__main__":
     FEED_URLS = [
-        "https://www.bleepingcomputer.com/feed/",
+        "https://www.darkreading.com/rss.xml",
         "https://feeds.feedburner.com/TheHackersNews",
         "https://msrc.microsoft.com/blog/rss/",
     ]

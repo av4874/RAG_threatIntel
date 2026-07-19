@@ -9,7 +9,7 @@ Option A's other sub-projects (structured lane, router, rule gate, synthesis, pr
 ## Scope
 
 **In scope:**
-- Fetch new articles from three RSS feeds: BleepingComputer (`https://www.bleepingcomputer.com/feed/`), TheHackerNews (`https://feeds.feedburner.com/TheHackersNews`), Microsoft MSRC blog (`https://msrc.microsoft.com/blog/rss/`)
+- Fetch new articles from three RSS feeds: Dark Reading (`https://www.darkreading.com/rss.xml`), TheHackerNews (`https://feeds.feedburner.com/TheHackersNews`), Microsoft MSRC blog (`https://msrc.microsoft.com/blog/rss/`). (Originally specified BleepingComputer in place of Dark Reading; swapped after the first live run showed BleepingComputer's general feed pulling in non-security tech news — Dark Reading is entirely security-scoped, unlike BleepingComputer's mixed-topic main feed.)
 - Deduplicate against previously-ingested articles via a tracked list of seen URLs
 - Cap each run at up to 10 new articles per feed (before dedup filtering)
 - Write each new article as a `corpus/*.txt` file in the exact format `load_corpus` already expects (`TITLE:`, `SOURCE:`, `---`, body) — using the RSS entry's summary/excerpt as the body text, not full-article extraction
