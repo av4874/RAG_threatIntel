@@ -22,7 +22,7 @@ assessment using ONLY the information in these passages. Do not invent details \
 that are not present in the text below.
 
 If these passages do NOT describe an actual cybersecurity threat, vulnerability, \
-exploit, or attack (for example: general tech/business news, regulatory or legal \
+or attack in progress (for example: general tech/business news, regulatory or legal \
 stories, or unrelated topics like cooking or lifestyle content), say so plainly \
 in the rationale and assign risk_score 1. Do not invent a tenuous security angle \
 for content that is not actually about a security threat.
@@ -36,7 +36,7 @@ Respond with ONLY a JSON object with exactly these keys:
 not a security threat at all, state that directly instead of speculating about \
 indirect or hypothetical risk.
 - "risk_score": an integer from 1 (not risky / not a security threat) to 10 \
-(critical, actively exploited)
+(critical, confirmed in the wild)
 """
 
 
