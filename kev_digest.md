@@ -9,6 +9,10 @@
 
 **Date Added:** 2026-06-12 | **Due Date:** 2026-06-15
 
+**MITRE CWE:** CWE-306
+
+**References:** https://www.oracle.com/security-alerts/alert-cve-2026-35273.html ; https://support.oracle.com/signin/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-35273
+
 ## CVE-2026-50751 - Check Point Security Gateway (RANSOMWARE-LINKED)
 **Vulnerability:** Check Point Security Gateway Improper Authentication Vulnerability
 
@@ -17,6 +21,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-06-08 | **Due Date:** 2026-06-11
+
+**MITRE CWE:** CWE-287
+
+**References:** https://blog.checkpoint.com/security/check-point-releases-important-hotfix-for-vulnerabilities-in-deprecated-ikev1-vpn-protocol/ ; https://support.checkpoint.com/results/sk/sk185033?_gl=1*1wqeqhc*_gcl_au*MTI1MzE5MjI2LjE3ODA5MzQ1NTM. ; https://nvd.nist.gov/vuln/detail/CVE-2026-50751
 
 ## CVE-2026-48027 - Nx Nx Console (RANSOMWARE-LINKED)
 **Vulnerability:** Nx Console Embedded Malicious Code Vulnerability
@@ -27,6 +35,10 @@
 
 **Date Added:** 2026-05-27 | **Due Date:** 2026-06-10
 
+**MITRE CWE:** CWE-506
+
+**References:** This vulnerability could affect an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://github.com/nrwl/nx-console/security/advisories/GHSA-c9j4-9m59-847w ; https://nvd.nist.gov/vuln/detail/CVE-2026-48027
+
 ## CVE-2026-45321 - TanStack TanStack (RANSOMWARE-LINKED)
 **Vulnerability:** TanStack Unspecified Vulnerability
 
@@ -35,6 +47,8 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-05-27 | **Due Date:** 2026-06-10
+
+**References:** This vulnerability could affect an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://github.com/TanStack/router/security/advisories/GHSA-g7cv-rxg3-hmpx ; https://nvd.nist.gov/vuln/detail/CVE-2026-45321
 
 ## CVE-2026-41940 - WebPros cPanel & WHM and WP2 (WordPress Squared) (RANSOMWARE-LINKED)
 **Vulnerability:** WebPros cPanel & WHM and WP2 (WordPress Squared) Missing Authentication for Critical Function Vulnerability
@@ -45,6 +59,10 @@
 
 **Date Added:** 2026-04-30 | **Due Date:** 2026-05-03
 
+**MITRE CWE:** CWE-306
+
+**References:** https://support.cpanel.net/hc/en-us/articles/40073787579671-cPanel-WHM-Security-Update-04-28-2026 ; https://docs.cpanel.net/release-notes/release-notes/ ; https://docs.wpsquared.com/changelogs/versions/changelog/#13617 ; https://nvd.nist.gov/vuln/detail/CVE-2026-41940"
+
 ## CVE-2024-1708 - ConnectWise ScreenConnect (RANSOMWARE-LINKED)
 **Vulnerability:** ConnectWise ScreenConnect Path Traversal Vulnerability
 
@@ -53,6 +71,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-04-28 | **Due Date:** 2026-05-12
+
+**MITRE CWE:** CWE-22
+
+**References:** https://www.connectwise.com/company/trust/security-bulletins/connectwise-screenconnect-23.9.8 ; https://nvd.nist.gov/vuln/detail/CVE-2024-1708
 
 ## CVE-2024-57728 - SimpleHelp  SimpleHelp (RANSOMWARE-LINKED)
 **Vulnerability:** SimpleHelp Path Traversal Vulnerability
@@ -63,6 +85,10 @@
 
 **Date Added:** 2026-04-24 | **Due Date:** 2026-05-08
 
+**MITRE CWE:** CWE-22
+
+**References:** https://simple-help.com/kb---security-vulnerabilities-01-2025#security-vulnerabilities-in-simplehelp-5-5-7-and-earlier ; https://nvd.nist.gov/vuln/detail/CVE-2024-57728
+
 ## CVE-2024-57726 - SimpleHelp  SimpleHelp (RANSOMWARE-LINKED)
 **Vulnerability:** SimpleHelp Missing Authorization Vulnerability
 
@@ -71,6 +97,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-04-24 | **Due Date:** 2026-05-08
+
+**MITRE CWE:** CWE-862
+
+**References:** https://simple-help.com/kb---security-vulnerabilities-01-2025#security-vulnerabilities-in-simplehelp-5-5-7-and-earlier ; https://nvd.nist.gov/vuln/detail/CVE-2024-57726
 
 ## CVE-2026-33825 - Microsoft Defender (RANSOMWARE-LINKED)
 **Vulnerability:** Microsoft Defender Insufficient Granularity of Access Control Vulnerability
@@ -81,6 +111,10 @@
 
 **Date Added:** 2026-04-22 | **Due Date:** 2026-05-06
 
+**MITRE CWE:** CWE-1220
+
+**References:** https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33825 ; https://nvd.nist.gov/vuln/detail/CVE-2026-33825
+
 ## CVE-2023-27351 - PaperCut NG/MF (RANSOMWARE-LINKED)
 **Vulnerability:** PaperCut NG/MF Improper Authentication Vulnerability
 
@@ -89,6 +123,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-04-20 | **Due Date:** 2026-05-04
+
+**MITRE CWE:** CWE-287
+
+**References:** https://www.papercut.com/kb/Main/PO-1216-and-PO-1219 ; https://nvd.nist.gov/vuln/detail/CVE-2023-27351
 
 ## CVE-2024-27199 - JetBrains TeamCity (RANSOMWARE-LINKED)
 **Vulnerability:** JetBrains TeamCity Relative Path Traversal Vulnerability
@@ -99,6 +137,10 @@
 
 **Date Added:** 2026-04-20 | **Due Date:** 2026-05-04
 
+**MITRE CWE:** CWE-23
+
+**References:** https://www.jetbrains.com/privacy-security/issues-fixed/ ; https://blog.jetbrains.com/teamcity/2024/03/additional-critical-security-issues-affecting-teamcity-on-premises-cve-2024-27198-and-cve-2024-27199-update-to-2023-11-4-now/ ; https://nvd.nist.gov/vuln/detail/CVE-2024-27199
+
 ## CVE-2023-21529 - Microsoft Exchange Server (RANSOMWARE-LINKED)
 **Vulnerability:** Microsoft Exchange Server Deserialization of Untrusted Data Vulnerability
 
@@ -107,6 +149,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-04-13 | **Due Date:** 2026-04-27
+
+**MITRE CWE:** CWE-502
+
+**References:** https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-21529 ; https://nvd.nist.gov/vuln/detail/CVE-2023-21529
 
 ## CVE-2026-20131 - Cisco Secure Firewall Management Center (FMC) (RANSOMWARE-LINKED)
 **Vulnerability:** Cisco Secure Firewall Management Center (FMC) Software and Cisco Security Cloud Control (SCC) Firewall Management Deserialization of Untrusted Data Vulnerability
@@ -117,6 +163,10 @@
 
 **Date Added:** 2026-03-19 | **Due Date:** 2026-03-22
 
+**MITRE CWE:** CWE-502
+
+**References:** https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-rce-NKhnULJh ; https://nvd.nist.gov/vuln/detail/CVE-2026-20131
+
 ## CVE-2026-1731 - BeyondTrust Remote Support (RS) and Privileged Remote Access (PRA) (RANSOMWARE-LINKED)
 **Vulnerability:** BeyondTrust Remote Support (RS) and Privileged Remote Access (PRA) OS Command Injection Vulnerability
 
@@ -125,6 +175,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-02-13 | **Due Date:** 2026-02-16
+
+**MITRE CWE:** CWE-78
+
+**References:** Please adhere to the vendor's guidelines to assess exposure and mitigate risks. Check for signs of potential compromise on all internet accessible BeyondTrust products affected by this vulnerability. For more information please: see: https://www.beyondtrust.com/trust-center/security-advisories/bt26-02 ; https://nvd.nist.gov/vuln/detail/CVE-2026-1731
 
 ## CVE-2026-24423 - SmarterTools SmarterMail (RANSOMWARE-LINKED)
 **Vulnerability:** SmarterTools SmarterMail Missing Authentication for Critical Function Vulnerability
@@ -135,6 +189,10 @@
 
 **Date Added:** 2026-02-05 | **Due Date:** 2026-02-26
 
+**MITRE CWE:** CWE-306
+
+**References:** https://www.smartertools.com/smartermail/release-notes/current ; https://www.cve.org/CVERecord?id=CVE-2026-24423 ; https://nvd.nist.gov/vuln/detail/CVE-2026-24423
+
 ## CVE-2025-52691 - SmarterTools SmarterMail (RANSOMWARE-LINKED)
 **Vulnerability:** SmarterTools SmarterMail Unrestricted Upload of File with Dangerous Type Vulnerability
 
@@ -143,6 +201,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-01-26 | **Due Date:** 2026-02-16
+
+**MITRE CWE:** CWE-434
+
+**References:** https://www.smartertools.com/smartermail/release-notes/current ; https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2025-124/ ; https://nvd.nist.gov/vuln/detail/CVE-2025-52691
 
 ## CVE-2026-23760 - SmarterTools SmarterMail (RANSOMWARE-LINKED)
 **Vulnerability:** SmarterTools SmarterMail Authentication Bypass Using an Alternate Path or Channel Vulnerability
@@ -153,6 +215,10 @@
 
 **Date Added:** 2026-01-26 | **Due Date:** 2026-02-16
 
+**MITRE CWE:** CWE-288
+
+**References:** https://www.smartertools.com/smartermail/release-notes/current ; https://nvd.nist.gov/vuln/detail/CVE-2026-23760
+
 ## CVE-2025-55182 - Meta React Server Components (RANSOMWARE-LINKED)
 **Vulnerability:** Meta React Server Components Remote Code Execution Vulnerability
 
@@ -161,6 +227,8 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2025-12-05 | **Due Date:** 2025-12-12
+
+**References:** Check for signs of potential compromise on all internet accessible REACT instances after applying mitigations. For more information, please see: https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components ; https://github.com/vercel-labs/fix-react2shell-next?tab=readme-ov-file ; https://nvd.nist.gov/vuln/detail/CVE-2025-55182
 
 ## CVE-2026-58644 - Microsoft SharePoint
 **Vulnerability:** Microsoft SharePoint Deserialization of Untrusted Data Vulnerability
@@ -171,6 +239,10 @@
 
 **Date Added:** 2026-07-16 | **Due Date:** 2026-07-19
 
+**MITRE CWE:** CWE-502
+
+**References:** https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58644 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-58644
+
 ## CVE-2026-25089 - Fortinet FortiSandbox
 **Vulnerability:** Fortinet FortiSandbox OS Command Injection Vulnerability
 
@@ -179,6 +251,10 @@
 **Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
 **Date Added:** 2026-07-16 | **Due Date:** 2026-07-19
+
+**MITRE CWE:** CWE-78
+
+**References:** https://fortiguard.fortinet.com/psirt/FG-IR-26-141 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-25089
 
 ## CVE-2026-39808 - Fortinet FortiSandbox
 **Vulnerability:** Fortinet FortiSandbox OS Command Injection Vulnerability
@@ -189,6 +265,10 @@
 
 **Date Added:** 2026-07-16 | **Due Date:** 2026-07-19
 
+**MITRE CWE:** CWE-78
+
+**References:** https://fortiguard.fortinet.com/psirt/FG-IR-26-100 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-39808
+
 ## CVE-2026-46817 - Oracle E-Business Suite
 **Vulnerability:** Oracle E-Business Suite Improper Privilege Management Vulnerability
 
@@ -197,6 +277,10 @@
 **Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
 **Date Added:** 2026-07-15 | **Due Date:** 2026-07-18
+
+**MITRE CWE:** CWE-269, CWE-287, CWE-306
+
+**References:** https://www.oracle.com/security-alerts/cspumay2026.html ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-46817
 
 ## CVE-2023-4346 - KNX Association KNX Protocol Connection Authorization Option 1
 **Vulnerability:** KNX Association KNX Protocol Connection Authorization Option 1 Overly Restrictive Account Lockout Mechanism Vulnerability
@@ -207,6 +291,10 @@
 
 **Date Added:** 2026-07-15 | **Due Date:** 2026-07-29
 
+**MITRE CWE:** CWE-645
+
+**References:** https://www.cisa.gov/news-events/ics-advisories/icsa-23-236-01 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2023-4346
+
 ## CVE-2026-56155 - Microsoft Active Directory Federation Services
 **Vulnerability:** Microsoft Active Directory Federation Services Insufficient Granularity of Access Control Vulnerability 
 
@@ -215,6 +303,10 @@
 **Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
 **Date Added:** 2026-07-14 | **Due Date:** 2026-07-28
+
+**MITRE CWE:** CWE-1220
+
+**References:** https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-56155 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-56155; https://learn.microsoft.com/en-us/windows-server/identity/ad-fs/decommission/adfs-decommission-guide
 
 ## CVE-2026-56164 - Microsoft SharePoint Server
 **Vulnerability:** Microsoft SharePoint Server Missing Authentication for Critical Function Vulnerability
@@ -225,6 +317,10 @@
 
 **Date Added:** 2026-07-14 | **Due Date:** 2026-07-17
 
+**MITRE CWE:** CWE-306
+
+**References:** https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-56164 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-56164
+
 ## CVE-2026-15409 - SonicWall SMA1000 Appliances
 **Vulnerability:** SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability
 
@@ -233,6 +329,10 @@
 **Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
 **Date Added:** 2026-07-14 | **Due Date:** 2026-07-17
+
+**MITRE CWE:** CWE-918
+
+**References:** https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2026-0008 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-15409
 
 ## CVE-2026-15410 - SonicWall SMA1000 Appliances
 **Vulnerability:** SonicWall SMA1000 Appliances Code Injection Vulnerability
@@ -243,6 +343,10 @@
 
 **Date Added:** 2026-07-14 | **Due Date:** 2026-07-17
 
+**MITRE CWE:** CWE-94
+
+**References:** https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2026-0008 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-15410
+
 ## CVE-2008-4128 - Cisco IOS
 **Vulnerability:** Cisco IOS Cross-Site Request Forgery Vulnerability
 
@@ -251,6 +355,10 @@
 **Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
 **Date Added:** 2026-07-13 | **Due Date:** 2026-07-16
+
+**MITRE CWE:** CWE-352
+
+**References:** https://www.cisco.com/c/en/us/obsolete/ios-nx-os-software/cisco-ios-software-releases-12-4-mainline.html ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2008-4128
 
 ## CVE-2026-56291 - Balbooa Forms
 **Vulnerability:** Balbooa Forms Unrestricted Upload of File with Dangerous Type Vulnerability
@@ -261,6 +369,10 @@
 
 **Date Added:** 2026-07-10 | **Due Date:** 2026-07-13
 
+**MITRE CWE:** CWE-434
+
+**References:** https://www.balbooa.com/joomla-forms ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-56291
+
 ## CVE-2026-48939 - iCagenda iCagenda
 **Vulnerability:** iCagenda Unrestricted Upload of File with Dangerous Type Vulnerability
 
@@ -269,6 +381,10 @@
 **Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
 **Date Added:** 2026-07-10 | **Due Date:** 2026-07-13
+
+**MITRE CWE:** CWE-434
+
+**References:** https://www.icagenda.com/#download ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-48939
 
 ## CVE-2026-48908 - JoomShaper SP Page Builder
 **Vulnerability:** JoomShaper SP Page Builder Unrestricted Upload of File with Dangerous Type Vulnerability
@@ -279,6 +395,10 @@
 
 **Date Added:** 2026-07-07 | **Due Date:** 2026-07-10
 
+**MITRE CWE:** CWE-434
+
+**References:** https://extensions.joomla.org/extension/sp-page-builder/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-48908
+
 ## CVE-2026-55255 - Langflow Langflow
 **Vulnerability:** Langflow Authorization Bypass Through User-Controlled Key Vulnerability
 
@@ -287,6 +407,10 @@
 **Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
 **Date Added:** 2026-07-07 | **Due Date:** 2026-07-10
+
+**MITRE CWE:** CWE-639
+
+**References:** https://github.com/langflow-ai/langflow/security/advisories/GHSA-qrpv-q767-xqq2 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-55255
 
 ## CVE-2026-56290 - Joomlack Page Builder
 **Vulnerability:** Joomlack Page Builder Improper Access Control Vulnerability
@@ -297,6 +421,10 @@
 
 **Date Added:** 2026-07-07 | **Due Date:** 2026-07-10
 
+**MITRE CWE:** CWE-284
+
+**References:** https://www.joomlack.fr/en/joomla-extensions/page-builder-ck ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-56290
+
 ## CVE-2026-48282 - Adobe ColdFusion
 **Vulnerability:** Adobe ColdFusion Path Traversal Vulnerability
 
@@ -305,6 +433,10 @@
 **Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
 **Date Added:** 2026-07-07 | **Due Date:** 2026-07-10
+
+**MITRE CWE:** CWE-22
+
+**References:** https://helpx.adobe.com/security/products/coldfusion/apsb26-68.html ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-48282
 
 ## CVE-2026-45659 - Microsoft SharePoint Server
 **Vulnerability:** Microsoft SharePoint Server Deserialization of Untrusted Data Vulnerability
@@ -315,6 +447,10 @@
 
 **Date Added:** 2026-07-01 | **Due Date:** 2026-07-04
 
+**MITRE CWE:** CWE-502
+
+**References:** https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45659 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-45659
+
 ## CVE-2026-48558 - SimpleHelp  SimpleHelp
 **Vulnerability:** SimpleHelp Authentication Bypass Vulnerability
 
@@ -323,6 +459,10 @@
 **Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
 **Date Added:** 2026-06-29 | **Due Date:** 2026-07-02
+
+**MITRE CWE:** CWE-347
+
+**References:** https://simple-help.com/security/simplehelp-security-update-2026-05 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-48558
 
 ## CVE-2026-12569 - PTC Windchill and FlexPLM
 **Vulnerability:** PTC Windchill and FlexPLM Improper Input Validation Vulnerability
@@ -333,6 +473,10 @@
 
 **Date Added:** 2026-06-25 | **Due Date:** 2026-06-28
 
+**MITRE CWE:** CWE-20, CWE-502
+
+**References:** https://www.ptc.com/en/support/article/CS473270 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-12569
+
 ## CVE-2026-20230 - Cisco Unified Communications Manager
 **Vulnerability:** Cisco Unified Communications Manager Server-Side Request Forgery (SSRF) Vulnerability
 
@@ -341,6 +485,10 @@
 **Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
 **Date Added:** 2026-06-25 | **Due Date:** 2026-06-28
+
+**MITRE CWE:** CWE-918
+
+**References:** https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cucm-ssrf-cXPnHcW.html ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-20230
 
 ## CVE-2025-67038 - Lantronix EDS5000
 **Vulnerability:** Lantronix EDS5000 Code Injection Vulnerability
@@ -351,6 +499,10 @@
 
 **Date Added:** 2026-06-23 | **Due Date:** 2026-06-26
 
+**MITRE CWE:** CWE-78, CWE-94
+
+**References:** https://ltrxdev.atlassian.net/wiki/spaces/LTRXTS/pages/2538438657/Latest+Firmware+for+the+EDS5000+series+EDS5008+EDS5016+EDS5032 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2025-67038
+
 ## CVE-2026-34910 - Ubiquiti UniFi OS
 **Vulnerability:** Ubiquiti UniFi OS Improper Input Validation Vulnerability
 
@@ -359,6 +511,10 @@
 **Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
 **Date Added:** 2026-06-23 | **Due Date:** 2026-06-26
+
+**MITRE CWE:** CWE-20
+
+**References:** https://community.ui.com/releases/Security-Advisory-Bulletin-064-064/84811c09-4cf4-42ab-bd61-cc994445963b ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-34910
 
 ## CVE-2026-34909 - Ubiquiti UniFi OS
 **Vulnerability:** Ubiquiti UniFi OS Path Traversal Vulnerability
@@ -369,6 +525,10 @@
 
 **Date Added:** 2026-06-23 | **Due Date:** 2026-06-26
 
+**MITRE CWE:** CWE-22
+
+**References:** https://community.ui.com/releases/Security-Advisory-Bulletin-064-064/84811c09-4cf4-42ab-bd61-cc994445963b ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-34909
+
 ## CVE-2026-34908 - Ubiquiti UniFi OS
 **Vulnerability:** Ubiquiti UniFi OS Improper Access Control Vulnerability
 
@@ -377,6 +537,10 @@
 **Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
 **Date Added:** 2026-06-23 | **Due Date:** 2026-06-26
+
+**MITRE CWE:** CWE-284
+
+**References:** https://community.ui.com/releases/Security-Advisory-Bulletin-064-064/84811c09-4cf4-42ab-bd61-cc994445963b ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-34908
 
 ## CVE-2026-20253 - Splunk Enterprise
 **Vulnerability:** Splunk Enterprise Missing Authentication for Critical Function Vulnerability
@@ -387,6 +551,10 @@
 
 **Date Added:** 2026-06-18 | **Due Date:** 2026-06-21
 
+**MITRE CWE:** CWE-306
+
+**References:** https://advisory.splunk.com/advisories/SVD-2026-0603 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-20253
+
 ## CVE-2026-48907 - Widget Factory Joomla Content Editor 
 **Vulnerability:** Widget Factory Joomla Content Editor Improper Access Control Vulnerability
 
@@ -395,6 +563,10 @@
 **Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
 **Date Added:** 2026-06-16 | **Due Date:** 2026-06-19
+
+**MITRE CWE:** CWE-284
+
+**References:** https://www.joomlacontenteditor.net/news/jce-security-update-and-a-free-patch-for-older-sites ; https://www.joomlacontenteditor.net/support/changelog/editor ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-48907
 
 ## CVE-2026-54420 - LiteSpeed cPanel Plugin
 **Vulnerability:** LiteSpeed cPanel Plugin UNIX Symbolic Link (Symlink) Following Vulnerability
@@ -405,6 +577,10 @@
 
 **Date Added:** 2026-06-15 | **Due Date:** 2026-06-18
 
+**MITRE CWE:** CWE-61
+
+**References:** https://blog.litespeedtech.com/2026/06/01/security-update-for-litespeed-cpanel-plugin-2/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-54420
+
 ## CVE-2026-20262 - Cisco Catalyst SD-WAN Manager
 **Vulnerability:** Cisco Catalyst SD-WAN Manager Directory or Path Traversal Vulnerability
 
@@ -413,6 +589,10 @@
 **Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
 **Date Added:** 2026-06-15 | **Due Date:** 2026-06-29
+
+**MITRE CWE:** CWE-22
+
+**References:** https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-arbfw-c2rZvQ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-20262
 
 ## CVE-2026-10520 - Ivanti Sentry
 **Vulnerability:** Ivanti Sentry OS Command Injection Vulnerability
@@ -423,6 +603,10 @@
 
 **Date Added:** 2026-06-11 | **Due Date:** 2026-06-14
 
+**MITRE CWE:** CWE-78
+
+**References:** https://hub.ivanti.com/s/article/Security-Advisory-Ivanti-Sentry-CVE-2026-10520-CVE-2026-10523?language=en_US ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-10520
+
 ## CVE-2026-11645 - Google Chromium V8
 **Vulnerability:** Google Chromium V8 Out-of-Bounds Read and Write Vulnerability
 
@@ -431,6 +615,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-06-09 | **Due Date:** 2026-06-23
+
+**MITRE CWE:** CWE-787, CWE-125
+
+**References:** https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_0153744567.html ; https://issues.chromium.org/issues/506689381 ; https://nvd.nist.gov/vuln/detail/CVE-2026-11645
 
 ## CVE-2026-7473 - Arista Extensible Operating System
 **Vulnerability:** Arista Extensible Operating System Incomplete Comparison with Missing Factors Vulnerability
@@ -441,6 +629,10 @@
 
 **Date Added:** 2026-06-09 | **Due Date:** 2026-06-23
 
+**MITRE CWE:** CWE-1023
+
+**References:** https://www.arista.com/en/support/advisories-notices/security-advisory/24005-security-advisory-0137 ; https://nvd.nist.gov/vuln/detail/CVE-2026-7473
+
 ## CVE-2026-20245 - Cisco Catalyst SD-WAN Manager
 **Vulnerability:** Cisco Catalyst SD-WAN Manager Improper Encoding or Escaping of Output Vulnerability
 
@@ -449,6 +641,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-06-09 | **Due Date:** 2026-06-23
+
+**MITRE CWE:** CWE-116
+
+**References:** https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-privesc-4uxFrdzx ; https://nvd.nist.gov/vuln/detail/CVE-2026-20245
 
 ## CVE-2026-42271 - BerriAI LiteLLM
 **Vulnerability:** BerriAI LiteLLM Command Injection Vulnerability
@@ -459,6 +655,10 @@
 
 **Date Added:** 2026-06-08 | **Due Date:** 2026-06-22
 
+**MITRE CWE:** CWE-78, CWE-77
+
+**References:** This vulnerability affects a common open-source component, third-party library, or a protocol used by different products. Please check with specific vendors for information on patching status. For more information, please see: https://github.com/BerriAI/litellm/security/advisories/GHSA-v4p8-mg3p-g94g ; https://github.com/BerriAI/litellm/releases/tag/v1.83.7-stable ; https://nvd.nist.gov/vuln/detail/CVE-2026-42271
+
 ## CVE-2026-28318 - SolarWinds Serv-U
 **Vulnerability:** SolarWinds Serv-U Uncontrolled Resource Consumption Vulnerability
 
@@ -467,6 +667,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-06-05 | **Due Date:** 2026-06-19
+
+**MITRE CWE:** CWE-400
+
+**References:** https://www.solarwinds.com/trust-center/security-advisories/cve-2026-28318 ; https://documentation.solarwinds.com/en/success_center/servu/content/release_notes/servu_15-5-4-hotfix-1_release_notes.htm#link7 ; https://nvd.nist.gov/vuln/detail/CVE-2026-28318
 
 ## CVE-2026-45247 - Mirasvit Mirasvit Full Page Cache Warmer
 **Vulnerability:** Mirasvit Full Page Cache Warmer Deserialization of Untrusted Data Vulnerability
@@ -477,6 +681,10 @@
 
 **Date Added:** 2026-06-03 | **Due Date:** 2026-06-06
 
+**MITRE CWE:** CWE-502
+
+**References:** https://mirasvit.com/package/changelog/?package=mirasvit/module-cache-warmer ; https://nvd.nist.gov/vuln/detail/CVE-2026-45247
+
 ## CVE-2022-0492 - Linux Kernel
 **Vulnerability:** Linux Kernel Improper Authentication Vulnerability
 
@@ -485,6 +693,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-06-02 | **Due Date:** 2026-06-05
+
+**MITRE CWE:** CWE-287, CWE-862
+
+**References:** This vulnerability affects a common open-source component, third-party library, or a protocol used by different products. Please check with specific vendors for information on patching status. For more information, please see: https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=24f6008564183aa120d07c03d9289519c2fe02af ; https://www.kernel.org/ ; https://nvd.nist.gov/vuln/detail/CVE-2022-0492
 
 ## CVE-2025-48595 - Android Framework
 **Vulnerability:** Android Framework Integer Overflow Vulnerability
@@ -495,6 +707,10 @@
 
 **Date Added:** 2026-06-02 | **Due Date:** 2026-06-05
 
+**MITRE CWE:** CWE-190
+
+**References:** https://source.android.com/docs/security/bulletin/2026/2026-06-01 ; https://nvd.nist.gov/vuln/detail/CVE-2025-48595
+
 ## CVE-2024-21182 - Oracle WebLogic Server
 **Vulnerability:** Oracle WebLogic Server Unspecified Vulnerability
 
@@ -503,6 +719,8 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-06-01 | **Due Date:** 2026-06-04
+
+**References:** https://www.oracle.com/security-alerts/cpujul2024.html ; https://nvd.nist.gov/vuln/detail/CVE-2024-21182
 
 ## CVE-2026-0257 - Palo Alto Networks PAN-OS
 **Vulnerability:** Palo Alto Networks PAN-OS Authentication Bypass Vulnerability
@@ -513,6 +731,10 @@
 
 **Date Added:** 2026-05-29 | **Due Date:** 2026-06-01
 
+**MITRE CWE:** CWE-565
+
+**References:** https://security.paloaltonetworks.com/CVE-2026-0257 ; https://nvd.nist.gov/vuln/detail/CVE-2026-0257
+
 ## CVE-2026-8398 - Daemon Daemon Tools Lite
 **Vulnerability:** Daemon Tools Lite Embedded Malicious Code Vulnerability
 
@@ -521,6 +743,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-05-27 | **Due Date:** 2026-05-30
+
+**MITRE CWE:** CWE-506
+
+**References:** https://blog.daemon-tools.cc/post/security-incident ; https://nvd.nist.gov/vuln/detail/CVE-2026-8398
 
 ## CVE-2026-48172 - LiteSpeed cPanel Plugin
 **Vulnerability:** LiteSpeed cPanel Plugin Privilege Escalation Vulnerability
@@ -531,6 +757,10 @@
 
 **Date Added:** 2026-05-26 | **Due Date:** 2026-05-29
 
+**MITRE CWE:** CWE-266
+
+**References:** https://blog.litespeedtech.com/2026/05/21/security-update-for-litespeed-cpanel-plugin/ ; https://nvd.nist.gov/vuln/detail/CVE-2026-48172
+
 ## CVE-2026-9082 - Drupal Core
 **Vulnerability:** Drupal Core SQL Injection Vulnerability
 
@@ -539,6 +769,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-05-22 | **Due Date:** 2026-05-27
+
+**MITRE CWE:** CWE-89
+
+**References:** https://www.drupal.org/sa-core-2026-004 ; https://nvd.nist.gov/vuln/detail/CVE-2026-9082
 
 ## CVE-2025-34291 - Langflow Langflow
 **Vulnerability:** Langflow Origin Validation Error Vulnerability
@@ -549,6 +783,10 @@
 
 **Date Added:** 2026-05-21 | **Due Date:** 2026-06-04
 
+**MITRE CWE:** CWE-346
+
+**References:** This vulnerability could affect an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://github.com/langflow-ai/langflow ; https://github.com/langflow-ai/langflow/releases/tag/v1.9.3; https://github.com/langflow-ai/langflow/issues/11465#event-25774545848 ; https://nvd.nist.gov/vuln/detail/CVE-2025-34291
+
 ## CVE-2026-34926 - Trend Micro Apex One
 **Vulnerability:** Trend Micro Apex One (On-Premise) Directory Traversal Vulnerability
 
@@ -557,6 +795,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-05-21 | **Due Date:** 2026-06-04
+
+**MITRE CWE:** CWE-23
+
+**References:** https://success.trendmicro.com/en-US/solution/KA-0023430 ; https://nvd.nist.gov/vuln/detail/CVE-2026-34926
 
 ## CVE-2008-4250 - Microsoft Windows
 **Vulnerability:** Microsoft Windows Buffer Overflow Vulnerability
@@ -567,6 +809,10 @@
 
 **Date Added:** 2026-05-20 | **Due Date:** 2026-06-03
 
+**MITRE CWE:** CWE-94
+
+**References:** https://learn.microsoft.com/en-us/security-updates/securitybulletins/2008/ms08-067 ; https://nvd.nist.gov/vuln/detail/CVE-2008-4250
+
 ## CVE-2009-1537 - Microsoft DirectX
 **Vulnerability:** Microsoft DirectX NULL Byte Overwrite Vulnerability
 
@@ -575,6 +821,8 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-05-20 | **Due Date:** 2026-06-03
+
+**References:** https://learn.microsoft.com/en-us/security-updates/securitybulletins/2009/ms09-028 ; https://nvd.nist.gov/vuln/detail/CVE-2009-1537
 
 ## CVE-2009-3459 - Adobe Acrobat and Reader
 **Vulnerability:** Adobe Acrobat and Reader Heap-Based Buffer Overflow Vulnerability
@@ -585,6 +833,10 @@
 
 **Date Added:** 2026-05-20 | **Due Date:** 2026-06-03
 
+**MITRE CWE:** CWE-119
+
+**References:** https://www.cisa.gov/news-events/alerts/2009/10/13/adobe-reader-and-acrobat-vulnerabilities ; https://web.archive.org/web/20120324170253/http://www.adobe.com/support/security/bulletins/apsb09-15.html#:~:text=CVE%2D2009%2D3459).-,NOTE%3A,-There%20are%20reports ; https://nvd.nist.gov/vuln/detail/CVE-2009-3459
+
 ## CVE-2010-0249 - Microsoft Internet Explorer
 **Vulnerability:** Microsoft Internet Explorer Use-After-Free Vulnerability
 
@@ -593,6 +845,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-05-20 | **Due Date:** 2026-06-03
+
+**MITRE CWE:** CWE-416
+
+**References:** https://learn.microsoft.com/en-us/security-updates/SecurityAdvisories/2010/979352 ; https://nvd.nist.gov/vuln/detail/CVE-2010-0249
 
 ## CVE-2010-0806 - Microsoft Internet Explorer
 **Vulnerability:** Microsoft Internet Explorer Use-After-Free Vulnerability
@@ -603,6 +859,10 @@
 
 **Date Added:** 2026-05-20 | **Due Date:** 2026-06-03
 
+**MITRE CWE:** CWE-399
+
+**References:** https://learn.microsoft.com/en-us/security-updates/securityadvisories/2010/981374 ; https://nvd.nist.gov/vuln/detail/CVE-2010-0806
+
 ## CVE-2026-41091 - Microsoft Defender
 **Vulnerability:** Microsoft Defender Link Following Vulnerability
 
@@ -611,6 +871,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-05-20 | **Due Date:** 2026-06-03
+
+**MITRE CWE:** CWE-59
+
+**References:** https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-41091 ; https://nvd.nist.gov/vuln/detail/CVE-2026-41091
 
 ## CVE-2026-45498 - Microsoft Defender
 **Vulnerability:** Microsoft Defender Denial of Service Vulnerability
@@ -621,6 +885,8 @@
 
 **Date Added:** 2026-05-20 | **Due Date:** 2026-06-03
 
+**References:** https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-45498 ; https://nvd.nist.gov/vuln/detail/CVE-2026-45498
+
 ## CVE-2026-42897 - Microsoft Microsoft
 **Vulnerability:** Microsoft Exchange Server Cross-Site Scripting Vulnerability
 
@@ -629,6 +895,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-05-15 | **Due Date:** 2026-05-29
+
+**MITRE CWE:** CWE-79
+
+**References:** https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-42897 ; https://learn.microsoft.com/en-us/exchange/plan-and-deploy/post-installation-tasks/security-best-practices/exchange-emergency-mitigation-service ; https://nvd.nist.gov/vuln/detail/CVE-2026-42897
 
 ## CVE-2026-20182 - Cisco Catalyst SD-WAN
 **Vulnerability:** Cisco Catalyst SD-WAN Controller Authentication Bypass Vulnerability
@@ -639,6 +909,10 @@
 
 **Date Added:** 2026-05-14 | **Due Date:** 2026-05-17
 
+**MITRE CWE:** CWE-287
+
+**References:** CISA Mitigation Instructions: https://www.cisa.gov/news-events/directives/ed-26-03-mitigate-vulnerabilities-cisco-sd-wan-systems ; https://www.cisa.gov/news-events/directives/supplemental-direction-ed-26-03-hunt-and-hardening-guidance-cisco-sd-wan-systems ; https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-rpa2-v69WY2SW ; https://nvd.nist.gov/vuln/detail/CVE-2026-20182
+
 ## CVE-2026-42208 - BerriAI LiteLLM
 **Vulnerability:** BerriAI LiteLLM SQL Injection Vulnerability
 
@@ -647,6 +921,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-05-08 | **Due Date:** 2026-05-11
+
+**MITRE CWE:** CWE-89
+
+**References:** https://github.com/BerriAI/litellm/security/advisories/GHSA-r75f-5x8p-qvmc ; https://nvd.nist.gov/vuln/detail/CVE-2026-42208
 
 ## CVE-2026-6973 - Ivanti Endpoint Manager Mobile (EPMM)
 **Vulnerability:** Ivanti Endpoint Manager Mobile (EPMM) Improper Input Validation Vulnerability
@@ -657,6 +935,10 @@
 
 **Date Added:** 2026-05-07 | **Due Date:** 2026-05-10
 
+**MITRE CWE:** CWE-20
+
+**References:** https://hub.ivanti.com/s/article/May-2026-Security-Advisory-Ivanti-Endpoint-Manager-Mobile-EPMM-Multiple-CVEs?language=en_US ; https://nvd.nist.gov/vuln/detail/CVE-2026-6973
+
 ## CVE-2026-0300 - Palo Alto Networks PAN-OS
 **Vulnerability:** Palo Alto Networks PAN-OS Out-of-bounds Write Vulnerability
 
@@ -665,6 +947,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable. Until the vendor releases an official fix, the following workaround should be implemented:  - Restrict User-ID Authentication Portal access to only trusted zones.  - Disable User-ID Authentication Portal if not required. 5/13/2026: Palo Alto has released a variety of patches. If these are relevant to your environment, please apply the designated patch.
 
 **Date Added:** 2026-05-06 | **Due Date:** 2026-05-09
+
+**MITRE CWE:** CWE-787
+
+**References:** https://security.paloaltonetworks.com/CVE-2026-0300 ; https://nvd.nist.gov/vuln/detail/CVE-2026-0300
 
 ## CVE-2026-31431 - Linux Kernel
 **Vulnerability:** Linux Kernel Incorrect Resource Transfer Between Spheres Vulnerability
@@ -675,6 +961,10 @@
 
 **Date Added:** 2026-05-01 | **Due Date:** 2026-05-15
 
+**MITRE CWE:** CWE-669
+
+**References:** https://lore.kernel.org/linux-cve-announce/2026042214-CVE-2026-31431-3d65@gregkh/; https://xint.io/blog/copy-fail-linux-distributions#the-fix-6 ; https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/about/ ; https://nvd.nist.gov/vuln/detail/CVE-2026-31431
+
 ## CVE-2026-32202 - Microsoft Windows
 **Vulnerability:** Microsoft Windows Protection Mechanism Failure Vulnerability
 
@@ -683,6 +973,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-04-28 | **Due Date:** 2026-05-12
+
+**MITRE CWE:** CWE-693
+
+**References:** https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-32202 ; https://nvd.nist.gov/vuln/detail/CVE-2026-32202
 
 ## CVE-2025-29635 - D-Link DIR-823X
 **Vulnerability:** D-Link DIR-823X Command Injection Vulnerability
@@ -693,6 +987,10 @@
 
 **Date Added:** 2026-04-24 | **Due Date:** 2026-05-08
 
+**MITRE CWE:** CWE-77
+
+**References:** https://supportannouncement.us.dlink.com/security/publication.aspx?name=SAP10469 ; https://nvd.nist.gov/vuln/detail/CVE-2025-29635
+
 ## CVE-2024-7399 - Samsung MagicINFO 9 Server
 **Vulnerability:** Samsung MagicINFO 9 Server Path Traversal Vulnerability
 
@@ -701,6 +999,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-04-24 | **Due Date:** 2026-05-08
+
+**MITRE CWE:** CWE-22, CWE-434
+
+**References:** https://security.samsungtv.com/securityUpdates ; https://nvd.nist.gov/vuln/detail/CVE-2024-7399
 
 ## CVE-2026-39987 - Marimo Marimo
 **Vulnerability:** Marimo Remote Code Execution Vulnerability
@@ -711,6 +1013,10 @@
 
 **Date Added:** 2026-04-23 | **Due Date:** 2026-05-07
 
+**MITRE CWE:** CWE-306
+
+**References:** https://github.com/marimo-team/marimo/security/advisories/GHSA-2679-6mx9-h9xc ; https://nvd.nist.gov/vuln/detail/CVE-2026-39987
+
 ## CVE-2026-20122 - Cisco Catalyst SD-WAN Manger
 **Vulnerability:** Cisco Catalyst SD-WAN Manager Incorrect Use of Privileged APIs Vulnerability
 
@@ -719,6 +1025,10 @@
 **Required Action:** Please adhere to CISA’s guidelines to assess exposure and mitigate risks associated with Cisco SD-WAN devices as outlines in CISA’s Emergency Directive 26-03 (URL listed below in Notes) and CISA’s “Hunt & Hardening Guidance for Cisco SD-WAN Devices (URL listed below in Notes). Adhere to the applicable BOD 22-01 guidance for cloud services or discontinue use of the product if mitigations are not available.
 
 **Date Added:** 2026-04-20 | **Due Date:** 2026-04-23
+
+**MITRE CWE:** CWE-648
+
+**References:** CISA Mitigation Instructions: https://www.cisa.gov/news-events/directives/ed-26-03-mitigate-vulnerabilities-cisco-sd-wan-systems ; https://www.cisa.gov/news-events/directives/supplemental-direction-ed-26-03-hunt-and-hardening-guidance-cisco-sd-wan-systems ; https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-authbp-qwCX8D4v ; https://nvd.nist.gov/vuln/detail/CVE-2026-20122
 
 ## CVE-2026-20133 - Cisco Catalyst SD-WAN Manager
 **Vulnerability:** Cisco Catalyst SD-WAN Manager Exposure of Sensitive Information to an Unauthorized Actor Vulnerability
@@ -729,6 +1039,10 @@
 
 **Date Added:** 2026-04-20 | **Due Date:** 2026-04-23
 
+**MITRE CWE:** CWE-200
+
+**References:** CISA Mitigation Instructions: https://www.cisa.gov/news-events/directives/ed-26-03-mitigate-vulnerabilities-cisco-sd-wan-systems ; https://www.cisa.gov/news-events/directives/supplemental-direction-ed-26-03-hunt-and-hardening-guidance-cisco-sd-wan-systems ; https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-authbp-qwCX8D4v ; https://nvd.nist.gov/vuln/detail/CVE-2026-20133
+
 ## CVE-2025-2749 - Kentico Kentico Xperience
 **Vulnerability:** Kentico Xperience Path Traversal Vulnerability
 
@@ -737,6 +1051,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-04-20 | **Due Date:** 2026-05-04
+
+**MITRE CWE:** CWE-22, CWE-434
+
+**References:** https://devnet.kentico.com/download/hotfixes ; https://nvd.nist.gov/vuln/detail/CVE-2025-2749
 
 ## CVE-2025-48700 - Synacor Zimbra Collaboration Suite (ZCS)
 **Vulnerability:** Synacor Zimbra Collaboration Suite (ZCS) Cross-site Scripting Vulnerability
@@ -747,6 +1065,10 @@
 
 **Date Added:** 2026-04-20 | **Due Date:** 2026-04-23
 
+**MITRE CWE:** CWE-79
+
+**References:** https://wiki.zimbra.com/wiki/Zimbra_Security_Advisories ; https://nvd.nist.gov/vuln/detail/CVE-2025-48700
+
 ## CVE-2026-20128 - Cisco Catalyst SD-WAN Manager
 **Vulnerability:** Cisco Catalyst SD-WAN Manager Storing Passwords in a Recoverable Format Vulnerability
 
@@ -755,6 +1077,10 @@
 **Required Action:** Please adhere to CISA’s guidelines to assess exposure and mitigate risks associated with Cisco SD-WAN devices as outlines in CISA’s Emergency Directive 26-03 (URL listed below in Notes) and CISA’s “Hunt & Hardening Guidance for Cisco SD-WAN Devices (URL listed below in Notes). Adhere to the applicable BOD 22-01 guidance for cloud services or discontinue use of the product if mitigations are not available.
 
 **Date Added:** 2026-04-20 | **Due Date:** 2026-04-23
+
+**MITRE CWE:** CWE-257
+
+**References:** CISA Mitigation Instructions: https://www.cisa.gov/news-events/directives/ed-26-03-mitigate-vulnerabilities-cisco-sd-wan-systems ; https://www.cisa.gov/news-events/directives/supplemental-direction-ed-26-03-hunt-and-hardening-guidance-cisco-sd-wan-systems ; https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-authbp-qwCX8D4v ; https://nvd.nist.gov/vuln/detail/CVE-2026-20128
 
 ## CVE-2025-32975 - Quest KACE Systems Management Appliance (SMA)
 **Vulnerability:** Quest KACE Systems Management Appliance (SMA) Improper Authentication Vulnerability
@@ -765,6 +1091,10 @@
 
 **Date Added:** 2026-04-20 | **Due Date:** 2026-05-04
 
+**MITRE CWE:** CWE-287
+
+**References:** https://support.quest.com/kb/4379499/quest-response-to-kace-sma-vulnerabilities-cve-2025-32975-cve-2025-32976-cve-2025-32977-cve-2025-32978 ; https://nvd.nist.gov/vuln/detail/CVE-2025-32975
+
 ## CVE-2026-34197 - Apache ActiveMQ
 **Vulnerability:** Apache ActiveMQ Improper Input Validation Vulnerability
 
@@ -773,6 +1103,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-04-16 | **Due Date:** 2026-04-30
+
+**MITRE CWE:** CWE-20, CWE-94
+
+**References:** https://activemq.apache.org/security-advisories.data/CVE-2026-34197-announcement.txt ; https://nvd.nist.gov/vuln/detail/CVE-2026-34197
 
 ## CVE-2009-0238 - Microsoft Office
 **Vulnerability:** Microsoft Office Remote Code Execution
@@ -783,6 +1117,10 @@
 
 **Date Added:** 2026-04-14 | **Due Date:** 2026-04-28
 
+**MITRE CWE:** CWE-94
+
+**References:** https://learn.microsoft.com/en-us/security-updates/securitybulletins/2009/ms09-009 ; https://nvd.nist.gov/vuln/detail/CVE-2009-0238
+
 ## CVE-2026-32201 - Microsoft SharePoint Server
 **Vulnerability:** Microsoft SharePoint Server Improper Input Validation Vulnerability
 
@@ -791,6 +1129,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-04-14 | **Due Date:** 2026-04-28
+
+**MITRE CWE:** CWE-20
+
+**References:** https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-32201 ; https://nvd.nist.gov/vuln/detail/CVE-2026-32201
 
 ## CVE-2012-1854 - Microsoft Visual Basic for Applications (VBA)
 **Vulnerability:** Microsoft Visual Basic for Applications Insecure Library Loading Vulnerability
@@ -801,6 +1143,10 @@
 
 **Date Added:** 2026-04-13 | **Due Date:** 2026-04-27
 
+**MITRE CWE:** CWE-426
+
+**References:** https://learn.microsoft.com/en-us/security-updates/securitybulletins/2012/ms12-046 ; https://nvd.nist.gov/vuln/detail/CVE-2012-1854
+
 ## CVE-2025-60710 - Microsoft Windows
 **Vulnerability:** Microsoft Windows Link Following Vulnerability
 
@@ -809,6 +1155,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-04-13 | **Due Date:** 2026-04-27
+
+**MITRE CWE:** CWE-59
+
+**References:** https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-60710 ; https://nvd.nist.gov/vuln/detail/CVE-2025-60710
 
 ## CVE-2023-36424 - Microsoft Windows
 **Vulnerability:** Microsoft Windows Out-of-Bounds Read Vulnerability
@@ -819,6 +1169,10 @@
 
 **Date Added:** 2026-04-13 | **Due Date:** 2026-04-27
 
+**MITRE CWE:** CWE-125
+
+**References:** https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2023-36424 ; https://nvd.nist.gov/vuln/detail/CVE-2023-36424
+
 ## CVE-2020-9715 - Adobe Acrobat
 **Vulnerability:** Adobe Acrobat Use-After-Free Vulnerability
 
@@ -827,6 +1181,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-04-13 | **Due Date:** 2026-04-27
+
+**MITRE CWE:** CWE-416
+
+**References:** https://helpx.adobe.com/security/products/acrobat/apsb20-48.html ; https://nvd.nist.gov/vuln/detail/CVE-2020-9715
 
 ## CVE-2026-21643 - Fortinet FortiClient EMS
 **Vulnerability:** Fortinet FortiClient EMS SQL Injection Vulnerability
@@ -837,6 +1195,10 @@
 
 **Date Added:** 2026-04-13 | **Due Date:** 2026-04-16
 
+**MITRE CWE:** CWE-89
+
+**References:** https://fortiguard.fortinet.com/psirt/FG-IR-25-1142 ; https://nvd.nist.gov/vuln/detail/CVE-2026-21643
+
 ## CVE-2026-34621 - Adobe Acrobat and Reader
 **Vulnerability:** Adobe Acrobat and Reader Prototype Pollution Vulnerability
 
@@ -845,6 +1207,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-04-13 | **Due Date:** 2026-04-27
+
+**MITRE CWE:** CWE-1321
+
+**References:** https://helpx.adobe.com/security/products/acrobat/apsb26-43.html ; https://nvd.nist.gov/vuln/detail/CVE-2026-34621
 
 ## CVE-2026-1340 - Ivanti Endpoint Manager Mobile (EPMM)
 **Vulnerability:** Ivanti Endpoint Manager Mobile (EPMM) Code Injection Vulnerability
@@ -855,6 +1221,10 @@
 
 **Date Added:** 2026-04-08 | **Due Date:** 2026-04-11
 
+**MITRE CWE:** CWE-94
+
+**References:** Please adhere to Ivanti's guidelines to assess exposure and mitigate risks. Check for signs of potential compromise on all internet accessible Ivanti products affected by this vulnerability. Apply any final mitigations provided by the vendor as soon as possible. For more information please see: https://hub.ivanti.com/s/article/Security-Advisory-Ivanti-Endpoint-Manager-Mobile-EPMM-CVE-2026-1281-CVE-2026-1340?language=en_US ; https://support.mobileiron.com/mi/vsp/AB1786671/ivanti-security-update-1761642-1.1.0S-5.noarch.rpm ; https://support.mobileiron.com/mi/vsp/AB1786671/ivanti-security-update-1761642-1.1.0L-5.noarch.rpm ; https://nvd.nist.gov/vuln/detail/CVE-2026-1340
+
 ## CVE-2026-35616 - Fortinet FortiClient EMS
 **Vulnerability:** Fortinet FortiClient EMS Improper Access Control Vulnerability
 
@@ -863,6 +1233,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-04-06 | **Due Date:** 2026-04-09
+
+**MITRE CWE:** CWE-284
+
+**References:** Please adhere to Fortinet's guidelines to assess exposure and mitigate risks. Check for signs of potential compromise on all internet accessible Fortinet products affected by this vulnerability. Apply any final mitigations provided by the vendor as soon as they become available. For more information please see: https://fortiguard.fortinet.com/psirt/FG-IR-26-099 ; https://nvd.nist.gov/vuln/detail/CVE-2026-35616
 
 ## CVE-2026-3502 - TrueConf Client
 **Vulnerability:** TrueConf Client Download of Code Without Integrity Check Vulnerability
@@ -873,6 +1247,10 @@
 
 **Date Added:** 2026-04-02 | **Due Date:** 2026-04-16
 
+**MITRE CWE:** CWE-494
+
+**References:** https://trueconf.com/blog/update/trueconf-8-5 ; https://trueconf.com/downloads/windows.html ; https://nvd.nist.gov/vuln/detail/CVE-2026-3502
+
 ## CVE-2026-5281 - Google Dawn
 **Vulnerability:** Google Dawn Use-After-Free Vulnerability
 
@@ -881,6 +1259,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-04-01 | **Due Date:** 2026-04-15
+
+**MITRE CWE:** CWE-416
+
+**References:** This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://chromereleases.googleblog.com/2026/03/stable-channel-update-for-desktop_31.html ; https://nvd.nist.gov/vuln/detail/CVE-2026-5281 
 
 ## CVE-2026-3055 - Citrix NetScaler
 **Vulnerability:** Citrix NetScaler Out-of-Bounds Read Vulnerability
@@ -891,6 +1273,10 @@
 
 **Date Added:** 2026-03-30 | **Due Date:** 2026-04-02
 
+**MITRE CWE:** CWE-125
+
+**References:** https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX696300&articleURL=NetScaler_ADC_and_NetScaler_Gateway_Security_Bulletin_for_CVE_2026_3055_and_CVE_2026_4368 ; https://nvd.nist.gov/vuln/detail/CVE-2026-3055
+
 ## CVE-2025-53521 - F5 BIG-IP
 **Vulnerability:** F5 BIG-IP Stack-Based Buffer Overflow Vulnerability
 
@@ -899,6 +1285,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-03-27 | **Due Date:** 2026-03-30
+
+**MITRE CWE:** CWE-121
+
+**References:** Please adhere to F5’s guidelines to assess exposure and mitigate risks. Check for signs of potential compromise on all internet accessible F5 products affected by this vulnerability. For more information please see: https://my.f5.com/manage/s/article/K000156741 ; https://my.f5.com/manage/s/article/K000160486 ; https://my.f5.com/manage/s/article/K11438344 ; https://nvd.nist.gov/vuln/detail/CVE-2025-53521
 
 ## CVE-2026-33634 - Aquasecurity Trivy
 **Vulnerability:** Aquasecurity Trivy Embedded Malicious Code Vulnerability
@@ -909,6 +1299,10 @@
 
 **Date Added:** 2026-03-26 | **Due Date:** 2026-04-09
 
+**MITRE CWE:** CWE-506
+
+**References:** This vulnerability involves a supply‑chain compromise in a product that may be used across multiple products and environments. Additional vendor‑provided guidance must be followed to ensure full remediation. For more information, please see: https://github.com/advisories/GHSA-69fq-xp46-6x23 ; https://nvd.nist.gov/vuln/detail/CVE-2026-33634
+
 ## CVE-2026-33017 - Langflow Langflow
 **Vulnerability:** Langflow Code Injection Vulnerability
 
@@ -917,6 +1311,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-03-25 | **Due Date:** 2026-04-08
+
+**MITRE CWE:** CWE-94, CWE-95, CWE-306
+
+**References:** https://github.com/langflow-ai/langflow/security/advisories/GHSA-vwmf-pq79-vjvx ; https://nvd.nist.gov/vuln/detail/CVE-2026-33017
 
 ## CVE-2025-32432 - Craft CMS Craft CMS
 **Vulnerability:** Craft CMS Code Injection Vulnerability
@@ -927,6 +1325,10 @@
 
 **Date Added:** 2026-03-20 | **Due Date:** 2026-04-03
 
+**MITRE CWE:** CWE-94
+
+**References:** https://craftcms.com/knowledge-base/craft-cms-cve-2025-32432 ; https://github.com/craftcms/cms/security/advisories/GHSA-f3gw-9ww9-jmc3 ; https://nvd.nist.gov/vuln/detail/CVE-2025-32432
+
 ## CVE-2025-54068 - Laravel Livewire
 **Vulnerability:** Laravel Livewire Code Injection Vulnerability
 
@@ -935,6 +1337,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-03-20 | **Due Date:** 2026-04-03
+
+**MITRE CWE:** CWE-94
+
+**References:** https://github.com/livewire/livewire/security/advisories/GHSA-29cq-5w36-x7w3 ; https://github.com/livewire/livewire/commit/ef04be759da41b14d2d129e670533180a44987dc ; https://nvd.nist.gov/vuln/detail/CVE-2025-54068
 
 ## CVE-2025-43510 - Apple Multiple Products
 **Vulnerability:** Apple Multiple Products Improper Locking Vulnerability
@@ -945,6 +1351,10 @@
 
 **Date Added:** 2026-03-20 | **Due Date:** 2026-04-03
 
+**MITRE CWE:** CWE-667
+
+**References:** https://support.apple.com/en-us/125632 ; https://support.apple.com/en-us/125633 ; https://support.apple.com/en-us/125634 ; https://support.apple.com/en-us/125635 ; https://support.apple.com/en-us/125636 ; https://support.apple.com/en-us/125637 ; https://support.apple.com/en-us/125638 ; https://support.apple.com/en-us/125639 ; https://nvd.nist.gov/vuln/detail/CVE-2025-43510
+
 ## CVE-2025-43520 - Apple Multiple Products
 **Vulnerability:** Apple Multiple Products Classic Buffer Overflow Vulnerability
 
@@ -953,6 +1363,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-03-20 | **Due Date:** 2026-04-03
+
+**MITRE CWE:** CWE-120
+
+**References:** https://support.apple.com/en-us/125632 ; https://support.apple.com/en-us/125633 ; https://support.apple.com/en-us/125634 ; https://support.apple.com/en-us/125635 ; https://support.apple.com/en-us/125636 ; https://support.apple.com/en-us/125637 ; https://support.apple.com/en-us/125638 ; https://support.apple.com/en-us/125639 ; https://nvd.nist.gov/vuln/detail/CVE-2025-43520
 
 ## CVE-2025-31277 - Apple Multiple Products
 **Vulnerability:** Apple Multiple Products Buffer Overflow Vulnerability
@@ -963,6 +1377,10 @@
 
 **Date Added:** 2026-03-20 | **Due Date:** 2026-04-03
 
+**MITRE CWE:** CWE-119
+
+**References:** https://support.apple.com/en-us/124147 ; https://support.apple.com/en-us/124149 ; https://support.apple.com/en-us/124152 ; https://support.apple.com/en-us/124153 ; https://support.apple.com/en-us/124155 ; https://nvd.nist.gov/vuln/detail/CVE-2025-31277
+
 ## CVE-2025-66376 - Synacor Zimbra Collaboration Suite (ZCS)
 **Vulnerability:** Synacor Zimbra Collaboration Suite (ZCS) Cross-Site Scripting Vulnerability
 
@@ -971,6 +1389,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-03-18 | **Due Date:** 2026-04-01
+
+**MITRE CWE:** CWE-79
+
+**References:** https://wiki.zimbra.com/wiki/Zimbra_Security_Advisories ; https://nvd.nist.gov/vuln/detail/CVE-2025-66376
 
 ## CVE-2026-20963 - Microsoft SharePoint
 **Vulnerability:** Microsoft SharePoint Deserialization of Untrusted Data Vulnerability
@@ -981,6 +1403,10 @@
 
 **Date Added:** 2026-03-18 | **Due Date:** 2026-03-21
 
+**MITRE CWE:** CWE-502
+
+**References:** https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-20963 ; https://nvd.nist.gov/vuln/detail/CVE-2026-20963
+
 ## CVE-2025-47813 - Wing FTP Server Wing FTP Server
 **Vulnerability:** Wing FTP Server Information Disclosure Vulnerability
 
@@ -989,6 +1415,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-03-16 | **Due Date:** 2026-03-30
+
+**MITRE CWE:** CWE-209
+
+**References:** https://www.wftpserver.com/serverhistory.htm ; https://nvd.nist.gov/vuln/detail/CVE-2025-47813
 
 ## CVE-2026-3910 - Google Chromium V8
 **Vulnerability:** Google Chromium V8 Improper Restriction of Operations Within the Bounds of a Memory Buffer Vulnerability
@@ -999,6 +1429,10 @@
 
 **Date Added:** 2026-03-13 | **Due Date:** 2026-03-27
 
+**MITRE CWE:** CWE-119
+
+**References:** https://chromereleases.googleblog.com/2026/03/stable-channel-update-for-desktop_12.html ; https://nvd.nist.gov/vuln/detail/CVE-2026-3910
+
 ## CVE-2026-3909 - Google Skia
 **Vulnerability:** Google Skia Out-of-Bounds Write Vulnerability
 
@@ -1007,6 +1441,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-03-13 | **Due Date:** 2026-03-27
+
+**MITRE CWE:** CWE-787
+
+**References:** This vulnerability affects a common open-source component, third-party library, or a protocol used by different products. Please check with specific vendors for information on patching status. For more information, please see: https://chromereleases.googleblog.com/2026/03/stable-channel-update-for-desktop_13.html ; https://nvd.nist.gov/vuln/detail/CVE-2026-3909
 
 ## CVE-2025-68613 - n8n n8n
 **Vulnerability:** n8n Improper Control of Dynamically-Managed Code Resources Vulnerability
@@ -1017,6 +1455,10 @@
 
 **Date Added:** 2026-03-11 | **Due Date:** 2026-03-25
 
+**MITRE CWE:** CWE-913
+
+**References:** https://github.com/n8n-io/n8n/security/advisories/GHSA-v98v-ff95-f3cp ; https://nvd.nist.gov/vuln/detail/CVE-2025-68613
+
 ## CVE-2021-22054 - Omnissa Workspace One UEM
 **Vulnerability:** Omnissa Workspace ONE Server-Side Request Forgery
 
@@ -1025,6 +1467,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-03-09 | **Due Date:** 2026-03-23
+
+**MITRE CWE:** CWE-918
+
+**References:** https://web.archive.org/web/20211222154335/https://www.vmware.com/security/advisories/VMSA-2021-0029.html ; https://nvd.nist.gov/vuln/detail/CVE-2021-22054
 
 ## CVE-2025-26399 - SolarWinds Web Help Desk
 **Vulnerability:** SolarWinds Web Help Desk Deserialization of Untrusted Data Vulnerability
@@ -1035,6 +1481,10 @@
 
 **Date Added:** 2026-03-09 | **Due Date:** 2026-03-12
 
+**MITRE CWE:** CWE-502
+
+**References:** https://www.solarwinds.com/trust-center/security-advisories/cve-2025-26399 ; https://documentation.solarwinds.com/en/success_center/whd/content/release_notes/whd_12-8-7-hotfix-1_release_notes.htm ; https://nvd.nist.gov/vuln/detail/CVE-2025-26399
+
 ## CVE-2026-1603 - Ivanti  Endpoint Manager (EPM)
 **Vulnerability:** Ivanti Endpoint Manager (EPM) Authentication Bypass Vulnerability
 
@@ -1043,6 +1493,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-03-09 | **Due Date:** 2026-03-23
+
+**MITRE CWE:** CWE-288
+
+**References:** https://hub.ivanti.com/s/article/Security-Advisory-EPM-February-2026-for-EPM-2024?language=en_US ; https://nvd.nist.gov/vuln/detail/CVE-2026-1603
 
 ## CVE-2017-7921 - Hikvision Multiple Products
 **Vulnerability:** Hikvision Multiple Products Improper Authentication Vulnerability
@@ -1053,6 +1507,10 @@
 
 **Date Added:** 2026-03-05 | **Due Date:** 2026-03-26
 
+**MITRE CWE:** CWE-287
+
+**References:** https://www.hikvision.com/us-en/support/document-center/special-notices/privilege-escalating-vulnerability-in-certain-hikvision-ip-cameras/ ; https://nvd.nist.gov/vuln/detail/CVE-2017-7921
+
 ## CVE-2021-22681 - Rockwell Multiple Products
 **Vulnerability:** Rockwell Multiple Products Insufficient Protected Credentials Vulnerability
 
@@ -1061,6 +1519,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-03-05 | **Due Date:** 2026-03-26
+
+**MITRE CWE:** CWE-522
+
+**References:** https://support.rockwellautomation.com/app/answers/answer_view/a_id/1130301/~/cve-2021-22681%3A-authentication-bypass-vulnerability-found-in-logix-controllers- ; https://www.cisa.gov/news-events/ics-advisories/icsa-21-056-03 ; https://nvd.nist.gov/vuln/detail/CVE-2021-22681
 
 ## CVE-2023-43000 - Apple Multiple Products
 **Vulnerability:** Apple Multiple products Use-After-Free Vulnerability
@@ -1071,6 +1533,10 @@
 
 **Date Added:** 2026-03-05 | **Due Date:** 2026-03-26
 
+**MITRE CWE:** CWE-416
+
+**References:** https://support.apple.com/en-us/120324 ; https://support.apple.com/en-us/120331 ; https://support.apple.com/en-us/120338 ; https://nvd.nist.gov/vuln/detail/CVE-2023-43000
+
 ## CVE-2021-30952 - Apple Multiple Products
 **Vulnerability:** Apple Multiple Products Integer Overflow or Wraparound Vulnerability
 
@@ -1079,6 +1545,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-03-05 | **Due Date:** 2026-03-26
+
+**MITRE CWE:** CWE-190
+
+**References:** https://support.apple.com/en-us/HT212975 ; https://support.apple.com/en-us/HT212976 ; https://support.apple.com/en-us/HT212978 ; https://support.apple.com/en-us/HT212980 ; https://support.apple.com/en-us/HT212982 ; https://nvd.nist.gov/vuln/detail/CVE-2021-30952
 
 ## CVE-2023-41974 - Apple iOS and iPadOS
 **Vulnerability:** Apple iOS and iPadOS Use-After-Free Vulnerability
@@ -1089,6 +1559,10 @@
 
 **Date Added:** 2026-03-05 | **Due Date:** 2026-03-26
 
+**MITRE CWE:** CWE-416
+
+**References:** https://support.apple.com/en-us/HT213938 ; https://support.apple.com/kb/HT213938 ; https://nvd.nist.gov/vuln/detail/CVE-2023-41974
+
 ## CVE-2026-22719 - Broadcom VMware Aria Operations
 **Vulnerability:** Broadcom VMware Aria Operations Command Injection Vulnerability
 
@@ -1097,6 +1571,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-03-03 | **Due Date:** 2026-03-24
+
+**MITRE CWE:** CWE-77
+
+**References:** https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/36947 ; https://knowledge.broadcom.com/external/article/430349 ; https://nvd.nist.gov/vuln/detail/CVE-2026-22719
 
 ## CVE-2026-21385 - Qualcomm Multiple Chipsets
 **Vulnerability:** Qualcomm Multiple Chipsets Memory Corruption Vulnerability
@@ -1107,6 +1585,10 @@
 
 **Date Added:** 2026-03-03 | **Due Date:** 2026-03-24
 
+**MITRE CWE:** CWE-190
+
+**References:** Please check with specific vendors (OEMs,) for information on patching status. For more information, please see: https://source.android.com/docs/security/bulletin/2026/2026-03-01 ; https://nvd.nist.gov/vuln/detail/CVE-2026-21385
+
 ## CVE-2022-20775 - Cisco SD-WAN
 **Vulnerability:** Cisco SD-WAN Path Traversal Vulnerability
 
@@ -1115,6 +1597,10 @@
 **Required Action:** Please adhere to CISA’s guidelines to assess exposure and mitigate risks associated with Cisco SD-WAN devices as outlines in CISA’s Emergency Directive 26-03 (URL listed below in Notes) and CISA’s “Hunt & Hardening Guidance for Cisco SD-WAN Devices (URL listed below in Notes). Adhere to the applicable BOD 22-01 guidance for cloud services or discontinue use of the product if mitigations are not available.
 
 **Date Added:** 2026-02-25 | **Due Date:** 2026-02-27
+
+**MITRE CWE:** CWE-25, CWE-282
+
+**References:** CISA Mitigation Instructions: https://www.cisa.gov/news-events/directives/ed-26-03-mitigate-vulnerabilities-cisco-sd-wan-systems ; https://www.cisa.gov/news-events/directives/supplemental-direction-ed-26-03-hunt-and-hardening-guidance-cisco-sd-wan-systems ; https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-sd-wan-priv-E6e8tEdF.html ; https://nvd.nist.gov/vuln/detail/CVE-2022-20775
 
 ## CVE-2026-20127 - Cisco Catalyst SD-WAN Controller and Manager
 **Vulnerability:** Cisco Catalyst SD-WAN Controller and Manager Authentication Bypass Vulnerability
@@ -1125,6 +1611,10 @@
 
 **Date Added:** 2026-02-25 | **Due Date:** 2026-02-27
 
+**MITRE CWE:** CWE-287
+
+**References:** CISA Mitigation Instructions: https://www.cisa.gov/news-events/directives/ed-26-03-mitigate-vulnerabilities-cisco-sd-wan-systems ; https://www.cisa.gov/news-events/directives/supplemental-direction-ed-26-03-hunt-and-hardening-guidance-cisco-sd-wan-systems ; https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-rpa-EHchtZk ; https://nvd.nist.gov/vuln/detail/CVE-2026-20127
+
 ## CVE-2026-25108 - Soliton Systems K.K FileZen
 **Vulnerability:** Soliton Systems K.K FileZen OS Command Injection Vulnerability
 
@@ -1133,6 +1623,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-02-24 | **Due Date:** 2026-03-17
+
+**MITRE CWE:** CWE-78
+
+**References:** https://jvn.jp/en/jp/JVN84622767/ ; https://nvd.nist.gov/vuln/detail/CVE-2026-25108
 
 ## CVE-2025-49113 - Roundcube Webmail
 **Vulnerability:** RoundCube Webmail Deserialization of Untrusted Data Vulnerability
@@ -1143,6 +1637,10 @@
 
 **Date Added:** 2026-02-20 | **Due Date:** 2026-03-13
 
+**MITRE CWE:** CWE-502
+
+**References:** https://roundcube.net/news/2025/06/01/security-updates-1.6.11-and-1.5.10 ; https://github.com/roundcube/roundcubemail/releases/tag/1.5.10 ; https://github.com/roundcube/roundcubemail/releases/tag/1.6.11 ; https://nvd.nist.gov/vuln/detail/CVE-2025-49113
+
 ## CVE-2025-68461 - Roundcube Webmail
 **Vulnerability:** RoundCube Webmail Cross-site Scripting Vulnerability
 
@@ -1151,6 +1649,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-02-20 | **Due Date:** 2026-03-13
+
+**MITRE CWE:** CWE-79
+
+**References:** https://roundcube.net/news/2025/12/13/security-updates-1.6.12-and-1.5.12 ; https://github.com/roundcube/roundcubemail/commit/bfa032631c36b900e7444dfa278340b33cbf7cdb ; https://nvd.nist.gov/vuln/detail/CVE-2025-68461
 
 ## CVE-2021-22175 - GitLab GitLab
 **Vulnerability:** GitLab Server-Side Request Forgery (SSRF) Vulnerability
@@ -1161,6 +1663,10 @@
 
 **Date Added:** 2026-02-18 | **Due Date:** 2026-03-11
 
+**MITRE CWE:** CWE-918
+
+**References:** https://gitlab.com/gitlab-org/cves/-/blob/master/2021/CVE-2021-22175.json ; https://nvd.nist.gov/vuln/detail/CVE-2021-22175
+
 ## CVE-2026-22769 - Dell RecoverPoint for Virtual Machines (RP4VMs)
 **Vulnerability:** Dell RecoverPoint for Virtual Machines (RP4VMs) Use of Hard-coded Credentials Vulnerability
 
@@ -1169,6 +1675,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-02-18 | **Due Date:** 2026-02-21
+
+**MITRE CWE:** CWE-798
+
+**References:** https://www.dell.com/support/kbdoc/en-us/000426773/dsa-2026-079 ; https://www.dell.com/support/kbdoc/en-us/000426742/recoverpoint-for-vms-apply-the-remediation-script-for-dsa ; https://cloud.google.com/blog/topics/threat-intelligence/unc6201-exploiting-dell-recoverpoint-zero-day ; https://nvd.nist.gov/vuln/detail/CVE-2026-22769
 
 ## CVE-2020-7796 - Synacor Zimbra Collaboration Suite
 **Vulnerability:** Synacor Zimbra Collaboration Suite (ZCS) Server-Side Request Forgery Vulnerability
@@ -1179,6 +1689,10 @@
 
 **Date Added:** 2026-02-17 | **Due Date:** 2026-03-10
 
+**MITRE CWE:** CWE-918
+
+**References:** https://wiki.zimbra.com/wiki/Zimbra_Releases/8.8.15/P7 ; https://nvd.nist.gov/vuln/detail/CVE-2020-7796
+
 ## CVE-2024-7694 - TeamT5 ThreatSonar Anti-Ransomware
 **Vulnerability:** TeamT5 ThreatSonar Anti-Ransomware Unrestricted Upload of File with Dangerous Type Vulnerability
 
@@ -1187,6 +1701,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-02-17 | **Due Date:** 2026-03-10
+
+**MITRE CWE:** CWE-434
+
+**References:** https://teamt5.org/en/posts/vulnerability-notice-threat-sonar-anti-ransomware-20240715/ ; https://www.twcert.org.tw/en/cp-139-8000-e5a5c-2.html ; https://nvd.nist.gov/vuln/detail/CVE-2024-7694
 
 ## CVE-2008-0015 - Microsoft Windows
 **Vulnerability:**  Microsoft Windows Video ActiveX Control Remote Code Execution Vulnerability
@@ -1197,6 +1715,8 @@
 
 **Date Added:** 2026-02-17 | **Due Date:** 2026-03-10
 
+**References:** https://web.archive.org/web/20110305211119/https://www.microsoft.com/technet/security/bulletin/ms09-032.mspx ; https://nvd.nist.gov/vuln/detail/CVE-2008-0015
+
 ## CVE-2026-2441 - Google Chromium
 **Vulnerability:** Google Chromium CSS Use-After-Free Vulnerability
 
@@ -1205,6 +1725,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-02-17 | **Due Date:** 2026-03-10
+
+**MITRE CWE:** CWE-416
+
+**References:** https://chromereleases.googleblog.com/2026/02/stable-channel-update-for-desktop_13.html ; https://nvd.nist.gov/vuln/detail/CVE-2026-2441
 
 ## CVE-2026-20700 - Apple Multiple Products
 **Vulnerability:** Apple Multiple Buffer Overflow Vulnerability
@@ -1215,6 +1739,10 @@
 
 **Date Added:** 2026-02-12 | **Due Date:** 2026-03-05
 
+**MITRE CWE:** CWE-119
+
+**References:** https://support.apple.com/en-us/126346 ; https://support.apple.com/en-us/126348 ; https://support.apple.com/en-us/126351 ; https://support.apple.com/en-us/126352 ; https://support.apple.com/en-us/126353 ; https://nvd.nist.gov/vuln/detail/CVE-2026-20700
+
 ## CVE-2024-43468 - Microsoft Configuration Manager
 **Vulnerability:** Microsoft Configuration Manager SQL Injection Vulnerability
 
@@ -1223,6 +1751,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-02-12 | **Due Date:** 2026-03-05
+
+**MITRE CWE:** CWE-89
+
+**References:** https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43468 ; https://nvd.nist.gov/vuln/detail/CVE-2024-43468
 
 ## CVE-2025-15556 - Notepad++ Notepad++
 **Vulnerability:** Notepad++ Download of Code Without Integrity Check Vulnerability
@@ -1233,6 +1765,10 @@
 
 **Date Added:** 2026-02-12 | **Due Date:** 2026-03-05
 
+**MITRE CWE:** CWE-494
+
+**References:** https://notepad-plus-plus.org/news/clarification-security-incident/ ; https://community.notepad-plus-plus.org/topic/27298/notepad-v8-8-9-vulnerability-fix ; https://nvd.nist.gov/vuln/detail/CVE-2025-15556
+
 ## CVE-2025-40536 - SolarWinds Web Help Desk
 **Vulnerability:** SolarWinds Web Help Desk Security Control Bypass Vulnerability
 
@@ -1241,6 +1777,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-02-12 | **Due Date:** 2026-02-15
+
+**MITRE CWE:** CWE-693
+
+**References:** https://documentation.solarwinds.com/en/success_center/whd/content/release_notes/whd_2026-1_release_notes.htm ; https://www.solarwinds.com/trust-center/security-advisories/CVE-2025-40536 ; https://nvd.nist.gov/vuln/detail/CVE-2025-40536
 
 ## CVE-2026-21513 - Microsoft Windows
 **Vulnerability:** Microsoft MSHTML Framework Protection Mechanism Failure Vulnerability
@@ -1251,6 +1791,10 @@
 
 **Date Added:** 2026-02-10 | **Due Date:** 2026-03-03
 
+**MITRE CWE:** CWE-693
+
+**References:** https://msrc.microsoft.com/update-guide/advisory/CVE-2026-21513 ; https://nvd.nist.gov/vuln/detail/CVE-2026-21513
+
 ## CVE-2026-21525 - Microsoft Windows
 **Vulnerability:** Microsoft Windows NULL Pointer Dereference Vulnerability
 
@@ -1259,6 +1803,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-02-10 | **Due Date:** 2026-03-03
+
+**MITRE CWE:** CWE-476
+
+**References:** https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21525 ; https://nvd.nist.gov/vuln/detail/CVE-2026-21525
 
 ## CVE-2026-21510 - Microsoft Windows
 **Vulnerability:** Microsoft Windows Shell Protection Mechanism Failure Vulnerability
@@ -1269,6 +1817,10 @@
 
 **Date Added:** 2026-02-10 | **Due Date:** 2026-03-03
 
+**MITRE CWE:** CWE-693
+
+**References:** https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21510 ; https://nvd.nist.gov/vuln/detail/CVE-2026-21510 
+
 ## CVE-2026-21533 - Microsoft Windows
 **Vulnerability:** Microsoft Windows Improper Privilege Management Vulnerability
 
@@ -1277,6 +1829,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-02-10 | **Due Date:** 2026-03-03
+
+**MITRE CWE:** CWE-269
+
+**References:** https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21533 ; https://nvd.nist.gov/vuln/detail/CVE-2026-21533
 
 ## CVE-2026-21519 - Microsoft Windows
 **Vulnerability:** Microsoft Windows Type Confusion Vulnerability
@@ -1287,6 +1843,10 @@
 
 **Date Added:** 2026-02-10 | **Due Date:** 2026-03-03
 
+**MITRE CWE:** CWE-843
+
+**References:** https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21519 ; https://nvd.nist.gov/vuln/detail/CVE-2026-21519
+
 ## CVE-2026-21514 - Microsoft Office
 **Vulnerability:** Microsoft Office Word Reliance on Untrusted Inputs in a Security Decision Vulnerability
 
@@ -1295,6 +1855,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-02-10 | **Due Date:** 2026-03-03
+
+**MITRE CWE:** CWE-807
+
+**References:** https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21514 ; https://nvd.nist.gov/vuln/detail/CVE-2026-21514
 
 ## CVE-2025-11953 - React Native Community CLI
 **Vulnerability:** React Native Community CLI OS Command Injection Vulnerability
@@ -1305,6 +1869,10 @@
 
 **Date Added:** 2026-02-05 | **Due Date:** 2026-02-26
 
+**MITRE CWE:** CWE-78
+
+**References:** This vulnerability could affect an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://github.com/react-native-community/cli/commit/15089907d1f1301b22c72d7f68846a2ef20df547 ; https://github.com/react-native-community/cli/pull/2735 ; https://nvd.nist.gov/vuln/detail/CVE-2025-11953
+
 ## CVE-2021-39935 - GitLab Community and Enterprise Editions
 **Vulnerability:** GitLab Community and Enterprise Editions Server-Side Request Forgery (SSRF) Vulnerability
 
@@ -1313,6 +1881,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-02-03 | **Due Date:** 2026-02-24
+
+**MITRE CWE:** CWE-918
+
+**References:** https://about.gitlab.com/releases/2021/12/06/security-release-gitlab-14-5-2-released/ ; https://nvd.nist.gov/vuln/detail/CVE-2021-39935
 
 ## CVE-2025-64328 - Sangoma FreePBX 
 **Vulnerability:** Sangoma FreePBX OS Command Injection Vulnerability
@@ -1323,6 +1895,10 @@
 
 **Date Added:** 2026-02-03 | **Due Date:** 2026-02-24
 
+**MITRE CWE:** CWE-78
+
+**References:** https://github.com/FreePBX/security-reporting/security/advisories/GHSA-vm9p-46mv-5xvw ; https://nvd.nist.gov/vuln/detail/CVE-2025-64328
+
 ## CVE-2019-19006 - Sangoma FreePBX
 **Vulnerability:**  Sangoma FreePBX Improper Authentication Vulnerability
 
@@ -1331,6 +1907,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-02-03 | **Due Date:** 2026-02-24
+
+**MITRE CWE:** CWE-287
+
+**References:** https://wiki.freepbx.org/display/FOP/2019-11-20%2BRemote%2BAdmin%2BAuthentication%2BBypass ; https://nvd.nist.gov/vuln/detail/CVE-2019-19006
 
 ## CVE-2025-40551 - SolarWinds Web Help Desk
 **Vulnerability:** SolarWinds Web Help Desk Deserialization of Untrusted Data Vulnerability
@@ -1341,6 +1921,10 @@
 
 **Date Added:** 2026-02-03 | **Due Date:** 2026-02-06
 
+**MITRE CWE:** CWE-502
+
+**References:** https://www.solarwinds.com/trust-center/security-advisories/cve-2025-40551 ; https://nvd.nist.gov/vuln/detail/CVE-2025-40551
+
 ## CVE-2026-1281 - Ivanti Endpoint Manager Mobile (EPMM)
 **Vulnerability:** Ivanti Endpoint Manager Mobile (EPMM) Code Injection Vulnerability
 
@@ -1349,6 +1933,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-01-29 | **Due Date:** 2026-02-01
+
+**MITRE CWE:** CWE-94
+
+**References:** Please adhere to Ivanti's guidelines to assess exposure and mitigate risks. Check for signs of potential compromise on all internet accessible Ivanti products affected by this vulnerability. Apply any final mitigations provided by the vendor as soon as possible. For more information please: see: https://forums.ivanti.com/s/article/Security-Advisory-Ivanti-Endpoint-Manager-Mobile-EPMM-CVE-2026-1281-CVE-2026-1340 ; https://support.mobileiron.com/mi/vsp/AB1771634/ivanti-security-update-1761642-1.0.0S-5.noarch.rpm ; https://support.mobileiron.com/mi/vsp/AB1771634/ivanti-security-update-1761642-1.0.0L-5.noarch.rpm ; https://nvd.nist.gov/vuln/detail/CVE-2026-1281
 
 ## CVE-2026-24858 - Fortinet Multiple Products
 **Vulnerability:** Fortinet Multiple Products Authentication Bypass Using an Alternate Path or Channel Vulnerability
@@ -1359,6 +1947,10 @@
 
 **Date Added:** 2026-01-27 | **Due Date:** 2026-01-30
 
+**MITRE CWE:** CWE-288
+
+**References:** Please adhere to Fortinet's guidelines to assess exposure and mitigate risks. Check for signs of potential compromise on all internet accessible Fortinet products affected by this vulnerability. Apply any final mitigations provided by the vendor as soon as they become available. For more information please see: https://fortiguard.fortinet.com/psirt/FG-IR-26-060 ; https://www.fortinet.com/blog/psirt-blogs/analysis-of-sso-abuse-on-fortios ; https://nvd.nist.gov/vuln/detail/CVE-2026-24858
+
 ## CVE-2018-14634 - Linux Kernel
 **Vulnerability:** Linux Kernel Integer Overflow Vulnerability
 
@@ -1367,6 +1959,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-01-26 | **Due Date:** 2026-02-16
+
+**MITRE CWE:** CWE-190
+
+**References:** This vulnerability affects a common open-source component, third-party library, or a protocol used by different products. Please check with specific vendors for information on patching status. For more information, please see: https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/about/ ; https://www.kernel.org/ ; https://www.cve.org/CVERecord?id=CVE-2018-14634 ; https://access.redhat.com/errata/RHSA-2018:3540 ; https://nvd.nist.gov/vuln/detail/CVE-2018-14634
 
 ## CVE-2026-24061 - GNU InetUtils
 **Vulnerability:** GNU InetUtils Argument Injection Vulnerability
@@ -1377,6 +1973,10 @@
 
 **Date Added:** 2026-01-26 | **Due Date:** 2026-02-16
 
+**MITRE CWE:** CWE-88
+
+**References:** This vulnerability could affect an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://cgit.git.savannah.gnu.org/cgit/inetutils.git ; https://codeberg.org/inetutils/inetutils/commit/ccba9f748aa8d50a38d7748e2e60362edd6a32cc; https://codeberg.org/inetutils/inetutils/commit/fd702c02497b2f398e739e3119bed0b23dd7aa7b ; https://nvd.nist.gov/vuln/detail/CVE-2026-24061
+
 ## CVE-2026-21509 - Microsoft Office
 **Vulnerability:** Microsoft Office Security Feature Bypass Vulnerability
 
@@ -1385,6 +1985,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-01-26 | **Due Date:** 2026-02-16
+
+**MITRE CWE:** CWE-807
+
+**References:** Please adhere to Microsoft’s recommended guidelines to address this vulnerability. Implement all final mitigations provided by the vendor for Office 2021, and apply the interim corresponding mitigations for Office 2016 and Office 2019 until the final patch becomes available. For more information please see: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21509 ; https://nvd.nist.gov/vuln/detail/CVE-2026-21509
 
 ## CVE-2024-37079 - Broadcom VMware vCenter Server
 **Vulnerability:** Broadcom VMware vCenter Server Out-of-bounds Write Vulnerability
@@ -1395,6 +1999,10 @@
 
 **Date Added:** 2026-01-23 | **Due Date:** 2026-02-13
 
+**MITRE CWE:** CWE-787
+
+**References:** https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/24453 ; https://nvd.nist.gov/vuln/detail/CVE-2024-37079
+
 ## CVE-2025-68645 - Synacor  Zimbra Collaboration Suite (ZCS)
 **Vulnerability:** Synacor Zimbra Collaboration Suite (ZCS) PHP Remote File Inclusion Vulnerability
 
@@ -1403,6 +2011,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-01-22 | **Due Date:** 2026-02-12
+
+**MITRE CWE:** CWE-98
+
+**References:** https://wiki.zimbra.com/wiki/Security_Center ; https://nvd.nist.gov/vuln/detail/CVE-2025-68645
 
 ## CVE-2025-34026 - Versa Concerto
 **Vulnerability:** Versa Concerto Improper Authentication Vulnerability
@@ -1413,6 +2025,10 @@
 
 **Date Added:** 2026-01-22 | **Due Date:** 2026-02-12
 
+**MITRE CWE:** CWE-288
+
+**References:** https://security-portal.versa-networks.com/emailbulletins/6830f94328defa375486ff2e ; https://nvd.nist.gov/vuln/detail/CVE-2025-34026
+
 ## CVE-2025-31125 - Vite Vitejs
 **Vulnerability:** Vite Vitejs Improper Access Control Vulnerability
 
@@ -1421,6 +2037,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-01-22 | **Due Date:** 2026-02-12
+
+**MITRE CWE:** CWE-200, CWE-284
+
+**References:** This vulnerability could affect an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://github.com/vitejs/vite/commit/59673137c45ac2bcfad1170d954347c1a17ab949 ; https://nvd.nist.gov/vuln/detail/CVE-2025-31125
 
 ## CVE-2025-54313 - Prettier eslint-config-prettier
 **Vulnerability:** Prettier eslint-config-prettier Embedded Malicious Code Vulnerability
@@ -1431,6 +2051,10 @@
 
 **Date Added:** 2026-01-22 | **Due Date:** 2026-02-12
 
+**MITRE CWE:** CWE-506
+
+**References:** This vulnerability could affect an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://www.npmjs.com/package/eslint-config-prettier?activeTab=versions ; https://github.com/prettier/eslint-config-prettier/issues/339#issuecomment-3090304490 ; https://nvd.nist.gov/vuln/detail/CVE-2025-54313
+
 ## CVE-2026-20045 - Cisco Unified Communications Manager
 **Vulnerability:** Cisco Unified Communications Products Code Injection Vulnerability
 
@@ -1439,6 +2063,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-01-21 | **Due Date:** 2026-02-11
+
+**MITRE CWE:** CWE-94
+
+**References:** https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-voice-rce-mORhqY4b ; https://nvd.nist.gov/vuln/detail/CVE-2026-20045
 
 ## CVE-2026-20805 - Microsoft Windows
 **Vulnerability:** Microsoft Windows Information Disclosure Vulnerability
@@ -1449,6 +2077,10 @@
 
 **Date Added:** 2026-01-13 | **Due Date:** 2026-02-03
 
+**MITRE CWE:** CWE-200
+
+**References:** https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-20805 ; https://nvd.nist.gov/vuln/detail/CVE-2026-20805
+
 ## CVE-2025-8110 - Gogs Gogs
 **Vulnerability:** Gogs Path Traversal Vulnerability
 
@@ -1457,6 +2089,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-01-12 | **Due Date:** 2026-02-02
+
+**MITRE CWE:** CWE-22
+
+**References:** https://github.com/gogs/gogs/commit/553707f3fd5f68f47f531cfcff56aa3ec294c6f6 ; https://nvd.nist.gov/vuln/detail/CVE-2025-8110
 
 ## CVE-2009-0556 - Microsoft Office
 **Vulnerability:** Microsoft Office PowerPoint Code Injection Vulnerability
@@ -1467,6 +2103,10 @@
 
 **Date Added:** 2026-01-07 | **Due Date:** 2026-01-28
 
+**MITRE CWE:** CWE-94
+
+**References:** https://learn.microsoft.com/en-us/security-updates/securitybulletins/2009/ms09-017 ; https://nvd.nist.gov/vuln/detail/CVE-2009-0556
+
 ## CVE-2025-37164 - Hewlett Packard Enterprise (HPE) OneView
 **Vulnerability:** Hewlett Packard Enterprise (HPE) OneView Code Injection Vulnerability
 
@@ -1475,6 +2115,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2026-01-07 | **Due Date:** 2026-01-28
+
+**MITRE CWE:** CWE-94
+
+**References:** https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbgn04985en_us&docLocale=en_US ; https://nvd.nist.gov/vuln/detail/CVE-2025-37164
 
 ## CVE-2025-14847 - MongoDB MongoDB and MongoDB Server
 **Vulnerability:** MongoDB and MongoDB Server Improper Handling of Length Parameter Inconsistency Vulnerability
@@ -1485,6 +2129,10 @@
 
 **Date Added:** 2025-12-29 | **Due Date:** 2026-01-19
 
+**MITRE CWE:** CWE-130
+
+**References:** This vulnerability could affect an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://jira.mongodb.org/browse/SERVER-115508 ; https://nvd.nist.gov/vuln/detail/CVE-2025-14847
+
 ## CVE-2023-52163 - Digiever DS-2105 Pro
 **Vulnerability:** Digiever DS-2105 Pro Missing Authorization Vulnerability
 
@@ -1493,6 +2141,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2025-12-22 | **Due Date:** 2026-01-12
+
+**MITRE CWE:** CWE-862
+
+**References:** https://www.digiever.com/tw/support/faq-content.php?FAQ=217 ; https://nvd.nist.gov/vuln/detail/CVE-2023-52163
 
 ## CVE-2025-14733 - WatchGuard Firebox
 **Vulnerability:** WatchGuard Firebox Out of Bounds Write Vulnerability
@@ -1503,6 +2155,10 @@
 
 **Date Added:** 2025-12-19 | **Due Date:** 2025-12-26
 
+**MITRE CWE:** CWE-787
+
+**References:** Check for signs of potential compromise on all internet accessible instances after applying mitigations. For more information please see: https://www.watchguard.com/wgrd-psirt/advisory/wgsa-2025-00027 ; https://nvd.nist.gov/vuln/detail/CVE-2025-14733
+
 ## CVE-2025-59374 - ASUS Live Update
 **Vulnerability:** ASUS Live Update Embedded Malicious Code Vulnerability
 
@@ -1511,6 +2167,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2025-12-17 | **Due Date:** 2026-01-07
+
+**MITRE CWE:** CWE-506
+
+**References:** https://www.asus.com/support/faq/1018727/ ; https://nvd.nist.gov/vuln/detail/CVE-2025-59374
 
 ## CVE-2025-40602 - SonicWall SMA1000 appliance
 **Vulnerability:** SonicWall SMA1000 Missing Authorization Vulnerability
@@ -1521,6 +2181,10 @@
 
 **Date Added:** 2025-12-17 | **Due Date:** 2025-12-24
 
+**MITRE CWE:** CWE-862, CWE-250
+
+**References:** Check for signs of potential compromise on all internet accessible SonicWall SMA1000 instances after applying mitigations. For more information please see: https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2025-0019 ; https://nvd.nist.gov/vuln/detail/CVE-2025-40602
+
 ## CVE-2025-20393 - Cisco Multiple Products
 **Vulnerability:** Cisco Multiple Products Improper Input Validation Vulnerability
 
@@ -1529,6 +2193,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2025-12-17 | **Due Date:** 2025-12-24
+
+**MITRE CWE:** CWE-20
+
+**References:** Please adhere to Cisco's guidelines to assess exposure and mitigate risks. Check for signs of potential compromise on all internet accessible Cisco products affected by this vulnerability. Apply any final mitigations provided by the vendor as soon as they become available. For more information please see: https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sma-attack-N9bf4 ; https://nvd.nist.gov/vuln/detail/CVE-2025-20393
 
 ## CVE-2025-59718 - Fortinet Multiple Products
 **Vulnerability:** Fortinet Multiple Products Improper Verification of Cryptographic Signature Vulnerability
@@ -1539,6 +2207,10 @@
 
 **Date Added:** 2025-12-16 | **Due Date:** 2025-12-23
 
+**MITRE CWE:** CWE-347
+
+**References:** https://fortiguard.fortinet.com/psirt/FG-IR-25-647 ; https://docs.fortinet.com/upgrade-tool/fortigate ; https://nvd.nist.gov/vuln/detail/CVE-2025-59718
+
 ## CVE-2025-14611 - Gladinet CentreStack and Triofox
 **Vulnerability:** Gladinet CentreStack and Triofox Hard Coded Cryptographic Vulnerability
 
@@ -1547,6 +2219,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2025-12-15 | **Due Date:** 2026-01-05
+
+**MITRE CWE:** CWE-798
+
+**References:** https://www.centrestack.com/p/gce_latest_release.html ; https://access.triofox.com/releases_history/; https://support.centrestack.com/hc/en-us/articles/360007159054-Hardening-the-CentreStack-Cluster#h_01JQRV57T37HJFQZKBZH9NBXQP ; https://nvd.nist.gov/vuln/detail/CVE-2025-14611
 
 ## CVE-2025-43529 - Apple Multiple Products
 **Vulnerability:** Apple Multiple Products Use-After-Free WebKit Vulnerability
@@ -1557,6 +2233,10 @@
 
 **Date Added:** 2025-12-15 | **Due Date:** 2026-01-05
 
+**MITRE CWE:** CWE-416
+
+**References:** https://support.apple.com/en-us/125884 ; https://support.apple.com/en-us/125892 ; https://support.apple.com/en-us/125885 ; https://support.apple.com/en-us/125886 ; https://support.apple.com/en-us/125889 ; https://nvd.nist.gov/vuln/detail/CVE-2025-43529
+
 ## CVE-2018-4063 - Sierra Wireless AirLink ALEOS
 **Vulnerability:** Sierra Wireless AirLink ALEOS Unrestricted Upload of File with Dangerous Type Vulnerability
 
@@ -1565,6 +2245,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2025-12-12 | **Due Date:** 2026-01-02
+
+**MITRE CWE:** CWE-434
+
+**References:** https://www.cisa.gov/news-events/ics-advisories/icsa-19-122-03 ; https://source.sierrawireless.com/resources/airlink/software_reference_docs/technical-bulletin/sierra-wireless-technical-bulletin---swi-psa-2019-003 ; https://source.sierrawireless.com/resources/airlink/hardware_reference_docs/airlink_es450_eol ; https://nvd.nist.gov/vuln/detail/CVE-2018-4063
 
 ## CVE-2025-14174 - Google Chromium
 **Vulnerability:** Google Chromium Out of Bounds Memory Access Vulnerability
@@ -1575,6 +2259,8 @@
 
 **Date Added:** 2025-12-12 | **Due Date:** 2026-01-02
 
+**References:** https://chromereleases.googleblog.com/2025/12/stable-channel-update-for-desktop_10.html ; https://learn.microsoft.com/en-us/deployedge/microsoft-edge-relnotes-security ; https://nvd.nist.gov/vuln/detail/CVE-2025-14174
+
 ## CVE-2025-58360 - OSGeo GeoServer
 **Vulnerability:** OSGeo GeoServer Improper Restriction of XML External Entity Reference Vulnerability
 
@@ -1583,6 +2269,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2025-12-11 | **Due Date:** 2026-01-01
+
+**MITRE CWE:** CWE-611
+
+**References:** This vulnerability affects an open-source component, third-party library, or a protocol used by different products. For more information, please see: https://github.com/geoserver/geoserver/security/advisories/GHSA-fjf5-xgmq-5525 ; https://osgeo-org.atlassian.net/browse/GEOS-11922 ; https://nvd.nist.gov/vuln/detail/CVE-2025-58360
 
 ## CVE-2025-6218 - RARLAB WinRAR
 **Vulnerability:** RARLAB WinRAR Path Traversal Vulnerability
@@ -1593,6 +2283,10 @@
 
 **Date Added:** 2025-12-09 | **Due Date:** 2025-12-30
 
+**MITRE CWE:** CWE-22
+
+**References:** https://www.win-rar.com/singlenewsview.html?&L=0&tx_ttnews%5Btt_news%5D=276&cHash=b5165454d983fc9717bc8748901a64f9 ; https://nvd.nist.gov/vuln/detail/CVE-2025-6218
+
 ## CVE-2025-62221 - Microsoft Windows
 **Vulnerability:** Microsoft Windows Use After Free Vulnerability
 
@@ -1601,6 +2295,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2025-12-09 | **Due Date:** 2025-12-30
+
+**MITRE CWE:** CWE-416
+
+**References:** https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2025-62221 ; https://nvd.nist.gov/vuln/detail/CVE-2025-62221
 
 ## CVE-2022-37055 - D-Link Routers
 **Vulnerability:** D-Link Routers Buffer Overflow Vulnerability
@@ -1611,6 +2309,10 @@
 
 **Date Added:** 2025-12-08 | **Due Date:** 2025-12-29
 
+**MITRE CWE:** CWE-120
+
+**References:** https://supportannouncement.us.dlink.com/security/publication.aspx?name=SAP10308 ; https://nvd.nist.gov/vuln/detail/CVE-2022-37055
+
 ## CVE-2025-66644 - Array Networks  ArrayOS AG
 **Vulnerability:** Array Networks ArrayOS AG OS Command Injection Vulnerability
 
@@ -1619,6 +2321,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2025-12-08 | **Due Date:** 2025-12-29
+
+**MITRE CWE:** CWE-78
+
+**References:** https://support.arraynetworks.net/prx/001/http/supportportal.arraynetworks.net/ag.html ; https://www.jpcert.or.jp/at/2025/at250024.html ; https://nvd.nist.gov/vuln/detail/CVE-2025-66644
 
 ## CVE-2021-26828 - OpenPLC ScadaBR
 **Vulnerability:** OpenPLC ScadaBR Unrestricted Upload of File with Dangerous Type Vulnerability
@@ -1629,6 +2335,10 @@
 
 **Date Added:** 2025-12-03 | **Due Date:** 2025-12-24
 
+**MITRE CWE:** CWE-434
+
+**References:** This vulnerability could affect an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://github.com/SCADA-LTS/Scada-LTS/pull/2174 ; https://nvd.nist.gov/vuln/detail/CVE-2021-26828
+
 ## CVE-2025-48633 - Android Framework
 **Vulnerability:** Android Framework Information Disclosure Vulnerability
 
@@ -1637,6 +2347,8 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2025-12-02 | **Due Date:** 2025-12-23
+
+**References:** https://source.android.com/docs/security/bulletin/2025-12-01 ; https://nvd.nist.gov/vuln/detail/CVE-2025-48633
 
 ## CVE-2025-48572 - Android Framework
 **Vulnerability:** Android Framework Privilege Escalation Vulnerability
@@ -1647,6 +2359,8 @@
 
 **Date Added:** 2025-12-02 | **Due Date:** 2025-12-23
 
+**References:** https://source.android.com/docs/security/bulletin/2025-12-01 ; https://nvd.nist.gov/vuln/detail/CVE-2025-48572
+
 ## CVE-2021-26829 - OpenPLC ScadaBR
 **Vulnerability:** OpenPLC ScadaBR Cross-site Scripting Vulnerability
 
@@ -1655,6 +2369,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2025-11-28 | **Due Date:** 2025-12-19
+
+**MITRE CWE:** CWE-79
+
+**References:** This vulnerability could affect an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://github.com/SCADA-LTS/Scada-LTS/pull/3211 ; https://nvd.nist.gov/vuln/detail/CVE-2021-26829
 
 ## CVE-2025-61757 - Oracle Fusion Middleware
 **Vulnerability:** Oracle Fusion Middleware Missing Authentication for Critical Function Vulnerability
@@ -1665,6 +2383,10 @@
 
 **Date Added:** 2025-11-21 | **Due Date:** 2025-12-12
 
+**MITRE CWE:** CWE-306
+
+**References:** https://www.oracle.com/security-alerts/cpuoct2025.html ; https://nvd.nist.gov/vuln/detail/CVE-2025-61757
+
 ## CVE-2025-13223 - Google Chromium V8
 **Vulnerability:** Google Chromium V8 Type Confusion Vulnerability
 
@@ -1673,6 +2395,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2025-11-19 | **Due Date:** 2025-12-10
+
+**MITRE CWE:** CWE-843
+
+**References:** https://chromereleases.googleblog.com/2025/11/stable-channel-update-for-desktop_17.html ; https://nvd.nist.gov/vuln/detail/CVE-2025-13223
 
 ## CVE-2025-58034 - Fortinet FortiWeb
 **Vulnerability:** Fortinet FortiWeb OS Command Injection Vulnerability
@@ -1683,6 +2409,10 @@
 
 **Date Added:** 2025-11-18 | **Due Date:** 2025-11-25
 
+**MITRE CWE:** CWE-78
+
+**References:** https://fortiguard.fortinet.com/psirt/FG-IR-25-513 ; https://nvd.nist.gov/vuln/detail/CVE-2025-58034
+
 ## CVE-2025-64446 - Fortinet FortiWeb
 **Vulnerability:** Fortinet FortiWeb Path Traversal Vulnerability
 
@@ -1691,6 +2421,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2025-11-14 | **Due Date:** 2025-11-21
+
+**MITRE CWE:** CWE-23
+
+**References:** https://www.fortiguard.com/psirt/FG-IR-25-910 ; https://nvd.nist.gov/vuln/detail/CVE-2025-64446
 
 ## CVE-2025-12480 - Gladinet Triofox
 **Vulnerability:** Gladinet Triofox Improper Access Control Vulnerability
@@ -1701,6 +2435,10 @@
 
 **Date Added:** 2025-11-12 | **Due Date:** 2025-12-03
 
+**MITRE CWE:** CWE-284
+
+**References:** https://access.triofox.com/releases_history ; https://nvd.nist.gov/vuln/detail/CVE-2025-12480
+
 ## CVE-2025-62215 - Microsoft Windows
 **Vulnerability:** Microsoft Windows Race Condition Vulnerability
 
@@ -1709,6 +2447,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2025-11-12 | **Due Date:** 2025-12-03
+
+**MITRE CWE:** CWE-362
+
+**References:** https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2025-62215 ; https://nvd.nist.gov/vuln/detail/CVE-2025-62215
 
 ## CVE-2025-9242 - WatchGuard Firebox
 **Vulnerability:** WatchGuard Firebox Out-of-Bounds Write Vulnerability
@@ -1719,6 +2461,10 @@
 
 **Date Added:** 2025-11-12 | **Due Date:** 2025-12-03
 
+**MITRE CWE:** CWE-787
+
+**References:** https://www.watchguard.com/wgrd-psirt/advisory/wgsa-2025-00015 ; https://nvd.nist.gov/vuln/detail/CVE-2025-9242
+
 ## CVE-2025-21042 - Samsung Mobile Devices
 **Vulnerability:** Samsung Mobile Devices Out-of-Bounds Write Vulnerability
 
@@ -1727,6 +2473,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2025-11-10 | **Due Date:** 2025-12-01
+
+**MITRE CWE:** CWE-787
+
+**References:** https://security.samsungmobile.com/securityUpdate.smsb?year=2025&month=04 ; https://nvd.nist.gov/vuln/detail/CVE-2025-21042
 
 ## CVE-2025-48703 - CWP Control Web Panel
 **Vulnerability:** CWP Control Web Panel OS Command Injection Vulnerability
@@ -1737,6 +2487,10 @@
 
 **Date Added:** 2025-11-04 | **Due Date:** 2025-11-25
 
+**MITRE CWE:** CWE-78
+
+**References:** https://control-webpanel.com/changelog ; https://nvd.nist.gov/vuln/detail/CVE-2025-48703
+
 ## CVE-2025-11371 - Gladinet CentreStack and Triofox
 **Vulnerability:** Gladinet CentreStack and Triofox Files or Directories Accessible to External Parties Vulnerability
 
@@ -1745,6 +2499,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2025-11-04 | **Due Date:** 2025-11-25
+
+**MITRE CWE:** CWE-552
+
+**References:** https://www.centrestack.com/p/gce_latest_release.html ; https://nvd.nist.gov/vuln/detail/CVE-2025-11371
 
 ## CVE-2025-41244 - Broadcom VMware Aria Operations and VMware Tools
 **Vulnerability:** Broadcom VMware Aria Operations and VMware Tools Privilege Defined with Unsafe Actions Vulnerability
@@ -1755,6 +2513,10 @@
 
 **Date Added:** 2025-10-30 | **Due Date:** 2025-11-20
 
+**MITRE CWE:** CWE-267
+
+**References:** https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/36149 ; https://nvd.nist.gov/vuln/detail/CVE-2025-41244
+
 ## CVE-2025-24893 - XWiki Platform
 **Vulnerability:** XWiki Platform Eval Injection Vulnerability
 
@@ -1763,6 +2525,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2025-10-30 | **Due Date:** 2025-11-20
+
+**MITRE CWE:** CWE-95
+
+**References:** https://github.com/xwiki/xwiki-platform/security/advisories/GHSA-rr6p-3pfg-562j ; https://nvd.nist.gov/vuln/detail/CVE-2025-24893
 
 ## CVE-2025-6204 - Dassault Systèmes DELMIA Apriso
 **Vulnerability:** Dassault Systèmes DELMIA Apriso Code Injection Vulnerability
@@ -1773,6 +2539,10 @@
 
 **Date Added:** 2025-10-28 | **Due Date:** 2025-11-18
 
+**MITRE CWE:** CWE-94
+
+**References:** https://www.3ds.com/trust-center/security/security-advisories/cve-2025-6204 ; https://nvd.nist.gov/vuln/detail/CVE-2025-6204
+
 ## CVE-2025-6205 - Dassault Systèmes DELMIA Apriso
 **Vulnerability:** Dassault Systèmes DELMIA Apriso Missing Authorization Vulnerability
 
@@ -1781,6 +2551,10 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2025-10-28 | **Due Date:** 2025-11-18
+
+**MITRE CWE:** CWE-862
+
+**References:** https://www.3ds.com/trust-center/security/security-advisories/cve-2025-6205 ; https://nvd.nist.gov/vuln/detail/CVE-2025-6205
 
 ## CVE-2025-54236 - Adobe Commerce and Magento
 **Vulnerability:** Adobe Commerce and Magento Improper Input Validation Vulnerability
@@ -1791,6 +2565,10 @@
 
 **Date Added:** 2025-10-24 | **Due Date:** 2025-11-14
 
+**MITRE CWE:** CWE-20
+
+**References:** https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27397 ; https://nvd.nist.gov/vuln/detail/CVE-2025-54236
+
 ## CVE-2025-59287 - Microsoft Windows
 **Vulnerability:** Microsoft Windows Server Update Service (WSUS) Deserialization of Untrusted Data Vulnerability
 
@@ -1799,3 +2577,7 @@
 **Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
 
 **Date Added:** 2025-10-24 | **Due Date:** 2025-11-14
+
+**MITRE CWE:** CWE-502
+
+**References:** https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2025-59287 ; https://nvd.nist.gov/vuln/detail/CVE-2025-59287
