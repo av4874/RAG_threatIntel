@@ -89,9 +89,12 @@ def test_fetch_kev_catalog_parses_entries(monkeypatch):
         required_action="Apply mitigations per vendor instructions.",
         due_date="2026-07-17",
         known_ransomware_use=False,
+        cwes=["CWE-287"],
+        notes="",
     )
     assert entries[1].known_ransomware_use is True
     assert entries[2].known_ransomware_use is False
+    assert entries[1].cwes == ["CWE-918"]
 
 
 def test_rank_kev_entries_puts_ransomware_linked_first_preserving_order():
@@ -119,6 +122,8 @@ def test_format_kev_digest_markdown_includes_fields_and_ransomware_flag():
             required_action="Apply hotfix per vendor instructions.",
             due_date="2026-07-17",
             known_ransomware_use=True,
+            cwes=["CWE-918", "CWE-287"],
+            notes="https://nvd.nist.gov/vuln/detail/CVE-2026-15409; https://sonicwall.com/advisory",
         ),
         KEVEntry(
             cve_id="CVE-2026-56164",
@@ -141,10 +146,17 @@ def test_format_kev_digest_markdown_includes_fields_and_ransomware_flag():
     assert "A server-side request forgery vulnerability." in md
     assert "Apply hotfix per vendor instructions." in md
     assert "2026-07-13" in md and "2026-07-17" in md
+    assert "**MITRE CWE:** CWE-918, CWE-287" in md
+    assert "**References:** https://nvd.nist.gov/vuln/detail/CVE-2026-15409; https://sonicwall.com/advisory" in md
     sharepoint_heading_line = next(
         line for line in md.splitlines() if line.startswith("## CVE-2026-56164")
     )
     assert "(RANSOMWARE-LINKED)" not in sharepoint_heading_line
+    # SharePoint entry has no cwes/notes (defaults) -- confirm those lines
+    # are omitted entirely rather than rendered empty.
+    sharepoint_block = md.split("## CVE-2026-56164")[1]
+    assert "**MITRE CWE:**" not in sharepoint_block
+    assert "**References:**" not in sharepoint_block
 
 
 def test_format_kev_digest_markdown_handles_empty_list():
@@ -181,5 +193,7 @@ def test_entries_to_json_serializes_ranked_entries():
             "required_action": "Apply hotfix per vendor instructions.",
             "due_date": "2026-07-17",
             "known_ransomware_use": True,
+            "cwes": [],
+            "notes": "",
         }
     ]

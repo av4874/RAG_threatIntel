@@ -1,7 +1,7 @@
 import dataclasses
 import json
 import urllib.request
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 
 KEV_FEED_URL = "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
 
@@ -17,6 +17,8 @@ class KEVEntry:
     required_action: str
     due_date: str
     known_ransomware_use: bool
+    cwes: list[str] = field(default_factory=list)
+    notes: str = ""
 
 
 def fetch_kev_catalog(url: str) -> list[KEVEntry]:
@@ -36,6 +38,8 @@ def fetch_kev_catalog(url: str) -> list[KEVEntry]:
                 required_action=item["requiredAction"],
                 due_date=item["dueDate"],
                 known_ransomware_use=item["knownRansomwareCampaignUse"] == "Known",
+                cwes=item.get("cwes", []),
+                notes=item.get("notes", ""),
             )
         )
     return entries
@@ -63,6 +67,12 @@ def format_kev_digest_markdown(entries: list[KEVEntry]) -> str:
         lines.append("")
         lines.append(f"**Date Added:** {entry.date_added} | **Due Date:** {entry.due_date}")
         lines.append("")
+        if entry.cwes:
+            lines.append(f"**MITRE CWE:** {', '.join(entry.cwes)}")
+            lines.append("")
+        if entry.notes:
+            lines.append(f"**References:** {entry.notes}")
+            lines.append("")
     return "\n".join(lines)
 
 
