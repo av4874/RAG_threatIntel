@@ -36,6 +36,18 @@ def test_parse_synthesis_response_reads_valid_json_with_verified_technique():
     )
 
 
+def test_parse_synthesis_response_corrects_wrong_name_for_valid_technique_id():
+    raw = (
+        '{"technique_id": "T1190", "technique_name": "Remote Code Execution", '
+        '"log_sources": ["Web server access logs"], "feasibility": "High", '
+        '"feasibility_reason": "reason", "recommendation": "New use case", '
+        '"recommendation_reason": "reason2"}'
+    )
+    result = parse_synthesis_response(raw)
+    assert result.technique_verified is True
+    assert result.technique_name == "Exploit Public-Facing Application"
+
+
 def test_parse_synthesis_response_marks_fake_technique_id_unverified():
     raw = (
         '{"technique_id": "T9999", "technique_name": "Made Up Technique", '

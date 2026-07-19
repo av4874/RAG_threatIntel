@@ -2,7 +2,7 @@ import json
 import re
 from dataclasses import dataclass
 
-from threat_digest.attack_reference import is_valid_technique_id
+from threat_digest.attack_reference import ATTACK_TECHNIQUES
 
 LOG_SOURCES = [
     "Windows Security Event Log",
@@ -67,10 +67,13 @@ def parse_synthesis_response(raw: str) -> SynthesisResult:
     try:
         data = json.loads(cleaned)
         technique_id = data["technique_id"]
+        real_name = ATTACK_TECHNIQUES.get(technique_id)
+        technique_verified = real_name is not None
+        technique_name = real_name if technique_verified else data["technique_name"]
         return SynthesisResult(
             technique_id=technique_id,
-            technique_name=data["technique_name"],
-            technique_verified=is_valid_technique_id(technique_id),
+            technique_name=technique_name,
+            technique_verified=technique_verified,
             log_sources=list(data["log_sources"]),
             feasibility=data["feasibility"],
             feasibility_reason=data["feasibility_reason"],
