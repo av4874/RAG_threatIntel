@@ -58,12 +58,28 @@ risk_score, stage)                                          list of KEV entries)
                     1. Dual-confirmed (CVE in both lanes) — all, no cap
                     2. RAG-only high-risk (risk_score >= 6, no KEV match)
                     3. KEV-only (no matching RAG article) — capped top 30,
-                       ransomware-first order preserved from kev_data.json
+                       ordered by recency (date_added descending), NOT
+                       ransomware-first — see rationale below
 ```
 
 No LLM calls anywhere in the router — pure data correlation over two
 already-produced structured sources, consistent with the project's existing
 "LLM only where judgment is genuinely needed" philosophy.
+
+**Why the KEV-only section re-sorts by recency instead of reusing
+`kev_data.json`'s ransomware-first order:** ransomware-linked entries are
+only ~9% of the full 200 (18 of 200, as measured during the KEV lane's own
+design). Ransomware-first ordering exists in `kev_digest.md` for a specific
+reason — patch-priority triage over the *full* list. But applying a hard
+cap of 30 on top of that same ordering would pull in all 18 ransomware
+entries plus only 12 others, making the unified digest's KEV-only section
+~60% ransomware — a large, artificial skew relative to the real
+composition of what CISA has confirmed exploited. The KEV-only section
+therefore re-sorts the unmatched entries by `date_added` descending before
+capping, so the top 30 reflects the most-recently-added unmatched KEV
+entries regardless of ransomware status. Each entry still carries its own
+`(RANSOMWARE-LINKED)` flag inline, so that signal isn't lost — it's just
+no longer used to bias which 30 entries get shown.
 
 ## Components
 
@@ -128,7 +144,8 @@ Following the project's existing TDD pattern, no live network/LLM calls:
   Tests verify: CVE extraction from chunk text; title extraction from the
   prompt's fixed phrase; a CVE present in both sources produces a
   dual-confirmed entry; a KEV entry with no matching RAG CVE lands in the
-  KEV-only section, capped at 30 and preserving ransomware-first order; a
+  KEV-only section, capped at 30 and ordered by recency (not
+  ransomware-first, per the rationale above); a
   RAG record below the risk threshold with no KEV match is omitted
   entirely; a RAG record above the threshold with no KEV match lands in the
   RAG-only section.
