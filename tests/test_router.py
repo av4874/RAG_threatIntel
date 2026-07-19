@@ -116,6 +116,62 @@ def test_build_unified_digest_puts_dual_confirmed_cve_in_first_section(tmp_path)
     assert "SonicWall" in dual_section
 
 
+def _synthesis_record(doc_id):
+    return {
+        "doc_id": doc_id,
+        "stage": "synthesis",
+        "retrieved_chunks": [["irrelevant for synthesis lookup", 0.9]],
+        "prompt": "irrelevant for synthesis lookup",
+        "raw_llm_output": json.dumps({
+            "technique_id": "T1190",
+            "technique_name": "Exploit Public-Facing Application",
+            "log_sources": ["Web server access logs", "Firewall/VPN logs"],
+            "feasibility": "High",
+            "feasibility_reason": "Directly observable in web server logs.",
+            "recommendation": "New use case",
+            "recommendation_reason": "No existing rule covers this pattern.",
+        }),
+        "risk_score": 9,
+        "timestamp": "2026-07-19T00:00:00",
+    }
+
+
+def test_build_unified_digest_includes_synthesis_fields_when_present(tmp_path):
+    audit_path = tmp_path / "audit.jsonl"
+    kev_path = tmp_path / "kev_data.json"
+
+    _write_audit_jsonl(audit_path, [
+        _analysis_record("doc1", "SonicWall Zero-Day", "Attackers are exploiting CVE-2026-15409.", 9),
+        _synthesis_record("doc1"),
+    ])
+    kev_path.write_text(
+        json.dumps([_kev_entry("CVE-2026-15409", vendor="SonicWall")]),
+        encoding="utf-8",
+    )
+
+    result = build_unified_digest(audit_path, kev_path)
+
+    dual_section = result.split("## RAG-Only")[0]
+    assert "**ATT&CK Technique:** T1190 - Exploit Public-Facing Application" in dual_section
+    assert "**Log Sources:** Web server access logs, Firewall/VPN logs" in dual_section
+    assert "**Detection Feasibility:** High - Directly observable in web server logs." in dual_section
+    assert "**Recommendation:** New use case - No existing rule covers this pattern." in dual_section
+
+
+def test_build_unified_digest_omits_synthesis_fields_when_absent(tmp_path):
+    audit_path = tmp_path / "audit.jsonl"
+    kev_path = tmp_path / "kev_data.json"
+
+    _write_audit_jsonl(audit_path, [
+        _analysis_record("doc1", "Unmatched High Risk Article", "no cve mentioned", 8),
+    ])
+    kev_path.write_text(json.dumps([]), encoding="utf-8")
+
+    result = build_unified_digest(audit_path, kev_path)
+
+    assert "ATT&CK Technique" not in result
+
+
 def test_build_unified_digest_puts_unmatched_high_risk_article_in_rag_only_section(tmp_path):
     audit_path = tmp_path / "audit.jsonl"
     kev_path = tmp_path / "kev_data.json"

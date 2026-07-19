@@ -2,6 +2,8 @@ import json
 import re
 from pathlib import Path
 
+from threat_digest.synthesis import SynthesisResult, parse_synthesis_response
+
 RISK_THRESHOLD = 6
 KEV_ONLY_CAP = 30
 
@@ -38,10 +40,45 @@ def load_kev_entries(kev_data_path: Path) -> list[dict]:
         return json.load(f)
 
 
+def load_synthesis_by_doc_id(audit_path: Path) -> dict[str, SynthesisResult]:
+    results = {}
+    with open(audit_path, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            record = json.loads(line)
+            if record.get("stage") != "synthesis":
+                continue
+            try:
+                results[record["doc_id"]] = parse_synthesis_response(record["raw_llm_output"])
+            except ValueError:
+                continue
+    return results
+
+
+def _append_synthesis_lines(lines: list[str], synthesis: SynthesisResult | None) -> None:
+    if synthesis is None:
+        return
+    verified_note = "" if synthesis.technique_verified else " (UNVERIFIED)"
+    lines.append(
+        f"**ATT&CK Technique:** {synthesis.technique_id} - "
+        f"{synthesis.technique_name}{verified_note}"
+    )
+    lines.append(f"**Log Sources:** {', '.join(synthesis.log_sources)}")
+    lines.append(
+        f"**Detection Feasibility:** {synthesis.feasibility} - {synthesis.feasibility_reason}"
+    )
+    lines.append(
+        f"**Recommendation:** {synthesis.recommendation} - {synthesis.recommendation_reason}"
+    )
+
+
 def build_unified_digest(audit_path: Path, kev_data_path: Path) -> str:
     analysis_records = load_analysis_records(audit_path)
     kev_entries = load_kev_entries(kev_data_path)
     kev_by_cve = {entry["cve_id"]: entry for entry in kev_entries}
+    synthesis_by_doc_id = load_synthesis_by_doc_id(audit_path)
 
     dual_confirmed = []
     rag_only = []
@@ -52,13 +89,14 @@ def build_unified_digest(audit_path: Path, kev_data_path: Path) -> str:
         chunk_text = " ".join(chunk[0] for chunk in record["retrieved_chunks"])
         cve_ids = extract_cve_ids(chunk_text)
         risk_score = record["risk_score"]
+        synthesis = synthesis_by_doc_id.get(record["doc_id"])
 
         matched_entries = [kev_by_cve[cve_id] for cve_id in cve_ids if cve_id in kev_by_cve]
         if matched_entries:
             matched_cve_ids.update(entry["cve_id"] for entry in matched_entries)
-            dual_confirmed.append((title, risk_score, matched_entries))
+            dual_confirmed.append((title, risk_score, matched_entries, synthesis))
         elif risk_score >= RISK_THRESHOLD:
-            rag_only.append((title, risk_score))
+            rag_only.append((title, risk_score, synthesis))
 
     unmatched_kev = [
         entry for entry in kev_entries if entry["cve_id"] not in matched_cve_ids
@@ -75,7 +113,7 @@ def build_unified_digest(audit_path: Path, kev_data_path: Path) -> str:
     lines.append("## Dual-Confirmed (RAG article + CISA KEV)")
     lines.append("")
     if dual_confirmed:
-        for title, risk_score, matched_entries in dual_confirmed:
+        for title, risk_score, matched_entries, synthesis in dual_confirmed:
             for entry in matched_entries:
                 lines.append(
                     f"### {entry['cve_id']} - {title} (risk score: {risk_score}/10)"
@@ -84,6 +122,7 @@ def build_unified_digest(audit_path: Path, kev_data_path: Path) -> str:
                     f"**Vendor/Product:** {entry['vendor_project']} {entry['product']}"
                 )
                 lines.append(f"**Vulnerability:** {entry['vulnerability_name']}")
+                _append_synthesis_lines(lines, synthesis)
                 lines.append("")
     else:
         lines.append("No dual-confirmed items in this run.")
@@ -92,8 +131,9 @@ def build_unified_digest(audit_path: Path, kev_data_path: Path) -> str:
     lines.append("## RAG-Only High-Risk (not in CISA KEV)")
     lines.append("")
     if rag_only:
-        for title, risk_score in rag_only:
+        for title, risk_score, synthesis in rag_only:
             lines.append(f"### {title} (risk score: {risk_score}/10)")
+            _append_synthesis_lines(lines, synthesis)
             lines.append("")
     else:
         lines.append("No RAG-only high-risk items in this run.")
