@@ -9,7 +9,7 @@ from threat_digest.seen import load_seen_urls, mark_seen
 
 def slugify(title: str) -> str:
     slug = re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")
-    return slug[:80]
+    return slug[:80] or "article"
 
 
 def run_ingest(feed_urls: list[str], corpus_dir: Path, seen_path: Path) -> list[Path]:
@@ -42,7 +42,9 @@ def run_ingest(feed_urls: list[str], corpus_dir: Path, seen_path: Path) -> list[
                 file_path = corpus_dir / f"{base_name}-{suffix}.txt"
                 suffix += 1
 
-            content = f"TITLE: {entry.title}\nSOURCE: {entry.url}\n---\n{entry.summary}\n"
+            safe_title = entry.title.replace("\n", " ")
+            safe_url = entry.url.replace("\n", " ")
+            content = f"TITLE: {safe_title}\nSOURCE: {safe_url}\n---\n{entry.summary}\n"
             file_path.write_text(content, encoding="utf-8")
             written.append(file_path)
 

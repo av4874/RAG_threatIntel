@@ -1,6 +1,7 @@
 import pytest
 
 from threat_digest import ingest
+from threat_digest.corpus import load_corpus
 from threat_digest.seen import load_seen_urls
 
 SAMPLE_FEED_XML = """<?xml version="1.0" encoding="UTF-8"?>
@@ -94,3 +95,36 @@ def test_run_ingest_handles_filename_collision_with_numeric_suffix(tmp_path):
     assert len(second_written) == 1
     assert second_written[0].name != first_written[0].name
     assert second_written[0].stem.endswith("-2")
+
+
+def test_run_ingest_output_is_parseable_by_load_corpus(tmp_path):
+    corpus_dir = tmp_path / "corpus"
+    seen_path = tmp_path / "seen_urls.json"
+
+    ingest.run_ingest([SAMPLE_FEED_XML], corpus_dir, seen_path)
+    documents = load_corpus(corpus_dir)
+
+    assert len(documents) == 1
+    doc = documents[0]
+    assert doc.title == "Critical RCE Found in Example Software"
+    assert doc.source_url == "https://example.com/article-1"
+    assert "A critical remote code execution vulnerability was discovered." in doc.text
+
+
+def test_run_ingest_sanitizes_newlines_in_title_and_url(tmp_path):
+    corpus_dir = tmp_path / "corpus"
+    seen_path = tmp_path / "seen_urls.json"
+    feed_with_newline_title = SAMPLE_FEED_XML.replace(
+        "Critical RCE Found in Example Software",
+        "Critical RCE\nFound in Example Software",
+    )
+
+    written = ingest.run_ingest([feed_with_newline_title], corpus_dir, seen_path)
+
+    lines = written[0].read_text(encoding="utf-8").splitlines()
+    assert lines[0].startswith("TITLE:")
+    assert lines[1].startswith("SOURCE:")
+
+
+def test_slugify_falls_back_to_article_for_all_symbol_titles():
+    assert ingest.slugify("!!!###???") == "article"
