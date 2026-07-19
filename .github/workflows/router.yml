@@ -7,6 +7,8 @@ on:
       - 'digest.md'
       - 'audit.jsonl'
       - 'kev_data.json'
+  schedule:
+    - cron: '0 8 * * *'
   workflow_dispatch: {}
 
 jobs:
