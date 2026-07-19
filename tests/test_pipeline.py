@@ -119,6 +119,17 @@ def test_run_pipeline_adds_synthesis_fields_for_high_risk_items(tmp_path):
     dark_mode_section = digest_text[digest_text.index("Widget Server 4.3 Adds Dark Mode"):]
     assert "ATT&CK Technique" not in dark_mode_section
 
+    audit_path = tmp_path / "audit.jsonl"
+    audit_records = [json.loads(line) for line in audit_path.read_text(encoding="utf-8").strip().splitlines()]
+    stages_by_doc = {}
+    for record in audit_records:
+        stages_by_doc.setdefault(record["doc_id"], []).append(record["stage"])
+    # doc001 (high-risk RCE doc) should have both an analysis and a synthesis record
+    assert "analysis" in stages_by_doc["doc001"]
+    assert "synthesis" in stages_by_doc["doc001"]
+    # doc002 (low-risk dark mode doc) should only have an analysis record
+    assert stages_by_doc["doc002"] == ["analysis"]
+
 
 def test_run_pipeline_skips_synthesis_for_low_risk_items(tmp_path):
     class LowRiskLLMClient:

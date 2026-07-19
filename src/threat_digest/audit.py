@@ -10,9 +10,11 @@ def write_audit_record(
     raw_llm_output: str,
     risk_score: int,
     timestamp: str,
+    stage: str = "analysis",
 ) -> None:
     record = {
         "doc_id": doc_id,
+        "stage": stage,
         "retrieved_chunks": [list(chunk) for chunk in retrieved_chunks],
         "prompt": prompt,
         "raw_llm_output": raw_llm_output,

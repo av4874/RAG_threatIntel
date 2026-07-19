@@ -83,6 +83,7 @@ def run_pipeline(
                     # -1 sentinel: synthesis output could not be parsed as JSON
                     risk_score=-1,
                     timestamp=datetime.now(timezone.utc).isoformat(),
+                    stage="synthesis",
                 )
             else:
                 write_audit_record(
@@ -93,6 +94,7 @@ def run_pipeline(
                     raw_llm_output=synthesis_raw_output,
                     risk_score=analysis.risk_score,
                     timestamp=datetime.now(timezone.utc).isoformat(),
+                    stage="synthesis",
                 )
                 item.technique_id = synthesis.technique_id
                 item.technique_name = synthesis.technique_name
