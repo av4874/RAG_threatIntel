@@ -79,7 +79,7 @@ def test_load_kev_entries_reads_json_array(tmp_path):
     assert entries == [{"cve_id": "CVE-2026-15409"}]
 
 
-def _kev_entry(cve_id, vendor="Vendor", product="Product", ransomware=False, date_added="2026-07-01"):
+def _kev_entry(cve_id, vendor="Vendor", product="Product", ransomware=False, date_added="2026-07-01", cwes=None, notes=""):
     return {
         "cve_id": cve_id,
         "vendor_project": vendor,
@@ -90,6 +90,8 @@ def _kev_entry(cve_id, vendor="Vendor", product="Product", ransomware=False, dat
         "required_action": "patch",
         "due_date": "2026-07-10",
         "known_ransomware_use": ransomware,
+        "cwes": cwes or [],
+        "notes": notes,
     }
 
 
@@ -248,3 +250,36 @@ def test_build_unified_digest_kev_only_orders_by_recency_not_ransomware_status(t
     # ransomware-linked -- confirms ordering is by recency, not by
     # ransomware status.
     assert kev_only_section.index("CVE-2026-00001") < kev_only_section.index("CVE-2026-00002")
+
+
+def test_build_unified_digest_kev_only_section_includes_cwe_and_references(tmp_path):
+    audit_path = tmp_path / "audit.jsonl"
+    kev_path = tmp_path / "kev_data.json"
+
+    _write_audit_jsonl(audit_path, [])
+    kev_path.write_text(
+        json.dumps([
+            _kev_entry(
+                "CVE-2026-48939",
+                vendor="iCagenda",
+                product="iCagenda",
+                cwes=["CWE-434"],
+                notes="https://nvd.nist.gov/vuln/detail/CVE-2026-48939; https://icagenda.com/advisory",
+            ),
+            _kev_entry("CVE-2026-00002", date_added="2026-06-01"),
+        ]),
+        encoding="utf-8",
+    )
+
+    result = build_unified_digest(audit_path, kev_path)
+
+    kev_only_section = result.split("## KEV-Only")[1]
+    entry_block = kev_only_section.split("### CVE-2026-48939")[1].split("### CVE-2026-00002")[0]
+    assert "**MITRE CWE:** CWE-434" in entry_block
+    assert "**References:** https://nvd.nist.gov/vuln/detail/CVE-2026-48939; https://icagenda.com/advisory" in entry_block
+
+    # The second entry has no cwes/notes -- confirm those lines are omitted
+    # entirely rather than rendered empty.
+    second_entry_block = kev_only_section.split("### CVE-2026-00002")[1]
+    assert "**MITRE CWE:**" not in second_entry_block
+    assert "**References:**" not in second_entry_block

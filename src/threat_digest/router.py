@@ -152,6 +152,14 @@ def build_unified_digest(audit_path: Path, kev_data_path: Path) -> str:
             )
             lines.append(f"**Vulnerability:** {entry['vulnerability_name']}")
             lines.append("")
+            cwes = entry.get("cwes") or []
+            if cwes:
+                lines.append(f"**MITRE CWE:** {', '.join(cwes)}")
+                lines.append("")
+            notes = entry.get("notes") or ""
+            if notes:
+                lines.append(f"**References:** {notes}")
+                lines.append("")
     else:
         lines.append("No KEV-only items in this run.")
         lines.append("")
