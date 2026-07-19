@@ -13,7 +13,7 @@ This sub-project adds exactly those four fields — technique mapping, required 
 - Four new fields per qualifying item: ATT&CK technique ID + name (validated against a bundled reference list, not trusted blindly), required log source(s) (from a fixed vocabulary), detection feasibility rating + one-line reason (from a fixed vocabulary), and a recommendation + one-line reason (from a fixed vocabulary)
 - A bundled, static reference list of real MITRE ATT&CK technique IDs and names, generated once from MITRE's public data and checked into the repo — used only to validate the LLM's technique claim, not fetched live
 - Extending `digest.md`'s formatting to show these four fields for qualifying items, with items below the threshold rendered exactly as they are today (no visual change for non-qualifying entries)
-- A second audit record per qualifying item for the synthesis call, using the existing `write_audit_record` shape unchanged
+- A second audit record per qualifying item for the synthesis call, using the existing `write_audit_record` shape, extended during implementation with an optional `stage` field (defaulting to `"analysis"`) so analysis-stage and synthesis-stage audit records are distinguishable
 
 **Out of scope (deferred):**
 - A real detection-rule inventory to make the recommendation environment-aware (still "generic reasoning only," per the original project decision) — the recommendation reflects what's typical for this threat type in general, not what you specifically already have

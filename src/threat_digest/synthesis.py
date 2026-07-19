@@ -1,7 +1,6 @@
 import json
 import re
 from dataclasses import dataclass
-from typing import Protocol
 
 from threat_digest.attack_reference import is_valid_technique_id
 
@@ -31,11 +30,6 @@ class SynthesisResult:
     feasibility_reason: str
     recommendation: str
     recommendation_reason: str
-
-
-class LLMClient(Protocol):
-    def generate(self, prompt: str) -> str:
-        ...
 
 
 SYNTHESIS_PROMPT_TEMPLATE = """You are a detection engineer. Read the following \
