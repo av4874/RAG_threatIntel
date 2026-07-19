@@ -13,7 +13,12 @@ _model: SentenceTransformer | None = None
 def _get_model() -> SentenceTransformer:
     global _model
     if _model is None:
-        _model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
+        # Forced to CPU: embedding a handful of small documents is fast even
+        # without a GPU, and this sidesteps CUDA kernel-compatibility issues
+        # entirely (e.g. Kaggle assigning a GPU architecture the installed
+        # torch build has no compiled kernels for). Only the LLM generation
+        # step benefits meaningfully from GPU.
+        _model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2", device="cpu")
     return _model
 
 
