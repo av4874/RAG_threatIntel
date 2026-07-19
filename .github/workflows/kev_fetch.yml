@@ -1,0 +1,33 @@
+name: Fetch CISA KEV catalog
+
+on:
+  schedule:
+    - cron: '0 7 * * *'
+  workflow_dispatch: {}
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Fetch KEV catalog and build digest
+        run: PYTHONPATH=src python -m threat_digest.kev
+
+      - name: Commit digest
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add kev_digest.md
+            git commit -m "chore: refresh CISA KEV digest"
+            git push
+          else
+            echo "No changes to commit."
+          fi
