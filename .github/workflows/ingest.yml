@@ -1,0 +1,36 @@
+name: Ingest RSS feeds
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch: {}
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install feedparser==6.0.11
+
+      - name: Run ingestion
+        run: PYTHONPATH=src python -m threat_digest.ingest
+
+      - name: Commit new corpus files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add corpus/ seen_urls.json
+            git commit -m "chore: ingest new articles from RSS feeds"
+            git push
+          else
+            echo "No new articles to commit."
+          fi
