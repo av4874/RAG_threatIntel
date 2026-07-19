@@ -6,21 +6,21 @@
 **Vendor/Product:** Microsoft SharePoint Server
 **Vulnerability:** Microsoft SharePoint Server Missing Authentication for Critical Function Vulnerability
 
-### CVE-2026-15410 - SonicWall SMA1000 Zero-Day Vulnerabilities: Full Technical Details (risk score: 10/10)
-**Vendor/Product:** SonicWall SMA1000 Appliances
-**Vulnerability:** SonicWall SMA1000 Appliances Code Injection Vulnerability
-
 ### CVE-2026-15409 - SonicWall SMA1000 Zero-Day Vulnerabilities: Full Technical Details (risk score: 10/10)
 **Vendor/Product:** SonicWall SMA1000 Appliances
 **Vulnerability:** SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability
 
-### CVE-2026-56164 - Microsoft's July 2026 Patch Tuesday: 570 Vulnerabilities and 3 Zero-Days (risk score: 8/10)
-**Vendor/Product:** Microsoft SharePoint Server
-**Vulnerability:** Microsoft SharePoint Server Missing Authentication for Critical Function Vulnerability
+### CVE-2026-15410 - SonicWall SMA1000 Zero-Day Vulnerabilities: Full Technical Details (risk score: 10/10)
+**Vendor/Product:** SonicWall SMA1000 Appliances
+**Vulnerability:** SonicWall SMA1000 Appliances Code Injection Vulnerability
 
 ### CVE-2026-56155 - Microsoft's July 2026 Patch Tuesday: 570 Vulnerabilities and 3 Zero-Days (risk score: 8/10)
 **Vendor/Product:** Microsoft Active Directory Federation Services
 **Vulnerability:** Microsoft Active Directory Federation Services Insufficient Granularity of Access Control Vulnerability 
+
+### CVE-2026-56164 - Microsoft's July 2026 Patch Tuesday: 570 Vulnerabilities and 3 Zero-Days (risk score: 8/10)
+**Vendor/Product:** Microsoft SharePoint Server
+**Vulnerability:** Microsoft SharePoint Server Missing Authentication for Critical Function Vulnerability
 
 ## RAG-Only High-Risk (not in CISA KEV)
 
@@ -44,7 +44,7 @@
 
 ### Update now: 7-Zip fixes RCE flaw exploitable with malicious archives (risk score: 8/10)
 
-### WordPress Core  (risk score: 8/10)
+### WordPress Core "wp2shell" RCE flaws get public exploits, patch now (risk score: 8/10)
 
 ## KEV-Only (not covered by RAG lane)
 
