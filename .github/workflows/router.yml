@@ -1,0 +1,37 @@
+name: Build unified digest
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - 'digest.md'
+      - 'audit.jsonl'
+      - 'kev_data.json'
+  workflow_dispatch: {}
+
+jobs:
+  route:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Build unified digest
+        run: PYTHONPATH=src python -m threat_digest.router
+
+      - name: Commit unified digest
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add unified_digest.md
+            git commit -m "chore: refresh unified digest"
+            git push
+          else
+            echo "No changes to commit."
+          fi
