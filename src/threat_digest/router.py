@@ -6,7 +6,7 @@ RISK_THRESHOLD = 6
 KEV_ONLY_CAP = 30
 
 CVE_PATTERN = re.compile(r"CVE-\d{4}-\d{4,7}")
-TITLE_PATTERN = re.compile(r'document titled "(.*?)"')
+TITLE_PATTERN = re.compile(r'document titled "(.*)" and produce a grounded assessment')
 
 
 def extract_cve_ids(text: str) -> set[str]:

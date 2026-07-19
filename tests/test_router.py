@@ -28,6 +28,15 @@ def test_extract_title_reads_fixed_prompt_phrase():
     assert extract_title(prompt) == "SonicWall SMA1000 Zero-Days"
 
 
+def test_extract_title_handles_embedded_quote_in_title():
+    prompt = (
+        'You are a threat intelligence analyst. Read the following retrieved '
+        'passages from a document titled "WordPress Core "wp2shell" RCE flaws '
+        'get public exploits, patch now" and produce a grounded assessment.'
+    )
+    assert extract_title(prompt) == 'WordPress Core "wp2shell" RCE flaws get public exploits, patch now'
+
+
 def _write_audit_jsonl(path, records):
     with open(path, "w", encoding="utf-8") as f:
         for record in records:
