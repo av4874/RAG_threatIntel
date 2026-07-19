@@ -1,0 +1,4 @@
+TITLE: The Real AI Threat Is Blind Trust
+SOURCE: https://www.darkreading.com/application-security/real-ai-threat-blind-trust
+---
+AI models left to both interpret and execute commands eliminate critical cybersecurity oversight.

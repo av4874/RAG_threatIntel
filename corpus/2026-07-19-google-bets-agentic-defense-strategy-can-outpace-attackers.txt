@@ -1,0 +1,4 @@
+TITLE: Google Bets 'Agentic Defense' Strategy Can Outpace Attackers
+SOURCE: https://www.darkreading.com/cloud-security/google-bets-agentic-defense-strategy-outpace-attackers
+---
+Google Cloud incorporates key Wiz capabilities into an agentic defense platform to automate threat detection and remediation against AI attacks.

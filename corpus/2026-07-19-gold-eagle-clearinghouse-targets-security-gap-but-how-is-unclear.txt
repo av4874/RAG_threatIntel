@@ -1,0 +1,4 @@
+TITLE: Gold Eagle Clearinghouse Targets Security Gap, but How Is Unclear
+SOURCE: https://www.darkreading.com/vulnerabilities-threats/gold-eagle-clearinghouse-targets-security-gap
+---
+The White House launched Gold Eagle to coordinate vulnerability response in a new AI world, but multiple questions linger over how it's being implemented.

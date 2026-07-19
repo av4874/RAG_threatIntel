@@ -1,0 +1,4 @@
+TITLE: Agentic AI: Taming the Unpredictable
+SOURCE: https://www.darkreading.com/cybersecurity-operations/agentic-ai-untamable-ask-the-right-security-questions
+---
+Agentic artificial intelligence is creating enough risks for organizations to demand a security reframe.
