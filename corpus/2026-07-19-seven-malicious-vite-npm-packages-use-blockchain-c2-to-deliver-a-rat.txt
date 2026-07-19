@@ -1,0 +1,6 @@
+TITLE: Seven Malicious Vite npm Packages Use Blockchain C2 to Deliver a RAT
+SOURCE: https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html
+---
+Cybersecurity researchers have discovered a cluster of seven malicious npm packages targeting the Vite frontend tooling ecosystem as part of a software supply chain attack.
+
+The malicious package campaign, codenamed ViteVenom by Checkmarx, marks an expansion of ChainVeil, which was observed using an "unprecedented" four-tier blockchain-based command-and-control (C2) infrastructure spanning Tron,

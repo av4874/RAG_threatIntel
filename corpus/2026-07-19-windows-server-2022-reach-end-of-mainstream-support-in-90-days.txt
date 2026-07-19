@@ -1,0 +1,4 @@
+TITLE: Windows Server 2022 reach end of mainstream support in 90 days
+SOURCE: https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reach-end-of-mainstream-support-in-90-days/
+---
+Microsoft announced that Windows Server 2022 will reach the mainstream end date in October 2026, but will switch to extended support and continue receiving security updates for five more years. [...]

@@ -1,0 +1,6 @@
+TITLE: New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code
+SOURCE: https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html
+---
+Updated July 18, 2026: the two flaws now carry CVE IDs, the full mechanism has been published, a persistent-object-cache condition has surfaced, and a working proof-of-concept is public. The story below reflects all of it.
+
+An anonymous HTTP request can run code on a WordPress site. The bug is in core, so a bare install with zero plugins is exploitable. Every 6.9 and 7.0 site was in range until

@@ -1,0 +1,6 @@
+TITLE: OpenSSL HollowByte Flaw Could Freeze Server Memory with 11-Byte TLS Requests
+SOURCE: https://thehackernews.com/2026/07/openssl-hollowbyte-flaw-could-freeze.html
+---
+Eleven bytes will make an unpatched OpenSSL server set aside up to 131 KB of memory for a message that never arrives. On the glibc systems Okta tested, that memory is gone until the process restarts.
+
+OpenSSL shipped the HollowByte fix in June with no CVE, no advisory, and no changelog entry pointing at it. Okta's Red Team, which reported the denial-of-service bug and named it, published the

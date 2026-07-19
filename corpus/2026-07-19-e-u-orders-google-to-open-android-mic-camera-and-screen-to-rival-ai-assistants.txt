@@ -1,0 +1,6 @@
+TITLE: E.U. Orders Google to Open Android Mic, Camera and Screen to Rival AI Assistants
+SOURCE: https://thehackernews.com/2026/07/eu-orders-google-to-open-android-mic.html
+---
+The European Commission on Thursday ordered Google to give rival AI assistants the same reach into Android that Gemini already has: the camera, the microphone, whatever is on screen, a wake word that fires with the display off, and the ability to drive other apps in the background by imitating taps and typing.
+
+Google has to ship it in the next major release, Android 18, and by 1 August 2027 at
