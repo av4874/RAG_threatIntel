@@ -1,3 +1,4 @@
+import dataclasses
 import json
 import urllib.request
 from dataclasses import dataclass
@@ -65,12 +66,22 @@ def format_kev_digest_markdown(entries: list[KEVEntry]) -> str:
     return "\n".join(lines)
 
 
+def entries_to_json(entries: list[KEVEntry]) -> str:
+    return json.dumps([dataclasses.asdict(entry) for entry in entries], indent=2)
+
+
 if __name__ == "__main__":
     catalog = fetch_kev_catalog(KEV_FEED_URL)
     top_200 = catalog[:200]
     ranked = rank_kev_entries(top_200)
+
     digest_markdown = format_kev_digest_markdown(ranked)
     with open("kev_digest.md", "w", encoding="utf-8") as f:
         f.write(digest_markdown)
+
+    data_json = entries_to_json(ranked)
+    with open("kev_data.json", "w", encoding="utf-8") as f:
+        f.write(data_json)
+
     ransomware_count = sum(1 for e in ranked if e.known_ransomware_use)
     print(f"Wrote KEV digest with {len(ranked)} entries ({ransomware_count} ransomware-linked).")

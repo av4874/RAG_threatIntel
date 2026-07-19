@@ -2,6 +2,7 @@ import json
 
 from threat_digest.kev import (
     KEVEntry,
+    entries_to_json,
     fetch_kev_catalog,
     format_kev_digest_markdown,
     rank_kev_entries,
@@ -149,3 +150,36 @@ def test_format_kev_digest_markdown_includes_fields_and_ransomware_flag():
 def test_format_kev_digest_markdown_handles_empty_list():
     md = format_kev_digest_markdown([])
     assert "No entries" in md
+
+
+def test_entries_to_json_serializes_ranked_entries():
+    entries = [
+        KEVEntry(
+            cve_id="CVE-2026-15409",
+            vendor_project="SonicWall",
+            product="SMA1000",
+            vulnerability_name="SonicWall SMA1000 SSRF Vulnerability",
+            date_added="2026-07-13",
+            short_description="A server-side request forgery vulnerability.",
+            required_action="Apply hotfix per vendor instructions.",
+            due_date="2026-07-17",
+            known_ransomware_use=True,
+        ),
+    ]
+
+    data_json = entries_to_json(entries)
+    parsed = json.loads(data_json)
+
+    assert parsed == [
+        {
+            "cve_id": "CVE-2026-15409",
+            "vendor_project": "SonicWall",
+            "product": "SMA1000",
+            "vulnerability_name": "SonicWall SMA1000 SSRF Vulnerability",
+            "date_added": "2026-07-13",
+            "short_description": "A server-side request forgery vulnerability.",
+            "required_action": "Apply hotfix per vendor instructions.",
+            "due_date": "2026-07-17",
+            "known_ransomware_use": True,
+        }
+    ]
