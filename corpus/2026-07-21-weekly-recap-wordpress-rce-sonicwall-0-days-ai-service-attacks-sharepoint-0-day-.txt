@@ -1,0 +1,8 @@
+TITLE: ⚡ Weekly Recap: WordPress RCE, SonicWall 0-Days, AI Service Attacks, SharePoint 0-Day and More
+SOURCE: https://thehackernews.com/2026/07/weekly-recap-wordpress-rce-sonicwall-0.html
+---
+A single request should not be able to do this much. But this week, small inputs led to code execution, memory loss, stolen keys, and disabled security tools.
+
+The paths were often simple: exposed systems, weak checks, old drivers, fake prompts, and public code used for malware delivery. Some bugs were new. Others were already being used before defenders had time to patch.
+
+Here is the full

@@ -1,0 +1,8 @@
+TITLE: New ENCFORGE Ransomware Targets AI Model Files in Langflow RCE Attack
+SOURCE: https://thehackernews.com/2026/07/new-encforge-ransomware-targets-ai.html
+---
+Researchers at Sysdig have linked a second attack on the same Langflow server to JADEPUFFER, the AI-agent-driven operator it first documented earlier this month.
+
+The same operator has now been spotted deploying ENCFORGE, a new compiled Go ransomware designed to encrypt model weights, vector indexes, training datasets, and other AI infrastructure files across the host filesystem.
+
+The entry

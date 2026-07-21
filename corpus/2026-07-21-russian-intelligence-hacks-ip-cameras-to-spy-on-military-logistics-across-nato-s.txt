@@ -1,0 +1,6 @@
+TITLE: Russian Intelligence Hacks IP Cameras to Spy on Military Logistics Across NATO States and Ukraine
+SOURCE: https://thehackernews.com/2026/07/russian-intelligence-hacks-ip-cameras.html
+---
+At least one Russian intelligence service is systematically hijacking internet-connected security cameras across Europe and Ukraine, using the feeds to watch military transport routes, weapons shipments bound for Kyiv, and the locations of Ukrainian troops.
+
+That is the finding of a cybersecurity advisory published July 10 by the AIVD and MIVD, the Netherlands' civilian and military intelligence
