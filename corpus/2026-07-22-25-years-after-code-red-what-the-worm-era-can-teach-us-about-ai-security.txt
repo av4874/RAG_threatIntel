@@ -1,0 +1,4 @@
+TITLE: 25 Years After Code Red: What the Worm Era Can Teach Us About AI Security
+SOURCE: https://www.darkreading.com/vulnerabilities-threats/25-years-after-code-red-what-the-worm-era-can-teach-us-about-ai-security-2
+---
+Marc Maiffret reflects on Code Red's legacy and the security lessons helping organizations navigate AI risk today.

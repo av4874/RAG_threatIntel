@@ -1,0 +1,6 @@
+TITLE: OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark
+SOURCE: https://thehackernews.com/2026/07/openai-says-its-own-ai-models-escaped.html
+---
+OpenAI on Tuesday said a combination of its artificial intelligence (AI) models, including GPT-5.6 Sol and an "even more capable pre-release model," was behind the security incident that targeted Hugging Face's production infrastructure last week.
+
+The AI company said the models were operating with "reduced cyber refusals for evaluation purposes" that might otherwise limit their ability to

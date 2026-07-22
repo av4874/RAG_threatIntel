@@ -1,0 +1,8 @@
+TITLE: Zimbra Patches Critical SNMP Command Injection and Four XSS Vulnerabilities
+SOURCE: https://thehackernews.com/2026/07/zimbra-patches-critical-snmp-command.html
+---
+Zimbra has rolled out fixes to address multiple critical security issues, including a command injection flaw in the Simple Network Management Protocol (SNMP) monitoring component.
+
+As many as nine security vulnerabilities have been patched in Zimbra 10.1.20. Topping the list is a command injection vulnerability in the SNMP monitoring component when SNMP notifications are enabled.
+
+Also patched

@@ -1,0 +1,4 @@
+TITLE: Remediating Vulnerabilities With LLMs: Inside Ivanti's Automation Push
+SOURCE: https://www.darkreading.com/cybersecurity-operations/remediating-vulnerabilities-llms-ivanti-automation
+---
+Ivanti CSO Daniel Spicer says frontier models have shown surprising effectiveness in early stages, but cost and human-in-the-loop viability remain open questions.

@@ -1,0 +1,4 @@
+TITLE: Ransomware Is Accelerating, But It's Not Because of AI
+SOURCE: https://www.darkreading.com/cyberattacks-data-breaches/ransomware-is-accelerating-not-ai
+---
+Researchers pointed to fragmentation of the ransomware ecosystem, the emergence of new attackers, and expansion of attacks on less defended organizations.

@@ -1,0 +1,4 @@
+TITLE: Choose Wisely: AI-Generated Coding Risk Varies, a Lot
+SOURCE: https://www.darkreading.com/application-security/choose-wisely-ai-generated-coding-risk-varies
+---
+AI-generated code introduces 15 vulnerabilities on average per codebase, but the actual risk depends on framework pairing more than the model used.

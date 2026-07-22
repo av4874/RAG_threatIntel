@@ -1,0 +1,4 @@
+TITLE: Attackers Combo Up Evasion Tactics for BEC Phishing
+SOURCE: https://www.darkreading.com/endpoint-security/attackers-combo-evasion-tactics-bec-phishing
+---
+&quot;The TFF Trap&quot; uses fileless techniques and loaders with low detection rates to deploy various RATs and stealers, including Agent Tesla, Remcos, XWorm, and Best Private Logger.

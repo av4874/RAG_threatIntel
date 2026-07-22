@@ -1,0 +1,6 @@
+TITLE: Google Launches Gemini 3.5 Flash Cyber AI to Find and Fix Software Vulnerabilities
+SOURCE: https://thehackernews.com/2026/07/google-launches-gemini-35-flash-cyber.html
+---
+Google's DeepMind on Tuesday announced the release of Gemini 3.5 Flash Cyber, a specialized artificial intelligence (AI) model built atop 3.5 Flash that's designed to discover, validate, and patch vulnerabilities quickly and efficiently.
+
+According to the tech giant, the model will be exclusively available to governments and trusted partners via CodeMender as part of a limited-access pilot
