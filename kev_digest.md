@@ -26,6 +26,19 @@
 
 **References:** https://blog.checkpoint.com/security/check-point-releases-important-hotfix-for-vulnerabilities-in-deprecated-ikev1-vpn-protocol/ ; https://support.checkpoint.com/results/sk/sk185033?_gl=1*1wqeqhc*_gcl_au*MTI1MzE5MjI2LjE3ODA5MzQ1NTM. ; https://nvd.nist.gov/vuln/detail/CVE-2026-50751
 
+## CVE-2026-0257 - Palo Alto Networks PAN-OS (RANSOMWARE-LINKED)
+**Vulnerability:** Palo Alto Networks PAN-OS Authentication Bypass Vulnerability
+
+**Description:** Palo Alto Networks PAN-OS contains an authentication bypass vulnerability that allows attackers to bypass security restrictions and establish an unauthorized VPN connection.
+
+**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
+
+**Date Added:** 2026-05-29 | **Due Date:** 2026-06-01
+
+**MITRE CWE:** CWE-565
+
+**References:** https://security.paloaltonetworks.com/CVE-2026-0257 ; https://nvd.nist.gov/vuln/detail/CVE-2026-0257
+
 ## CVE-2026-48027 - Nx Nx Console (RANSOMWARE-LINKED)
 **Vulnerability:** Nx Console Embedded Malicious Code Vulnerability
 
@@ -229,6 +242,58 @@
 **Date Added:** 2025-12-05 | **Due Date:** 2025-12-12
 
 **References:** Check for signs of potential compromise on all internet accessible REACT instances after applying mitigations. For more information, please see: https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components ; https://github.com/vercel-labs/fix-react2shell-next?tab=readme-ov-file ; https://nvd.nist.gov/vuln/detail/CVE-2025-55182
+
+## CVE-2026-60137 - WordPress Core
+**Vulnerability:** WordPress Core SQL Injection Vulnerability
+
+**Description:** WordPress Core contains a SQL injection vulnerability when a plugin or theme passes untrusted input to the parameter. This vulnerability can be chained with CVE-2026-63030 to allow an unauthenticated attacker to gain remote code execution on default WordPress installations.
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-07-21 | **Due Date:** 2026-08-04
+
+**MITRE CWE:** CWE-89
+
+**References:** https://wordpress.org/news/2026/07/wordpress-7-0-2-release/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-60137
+
+## CVE-2026-63030 - WordPress Core
+**Vulnerability:** WordPress Core Interpretation Conflict Vulnerability
+
+**Description:** WordPress Core contains an interpretation conflict vulnerability that could allow an attacker to perform SQL Injection and achieve Remote Code Execution. This vulnerability can be chained with CVE-2026-60137.
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-07-21 | **Due Date:** 2026-07-24
+
+**MITRE CWE:** CWE-436
+
+**References:** https://wordpress.org/news/2026/07/wordpress-7-0-2-release/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-63030
+
+## CVE-2026-0770 - Langflow Langflow
+**Vulnerability:** Langflow Inclusion of Functionality from Untrusted Control Sphere Vulnerability
+
+**Description:** Langflow contains an inclusion of functionality from untrusted control sphere vulnerability that allows remote attackers to execute arbitrary code on affected installations. 
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-07-21 | **Due Date:** 2026-07-24
+
+**MITRE CWE:** CWE-829
+
+**References:** https://github.com/langflow-ai/langflow/releases/tag/v1.9.0 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-0770 
+
+## CVE-2021-27137 - DD-WRT DD-WRT
+**Vulnerability:** DD-WRT Stack-Based Buffer Overflow Vulnerability
+
+**Description:** DD-WRT contains a stack-based buffer overflow vulnerability that could allow an unauthenticated attacker to overflow an internal buffer used by UPnP and trigger a code execution vulnerability.
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-07-21 | **Due Date:** 2026-07-24
+
+**MITRE CWE:** CWE-121
+
+**References:** This vulnerability affects a common open-source component, third-party library, proprietary implementation, or a protocol used by different products. Please check with specific vendors for information on patching status. For more information, please see: https://svn.dd-wrt.com/changeset/45724 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2021-27137
 
 ## CVE-2026-58644 - Microsoft SharePoint
 **Vulnerability:** Microsoft SharePoint Deserialization of Untrusted Data Vulnerability
@@ -721,19 +786,6 @@
 **Date Added:** 2026-06-01 | **Due Date:** 2026-06-04
 
 **References:** https://www.oracle.com/security-alerts/cpujul2024.html ; https://nvd.nist.gov/vuln/detail/CVE-2024-21182
-
-## CVE-2026-0257 - Palo Alto Networks PAN-OS
-**Vulnerability:** Palo Alto Networks PAN-OS Authentication Bypass Vulnerability
-
-**Description:** Palo Alto Networks PAN-OS contains an authentication bypass vulnerability that allows attackers to bypass security restrictions and establish an unauthorized VPN connection.
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2026-05-29 | **Due Date:** 2026-06-01
-
-**MITRE CWE:** CWE-565
-
-**References:** https://security.paloaltonetworks.com/CVE-2026-0257 ; https://nvd.nist.gov/vuln/detail/CVE-2026-0257
 
 ## CVE-2026-8398 - Daemon Daemon Tools Lite
 **Vulnerability:** Daemon Tools Lite Embedded Malicious Code Vulnerability
@@ -2529,55 +2581,3 @@
 **MITRE CWE:** CWE-95
 
 **References:** https://github.com/xwiki/xwiki-platform/security/advisories/GHSA-rr6p-3pfg-562j ; https://nvd.nist.gov/vuln/detail/CVE-2025-24893
-
-## CVE-2025-6204 - Dassault Systèmes DELMIA Apriso
-**Vulnerability:** Dassault Systèmes DELMIA Apriso Code Injection Vulnerability
-
-**Description:** Dassault Systèmes DELMIA Apriso contains a code injection vulnerability that could allow an attacker to execute arbitrary code.
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2025-10-28 | **Due Date:** 2025-11-18
-
-**MITRE CWE:** CWE-94
-
-**References:** https://www.3ds.com/trust-center/security/security-advisories/cve-2025-6204 ; https://nvd.nist.gov/vuln/detail/CVE-2025-6204
-
-## CVE-2025-6205 - Dassault Systèmes DELMIA Apriso
-**Vulnerability:** Dassault Systèmes DELMIA Apriso Missing Authorization Vulnerability
-
-**Description:** Dassault Systèmes DELMIA Apriso contains a missing authorization vulnerability that could allow an attacker to gain privileged access to the application.
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2025-10-28 | **Due Date:** 2025-11-18
-
-**MITRE CWE:** CWE-862
-
-**References:** https://www.3ds.com/trust-center/security/security-advisories/cve-2025-6205 ; https://nvd.nist.gov/vuln/detail/CVE-2025-6205
-
-## CVE-2025-54236 - Adobe Commerce and Magento
-**Vulnerability:** Adobe Commerce and Magento Improper Input Validation Vulnerability
-
-**Description:** Adobe Commerce and Magento Open Source contain an improper input validation vulnerability that could allow an attacker to take over customer accounts through the Commerce REST API.
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2025-10-24 | **Due Date:** 2025-11-14
-
-**MITRE CWE:** CWE-20
-
-**References:** https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27397 ; https://nvd.nist.gov/vuln/detail/CVE-2025-54236
-
-## CVE-2025-59287 - Microsoft Windows
-**Vulnerability:** Microsoft Windows Server Update Service (WSUS) Deserialization of Untrusted Data Vulnerability
-
-**Description:** Microsoft Windows Server Update Service (WSUS) contains a deserialization of untrusted data vulnerability that allows for remote code execution.
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2025-10-24 | **Due Date:** 2025-11-14
-
-**MITRE CWE:** CWE-502
-
-**References:** https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2025-59287 ; https://nvd.nist.gov/vuln/detail/CVE-2025-59287
