@@ -243,6 +243,32 @@
 
 **References:** Check for signs of potential compromise on all internet accessible REACT instances after applying mitigations. For more information, please see: https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components ; https://github.com/vercel-labs/fix-react2shell-next?tab=readme-ov-file ; https://nvd.nist.gov/vuln/detail/CVE-2025-55182
 
+## CVE-2026-16232 - Check Point SmartConsole
+**Vulnerability:** Check Point SmartConsole Improper Authentication Vulnerability
+
+**Description:** Check Point SmartConsole contains an improper authentication vulnerability which could allow an unauthenticated remote attacker to obtain an application login token and use it to authenticate with full administrative privileges.
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-07-22 | **Due Date:** 2026-07-25
+
+**MITRE CWE:** CWE-287
+
+**References:** https://support.checkpoint.com/results/sk/sk185169/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-16232
+
+## CVE-2026-50522 - Microsoft SharePoint
+**Vulnerability:** Microsoft SharePoint Deserialization of Untrusted Data Vulnerability 
+
+**Description:** Microsoft SharePoint contains a deserialization of untrusted data vulnerability which could allow an unauthorized attacker to execute code over a network.
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-07-22 | **Due Date:** 2026-07-25
+
+**MITRE CWE:** CWE-502
+
+**References:** https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50522 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-50522
+
 ## CVE-2026-60137 - WordPress Core
 **Vulnerability:** WordPress Core SQL Injection Vulnerability
 
@@ -2555,29 +2581,3 @@
 **MITRE CWE:** CWE-552
 
 **References:** https://www.centrestack.com/p/gce_latest_release.html ; https://nvd.nist.gov/vuln/detail/CVE-2025-11371
-
-## CVE-2025-41244 - Broadcom VMware Aria Operations and VMware Tools
-**Vulnerability:** Broadcom VMware Aria Operations and VMware Tools Privilege Defined with Unsafe Actions Vulnerability
-
-**Description:** Broadcom VMware Aria Operations and VMware Tools contain a privilege defined with unsafe actions vulnerability. A malicious local actor with non-administrative privileges having access to a VM with VMware Tools installed and managed by Aria Operations with SDMP enabled may exploit this vulnerability to escalate privileges to root on the same VM.
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2025-10-30 | **Due Date:** 2025-11-20
-
-**MITRE CWE:** CWE-267
-
-**References:** https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/36149 ; https://nvd.nist.gov/vuln/detail/CVE-2025-41244
-
-## CVE-2025-24893 - XWiki Platform
-**Vulnerability:** XWiki Platform Eval Injection Vulnerability
-
-**Description:** XWiki Platform contains an eval injection vulnerability that could allow any guest to perform arbitrary remote code execution through a request to SolrSearch.
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2025-10-30 | **Due Date:** 2025-11-20
-
-**MITRE CWE:** CWE-95
-
-**References:** https://github.com/xwiki/xwiki-platform/security/advisories/GHSA-rr6p-3pfg-562j ; https://nvd.nist.gov/vuln/detail/CVE-2025-24893
