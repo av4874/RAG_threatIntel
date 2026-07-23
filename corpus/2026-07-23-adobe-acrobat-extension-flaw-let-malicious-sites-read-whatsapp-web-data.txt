@@ -1,0 +1,6 @@
+TITLE: Adobe Acrobat Extension Flaw Let Malicious Sites Read WhatsApp Web Data
+SOURCE: https://thehackernews.com/2026/07/adobe-acrobat-extension-flaw-let.html
+---
+Cybersecurity researchers have disclosed details of a now-patched vulnerability chain in the Adobe Acrobat Chrome extension that has over 314 million users, which, if exploited, could facilitate a silent hijack of a user's WhatsApp data.
+
+The shortcoming has been codenamed HermeticReader by Guardio Labs. It's officially tracked as CVE-2026-48294 (CVSS score: 7.4), with the vulnerability

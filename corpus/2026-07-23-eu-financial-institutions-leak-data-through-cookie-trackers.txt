@@ -1,0 +1,4 @@
+TITLE: EU Financial Institutions Leak Data Through Cookie Trackers
+SOURCE: https://www.darkreading.com/data-privacy/eu-financial-institutions-cookie-trackers
+---
+European and US banks inadvertently transmitted customer data to ad platforms via tracking pixels, raising serious compliance, security, and privacy concerns.

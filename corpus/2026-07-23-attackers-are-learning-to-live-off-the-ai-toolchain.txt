@@ -1,0 +1,4 @@
+TITLE: Attackers Are Learning to Live Off the AI Toolchain
+SOURCE: https://www.darkreading.com/cyber-risk/attackers-live-off-ai-toolchain
+---
+Sandworm_Mode is an early example of malware that exploits trusted AI tools and workflows to make malicious activity virtually indistinguishable from normal activity.

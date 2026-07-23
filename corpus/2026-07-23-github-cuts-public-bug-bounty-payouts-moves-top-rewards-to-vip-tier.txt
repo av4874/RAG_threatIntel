@@ -1,0 +1,8 @@
+TITLE: GitHub Cuts Public Bug Bounty Payouts, Moves Top Rewards to VIP Tier
+SOURCE: https://thehackernews.com/2026/07/github-cuts-public-bug-bounty-payouts.html
+---
+Beginning July 27, 2026, GitHub will cut public bug bounty payouts by at least half at every severity level. Critical findings will drop from $20,000-$30,000+ to a fixed $10,000, while its permanent invite-only VIP tier will pay $30,000 or more.
+
+Reports filed before that date, including those already in GitHub's growing triage queue, will retain the previous payout terms.
+
+GitHub said the

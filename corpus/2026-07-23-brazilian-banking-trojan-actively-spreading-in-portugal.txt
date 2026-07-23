@@ -1,0 +1,4 @@
+TITLE: Brazilian Banking Trojan Actively Spreading in Portugal
+SOURCE: https://www.darkreading.com/cyberattacks-data-breaches/brazilian-banking-trojan-spreading-portugal
+---
+Portuguese businesses operate in the same native language as Brazilian hackers, making those businesses easy targets.
