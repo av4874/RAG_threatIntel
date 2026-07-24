@@ -1,0 +1,6 @@
+TITLE: Google Adds Selfie Video Recovery for Users Locked Out of Their Accounts
+SOURCE: https://thehackernews.com/2026/07/google-adds-selfie-video-recovery-for.html
+---
+Google on Thursday announced a new way for users to sign-in to their accounts by letting them take a selfie video.
+
+The selfie for sign-in, per the tech giant, is another option on top of existing recovery methods to log in to an account, including an email address or a phone number. The idea is to use a video selfie as a way to regain access if a user ever gets locked out or doesn't have access

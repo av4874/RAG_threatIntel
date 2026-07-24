@@ -1,0 +1,4 @@
+TITLE: Flaws in Passkey Implementation Show Old Attacks Still Work
+SOURCE: https://www.darkreading.com/identity-access-management-security/flaws-passkeys-implementation-old-attacks-work
+---
+Ahead of Black Hat USA, researchers find exploitable flaws in how Microsoft handles passkeys that could allow attackers to impersonate privileged users.
