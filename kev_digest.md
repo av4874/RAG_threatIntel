@@ -1,5 +1,18 @@
 # CISA KEV Digest
 
+## CVE-2026-12569 - PTC Windchill and FlexPLM (RANSOMWARE-LINKED)
+**Vulnerability:** PTC Windchill and FlexPLM Improper Input Validation Vulnerability
+
+**Description:** PTC Windchill and FlexPLM contains an improper input validation vulnerability allowing an unauthenticated, remote attacker to execute arbitrary code by sending a malicious request to the network.
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-06-25 | **Due Date:** 2026-06-28
+
+**MITRE CWE:** CWE-20, CWE-502
+
+**References:** https://www.ptc.com/en/support/article/CS473270 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-12569
+
 ## CVE-2026-35273 - Oracle  PeopleSoft Enterprise PeopleTools (RANSOMWARE-LINKED)
 **Vulnerability:** Oracle PeopleSoft Enterprise PeopleTools Missing Authentication for Critical Function Vulnerability
 
@@ -554,19 +567,6 @@
 **MITRE CWE:** CWE-347
 
 **References:** https://simple-help.com/security/simplehelp-security-update-2026-05 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-48558
-
-## CVE-2026-12569 - PTC Windchill and FlexPLM
-**Vulnerability:** PTC Windchill and FlexPLM Improper Input Validation Vulnerability
-
-**Description:** PTC Windchill and FlexPLM contains an improper input validation vulnerability allowing an unauthenticated, remote attacker to execute arbitrary code by sending a malicious request to the network.
-
-**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
-
-**Date Added:** 2026-06-25 | **Due Date:** 2026-06-28
-
-**MITRE CWE:** CWE-20, CWE-502
-
-**References:** https://www.ptc.com/en/support/article/CS473270 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-12569
 
 ## CVE-2026-20230 - Cisco Unified Communications Manager
 **Vulnerability:** Cisco Unified Communications Manager Server-Side Request Forgery (SSRF) Vulnerability
