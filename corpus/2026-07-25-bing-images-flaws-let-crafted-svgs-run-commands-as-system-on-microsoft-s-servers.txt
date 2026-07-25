@@ -1,0 +1,6 @@
+TITLE: Bing Images Flaws Let Crafted SVGs Run Commands as SYSTEM on Microsoft's Servers
+SOURCE: https://thehackernews.com/2026/07/bing-images-flaws-let-crafted-svgs-run.html
+---
+A crafted SVG submitted to Bing's image search ran commands as NT AUTHORITY\SYSTEM on Microsoft's production image-processing workers, and as root on the Linux machines in the same fleet.
+
+XBOW's testing got the same result on workers across different hosts and network ranges, so the problem sat in Bing's image tier, not on one bad machine. Microsoft issued two critical CVEs, CVE-2026-32194 and

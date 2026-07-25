@@ -1,0 +1,4 @@
+TITLE: Default Azure Automation Setting Enables Cross-Tenant Identity Takeover
+SOURCE: https://www.darkreading.com/cloud-security/default-azure-automation-setting-cross-tenant-identity-takeover
+---
+Microsoft addresses a public-by-default configuration and chain of code flaws in Azure Automation that could have let attackers seize another tenant's identity and access others' data, credentials, and cloud workloads.

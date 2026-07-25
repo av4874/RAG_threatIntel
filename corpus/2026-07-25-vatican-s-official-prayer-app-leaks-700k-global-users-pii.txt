@@ -1,0 +1,4 @@
+TITLE: Vatican's Official Prayer App Leaks 700K+ Global Users' PII
+SOURCE: https://www.darkreading.com/vulnerabilities-threats/vatican-official-prayer-app-leaks-700k-pii
+---
+A porous API endpoint exposes, names, email addresses, country, and site status, all of which can be easily gleaned by anyone with a browser.

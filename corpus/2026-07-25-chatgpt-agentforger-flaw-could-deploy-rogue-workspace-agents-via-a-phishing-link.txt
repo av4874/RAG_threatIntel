@@ -1,0 +1,6 @@
+TITLE: ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing Link
+SOURCE: https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html
+---
+Cybersecurity researchers have disclosed a critical vulnerability in OpenAI's ChatGPT Workspace Agents that could have allowed a single phishing link to stealthily build, authorize, and deploy an autonomous artificial intelligence (AI) agent inside a victim's organization.
+
+The vulnerability has been codenamed AgentForger by Zenity Labs. The issue has since been addressed by OpenAI as of June 8,
