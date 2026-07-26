@@ -1,0 +1,8 @@
+TITLE: CTM360 Research Reveals How Insurance Phishing Has Evolved Into Real-Time Account Hijacking
+SOURCE: https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html
+---
+For years, phishing campaigns targeting financial institutions followed the same playbook. Victims were tricked into entering usernames and passwords, attackers collected the credentials, and accounts were compromised later when an opportunity arose.
+
+That model is changing.
+
+Recent investigations into insurance-focused phishing operations reveal a more immediate approach. Instead of harvesting

@@ -1,0 +1,6 @@
+TITLE: Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git
+SOURCE: https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html
+---
+Security researchers at&nbsp;depthfirst published working exploit code on July 24 for a GitLab flaw that GitLab patched six weeks earlier, on June 10. It runs commands as git on any self-managed 18.11.3 server that has not taken the update.
+
+Any authenticated user who can push to a project can run it. The attacker commits a crafted Jupyter notebook and opens its commit diff, which leaks a heap
