@@ -1,0 +1,4 @@
+TITLE: 'Confused Deputy' Flaws Persist in Google Cloud, Microsoft Azure
+SOURCE: https://www.darkreading.com/cloud-security/confused-deputy-flaws-google-cloud-microsoft-azure
+---
+This category of vulnerabilities allows an attacker to easily acquire administrative level permissions and bypass cloud providers' access controls.

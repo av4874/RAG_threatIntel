@@ -1,0 +1,4 @@
+TITLE: AI Agent Drives Espionage Attack on Thai Ministry of Finance
+SOURCE: https://www.darkreading.com/cyberattacks-data-breaches/ai-agent-espionage-attack-thai-ministry-finance
+---
+Attackers used Hermes, an autonomous open source tool, in unrestricted &quot;YOLO mode&quot; to conduct espionage against Thailand's Ministry of Finance.

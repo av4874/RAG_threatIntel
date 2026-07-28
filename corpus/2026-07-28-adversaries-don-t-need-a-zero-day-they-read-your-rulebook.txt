@@ -1,0 +1,4 @@
+TITLE: Adversaries Don't Need a Zero-Day — They Read Your Rulebook
+SOURCE: https://www.darkreading.com/threat-intelligence/adversaries-do-not-need-zero-day-they-read-your-rulebook
+---
+Confidence in autonomous security tools is declining, and here's why.

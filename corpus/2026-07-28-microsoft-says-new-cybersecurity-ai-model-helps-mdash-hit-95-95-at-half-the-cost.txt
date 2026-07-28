@@ -1,0 +1,6 @@
+TITLE: Microsoft Says New Cybersecurity AI Model Helps MDASH Hit 95.95% at Half the Cost
+SOURCE: https://thehackernews.com/2026/07/microsoft-says-new-cybersecurity-ai.html
+---
+Microsoft has launched its first cybersecurity-specific model inside MDASH, its multi-model vulnerability identification and remediation harness.
+
+The company says MDASH, using MAI-Cyber-1-Flash and GPT-5.4, scored 95.95% on CyberGym. It also claims the configuration costs 50% less than its current best MDASH combination of GPT-5.4, GPT-5.4 mini, and GPT-5.3 Codex. Access is limited to approved

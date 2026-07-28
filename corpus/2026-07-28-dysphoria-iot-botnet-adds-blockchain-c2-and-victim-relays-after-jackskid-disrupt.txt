@@ -1,0 +1,6 @@
+TITLE: Dysphoria IoT Botnet Adds Blockchain C2 and Victim Relays After JackSkid Disruption
+SOURCE: https://thehackernews.com/2026/07/dysphoria-iot-botnet-adds-blockchain-c2.html
+---
+Dysphoria, an Internet of Things (IoT) botnet line tracked by CNCERT and XLab, has adopted blockchain-based name services and infected-device relays after a March law-enforcement operation against JackSkid infrastructure. The researchers say the design makes the botnet harder to disrupt.
+
+CNCERT, China's national computer emergency response team, and XLab, the threat-intelligence lab of Chinese

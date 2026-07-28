@@ -1,0 +1,6 @@
+TITLE: n8n Sandbox Escape Lets Workflow Editors Run OS Commands as the n8n Process
+SOURCE: https://thehackernews.com/2026/07/n8n-sandbox-escape-lets-workflow.html
+---
+n8n has patched a high-severity expression-sandbox escape that could let an authenticated workflow editor execute operating-system commands on the server running the automation platform. Security Joes found the flaw while probing n8n's February fix for CVE-2026-27577 for another bypass.
+
+The affected ranges are &lt;2.31.5 and &gt;=2.32.0,&lt;2.32.1. n8n fixed the flaw in versions 2.31.5 and

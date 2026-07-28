@@ -1,0 +1,4 @@
+TITLE: FBI: Breaking Affiliate Trust Sped Along LockBit's Takedown
+SOURCE: https://www.darkreading.com/cybersecurity-operations/fbi-breaking-affiliate-trust-lockbit-takedown
+---
+An FBI agent explains how the mulitnational law-enforcement Operation Cronos was successful in disrupting the largest ransomware group of its time.
