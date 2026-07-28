@@ -297,6 +297,36 @@
     "notes": "Check for signs of potential compromise on all internet accessible REACT instances after applying mitigations. For more information, please see: https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components ; https://github.com/vercel-labs/fix-react2shell-next?tab=readme-ov-file ; https://nvd.nist.gov/vuln/detail/CVE-2025-55182"
   },
   {
+    "cve_id": "CVE-2025-68686",
+    "vendor_project": "Fortinet",
+    "product": "FortiOS",
+    "vulnerability_name": "Fortinet FortiOS Exposure of Sensitive Information to an Unauthorized Actor Vulnerability",
+    "date_added": "2026-07-27",
+    "short_description": "Fortinet FortiOS contains an exposure of sensitive information to an unauthorized actor vulnerability. This may allow a remote unauthenticated attacker to bypass the patch developed for the symbolic link persistency mechanism observed in some post-exploit cases, via crafted HTTP requests. An attacker would need first to have compromised the product via another vulnerability, at filesystem level.",
+    "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+    "due_date": "2026-08-10",
+    "known_ransomware_use": false,
+    "cwes": [
+      "CWE-200"
+    ],
+    "notes": "https://fortiguard.fortinet.com/psirt/FG-IR-25-934 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2025-68686"
+  },
+  {
+    "cve_id": "CVE-2026-16812",
+    "vendor_project": "Arista",
+    "product": "VeloCloud Orchestrator",
+    "vulnerability_name": "Arista VeloCloud Orchestrator On-Prem OS Command Injection Vulnerability",
+    "date_added": "2026-07-27",
+    "short_description": "Arista VeloCloud Orchestrator On-Prem contains an OS command injection vulnerability that may allow a remote attacker to access privileged internal functionality and impact the VCO host. Successful exploitation may compromise the confidentiality, integrity, and availability of the orchestrator and data managed by the orchestrator.",
+    "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+    "due_date": "2026-07-30",
+    "known_ransomware_use": false,
+    "cwes": [
+      "CWE-78"
+    ],
+    "notes": "https://www.arista.com/en/support/advisories-notices/security-advisory/24364-security-advisory-0144 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-16812"
+  },
+  {
     "cve_id": "CVE-2026-16232",
     "vendor_project": "Check Point",
     "product": "SmartConsole",
@@ -2965,35 +2995,5 @@
       "CWE-787"
     ],
     "notes": "https://security.samsungmobile.com/securityUpdate.smsb?year=2025&month=04 ; https://nvd.nist.gov/vuln/detail/CVE-2025-21042"
-  },
-  {
-    "cve_id": "CVE-2025-48703",
-    "vendor_project": "CWP",
-    "product": "Control Web Panel",
-    "vulnerability_name": "CWP Control Web Panel OS Command Injection Vulnerability",
-    "date_added": "2025-11-04",
-    "short_description": "CWP Control Web Panel (formerly CentOS Web Panel) contains an OS command Injection vulnerability that allows unauthenticated remote code execution via shell metacharacters in the t_total parameter in a filemanager changePerm request. A valid non-root username must be known.",
-    "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-    "due_date": "2025-11-25",
-    "known_ransomware_use": false,
-    "cwes": [
-      "CWE-78"
-    ],
-    "notes": "https://control-webpanel.com/changelog ; https://nvd.nist.gov/vuln/detail/CVE-2025-48703"
-  },
-  {
-    "cve_id": "CVE-2025-11371",
-    "vendor_project": "Gladinet",
-    "product": "CentreStack and Triofox",
-    "vulnerability_name": "Gladinet CentreStack and Triofox Files or Directories Accessible to External Parties Vulnerability",
-    "date_added": "2025-11-04",
-    "short_description": "Gladinet CentreStack and Triofox contains a files or directories accessible to external parties vulnerability that allows unintended disclosure of system files.",
-    "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-    "due_date": "2025-11-25",
-    "known_ransomware_use": false,
-    "cwes": [
-      "CWE-552"
-    ],
-    "notes": "https://www.centrestack.com/p/gce_latest_release.html ; https://nvd.nist.gov/vuln/detail/CVE-2025-11371"
   }
 ]
