@@ -1,0 +1,6 @@
+TITLE: Critical OpenWrt DHCPv6 Flaw Could Let Unauthenticated Attackers Run Code as Root
+SOURCE: https://thehackernews.com/2026/07/critical-openwrt-dhcpv6-flaw-could-let.html
+---
+OpenWrt has shipped version 24.10.8 to close a critical DHCPv6 stack overflow and a wider set of remotely triggerable flaws in network services enabled by default.
+
+The critical issue, tracked as CVE-2026-53921 and rated 9.8 on CVSS 3.1 in OpenWrt's GitHub advisory, lets an unauthenticated attacker able to reach the DHCPv6 server overwrite a stack buffer in odhcpd through a crafted DHCPv6

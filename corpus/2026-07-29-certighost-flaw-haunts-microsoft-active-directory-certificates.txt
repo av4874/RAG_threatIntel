@@ -1,0 +1,4 @@
+TITLE: 'Certighost' Flaw Haunts Microsoft Active Directory Certificates
+SOURCE: https://www.darkreading.com/vulnerabilities-threats/certighost-flaw-microsoft-active-directory-certificates
+---
+Microsoft patched a high-severity vulnerability earlier this month that allows a threat actor to escalate privileges and compromise an AD environment.

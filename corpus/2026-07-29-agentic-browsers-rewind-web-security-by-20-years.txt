@@ -1,0 +1,4 @@
+TITLE: Agentic Browsers Rewind Web Security by 20 Years
+SOURCE: https://www.darkreading.com/endpoint-security/agentic-browsers-rewind-web-security-20-years
+---
+PleaseFix class of flaws makes it easy to socially engineer agentic browsers and highlights weaknesses in how they handle cross-origin requests.

@@ -1,0 +1,8 @@
+TITLE: Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process
+SOURCE: https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html
+---
+A new Mirai-derived botnet called Tengu can use a compromised Linux device's hardware watchdog to trigger a reboot when defenders kill its main process.
+
+If that happens, Tengu's other persistence mechanisms get another chance to relaunch it. Nozomi Networks Labs observed the dropper reaching its honeypots through Telnet credential brute force.
+
+Tengu supports 25 distributed denial-of-service (

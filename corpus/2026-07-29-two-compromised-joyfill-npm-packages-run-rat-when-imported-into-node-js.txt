@@ -1,0 +1,12 @@
+TITLE: Two Compromised joyfill npm Packages Run RAT When Imported Into Node.js
+SOURCE: https://thehackernews.com/2026/07/two-compromised-joyfill-npm-packages.html
+---
+Beta release versions of two npm packages in the @joyfill namespace have been compromised to deliver a remote access trojan (RAT) associated with the DEV#POPPER malware family.
+
+The list of affected packages is as follows -
+
+
+  @joyfill/layouts@0.1.2-2773.beta.0
+  @joyfill/components@4.0.0-rc24-2773-beta.4
+
+The two packages "contain an import-time JavaScript implant that resolves encrypted code

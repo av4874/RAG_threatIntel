@@ -1,0 +1,6 @@
+TITLE: Claude AI Just Cracked a Post-Quantum Test Scheme and Found a Faster 7-Round AES Attack
+SOURCE: https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html
+---
+Anthropic says Claude Mythos Preview helped derive an end-to-end key-recovery attack against HAWK-256 and a 200- to 800-fold speedup for an attack on seven-round AES-128.
+
+The HAWK attack exploits a previously unused symmetry in the lattice behind the signature scheme. Anthropic's released implementation gives an expected end-to-end runtime of about three hours and 42 minutes on a 96-core server
