@@ -256,6 +256,19 @@
 
 **References:** Check for signs of potential compromise on all internet accessible REACT instances after applying mitigations. For more information, please see: https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components ; https://github.com/vercel-labs/fix-react2shell-next?tab=readme-ov-file ; https://nvd.nist.gov/vuln/detail/CVE-2025-55182
 
+## CVE-2026-20316 - Cisco Secure Firewall Management Center (FMC)
+**Vulnerability:** Cisco Secure Firewall Management Center Use of Hard-coded Password Vulnerability
+
+**Description:** Cisco Secure Firewall Management Center (FMC) formerly known as Firepower Management Center contains a use of hard-coded password vulnerability that could allow an unauthenticated, remote attacker to log in to an affected device using a low-privileged account to access sensitive data within the impacted systems.
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-07-29 | **Due Date:** 2026-08-01
+
+**MITRE CWE:** CWE-259
+
+**References:** https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-static-cred-BET3Cjh ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-20316
+
 ## CVE-2025-68686 - Fortinet FortiOS
 **Vulnerability:** Fortinet FortiOS Exposure of Sensitive Information to an Unauthorized Actor Vulnerability
 
@@ -2568,16 +2581,3 @@
 **MITRE CWE:** CWE-787
 
 **References:** https://www.watchguard.com/wgrd-psirt/advisory/wgsa-2025-00015 ; https://nvd.nist.gov/vuln/detail/CVE-2025-9242
-
-## CVE-2025-21042 - Samsung Mobile Devices
-**Vulnerability:** Samsung Mobile Devices Out-of-Bounds Write Vulnerability
-
-**Description:** Samsung mobile devices contain an out-of-bounds write vulnerability in libimagecodec.quram.so. This vulnerability could allow remote attackers to execute arbitrary code.
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2025-11-10 | **Due Date:** 2025-12-01
-
-**MITRE CWE:** CWE-787
-
-**References:** https://security.samsungmobile.com/securityUpdate.smsb?year=2025&month=04 ; https://nvd.nist.gov/vuln/detail/CVE-2025-21042
