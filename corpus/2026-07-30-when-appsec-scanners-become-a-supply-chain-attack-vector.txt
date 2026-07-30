@@ -1,0 +1,4 @@
+TITLE: When AppSec Scanners Become a Supply Chain Attack Vector
+SOURCE: https://www.darkreading.com/application-security/when-appsec-scanners-become-supply-chain-attack-vector
+---
+New research shows how security scanners embedded in the software supply chain can be attacked to serve as a foothold for downstream attacks.

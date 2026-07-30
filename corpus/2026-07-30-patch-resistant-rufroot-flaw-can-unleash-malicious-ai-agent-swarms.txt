@@ -1,0 +1,4 @@
+TITLE: Patch-Resistant 'RufRoot' Flaw Can Unleash Malicious AI Agent Swarms
+SOURCE: https://www.darkreading.com/cyber-risk/patch-resistant-rufroot-flaw-malicious-ai-agent-swarms
+---
+The vulnerability in the AI hosting platform Ruflo allows an unauthenticated attacker to take over the system and corrupt memory, so bad behavior can persist after patching.

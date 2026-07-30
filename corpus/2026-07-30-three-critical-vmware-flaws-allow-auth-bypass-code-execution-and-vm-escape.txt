@@ -1,0 +1,8 @@
+TITLE: Three Critical VMware Flaws Allow Auth Bypass, Code Execution, and VM Escape
+SOURCE: https://thehackernews.com/2026/07/three-critical-vmware-flaws-allow-auth.html
+---
+Broadcom has released security updates to address multiple security flaws impacting VMware ESX, vCenter, Workstation, and Fusion, three of which have been designated as critical in severity.
+
+The first of the three critical-rated flaws is CVE-2026-59309 (CVSS score: 9.8), which has been described as an authentication bypass in VMware vCenter.
+
+"A malicious actor with network access to vCenter

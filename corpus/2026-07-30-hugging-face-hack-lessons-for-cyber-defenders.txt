@@ -1,0 +1,4 @@
+TITLE: Hugging Face Hack Lessons for Cyber Defenders
+SOURCE: https://www.darkreading.com/cyberattacks-data-breaches/hugging-face-hack-lessons-cyber-defenders
+---
+Dark Reading Confidential Episode 20: Expert Rich Mogull reflects on lessons cyber teams should pull from the OpenAI agent's attack on Hugging Face.

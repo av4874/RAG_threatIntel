@@ -1,0 +1,6 @@
+TITLE: Ruflo MCP Flaw Lets Unauthenticated Attackers Run Commands and Poison AI Memory
+SOURCE: https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html
+---
+Cybersecurity researchers have flagged a maximum-severity security flaw in Ruflo, an open-source agent meta-harness for Anthropic Claude Code and OpenAI Codex, that could result in unauthenticated remote code execution.
+
+The vulnerability, tracked as CVE-2026-59726 (CVSS score: 10.0), impacts all versions of the project before version 3.16.3. It has been codenamed RufRoot by Noma Security's

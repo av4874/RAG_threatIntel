@@ -1,0 +1,4 @@
+TITLE: Who's Liable When AI Agents Escape? Hugging Face Breach Raises Hard Questions
+SOURCE: https://www.darkreading.com/cyberattacks-data-breaches/liable-ai-agents-escape-hugging-face-breach-questions
+---
+Dark Reading walks through the many twists and turns in the bizarre story of how OpenAI's agent AI system broke out of its sandbox and decided to target Hugging Face, and what CISOs should be aware of.

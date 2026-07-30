@@ -1,0 +1,4 @@
+TITLE: 'Flying Eagle' Full-Service Mobile RAT Builder Wings Across China
+SOURCE: https://www.darkreading.com/endpoint-security/flying-eagle-mobile-rat-builder-china
+---
+A premium-grade malware-as-a-service offering takes flight with multiple threat groups, building infostealers that drain victims' bank accounts.

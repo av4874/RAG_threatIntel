@@ -1,0 +1,6 @@
+TITLE: Nine-Year Fraud Campaign Clones Russian Company Sites to Steal Advance Payments
+SOURCE: https://thehackernews.com/2026/07/nine-year-fraud-campaign.html
+---
+Cybersecurity researchers have disclosed details of a large-scale fraud campaign that involves creating lookalike websites of major Russian companies with an aim to siphon funds from international firms for more than nine years.
+
+According to Russian cybersecurity vendor F6, the threat actors have set up clone websites of Russian companies across fertilizer manufacturers, petrochemical companies
