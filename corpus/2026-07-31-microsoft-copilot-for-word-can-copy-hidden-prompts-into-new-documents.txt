@@ -1,0 +1,8 @@
+TITLE: Microsoft Copilot for Word Can Copy Hidden Prompts Into New Documents
+SOURCE: https://thehackernews.com/2026/07/microsoft-copilot-for-word-can-copy.html
+---
+Hidden instructions in a Word document can make Microsoft 365 Copilot rewrite figures in a report, then copy the same instructions into the finished file. Håkon Måløy disclosed the technique on July 28, 144 days after reporting it to Microsoft.
+
+In his proof of concept, the internally generated file triggered the same behavior when it was used in a second Copilot drafting session.
+
+Måløy's

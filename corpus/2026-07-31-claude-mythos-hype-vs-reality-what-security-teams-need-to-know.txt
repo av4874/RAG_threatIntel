@@ -1,0 +1,4 @@
+TITLE: Claude Mythos — Hype vs. Reality: What Security Teams Need to Know
+SOURCE: https://www.darkreading.com/cybersecurity-operations/claude-mythos-hype-vs-reality
+---
+In this edition of Reporters' Notebook, our journalists discuss the ins and outs of Anthropic's Claude Mythos rollout. How seriously should we take its risks? How big of a deal is it?

@@ -1,0 +1,6 @@
+TITLE: SilverFox Targets Japanese Manufacturer with 3-Driver BYOVD Chain and ValleyRAT
+SOURCE: https://thehackernews.com/2026/07/silverfox-targets-japanese-manufacturer.html
+---
+The Chinese cybercrime group known as Silver Fox has been observed using new drivers as part of bring your own vulnerable driver (BYOVD) attacks targeting a Japanese organization in the industrial manufacturing sector to ultimately deliver ValleyRAT (aka Winos 4.0) for persistent remote access.
+
+"In this campaign, the group combines new vulnerable-driver abuse, newly observed abuse of legitimate

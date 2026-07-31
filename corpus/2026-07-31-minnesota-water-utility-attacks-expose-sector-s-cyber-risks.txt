@@ -1,0 +1,4 @@
+TITLE: Minnesota Water Utility Attacks Expose Sector's Cyber-Risks
+SOURCE: https://www.darkreading.com/ics-ot-security/minnesota-water-utility-attacks-expose-sector-cyber-risks
+---
+A likely Iran-backed actor targeted more than 30 community water systems in Minnesota in a sobering reminder of rising threats to US critical infrastructure.
