@@ -1,0 +1,8 @@
+TITLE: Cheap Android TV Boxes Pose as Phones and Turn Owners’ Broadband Into Proxies
+SOURCE: https://thehackernews.com/2026/07/cheap-android-tv-boxes-pose-as-phones.html
+---
+Bitsight says some cheap Android TV boxes have shipped with apps that rewrite their hardware identity to mimic Samsung, Huawei, Xiaomi, or Vivo phones, then click ads on websites run by the same operators.
+
+Researchers named the operation Fuyao and attributed it to Zhejiang Fengwo IoT Technology Co., Ltd., a mainland China company founded in 2019.
+
+The same apps have a second job. When a box

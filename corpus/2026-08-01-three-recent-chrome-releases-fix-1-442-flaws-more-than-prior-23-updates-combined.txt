@@ -1,0 +1,6 @@
+TITLE: Three Recent Chrome Releases Fix 1,442 Flaws, More Than Prior 23 Updates Combined
+SOURCE: https://thehackernews.com/2026/07/three-recent-chrome-releases-fix-1442.html
+---
+Google on Thursday announced that it fixed a whopping 1,072 security bugs in Chrome versions 149 and 150, surpassing the total number of flaws the company fixed across the prior 23 milestones combined.
+
+Both versions were released last month. In its latest patch for Chrome 151, released Wednesday, the tech giant resolved 370 flaws, out of which 349 were reported by Google itself. Seven of the

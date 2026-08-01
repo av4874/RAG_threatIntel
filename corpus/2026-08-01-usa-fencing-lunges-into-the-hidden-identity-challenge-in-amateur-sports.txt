@@ -1,0 +1,4 @@
+TITLE: USA Fencing Lunges Into the Hidden Identity Challenge in Amateur Sports
+SOURCE: https://www.darkreading.com/identity-access-management-security/usa-fencing-hidden-identity-challenge-amateur-sports
+---
+The organization behind Team USA's Olympic/Paralympic fencing teams has automated identity verification to handle growing membership, cutting manual review time while ensuring athletes compete in the correct categories.

@@ -1,0 +1,6 @@
+TITLE: Researchers Report 84 Flaws in 4G and 5G Cores, Including a Session Hijacking Flaw
+SOURCE: https://thehackernews.com/2026/07/researchers-report-84-flaws-in-4g-and.html
+---
+An academic study has disclosed a "widespread class" of security vulnerabilities impacting 4G and 5G core networks that, if successfully exploited, could trigger denial-of-service (DoS) attacks and even session hijacking, allowing an attacker to seize control of a user's network session.
+
+The findings have been released by a group of researchers from Singapore's Nanyang Technological University

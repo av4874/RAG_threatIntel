@@ -1,0 +1,6 @@
+TITLE: Anthropic Says Claude Mistook the Open Internet for a CTF and Breached Three Organizations
+SOURCE: https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html
+---
+Anthropic on Thursday became the latest artificial intelligence (AI) company to reveal that three of its models, including Claude Opus 4.7, Mythos 5, and an unnamed research model, had breached three unnamed organizations during cybersecurity testing without its knowledge.
+
+The AI firm said the earliest incidents date back to April 2026, adding it made the discoveries after launching a "

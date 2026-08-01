@@ -1,0 +1,6 @@
+TITLE: 6 Reasons Why Device Code Phishing is the Fastest-Growing Threat of 2026
+SOURCE: https://thehackernews.com/2026/07/6-reasons-why-device-code-phishing-is.html
+---
+Device code phishing - the abuse of the OAuth 2.0 device authorization grant to steal access tokens - has evolved from a niche red-team technique to an industrial-scale threat in under six months.
+
+Designed for input-constrained devices like smart TVs, printers, and so on, the device authorization login flow has been adopted by a wide range of apps and use-cases that it wasn't originally

@@ -1,0 +1,4 @@
+TITLE: The Morning After We Pull a Root of Trust, Nobody Owns It
+SOURCE: https://www.darkreading.com/cyber-risk/morning-after-we-pull-root-of-trust-nobody-owns-it
+---
+The most valuable move any security team can make is building a certificate and key inventory.

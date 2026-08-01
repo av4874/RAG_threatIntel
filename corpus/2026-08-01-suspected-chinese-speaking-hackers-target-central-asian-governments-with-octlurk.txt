@@ -1,0 +1,6 @@
+TITLE: Suspected Chinese-Speaking Hackers Target Central Asian Governments With OctLurk and SilkLurk
+SOURCE: https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html
+---
+A Chinese-speaking threat actor is suspected to be behind a fresh wave of cyber attacks targeting government organizations mainly located in Central Asia, including Afghanistan, Kyrgyzstan, Tajikistan, Uzbekistan, Kazakhstan, and the Syrian Arab Republic, since January 2025.
+
+These targeted organizations operate across several sectors, such as healthcare, research, government offices,

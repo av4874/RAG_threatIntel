@@ -1,0 +1,8 @@
+TITLE: Chinese Hacker Commands DeepSeek via Telegram to Launch Autonomous Attacks
+SOURCE: https://thehackernews.com/2026/07/chinese-hacker-commands-deepseek-via.html
+---
+Palo Alto Networks' Unit 42 says a Chinese-speaking threat actor used DeepSeek through the open-source Hermes Agent framework to launch attacks autonomously.
+
+After an initial Telegram instruction, the agent found internet-facing systems and selected public exploits. The researchers recovered no further operator input in the session.
+
+The operator, tracked through the aliases knaithe and KnYuan,
