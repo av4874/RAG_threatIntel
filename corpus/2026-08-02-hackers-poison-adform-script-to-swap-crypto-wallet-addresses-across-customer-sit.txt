@@ -1,0 +1,8 @@
+TITLE: Hackers Poison Adform Script to Swap Crypto Wallet Addresses Across Customer Sites
+SOURCE: https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html
+---
+Attackers modified a JavaScript file served by advertising technology company Adform, turning it into a browser-side tool that rewrites cryptocurrency wallet addresses.
+
+Adform detected the incident on July 27, 2026, removed the malicious code, notified affected clients, and reported it to authorities.
+
+Anyone who visited a site carrying the affected script on July 27 and copied a Bitcoin,
