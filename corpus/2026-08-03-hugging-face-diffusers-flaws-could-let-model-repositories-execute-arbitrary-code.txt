@@ -1,0 +1,6 @@
+TITLE: Hugging Face Diffusers Flaws Could Let Model Repositories Execute Arbitrary Code
+SOURCE: https://thehackernews.com/2026/08/hugging-face-diffusers-flaws-could-let.html
+---
+Three high-severity security flaws have been disclosed in Hugging Face's Diffusers library that could allow crafted model repositories to stealthily execute arbitrary code on machines that load it, opening the artificial intelligence (AI) supply chain to security risk.
+
+"These vulnerabilities are bypassing trust_remote_code, the safeguard designed to stop unreviewed code from running in the
