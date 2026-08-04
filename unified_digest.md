@@ -112,6 +112,13 @@
 
 ## KEV-Only (not covered by RAG lane)
 
+### CVE-2026-18577 - N-able N-central
+**Vulnerability:** N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability
+
+**MITRE CWE:** CWE-288
+
+**References:** https://documentation.n-able.com/N-central/Release_Notes/GA/Content/N-central_2026.3_HF1_Release_Notes.htm ; https://status.n-able.com/2026/08/02/n-central-2026-3-hotfix-1-mitigation-for-cve-2026-18577/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-18577
+
 ### CVE-2026-20316 - Cisco Secure Firewall Management Center (FMC)
 **Vulnerability:** Cisco Secure Firewall Management Center Use of Hard-coded Password Vulnerability
 
@@ -314,10 +321,3 @@
 **MITRE CWE:** CWE-284
 
 **References:** https://community.ui.com/releases/Security-Advisory-Bulletin-064-064/84811c09-4cf4-42ab-bd61-cc994445963b ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-34908
-
-### CVE-2026-20253 - Splunk Enterprise
-**Vulnerability:** Splunk Enterprise Missing Authentication for Critical Function Vulnerability
-
-**MITRE CWE:** CWE-306
-
-**References:** https://advisory.splunk.com/advisories/SVD-2026-0603 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-20253
