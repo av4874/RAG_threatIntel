@@ -1,0 +1,8 @@
+TITLE: FOMO in the SOC: Where AI Platforms like Claude Actually Fit
+SOURCE: https://thehackernews.com/2026/08/fomo-in-soc-where-ai-platforms-like.html
+---
+AI is moving incredibly fast, and every security leader is feeling the pressure to keep up.
+
+AI platforms like Claude, Codex and Cursor are already helping security teams write detections, investigate alerts, summarize incidents, and automate repetitive work. The conversation has evolved from whether AI belongs in the SOC, to where each type of AI delivers the most value.
+
+With so many new AI

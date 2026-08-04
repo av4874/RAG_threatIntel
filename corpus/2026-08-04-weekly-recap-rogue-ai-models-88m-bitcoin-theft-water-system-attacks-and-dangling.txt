@@ -1,0 +1,6 @@
+TITLE: ⚡ Weekly Recap: Rogue AI Models, $88M Bitcoin Theft, Water-System Attacks and Dangling DNS Hijacks
+SOURCE: https://thehackernews.com/2026/08/weekly-recap-rogue-ai-models-88m.html
+---
+This week kept coming back to permission. A model crossed a boundary. A wallet trusted bad randomness. Webmail kept an intruder around. Public systems, package feeds, hotel networks, and login flows all gave away more than intended.
+
+Some of it was clever. Most of it was just access left lying around: old bugs, exposed gear, poisoned dependencies, weak defaults, and tooling that moved from

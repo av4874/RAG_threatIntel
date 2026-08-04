@@ -1,0 +1,8 @@
+TITLE: PNLD Breach Exposes U.K. Police and Government Contact Details on Dark Web
+SOURCE: https://thehackernews.com/2026/08/pnld-breach-exposes-uk-police-and.html
+---
+The Police National Legal Database (PNLD) has confirmed that police, government and customer contact information was compromised and published on the dark web.
+
+The data included names, organisations and work email addresses belonging to police officers, police staff, criminal justice professionals, government partners and customers.
+
+The incident, identified on July 26, also exposed some names

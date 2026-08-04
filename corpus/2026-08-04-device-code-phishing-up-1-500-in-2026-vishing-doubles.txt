@@ -1,0 +1,4 @@
+TITLE: Device Code Phishing Up 1,500% in 2026; Vishing Doubles
+SOURCE: https://www.darkreading.com/cybersecurity-analytics/device-code-phishing-vishing-doubles
+---
+Newer social engineering techniques help attackers ignore entrenched security controls and limit the evidence they leave behind.
