@@ -219,6 +219,19 @@
 
 **References:** https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-rce-NKhnULJh ; https://nvd.nist.gov/vuln/detail/CVE-2026-20131
 
+## CVE-2025-26399 - SolarWinds Web Help Desk (RANSOMWARE-LINKED)
+**Vulnerability:** SolarWinds Web Help Desk Deserialization of Untrusted Data Vulnerability
+
+**Description:** SolarWinds Web Help Desk contain a deserialization of untrusted data vulnerability in AjaxProxy that could allow an attacker to run commands on the host machine.
+
+**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
+
+**Date Added:** 2026-03-09 | **Due Date:** 2026-03-12
+
+**MITRE CWE:** CWE-502
+
+**References:** https://www.solarwinds.com/trust-center/security-advisories/cve-2025-26399 ; https://documentation.solarwinds.com/en/success_center/whd/content/release_notes/whd_12-8-7-hotfix-1_release_notes.htm ; https://nvd.nist.gov/vuln/detail/CVE-2025-26399
+
 ## CVE-2026-1731 - BeyondTrust Remote Support (RS) and Privileged Remote Access (PRA) (RANSOMWARE-LINKED)
 **Vulnerability:** BeyondTrust Remote Support (RS) and Privileged Remote Access (PRA) OS Command Injection Vulnerability
 
@@ -281,6 +294,45 @@
 **Date Added:** 2025-12-05 | **Due Date:** 2025-12-12
 
 **References:** Check for signs of potential compromise on all internet accessible REACT instances after applying mitigations. For more information, please see: https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components ; https://github.com/vercel-labs/fix-react2shell-next?tab=readme-ov-file ; https://nvd.nist.gov/vuln/detail/CVE-2025-55182
+
+## CVE-2026-18556 - N-able N-central
+**Vulnerability:** N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability
+
+**Description:** N-able N-central contains an authentication bypass using an alternate path or channel that allows for authentication bypass.
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-08-04 | **Due Date:** 2026-08-07
+
+**MITRE CWE:** CWE-288
+
+**References:** https://uptime.n-able.com/ ; https://status.n-able.com/2026/08/02/n-central-2026-3-hotfix-1-mitigation-for-cve-2026-18577/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-18556
+
+## CVE-2026-34486 - Apache Tomcat
+**Vulnerability:** Apache Tomcat Missing Encryption of Sensitive Data Vulnerability
+
+**Description:** Apache Tomcat contains a missing encryption of sensitive data vulnerability that allows the bypass of the EncryptInterceptor.
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-08-04 | **Due Date:** 2026-08-07
+
+**MITRE CWE:** CWE-311
+
+**References:** https://lists.apache.org/thread/9510k5p5zdvt9pkkgtyp85mvwxo2qrly ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-34486
+
+## CVE-2026-9198 - IBM Langflow
+**Vulnerability:** IBM Langflow Code Injection Vulnerability
+
+**Description:** Langflow contains a code injection vulnerability that allows unauthenticated attackers to achieve full remote code execution on default Langflow deployments.
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-08-04 | **Due Date:** 2026-08-07
+
+**MITRE CWE:** CWE-94
+
+**References:** https://www.ibm.com/support/pages/node/7278927 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-9198
 
 ## CVE-2026-18577 - N-able N-central
 **Vulnerability:** N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability
@@ -1602,19 +1654,6 @@
 
 **References:** https://web.archive.org/web/20211222154335/https://www.vmware.com/security/advisories/VMSA-2021-0029.html ; https://nvd.nist.gov/vuln/detail/CVE-2021-22054
 
-## CVE-2025-26399 - SolarWinds Web Help Desk
-**Vulnerability:** SolarWinds Web Help Desk Deserialization of Untrusted Data Vulnerability
-
-**Description:** SolarWinds Web Help Desk contain a deserialization of untrusted data vulnerability in AjaxProxy that could allow an attacker to run commands on the host machine.
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2026-03-09 | **Due Date:** 2026-03-12
-
-**MITRE CWE:** CWE-502
-
-**References:** https://www.solarwinds.com/trust-center/security-advisories/cve-2025-26399 ; https://documentation.solarwinds.com/en/success_center/whd/content/release_notes/whd_12-8-7-hotfix-1_release_notes.htm ; https://nvd.nist.gov/vuln/detail/CVE-2025-26399
-
 ## CVE-2026-1603 - Ivanti  Endpoint Manager (EPM)
 **Vulnerability:** Ivanti Endpoint Manager (EPM) Authentication Bypass Vulnerability
 
@@ -2542,42 +2581,3 @@
 **MITRE CWE:** CWE-78
 
 **References:** https://fortiguard.fortinet.com/psirt/FG-IR-25-513 ; https://nvd.nist.gov/vuln/detail/CVE-2025-58034
-
-## CVE-2025-64446 - Fortinet FortiWeb
-**Vulnerability:** Fortinet FortiWeb Path Traversal Vulnerability
-
-**Description:** Fortinet FortiWeb contains a relative path traversal vulnerability that may allow an unauthenticated attacker to execute administrative commands on the system via crafted HTTP or HTTPS requests.
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2025-11-14 | **Due Date:** 2025-11-21
-
-**MITRE CWE:** CWE-23
-
-**References:** https://www.fortiguard.com/psirt/FG-IR-25-910 ; https://nvd.nist.gov/vuln/detail/CVE-2025-64446
-
-## CVE-2025-12480 - Gladinet Triofox
-**Vulnerability:** Gladinet Triofox Improper Access Control Vulnerability
-
-**Description:** Gladinet Triofox contains an improper access control vulnerability that allows access to initial setup pages even after setup is complete.
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2025-11-12 | **Due Date:** 2025-12-03
-
-**MITRE CWE:** CWE-284
-
-**References:** https://access.triofox.com/releases_history ; https://nvd.nist.gov/vuln/detail/CVE-2025-12480
-
-## CVE-2025-62215 - Microsoft Windows
-**Vulnerability:** Microsoft Windows Race Condition Vulnerability
-
-**Description:** Microsoft Windows Kernel contains a race condition vulnerability that allows a local attacker with low-level privileges to escalate privileges. Successful exploitation of this vulnerability could enable the attacker to gain SYSTEM-level access.
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2025-11-12 | **Due Date:** 2025-12-03
-
-**MITRE CWE:** CWE-362
-
-**References:** https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2025-62215 ; https://nvd.nist.gov/vuln/detail/CVE-2025-62215
