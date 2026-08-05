@@ -1,0 +1,4 @@
+TITLE: AI Notetaker Lets Hackers Spy on Government, Corporate Video Calls
+SOURCE: https://www.darkreading.com/application-security/ai-notetaker-spy-government-corporate-video-calls
+---
+A Google Firebase misconfiguration lets users of tl;dv, an AI meeting tool, query any other users' meeting information and potentially join calls.

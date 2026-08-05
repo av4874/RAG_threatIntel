@@ -1,0 +1,6 @@
+TITLE: New cPanel Critical Flaw Could Let Hosting Customers Run SQL as Database Root
+SOURCE: https://thehackernews.com/2026/08/new-cpanel-critical-flaw-could-let.html
+---
+cPanel has patched a flaw that let an authenticated hosting customer execute SQL in the database's root context, crossing the privilege boundary between a cPanel account and the server's administrative database identity. It shipped in a targeted security release that closes two other routes past account boundaries.
+
+The database bug is tracked as CVE-2026-58048 (CVSS 4.0 score: 9.4) and affects

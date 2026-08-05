@@ -1,0 +1,6 @@
+TITLE: Fake Adobe and Zoom Updates Install ScreenConnect for Persistent Remote Access
+SOURCE: https://thehackernews.com/2026/08/fake-adobe-and-zoom-updates-install.html
+---
+Cybersecurity researchers have disclosed details of an active, multi-wave campaign that employs social engineering lures themed around Adobe and Zoom software updates, business document reviews, and system maintenance utilities to stealthily deploy Remote Monitoring and Management (RMM) programs like ConnectWise ScreenConnect.
+
+The campaign has been codenamed SMOKE#SCREEN by Securonix Threat

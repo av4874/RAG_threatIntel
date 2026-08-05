@@ -1,0 +1,6 @@
+TITLE: QuickFox Supply Chain Attack Delivers FDMTP Backdoor via Trojanized Windows Installer
+SOURCE: https://thehackernews.com/2026/08/quickfox-supply-chain-attack-delivers.html
+---
+Cybersecurity researchers have disclosed what has been described as a "long-standing supply chain attack" on QuickFox, a virtual private network (VPN) and network acceleration tool designed for overseas Chinese users.
+
+According to Fortinet FortiGuard Labs, the supply chain attack has been ongoing since at least August 2025 and involves a trojanized version of the application to deliver FDMTP, a

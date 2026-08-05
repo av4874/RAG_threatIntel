@@ -1,0 +1,4 @@
+TITLE: Smoke#Screen RMM Takeover Gambit Exposes Threat Actor Playbook
+SOURCE: https://www.darkreading.com/cyberattacks-data-breaches/latest-rmm-fueled-phishing-attack-exposes-threat-actor-playbook
+---
+The attacks use diverse social engineering lures and rotating payloads to deliver ScreenConnect for persistent remote access to compromised networks.

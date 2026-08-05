@@ -1,0 +1,6 @@
+TITLE: DOUBLECUP Uses ClickFix and Cached PNGs to Deliver CountLoader and DeviceManager RAT
+SOURCE: https://thehackernews.com/2026/08/doublecup-uses-clickfix-and-cached-pngs.html
+---
+A new Russian loader-as-a-service (LaaS) codenamed DOUBLECUP has been using ClickFix lures as a way to stage malware-laced PNG images in victims' browser cache and ultimately deliver CountLoader and a previously undocumented remote access trojan called DeviceManager.
+
+"The first stage drops a steganographic PNG image into the browser's cache, retrieves its hidden content, and executes the second

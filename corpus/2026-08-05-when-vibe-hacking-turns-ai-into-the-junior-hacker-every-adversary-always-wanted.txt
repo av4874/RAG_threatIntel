@@ -1,0 +1,8 @@
+TITLE: When Vibe Hacking Turns AI into the Junior Hacker Every Adversary Always Wanted
+SOURCE: https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html
+---
+The cybersecurity industry has spent decades assuming that offensive capability scales with technical expertise.
+
+That assumption is starting to break.
+
+Security teams have long estimated risk by ranking attacker sophistication. Nation-state actors sat at one end. Organized criminal groups followed. Inexperienced attackers, dismissed as "script kiddies," sat at the other end, running public

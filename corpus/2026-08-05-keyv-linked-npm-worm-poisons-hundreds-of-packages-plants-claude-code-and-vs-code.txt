@@ -1,0 +1,6 @@
+TITLE: Keyv-Linked npm Worm Poisons Hundreds of Packages, Plants Claude Code and VS Code Hooks
+SOURCE: https://thehackernews.com/2026/08/keyv-linked-npm-worm-poisons-hundreds.html
+---
+A credential-stealing npm worm that first appeared in keyv@6.0.0 spread beyond the Keyv and Cacheable namespaces into hundreds of packages across multiple organizations on August 4, 2026.
+
+SafeDep verified 353 poisoned versions across 79 package names in the npm registry. Its monitoring put the wider footprint at 442 versions across 353 names, while Aikido later reported at least 868 packages
