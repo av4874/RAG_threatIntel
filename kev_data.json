@@ -342,6 +342,21 @@
     "notes": "Check for signs of potential compromise on all internet accessible REACT instances after applying mitigations. For more information, please see: https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components ; https://github.com/vercel-labs/fix-react2shell-next?tab=readme-ov-file ; https://nvd.nist.gov/vuln/detail/CVE-2025-55182"
   },
   {
+    "cve_id": "CVE-2026-63077",
+    "vendor_project": "JetBrains",
+    "product": "TeamCity",
+    "vulnerability_name": "JetBrains TeamCity Deserialization of Untrusted Data Vulnerability",
+    "date_added": "2026-08-05",
+    "short_description": "JetBrains TeamCity contains a deserialization of untrusted data vulnerability that could allow unauthenticated remote code execution via the agent polling protocol.",
+    "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+    "due_date": "2026-08-08",
+    "known_ransomware_use": false,
+    "cwes": [
+      "CWE-502"
+    ],
+    "notes": "https://blog.jetbrains.com/teamcity/2026/07/cve-2026-63077/; https://www.jetbrains.com/privacy-security/issues-fixed/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-63077"
+  },
+  {
     "cve_id": "CVE-2026-18556",
     "vendor_project": "N-able",
     "product": "N-central",
@@ -2980,20 +2995,5 @@
       "CWE-843"
     ],
     "notes": "https://chromereleases.googleblog.com/2025/11/stable-channel-update-for-desktop_17.html ; https://nvd.nist.gov/vuln/detail/CVE-2025-13223"
-  },
-  {
-    "cve_id": "CVE-2025-58034",
-    "vendor_project": "Fortinet",
-    "product": "FortiWeb",
-    "vulnerability_name": "Fortinet FortiWeb OS Command Injection Vulnerability",
-    "date_added": "2025-11-18",
-    "short_description": "Fortinet FortiWeb contains an OS command Injection vulnerability that may allow an authenticated attacker to execute unauthorized code on the underlying system via crafted HTTP requests or CLI commands.",
-    "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-    "due_date": "2025-11-25",
-    "known_ransomware_use": false,
-    "cwes": [
-      "CWE-78"
-    ],
-    "notes": "https://fortiguard.fortinet.com/psirt/FG-IR-25-513 ; https://nvd.nist.gov/vuln/detail/CVE-2025-58034"
   }
 ]
