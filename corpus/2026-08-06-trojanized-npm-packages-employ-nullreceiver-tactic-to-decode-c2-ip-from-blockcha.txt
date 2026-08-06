@@ -1,0 +1,6 @@
+TITLE: Trojanized npm Packages Employ NullReceiver Tactic to Decode C2 IP from Blockchain
+SOURCE: https://thehackernews.com/2026/08/trojanized-npm-packages-decode-c2-ip.html
+---
+Cybersecurity researchers have flagged an evolution of the EtherHiding blockchain-based command-and-control (C2) technique that conceals the C2 server IP address inside a made-up destination address of a completely empty Ethereum transfer.
+
+The new dead drop resolver approach, observed in two trojanized npm packages "bianira-ui" and "fluid-type-ui," has been codenamed NullReceiver by

@@ -1,0 +1,4 @@
+TITLE: No Perfect Fix for AI Browser Prompt Injection Flaws
+SOURCE: https://www.darkreading.com/application-security/no-perfect-fix-ai-browser-prompt-injection-flaws
+---
+AI browsers from top vendors remain vulnerable to prompt injection attacks despite multiple security guardrails, according to new research.

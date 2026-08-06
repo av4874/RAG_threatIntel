@@ -1,0 +1,6 @@
+TITLE: OpenAI Disrupts Poipet Scam Network Using ChatGPT Across Multiple Fraud Schemes
+SOURCE: https://thehackernews.com/2026/08/openai-disrupts-poipet-scam-network.html
+---
+OpenAI said it disrupted a Cambodia-based scam operation that used its generative artificial intelligence (AI) chatbot ChatGPT to facilitate a wide range of investment, romance, gambling, and law enforcement impersonation schemes.
+
+To that end, it banned a coordinated network of ChatGPT accounts likely originating from Southeast Asia and operating from the city of Poipet, a region with extensive

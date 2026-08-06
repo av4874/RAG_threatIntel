@@ -1,0 +1,10 @@
+TITLE: Veeam, Terraform MCP, Django Patch Critical Flaws, Led by CVSS 10.0 Cross-Tenant Bug
+SOURCE: https://thehackernews.com/2026/08/veeam-terraform-mcp-django-patch.html
+---
+HashiCorp, Veeam, and the Django Software Foundation have patched 11 vulnerabilities across Terraform MCP Server, Veeam Service Provider Console, and Django.
+
+The three most serious:
+
+
+  An unauthenticated flaw in Veeam's console that hands over a managed agent's credentials, rated 9.5
+  A cross-tenant flaw in HashiCorp's MCP server that lets one user's Terraform token be reused for later users'

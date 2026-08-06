@@ -1,0 +1,4 @@
+TITLE: AI Sends Global Crime Syndicates Into Fraud Nirvana
+SOURCE: https://www.darkreading.com/threat-intelligence/ai-global-crime-syndicates-fraud-nirvana
+---
+Organized crime is convincingly scamming at scale, making billions thanks to AI-enabled voice cloning, deepfake real-time video overlays, LLM-driven persona management, and automated translation.

@@ -1,0 +1,6 @@
+TITLE: Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup
+SOURCE: https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html
+---
+An unauthenticated attacker can read any file the service account can access on Gitea, the self-hosted Git platform, in versions 1.22.1 through 1.27.0. No login, no repository write access. A public repository and crafted Org-mode markup are enough. The flaw is fixed in Gitea 1.27.1.
+
+The file-read flaw is tracked as CVE-2026-59774, rated Critical with a CVSS score of 9.8, and received its

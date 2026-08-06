@@ -1,0 +1,4 @@
+TITLE: Flaws in Google APK for Python Unlock Agent-to-Agent Attack
+SOURCE: https://www.darkreading.com/vulnerabilities-threats/flaws-google-apk-python-agent-to-agent-attack
+---
+Google has fixed the issues, which exploited a trust boundary between two AI agents with different privilege levels to trigger automation that could compromise the supply chain.
