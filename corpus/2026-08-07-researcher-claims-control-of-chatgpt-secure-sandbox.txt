@@ -1,0 +1,4 @@
+TITLE: Researcher Claims Control of ChatGPT Secure Sandbox
+SOURCE: https://www.darkreading.com/cloud-security/researcher-claims-control-chatgpt-secure-sandbox
+---
+A researcher demonstrated a proof-of-concept attack chain that provided C2-style influence over ChatGPT's isolated sandbox during a session at Black Hat USA 2026.

@@ -1,0 +1,4 @@
+TITLE: The Coordination Gap: How Attackers Are Outpacing Law Enforcement
+SOURCE: https://www.darkreading.com/cyberattacks-data-breaches/coordination-gap-attackers-outpacing-law-enforcement
+---
+The fight against cybercrime continues because threat actors have adapted their strategies to avoid deterrents, but law enforcement still operates in silos.

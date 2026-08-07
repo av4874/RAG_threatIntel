@@ -1,0 +1,6 @@
+TITLE: AI Recommendation Poisoning: How "Ask AI" Buttons Silently Alter LLM Memory
+SOURCE: https://thehackernews.com/2026/08/ai-recommendation-poisoning-how-ask-ai.html
+---
+A new class of prompt injection is spreading across commercial websites. It requires no malware, no stolen credentials, and no zero-day exploit. It abuses a standard feature built into almost every major AI assistant: pre-filled deep links.
+
+We observed production websites embedding hidden prompt injection payloads inside "Ask AI" buttons on marketing and competitor comparison pages. When a user

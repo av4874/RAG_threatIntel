@@ -1,0 +1,8 @@
+TITLE: Cisco Patches 12 SD-WAN and IOS XE Flaws, Including Three 9.8 CVSS Score Bugs
+SOURCE: https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html
+---
+Cisco has rolled out updates to address multiple critical security vulnerabilities impacting Catalyst SD-WAN and IOS XE Software as part of a comprehensive internal security review.
+
+The security issues affect Cisco Catalyst SD-WAN Software, regardless of device configuration, and Cisco IOS XE Software when it is running in autonomous or controller mode.
+
+"These vulnerabilities were found

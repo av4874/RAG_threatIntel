@@ -1,0 +1,6 @@
+TITLE: Over 4,400 Rockwell PLCs Exposed Online, 22 Found in Water Attack Cities
+SOURCE: https://thehackernews.com/2026/08/over-4400-rockwell-plcs-exposed-online.html
+---
+Forescout found 22 internet-facing Rockwell Automation programmable logic controllers (PLCs) in cities hit by recent cyberattacks on US water utilities. Nineteen used the same mobile carrier network.
+
+Its August 3 scan counted 4,407 exposed Rockwell controllers worldwide, including 2,844 in the United States, but Forescout could not confirm any were compromised. That figure counts exposed

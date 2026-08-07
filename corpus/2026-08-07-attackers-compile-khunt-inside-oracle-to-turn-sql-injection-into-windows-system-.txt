@@ -1,0 +1,6 @@
+TITLE: Attackers Compile khunt Inside Oracle to Turn SQL Injection Into Windows SYSTEM Access
+SOURCE: https://thehackernews.com/2026/08/attackers-compile-khunt-inside-oracle.html
+---
+Attackers broke into an organization's Oracle database through a SQL injection flaw in a public-facing web application, then installed a post-exploitation toolkit without writing an executable to disk. They fed Java source code to the database, let Oracle compile it into stored schema objects, and ran commands from inside the database engine.
+
+Huntress, which tracks the toolkit as khunt,
