@@ -1,0 +1,6 @@
+TITLE: UNC6671 Vishing Attacks Target Personal Phones to Steal SaaS Data
+SOURCE: https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html
+---
+A recent wave of cyber attacks targeting financial services, private equity, and professional services is attributed to a data extortion group known as UNC6671.
+
+"UNC6671 continues to rely on voice phishing (vishing) to target enterprise employees, posing as IT help desk staff facilitating mandatory, urgent security migrations. Significantly, the threat actor often contacts employees via their

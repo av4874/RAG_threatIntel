@@ -1,0 +1,8 @@
+TITLE: Growing Up The Hard Way
+SOURCE: https://thehackernews.com/2026/08/growing-up-hard-way.html
+---
+Open Source had a great childhood.
+
+For two decades it got to be a kid. It ran around barefoot, gave everything away, trusted strangers, and never once thought about who was watching. It ran the kind of lemonade stand that took IOUs from anyone who wandered up — take what you need, pay me back whenever, no need to leave a name. It was idyllic. It was also, in retrospect, a little feral.
+
+Then,

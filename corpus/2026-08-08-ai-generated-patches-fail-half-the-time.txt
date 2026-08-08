@@ -1,0 +1,4 @@
+TITLE: AI-Generated Patches Fail Half the Time
+SOURCE: https://www.darkreading.com/application-security/ai-generated-patches-fail-half-time
+---
+A study of more than 6,000 patches found that even working patches can introduce new bugs, break something else, or are open to bypass.

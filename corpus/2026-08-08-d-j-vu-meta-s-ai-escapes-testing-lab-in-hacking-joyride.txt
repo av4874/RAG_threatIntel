@@ -1,0 +1,4 @@
+TITLE: Déjà Vu? Meta's AI Escapes Testing Lab in Hacking Joyride
+SOURCE: https://www.darkreading.com/cyberattacks-data-breaches/meta-ai-escapes-lab-hacking-joyride
+---
+In the span of three weeks, OpenAI, Anthropic, and Meta have all disclosed AI agent sandbox escape events affecting real organizations.

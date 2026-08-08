@@ -1,0 +1,6 @@
+TITLE: Microsoft 365 AitM Phishing Hijacks Accounts to Collect Payroll and Finance Emails
+SOURCE: https://thehackernews.com/2026/08/microsoft-365-aitm-phishing-hijacks.html
+---
+Cybersecurity researchers have called attention to an active "widespread email-driven phishing campaign" that employs adversary-in-the-middle (AitM) techniques to take control of Microsoft 365 accounts with an aim to identify key personnel involved in financial workflows and gather related email.
+
+"The campaign uses residential proxies to disguise malicious sign-ins as ordinary consumer traffic,

@@ -1,0 +1,6 @@
+TITLE: New NatJack Attacks Hijack TCP Sessions and Spoof DNS by Manipulating NAT Tables
+SOURCE: https://thehackernews.com/2026/08/new-natjack-attacks-hijack-tcp-sessions.html
+---
+Security researcher Malcolm Stagg has disclosed a new attack class called&nbsp;NatJack&nbsp;that manipulates network address translation (NAT) connection state to hijack active TCP sessions, spoof DNS responses, expose mapped ports, and exhaust NAT tables.
+
+Presented at Black Hat USA 2026, the research found affected behavior across independently developed implementations, including Windows and
