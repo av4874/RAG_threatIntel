@@ -1,0 +1,8 @@
+TITLE: N-able Issues N-central Hotfix 2 as Attackers Reach Managed Systems and Persist
+SOURCE: https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html
+---
+N-able has released a fresh round of hotfixes for N‑central as part of its investigation into ongoing exploitation of a recently disclosed security flaw in the Remote Monitoring and Management (RMM) product.
+
+"We are proactively expanding protections in response to ongoing monitoring of threat actors as they evolve their attack techniques," the company said.
+
+"This is not a duplicate of our
