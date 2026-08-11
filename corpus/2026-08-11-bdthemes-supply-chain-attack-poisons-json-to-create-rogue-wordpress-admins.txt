@@ -1,0 +1,6 @@
+TITLE: BdThemes Supply Chain Attack Poisons JSON to Create Rogue WordPress Admins
+SOURCE: https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html
+---
+Cybersecurity researchers have warned of a supply chain compromise impacting WordPress plugin vendor BdThemes, prompting the content management systems (CMS) platform's plugins team to temporarily disable their downloads.
+
+"Unlike traditional software supply chain attacks, zero source code files were modified within the official WordPress.org repository," Wordfence researcher Paolo Tresso said.

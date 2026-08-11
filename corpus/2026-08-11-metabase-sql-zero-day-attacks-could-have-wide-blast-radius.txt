@@ -1,0 +1,4 @@
+TITLE: Metabase SQL Zero-Day Attacks Could Have Wide Blast Radius
+SOURCE: https://www.darkreading.com/vulnerabilities-threats/metabase-sql-zero-day-attacks-wide-blast-radius
+---
+The maximum-severity vulnerability, which still has no CVE, allows malicious, remote administrator access to the business-analytics platform and its downstream users.

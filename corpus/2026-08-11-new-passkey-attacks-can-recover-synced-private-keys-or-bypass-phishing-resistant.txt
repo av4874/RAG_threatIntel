@@ -1,0 +1,6 @@
+TITLE: New Passkey Attacks Can Recover Synced Private Keys or Bypass Phishing-Resistant MFA
+SOURCE: https://thehackernews.com/2026/08/new-passkey-attacks-can-recover-synced.html
+---
+Three separate research efforts last week demonstrated ways to defeat passkey protections without breaking the cryptography they rest on.
+
+Passkeys are designed to replace reusable passwords and resist phishing. The attacks instead reused signed authentication material that Windows had exposed, abused a cloud-synced passkey system from malware already on the victim's machine, and used a&nbsp;

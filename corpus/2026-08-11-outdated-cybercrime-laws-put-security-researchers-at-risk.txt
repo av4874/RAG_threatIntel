@@ -1,0 +1,4 @@
+TITLE: Outdated Cybercrime Laws Put Security Researchers at Risk
+SOURCE: https://www.darkreading.com/application-security/outdated-cybercrime-laws-security-researchers-risk
+---
+A public policy expert mapped global cybercrime laws to develop a five-point framework for protecting ethical hackers and good-faith security research.

@@ -1,0 +1,4 @@
+TITLE: Multistate Water System Attacks Widen, Iran Suspected
+SOURCE: https://www.darkreading.com/ics-ot-security/multistate-water-system-attacks-widen-iran-suspected
+---
+Attacks targeting water systems just keep flowing across a dozen states, against ill-secured, Internet-exposed PLCs.

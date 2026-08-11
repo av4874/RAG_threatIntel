@@ -1,0 +1,4 @@
+TITLE: The Patch Gap: Why Defenders Need to Think in Chains, Not Checklists
+SOURCE: https://www.darkreading.com/cybersecurity-operations/patch-gap-defenders-chains-not-checklists
+---
+It's time to turn from CVSS-backed patching to choke-point patching focused on breaking chains to critical assets.

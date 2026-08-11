@@ -1,0 +1,4 @@
+TITLE: 'GhostJacking' Exposes Identity Governance Gaps in AI Agents
+SOURCE: https://www.darkreading.com/cyber-risk/ghostjacking-identity-governance-gaps-ai-agents
+---
+New research shows how attackers can use security alerts and blocked events to manipulate and hijack AI agents.
