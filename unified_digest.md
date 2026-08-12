@@ -26,17 +26,17 @@
 **Detection Feasibility:** High - The vulnerabilities allow for command execution and request manipulation, which can be detected through network connection logs.
 **Recommendation:** New use case - Implement new rules to monitor for unusual network connections and command executions.
 
-### CVE-2026-56164 - Microsoft's July 2026 Patch Tuesday: 570 Vulnerabilities and 3 Zero-Days (risk score: 8/10)
-**Vendor/Product:** Microsoft SharePoint Server
-**Vulnerability:** Microsoft SharePoint Server Missing Authentication for Critical Function Vulnerability
+### CVE-2026-56155 - Microsoft's July 2026 Patch Tuesday: 570 Vulnerabilities and 3 Zero-Days (risk score: 8/10)
+**Vendor/Product:** Microsoft Active Directory Federation Services
+**Vulnerability:** Microsoft Active Directory Federation Services Insufficient Granularity of Access Control Vulnerability 
 **ATT&CK Technique:** T1190 - Exploit Public-Facing Application
 **Log Sources:** Windows Security Event Log, EDR/endpoint logs
 **Detection Feasibility:** High - Remote code execution vulnerabilities are highly feasible to detect through security event logs and endpoint detection and response tools.
 **Recommendation:** Tune existing rule - Existing rules can be tuned to specifically look for signs of remote code execution attempts based on the patterns of these vulnerabilities.
 
-### CVE-2026-56155 - Microsoft's July 2026 Patch Tuesday: 570 Vulnerabilities and 3 Zero-Days (risk score: 8/10)
-**Vendor/Product:** Microsoft Active Directory Federation Services
-**Vulnerability:** Microsoft Active Directory Federation Services Insufficient Granularity of Access Control Vulnerability 
+### CVE-2026-56164 - Microsoft's July 2026 Patch Tuesday: 570 Vulnerabilities and 3 Zero-Days (risk score: 8/10)
+**Vendor/Product:** Microsoft SharePoint Server
+**Vulnerability:** Microsoft SharePoint Server Missing Authentication for Critical Function Vulnerability
 **ATT&CK Technique:** T1190 - Exploit Public-Facing Application
 **Log Sources:** Windows Security Event Log, EDR/endpoint logs
 **Detection Feasibility:** High - Remote code execution vulnerabilities are highly feasible to detect through security event logs and endpoint detection and response tools.
@@ -111,6 +111,27 @@
 **Recommendation:** Tune existing rule - Existing security solutions can likely detect malicious activities related to command execution based on known indicators of compromise.
 
 ## KEV-Only (not covered by RAG lane)
+
+### CVE-2026-20349 - Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) 
+**Vulnerability:** Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) Heap Inspection Vulnerability
+
+**MITRE CWE:** CWE-244
+
+**References:** https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-vpn-dos-dzv4mQFF ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-20349
+
+### CVE-2026-68820 - Microsoft Windows Ancillary Function Driver for WinSock 
+**Vulnerability:** Microsoft Windows Ancillary Function Driver for WinSock Use-After-Free Vulnerability
+
+**MITRE CWE:** CWE-416
+
+**References:** https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2026-68820 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-68820
+
+### CVE-2026-72898 - Metabase Metabase
+**Vulnerability:** Metabase SQL Injection Vulnerability
+
+**MITRE CWE:** CWE-89
+
+**References:** https://www.metabase.com/blog/security-update ; https://github.com/metabase/metabase/security/advisories/GHSA-vwf4-m7j8-wcjf ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-72898
 
 ### CVE-2026-8037 - Progress LoadMaster
 **Vulnerability:** Progress LoadMaster Command Injection Vulnerability
@@ -300,24 +321,3 @@
 **MITRE CWE:** CWE-22
 
 **References:** https://helpx.adobe.com/security/products/coldfusion/apsb26-68.html ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-48282
-
-### CVE-2026-45659 - Microsoft SharePoint Server (RANSOMWARE-LINKED)
-**Vulnerability:** Microsoft SharePoint Server Deserialization of Untrusted Data Vulnerability
-
-**MITRE CWE:** CWE-502
-
-**References:** https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45659 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-45659
-
-### CVE-2026-48558 - SimpleHelp  SimpleHelp
-**Vulnerability:** SimpleHelp Authentication Bypass Vulnerability
-
-**MITRE CWE:** CWE-347
-
-**References:** https://simple-help.com/security/simplehelp-security-update-2026-05 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-48558
-
-### CVE-2026-12569 - PTC Windchill and FlexPLM (RANSOMWARE-LINKED)
-**Vulnerability:** PTC Windchill and FlexPLM Improper Input Validation Vulnerability
-
-**MITRE CWE:** CWE-20, CWE-502
-
-**References:** https://www.ptc.com/en/support/article/CS473270 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-12569
