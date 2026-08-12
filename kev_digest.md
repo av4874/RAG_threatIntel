@@ -308,6 +308,45 @@
 
 **References:** Check for signs of potential compromise on all internet accessible REACT instances after applying mitigations. For more information, please see: https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components ; https://github.com/vercel-labs/fix-react2shell-next?tab=readme-ov-file ; https://nvd.nist.gov/vuln/detail/CVE-2025-55182
 
+## CVE-2026-20349 - Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) 
+**Vulnerability:** Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) Heap Inspection Vulnerability
+
+**Description:** Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) contain a heap inspection vulnerability that could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a denial of service (DoS) condition.
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-08-11 | **Due Date:** 2026-08-14
+
+**MITRE CWE:** CWE-244
+
+**References:** https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-vpn-dos-dzv4mQFF ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-20349
+
+## CVE-2026-68820 - Microsoft Windows Ancillary Function Driver for WinSock 
+**Vulnerability:** Microsoft Windows Ancillary Function Driver for WinSock Use-After-Free Vulnerability
+
+**Description:** Microsoft Windows Ancillary Function Driver for WinSock contains a use-after-free vulnerability that allows an authorized attacker to elevate privileges locally.
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-08-11 | **Due Date:** 2026-08-25
+
+**MITRE CWE:** CWE-416
+
+**References:** https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2026-68820 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-68820
+
+## CVE-2026-72898 - Metabase Metabase
+**Vulnerability:** Metabase SQL Injection Vulnerability
+
+**Description:** Metabase contains a SQL Injection vulnerability that allows an unauthenticated remote attacker to inject arbitrary SQL into the Metabase application database, which can give them administrator access to the instance. From there, the attacker could change the application configuration, steal stored credentials for the connected databases, read any data accessible through those connections, and export data.
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-08-11 | **Due Date:** 2026-08-14
+
+**MITRE CWE:** CWE-89
+
+**References:** https://www.metabase.com/blog/security-update ; https://github.com/metabase/metabase/security/advisories/GHSA-vwf4-m7j8-wcjf ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-72898
+
 ## CVE-2026-8037 - Progress LoadMaster
 **Vulnerability:** Progress LoadMaster Command Injection Vulnerability
 
@@ -2544,40 +2583,3 @@
 **Date Added:** 2025-12-02 | **Due Date:** 2025-12-23
 
 **References:** https://source.android.com/docs/security/bulletin/2025-12-01 ; https://nvd.nist.gov/vuln/detail/CVE-2025-48633
-
-## CVE-2025-48572 - Android Framework
-**Vulnerability:** Android Framework Privilege Escalation Vulnerability
-
-**Description:** Android Framework contains an unspecified vulnerability that allows for privilege escalation.
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2025-12-02 | **Due Date:** 2025-12-23
-
-**References:** https://source.android.com/docs/security/bulletin/2025-12-01 ; https://nvd.nist.gov/vuln/detail/CVE-2025-48572
-
-## CVE-2021-26829 - OpenPLC ScadaBR
-**Vulnerability:** OpenPLC ScadaBR Cross-site Scripting Vulnerability
-
-**Description:** OpenPLC ScadaBR contains a cross-site scripting vulnerability via system_settings.shtm.
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2025-11-28 | **Due Date:** 2025-12-19
-
-**MITRE CWE:** CWE-79
-
-**References:** This vulnerability could affect an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://github.com/SCADA-LTS/Scada-LTS/pull/3211 ; https://nvd.nist.gov/vuln/detail/CVE-2021-26829
-
-## CVE-2025-61757 - Oracle Fusion Middleware
-**Vulnerability:** Oracle Fusion Middleware Missing Authentication for Critical Function Vulnerability
-
-**Description:** Oracle Fusion Middleware contains a missing authentication for critical function vulnerability, allowing unauthenticated remote attackers to take over Identity Manager.
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2025-11-21 | **Due Date:** 2025-12-12
-
-**MITRE CWE:** CWE-306
-
-**References:** https://www.oracle.com/security-alerts/cpuoct2025.html ; https://nvd.nist.gov/vuln/detail/CVE-2025-61757

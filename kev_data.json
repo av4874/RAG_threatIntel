@@ -357,6 +357,51 @@
     "notes": "Check for signs of potential compromise on all internet accessible REACT instances after applying mitigations. For more information, please see: https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components ; https://github.com/vercel-labs/fix-react2shell-next?tab=readme-ov-file ; https://nvd.nist.gov/vuln/detail/CVE-2025-55182"
   },
   {
+    "cve_id": "CVE-2026-20349",
+    "vendor_project": "Cisco",
+    "product": "Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) ",
+    "vulnerability_name": "Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) Heap Inspection Vulnerability",
+    "date_added": "2026-08-11",
+    "short_description": "Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) contain a heap inspection vulnerability that could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a denial of service (DoS) condition.",
+    "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+    "due_date": "2026-08-14",
+    "known_ransomware_use": false,
+    "cwes": [
+      "CWE-244"
+    ],
+    "notes": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-vpn-dos-dzv4mQFF ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-20349"
+  },
+  {
+    "cve_id": "CVE-2026-68820",
+    "vendor_project": "Microsoft",
+    "product": "Windows Ancillary Function Driver for WinSock ",
+    "vulnerability_name": "Microsoft Windows Ancillary Function Driver for WinSock Use-After-Free Vulnerability",
+    "date_added": "2026-08-11",
+    "short_description": "Microsoft Windows Ancillary Function Driver for WinSock contains a use-after-free vulnerability that allows an authorized attacker to elevate privileges locally.",
+    "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+    "due_date": "2026-08-25",
+    "known_ransomware_use": false,
+    "cwes": [
+      "CWE-416"
+    ],
+    "notes": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2026-68820 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-68820"
+  },
+  {
+    "cve_id": "CVE-2026-72898",
+    "vendor_project": "Metabase",
+    "product": "Metabase",
+    "vulnerability_name": "Metabase SQL Injection Vulnerability",
+    "date_added": "2026-08-11",
+    "short_description": "Metabase contains a SQL Injection vulnerability that allows an unauthenticated remote attacker to inject arbitrary SQL into the Metabase application database, which can give them administrator access to the instance. From there, the attacker could change the application configuration, steal stored credentials for the connected databases, read any data accessible through those connections, and export data.",
+    "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+    "due_date": "2026-08-14",
+    "known_ransomware_use": false,
+    "cwes": [
+      "CWE-89"
+    ],
+    "notes": "https://www.metabase.com/blog/security-update ; https://github.com/metabase/metabase/security/advisories/GHSA-vwf4-m7j8-wcjf ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-72898"
+  },
+  {
     "cve_id": "CVE-2026-8037",
     "vendor_project": "Progress",
     "product": "LoadMaster",
@@ -2952,48 +2997,5 @@
     "known_ransomware_use": false,
     "cwes": [],
     "notes": "https://source.android.com/docs/security/bulletin/2025-12-01 ; https://nvd.nist.gov/vuln/detail/CVE-2025-48633"
-  },
-  {
-    "cve_id": "CVE-2025-48572",
-    "vendor_project": "Android",
-    "product": "Framework",
-    "vulnerability_name": "Android Framework Privilege Escalation Vulnerability",
-    "date_added": "2025-12-02",
-    "short_description": "Android Framework contains an unspecified vulnerability that allows for privilege escalation.",
-    "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-    "due_date": "2025-12-23",
-    "known_ransomware_use": false,
-    "cwes": [],
-    "notes": "https://source.android.com/docs/security/bulletin/2025-12-01 ; https://nvd.nist.gov/vuln/detail/CVE-2025-48572"
-  },
-  {
-    "cve_id": "CVE-2021-26829",
-    "vendor_project": "OpenPLC",
-    "product": "ScadaBR",
-    "vulnerability_name": "OpenPLC ScadaBR Cross-site Scripting Vulnerability",
-    "date_added": "2025-11-28",
-    "short_description": "OpenPLC ScadaBR contains a cross-site scripting vulnerability via system_settings.shtm.",
-    "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-    "due_date": "2025-12-19",
-    "known_ransomware_use": false,
-    "cwes": [
-      "CWE-79"
-    ],
-    "notes": "This vulnerability could affect an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://github.com/SCADA-LTS/Scada-LTS/pull/3211 ; https://nvd.nist.gov/vuln/detail/CVE-2021-26829"
-  },
-  {
-    "cve_id": "CVE-2025-61757",
-    "vendor_project": "Oracle",
-    "product": "Fusion Middleware",
-    "vulnerability_name": "Oracle Fusion Middleware Missing Authentication for Critical Function Vulnerability",
-    "date_added": "2025-11-21",
-    "short_description": "Oracle Fusion Middleware contains a missing authentication for critical function vulnerability, allowing unauthenticated remote attackers to take over Identity Manager.",
-    "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-    "due_date": "2025-12-12",
-    "known_ransomware_use": false,
-    "cwes": [
-      "CWE-306"
-    ],
-    "notes": "https://www.oracle.com/security-alerts/cpuoct2025.html ; https://nvd.nist.gov/vuln/detail/CVE-2025-61757"
   }
 ]
