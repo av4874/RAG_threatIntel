@@ -1,0 +1,6 @@
+TITLE: Sandworm-Linked UAC-0145 Uses Fake Job Interviews to Push VPN That Can Run Commands
+SOURCE: https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html
+---
+The Computer Emergency Response Team of Ukraine (CERT-UA) has disclosed details of a new social engineering campaign orchestrated by Russian nation-state threat actors targeting IT workers in the country by masquerading as recruiters to trick them into installing malware.
+
+CERT-UA pinned the activity on a threat cluster it tracks as UAC-0145, which is a subgroup within Sandworm (aka APT44,

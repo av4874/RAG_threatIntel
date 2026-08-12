@@ -1,0 +1,6 @@
+TITLE: DeadLock Ransomware Uses Polygon Smart Contracts to Make Extortion Infra Harder to Disrupt
+SOURCE: https://thehackernews.com/2026/08/deadlock-ransomware-uses-polygon-smart.html
+---
+The ransomware group known as DeadLock has been observed using decentralized infrastructure to facilitate victim communications and data leak operations in a bid to improve operational resilience.
+
+"Its recovery ecosystem combines the Session messaging network with blockchain-backed services that store and deliver resources used throughout the extortion process," the Microsoft Threat

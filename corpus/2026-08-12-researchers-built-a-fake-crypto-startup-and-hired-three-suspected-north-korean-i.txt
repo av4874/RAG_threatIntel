@@ -1,0 +1,8 @@
+TITLE: Researchers Built a Fake Crypto Startup and Hired Three Suspected North Korean IT Workers
+SOURCE: https://thehackernews.com/2026/08/researchers-built-fake-crypto-startup.html
+---
+Security researchers invented a cryptocurrency startup, advertised developer jobs, and hired three people they believe were North Korean operatives. Every virtual machine the company issued was recording.
+
+The onboarding paperwork is the part hiring teams can use. The first hire claimed to live in Pasadena, Texas, then sent a California driver's license and a New York bank account.
+
+The

@@ -1,0 +1,4 @@
+TITLE: Microsoft's Patch Tuesday Deluge Continues With August Updates
+SOURCE: https://www.darkreading.com/application-security/microsofts-patch-tuesday-deluge-continues
+---
+Security experts say prioritization should be the main focus for the August updates, not the massive CVE volume.
