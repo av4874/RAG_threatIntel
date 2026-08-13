@@ -1,0 +1,4 @@
+TITLE: Ransomware Hits Colombian Justice Ministry Days Before Presidential Transition
+SOURCE: https://www.darkreading.com/cyberattacks-data-breaches/ransomware-hits-colombian-justice-ministry-presidential-transition
+---
+Attackers continue to target critical infrastructure and government-linked organizations in the country, mirroring the increased activity across Latin America.

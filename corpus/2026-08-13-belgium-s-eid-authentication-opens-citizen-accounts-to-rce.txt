@@ -1,0 +1,4 @@
+TITLE: Belgium's eID Authentication Opens Citizen Accounts to RCE
+SOURCE: https://www.darkreading.com/application-security/belgium-eid-authentication-citizen-accounts-rce
+---
+The trust framework underlying Belgium's electronic ID system was fully compromised by severe vulnerabilities in a key browser extension, showcasing bigger problems with extensions in general.

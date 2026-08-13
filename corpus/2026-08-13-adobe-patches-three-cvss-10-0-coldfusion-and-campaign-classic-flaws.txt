@@ -1,0 +1,9 @@
+TITLE: Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws
+SOURCE: https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html
+---
+Adobe has shipped updates to address multiple critical security vulnerabilities impacting ColdFusion, Commerce, and Campaign Classic that, if successfully exploited, could result in arbitrary code execution and privilege escalation.
+
+The most severe of the flaws are listed below -
+
+
+  CVE-2026-48362 (CVSS score: 10.0) - An operating system command injection vulnerability in ColdFusion that could

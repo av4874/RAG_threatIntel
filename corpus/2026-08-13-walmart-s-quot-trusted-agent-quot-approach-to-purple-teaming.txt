@@ -1,0 +1,4 @@
+TITLE: Walmart's &quot;Trusted Agent&quot; Approach to Purple Teaming
+SOURCE: https://www.darkreading.com/cybersecurity-operations/walmart-trusted-agent-approach-purple-teaming
+---
+Walmart co-locates red and blue teams to build trust and improve security through collaborative purple teaming exercises
