@@ -1,0 +1,4 @@
+TITLE: Amid AI-Driven Bug-Hunt Tsunami, NIST Looks to … AI
+SOURCE: https://www.darkreading.com/vulnerabilities-threats/ai-driven-bug-tsunami-nist-looks-to-ai
+---
+Driven by AI-augmented research and scanning, vulnerability volumes continue to surge, driving the National Institute of Standards and Technology to ask whether AI could be the answer.

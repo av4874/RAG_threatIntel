@@ -1,0 +1,4 @@
+TITLE: Cyera's Oasis Security Buy Is All About AI Agent Control
+SOURCE: https://www.darkreading.com/identity-access-management-security/cyera-oasis-security-acquisition-ai-agent-control
+---
+The $1 billion deal aims to converge data security and identity into a single control plane for agents, with privileged access redefined around business context rather than static roles.

@@ -1,0 +1,4 @@
+TITLE: Mission-Driven Security: Inside a Global Bank's Defense
+SOURCE: https://www.darkreading.com/cybersecurity-operations/mission-driven-security-inside-global-bank-defense
+---
+In this video interview, Standard Chartered's group CISO shares insights on transitioning from technical roles to strategic leadership, the importance of business-savvy security executives, and how AI is reshaping both defensive capabilities and adversarial tactics in banking.

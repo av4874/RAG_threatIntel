@@ -1,0 +1,4 @@
+TITLE: Scottish Govt Suffers Potentially Widening Data Breach at Prosecutor's Office
+SOURCE: https://www.darkreading.com/cyberattacks-data-breaches/scottish-govt-data-breach-prosecutors-office
+---
+One Caledonian government agency reported a breach, thanks to a third party that may have serviced other agencies as well.
