@@ -206,6 +206,19 @@
 
 **References:** https://www.jetbrains.com/privacy-security/issues-fixed/ ; https://blog.jetbrains.com/teamcity/2024/03/additional-critical-security-issues-affecting-teamcity-on-premises-cve-2024-27198-and-cve-2024-27199-update-to-2023-11-4-now/ ; https://nvd.nist.gov/vuln/detail/CVE-2024-27199
 
+## CVE-2025-60710 - Microsoft Windows (RANSOMWARE-LINKED)
+**Vulnerability:** Microsoft Windows Link Following Vulnerability
+
+**Description:** Microsoft Windows contains a link following vulnerability that allows for privilege escalation
+
+**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
+
+**Date Added:** 2026-04-13 | **Due Date:** 2026-04-27
+
+**MITRE CWE:** CWE-59
+
+**References:** https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-60710 ; https://nvd.nist.gov/vuln/detail/CVE-2025-60710
+
 ## CVE-2023-21529 - Microsoft Exchange Server (RANSOMWARE-LINKED)
 **Vulnerability:** Microsoft Exchange Server Deserialization of Untrusted Data Vulnerability
 
@@ -1393,19 +1406,6 @@
 **MITRE CWE:** CWE-426
 
 **References:** https://learn.microsoft.com/en-us/security-updates/securitybulletins/2012/ms12-046 ; https://nvd.nist.gov/vuln/detail/CVE-2012-1854
-
-## CVE-2025-60710 - Microsoft Windows
-**Vulnerability:** Microsoft Windows Link Following Vulnerability
-
-**Description:** Microsoft Windows contains a link following vulnerability that allows for privilege escalation
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2026-04-13 | **Due Date:** 2026-04-27
-
-**MITRE CWE:** CWE-59
-
-**References:** https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-60710 ; https://nvd.nist.gov/vuln/detail/CVE-2025-60710
 
 ## CVE-2023-36424 - Microsoft Windows
 **Vulnerability:** Microsoft Windows Out-of-Bounds Read Vulnerability
