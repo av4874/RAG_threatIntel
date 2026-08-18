@@ -1,0 +1,4 @@
+TITLE: Linux Botnet Evooo1Bot Expands Mirai Capabilities Well Beyond DDoS
+SOURCE: https://www.darkreading.com/cyber-risk/linux-botnet-evooo1bot-mirai-capabilities-beyond-ddos
+---
+The botnet adds exploitation modules, credential theft, and reverse SOCKS relays to turn compromised devices into persistent attacker infrastructure.

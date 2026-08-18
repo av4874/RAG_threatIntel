@@ -1,0 +1,8 @@
+TITLE: Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects
+SOURCE: https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html
+---
+GitLab has released security updates to address a critical vulnerability impacting its Community Edition (CE) and Enterprise Edition (EE) software that, under certain conditions, could allow an unauthenticated attacker to remotely modify or delete public projects and user data.
+
+The flaw, tracked as CVE-2026-19478, has been rated Critical by GitLab and assigned a CVSS score of 9.4.
+
+Released on
