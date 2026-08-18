@@ -321,6 +321,19 @@
 
 **References:** Check for signs of potential compromise on all internet accessible REACT instances after applying mitigations. For more information, please see: https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components ; https://github.com/vercel-labs/fix-react2shell-next?tab=readme-ov-file ; https://nvd.nist.gov/vuln/detail/CVE-2025-55182
 
+## CVE-2025-62593 - Ray-Project Ray
+**Vulnerability:** Ray-Project Ray Code Injection Vulnerability
+
+**Description:** Ray-Project Ray contains a code injection vulnerability that could allow remote code execution. Developers using Ray as a development tool may be exposed to this vulnerability exploitable through Firefox and Safari.
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-08-17 | **Due Date:** 2026-08-20
+
+**MITRE CWE:** CWE-94, CWE-352
+
+**References:** https://github.com/ray-project/ray/security/advisories/GHSA-q279-jhrf-cc6v ; https://github.com/ray-project/ray/commit/70e7c72780bdec075dba6cad1afe0832772bfe09 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2025-62593
+
 ## CVE-2026-20349 - Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) 
 **Vulnerability:** Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) Heap Inspection Vulnerability
 
@@ -2572,14 +2585,3 @@
 **MITRE CWE:** CWE-434
 
 **References:** This vulnerability could affect an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://github.com/SCADA-LTS/Scada-LTS/pull/2174 ; https://nvd.nist.gov/vuln/detail/CVE-2021-26828
-
-## CVE-2025-48633 - Android Framework
-**Vulnerability:** Android Framework Information Disclosure Vulnerability
-
-**Description:** Android Framework contains an unspecified vulnerability that allows for information disclosure.
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2025-12-02 | **Due Date:** 2025-12-23
-
-**References:** https://source.android.com/docs/security/bulletin/2025-12-01 ; https://nvd.nist.gov/vuln/detail/CVE-2025-48633
