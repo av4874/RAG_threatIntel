@@ -310,16 +310,57 @@
 
 **References:** https://www.smartertools.com/smartermail/release-notes/current ; https://nvd.nist.gov/vuln/detail/CVE-2026-23760
 
-## CVE-2025-55182 - Meta React Server Components (RANSOMWARE-LINKED)
-**Vulnerability:** Meta React Server Components Remote Code Execution Vulnerability
+## CVE-2026-33824 - Microsoft Internet Key Exchange (IKE) Service Extensions
+**Vulnerability:** Microsoft Internet Key Exchange (IKE) Service Extensions Double Free Vulnerability
 
-**Description:** Meta React Server Components contains a remote code execution vulnerability that could allow unauthenticated remote code execution by exploiting a flaw in how React decodes payloads sent to React Server Function endpoints. Please note CVE-2025-66478 has been rejected, but it is associated with CVE-2025- 55182.
+**Description:** Microsoft Internet Key Exchange (IKE) Service Extensions contains a double free vulnerability that could enable remote code execution.
 
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
-**Date Added:** 2025-12-05 | **Due Date:** 2025-12-12
+**Date Added:** 2026-08-18 | **Due Date:** 2026-08-21
 
-**References:** Check for signs of potential compromise on all internet accessible REACT instances after applying mitigations. For more information, please see: https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components ; https://github.com/vercel-labs/fix-react2shell-next?tab=readme-ov-file ; https://nvd.nist.gov/vuln/detail/CVE-2025-55182
+**MITRE CWE:** CWE-415
+
+**References:** https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-33824 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-33824
+
+## CVE-2026-59310 - Broadcom VMware vCenter
+**Vulnerability:** Broadcom VMware vCenter Path Traversal Vulnerability
+
+**Description:** Broadcom VMware vCenter contains a path traversal vulnerability which could allow a threat actor with network access to vCenter to execute arbitrary code.
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-08-18 | **Due Date:** 2026-08-21
+
+**MITRE CWE:** CWE-22
+
+**References:** https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/38017 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-59310
+
+## CVE-2026-55040 - Microsoft SharePoint
+**Vulnerability:** Microsoft SharePoint Weak Authentication Vulnerability
+
+**Description:** Microsoft SharePoint contains a weak authentication vulnerability which allows an unauthorized attacker to bypass a security feature over a network.
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-08-18 | **Due Date:** 2026-08-21
+
+**MITRE CWE:** CWE-1390
+
+**References:** https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-55040 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-55040
+
+## CVE-2026-65400 - Apple macOS
+**Vulnerability:** Apple macOS Improper Authentication Vulnerability
+
+**Description:** Apple macOS contains an improper authentication vulnerability that could allow an attacker on the network to authenticate to Screen Sharing without valid credentials.
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-08-18 | **Due Date:** 2026-08-21
+
+**MITRE CWE:** CWE-287
+
+**References:** https://support.apple.com/en-us/148170; https://support.apple.com/en-us/148171; https://support.apple.com/en-us/148172 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-65400
 
 ## CVE-2025-62593 - Ray-Project Ray
 **Vulnerability:** Ray-Project Ray Code Injection Vulnerability
@@ -2546,42 +2587,3 @@
 **MITRE CWE:** CWE-416
 
 **References:** https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2025-62221 ; https://nvd.nist.gov/vuln/detail/CVE-2025-62221
-
-## CVE-2022-37055 - D-Link Routers
-**Vulnerability:** D-Link Routers Buffer Overflow Vulnerability
-
-**Description:** D-Link Routers contains a buffer overflow vulnerability that has a high impact on confidentiality, integrity, and availability. The impacted products could be end-of-life (EoL) and/or end-of-service (EoS). Users should discontinue product utilization.
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2025-12-08 | **Due Date:** 2025-12-29
-
-**MITRE CWE:** CWE-120
-
-**References:** https://supportannouncement.us.dlink.com/security/publication.aspx?name=SAP10308 ; https://nvd.nist.gov/vuln/detail/CVE-2022-37055
-
-## CVE-2025-66644 - Array Networks  ArrayOS AG
-**Vulnerability:** Array Networks ArrayOS AG OS Command Injection Vulnerability
-
-**Description:** Array Networks ArrayOS AG contains an OS command injection vulnerability that could allow an attacker to execute arbitrary commands.
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2025-12-08 | **Due Date:** 2025-12-29
-
-**MITRE CWE:** CWE-78
-
-**References:** https://support.arraynetworks.net/prx/001/http/supportportal.arraynetworks.net/ag.html ; https://www.jpcert.or.jp/at/2025/at250024.html ; https://nvd.nist.gov/vuln/detail/CVE-2025-66644
-
-## CVE-2021-26828 - OpenPLC ScadaBR
-**Vulnerability:** OpenPLC ScadaBR Unrestricted Upload of File with Dangerous Type Vulnerability
-
-**Description:** OpenPLC ScadaBR contains an unrestricted upload of file with dangerous type vulnerability that allows remote authenticated users to upload and execute arbitrary JSP files via view_edit.shtm.
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2025-12-03 | **Due Date:** 2025-12-24
-
-**MITRE CWE:** CWE-434
-
-**References:** This vulnerability could affect an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://github.com/SCADA-LTS/Scada-LTS/pull/2174 ; https://nvd.nist.gov/vuln/detail/CVE-2021-26828
