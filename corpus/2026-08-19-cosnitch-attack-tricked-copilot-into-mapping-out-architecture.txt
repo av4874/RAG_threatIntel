@@ -1,0 +1,4 @@
+TITLE: 'CoSnitch' Attack Tricked Copilot into Mapping Out Architecture
+SOURCE: https://www.darkreading.com/vulnerabilities-threats/cosnitch-attack-copilot-mapping-out-architecture
+---
+Researchers discovered a &quot;meta-hacking&quot; technique that can manipulate the AI service into revealing its own security weaknesses.

@@ -1,0 +1,4 @@
+TITLE: 'Ransom Busters': Ransomware Actor Poses as Incident-Recovery Service
+SOURCE: https://www.darkreading.com/cyberattacks-data-breaches/ransom-busters-ransomware-actor-incident-recovery-service
+---
+A ransomware affiliate appears to be sidling up to victims with offers of aid, masking its true intention of diverting ransom payments.

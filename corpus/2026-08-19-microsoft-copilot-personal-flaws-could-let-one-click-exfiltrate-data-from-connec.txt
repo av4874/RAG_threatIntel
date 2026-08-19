@@ -1,0 +1,6 @@
+TITLE: Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps
+SOURCE: https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html
+---
+Varonis Threat Labs has disclosed three vulnerabilities in Microsoft Copilot Personal that it said could allow a single click on a crafted link to silently pull data from connected apps and other information available to the victim's Copilot session.
+
+The flaws, which the researchers collectively named CoSnitch, turn in part on an undocumented URL parameter that the assistant itself surfaced

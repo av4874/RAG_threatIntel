@@ -1,0 +1,4 @@
+TITLE: Silent 'TwinLoot' Cyber Threat Operates Entirely From Microsoft's Cloud
+SOURCE: https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud
+---
+The Python-based malware framework takes living-off-the-land tactics to a new heights of stealth, with a modular implant that steals credentials and achieves persistence.

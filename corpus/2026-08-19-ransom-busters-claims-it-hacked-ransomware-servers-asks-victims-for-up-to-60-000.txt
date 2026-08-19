@@ -1,0 +1,6 @@
+TITLE: Ransom Busters Claims It Hacked Ransomware Servers, Asks Victims for Up to $60,000
+SOURCE: https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html
+---
+A ransomware affiliate calling itself Ransom Busters has been spotted proactively sending emails to victim organizations and claims to delete stolen data from ransomware groups' servers in exchange for a fee ranging from $20,000 to $60,000.
+
+"In these messages, the third-party offers to help the victim recover from ransomware attack. This immediately stands out as anomalous," GuidePoint Research

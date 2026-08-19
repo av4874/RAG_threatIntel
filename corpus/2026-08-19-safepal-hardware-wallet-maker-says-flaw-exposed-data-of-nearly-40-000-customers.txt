@@ -1,0 +1,6 @@
+TITLE: SafePal Hardware Wallet Maker Says Flaw Exposed Data of Nearly 40,000 Customers
+SOURCE: https://thehackernews.com/2026/08/safepal-hardware-wallet-maker-says-flaw.html
+---
+SafePal has disclosed that an authorization flaw in an order-tracking plug-in exposed the names, email addresses, shipping addresses, phone numbers, and purchase details of approximately 39,798 customers.
+
+The hardware wallet maker said all affected customers were notified individually by email on August 16 from security@safepal.com, with the subject line "[Important] Your SafePal Order
