@@ -310,6 +310,19 @@
 
 **References:** https://www.smartertools.com/smartermail/release-notes/current ; https://nvd.nist.gov/vuln/detail/CVE-2026-23760
 
+## CVE-2026-64849 - MLflow MLflow
+**Vulnerability:** MLflow Server-Side Request Forgery Vulnerability
+
+**Description:** MLflow contains a server-side request forgery vulnerability that can allow attackers to reach internal or cloud metadata services and receive response_status and response_body.
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-08-19 | **Due Date:** 2026-09-02
+
+**MITRE CWE:** CWE-918
+
+**References:** https://github.com/mlflow/mlflow/pull/24258 ; https://github.com/mlflow/mlflow/issues/24179 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-64849
+
 ## CVE-2026-33824 - Microsoft Internet Key Exchange (IKE) Service Extensions
 **Vulnerability:** Microsoft Internet Key Exchange (IKE) Service Extensions Double Free Vulnerability
 
@@ -2574,16 +2587,3 @@
 **MITRE CWE:** CWE-22
 
 **References:** https://www.win-rar.com/singlenewsview.html?&L=0&tx_ttnews%5Btt_news%5D=276&cHash=b5165454d983fc9717bc8748901a64f9 ; https://nvd.nist.gov/vuln/detail/CVE-2025-6218
-
-## CVE-2025-62221 - Microsoft Windows
-**Vulnerability:** Microsoft Windows Use After Free Vulnerability
-
-**Description:** Microsoft Windows Cloud Files Mini Filter Driver contains a use after free vulnerability that can allow an authorized attacker to elevate privileges locally.
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2025-12-09 | **Due Date:** 2025-12-30
-
-**MITRE CWE:** CWE-416
-
-**References:** https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2025-62221 ; https://nvd.nist.gov/vuln/detail/CVE-2025-62221

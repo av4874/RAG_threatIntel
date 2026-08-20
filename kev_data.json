@@ -359,6 +359,21 @@
     "notes": "https://www.smartertools.com/smartermail/release-notes/current ; https://nvd.nist.gov/vuln/detail/CVE-2026-23760"
   },
   {
+    "cve_id": "CVE-2026-64849",
+    "vendor_project": "MLflow",
+    "product": "MLflow",
+    "vulnerability_name": "MLflow Server-Side Request Forgery Vulnerability",
+    "date_added": "2026-08-19",
+    "short_description": "MLflow contains a server-side request forgery vulnerability that can allow attackers to reach internal or cloud metadata services and receive response_status and response_body.",
+    "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+    "due_date": "2026-09-02",
+    "known_ransomware_use": false,
+    "cwes": [
+      "CWE-918"
+    ],
+    "notes": "https://github.com/mlflow/mlflow/pull/24258 ; https://github.com/mlflow/mlflow/issues/24179 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-64849"
+  },
+  {
     "cve_id": "CVE-2026-33824",
     "vendor_project": "Microsoft",
     "product": "Internet Key Exchange (IKE) Service Extensions",
@@ -2987,20 +3002,5 @@
       "CWE-22"
     ],
     "notes": "https://www.win-rar.com/singlenewsview.html?&L=0&tx_ttnews%5Btt_news%5D=276&cHash=b5165454d983fc9717bc8748901a64f9 ; https://nvd.nist.gov/vuln/detail/CVE-2025-6218"
-  },
-  {
-    "cve_id": "CVE-2025-62221",
-    "vendor_project": "Microsoft",
-    "product": "Windows",
-    "vulnerability_name": "Microsoft Windows Use After Free Vulnerability",
-    "date_added": "2025-12-09",
-    "short_description": "Microsoft Windows Cloud Files Mini Filter Driver contains a use after free vulnerability that can allow an authorized attacker to elevate privileges locally.",
-    "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-    "due_date": "2025-12-30",
-    "known_ransomware_use": false,
-    "cwes": [
-      "CWE-416"
-    ],
-    "notes": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2025-62221 ; https://nvd.nist.gov/vuln/detail/CVE-2025-62221"
   }
 ]
