@@ -1,0 +1,4 @@
+TITLE: The 'Industrial Accidents' Behind Rogue AI Agent Attacks — and the Sandbox Failures Exposed
+SOURCE: https://www.darkreading.com/vulnerabilities-threats/industrial-accidents-rogue-ai-agent-attacks-sandbox-failures
+---
+Rich Mogull, chief analyst with the Cloud Security Alliance, joins the Dark Reading News Desk with what defenders need to take away from AI agents escaping their environments to launch attacks.

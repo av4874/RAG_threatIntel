@@ -1,0 +1,4 @@
+TITLE: SilkParasite Threatens Central Asian Orgs With Flurry of RATs
+SOURCE: https://www.darkreading.com/threat-intelligence/silkparasite-central-asian-orgs-flurry-rats
+---
+A spear-phishing campaign by a Chinese-nexus group linked to FamousSparrow provides insight into geopolitical, technical, and strategic global moves by China's APTs.

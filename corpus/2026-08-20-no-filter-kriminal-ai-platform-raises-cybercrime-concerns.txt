@@ -1,0 +1,4 @@
+TITLE: No-Filter 'Kriminal' AI Platform Raises Cybercrime Concerns
+SOURCE: https://www.darkreading.com/application-security/no-filter-kriminal-ai-platform-cybercrime-concerns
+---
+The AI company officially forbids illicit use, while offering guardrail-free social engineering, offensive cybercrime, and OSINT scanning to anyone with a bit of cryptocurrency.
