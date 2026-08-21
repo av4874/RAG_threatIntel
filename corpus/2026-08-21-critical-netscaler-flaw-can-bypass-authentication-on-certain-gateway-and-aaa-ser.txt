@@ -1,0 +1,6 @@
+TITLE: Critical NetScaler Flaw Can Bypass Authentication on Certain Gateway and AAA Servers
+SOURCE: https://thehackernews.com/2026/08/critical-netscaler-flaw-can-bypass.html
+---
+Citrix has released updates to address two security flaws impacting NetScaler ADC and NetScaler Gateway deployments, including a critical-severity authentication bypass vulnerability.
+
+According to the cloud computing and virtualization technology company, the issues affect customer-managed NetScaler ADC and NetScaler Gateway, including certain FIPS and NDcPP builds, as well as SecurAccess

@@ -1,0 +1,6 @@
+TITLE: New Cryptographic Context Injection Attack Could Let Web Pages Steal Grok Chat Data
+SOURCE: https://thehackernews.com/2026/08/new-cryptographic-context-injection.html
+---
+Adversa AI has disclosed an attack technique that it says can cause xAI's Grok chatbot to send a user's name, approximate location, subscription tier, and the prompts from the ongoing conversation to an attacker-controlled server after the user asks it to summarize an ordinary web page.
+
+The AI security company, which has codenamed the technique "Cryptographic Context Injection," said the

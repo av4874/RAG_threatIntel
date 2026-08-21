@@ -1,0 +1,4 @@
+TITLE: New CUSTODY Framework Constrains AI Agents Inside the Network
+SOURCE: https://www.darkreading.com/perimeter/new-custody-framework-constrains-ai-agents-inside-network
+---
+Enterprise cybersecurity expert Jake Williams joins the Dark Reading News Desk to explain why he decided to release his new agentic AI framework in the wake of the OpenAI attacks on Hugging Face.

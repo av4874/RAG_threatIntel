@@ -1,0 +1,4 @@
+TITLE: Agentic AI Presents New Insider Threat Model for Orgs
+SOURCE: https://www.darkreading.com/cyberattacks-data-breaches/agentic-ai-new-insider-threat-model
+---
+Katie Moussouris of Luta Security talks with the Dark Reading News Desk about how enterprises will now need to monitor risks posed by their own agents in the wake of the recent Hugging Face attack.
