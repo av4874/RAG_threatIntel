@@ -359,6 +359,21 @@
     "notes": "https://www.smartertools.com/smartermail/release-notes/current ; https://nvd.nist.gov/vuln/detail/CVE-2026-23760"
   },
   {
+    "cve_id": "CVE-2026-73570",
+    "vendor_project": "Synacor",
+    "product": "Zimbra Collaboration Suite (ZCS)",
+    "vulnerability_name": "Zimbra Collaboration Suite (ZCS) OS Command Injection Vulnerability",
+    "date_added": "2026-08-21",
+    "short_description": "Zimbra Collaboration Suite (ZCS) contains an OS command injection vulnerability which could allow an unauthenticated attacker to send specially crafted SMTP requests that may result in execution of arbitrary operating system commands as the Zimbra user.",
+    "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+    "due_date": "2026-08-24",
+    "known_ransomware_use": false,
+    "cwes": [
+      "CWE-78"
+    ],
+    "notes": "https://wiki.zimbra.com/wiki/Zimbra_Security_Advisories ; https://blog.zimbra.com/2026/07/patch-release-update-zimbra-10-1-20/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-73570"
+  },
+  {
     "cve_id": "CVE-2026-72530",
     "vendor_project": "TrueConf",
     "product": "Server",
@@ -2989,18 +3004,5 @@
       "CWE-434"
     ],
     "notes": "https://www.cisa.gov/news-events/ics-advisories/icsa-19-122-03 ; https://source.sierrawireless.com/resources/airlink/software_reference_docs/technical-bulletin/sierra-wireless-technical-bulletin---swi-psa-2019-003 ; https://source.sierrawireless.com/resources/airlink/hardware_reference_docs/airlink_es450_eol ; https://nvd.nist.gov/vuln/detail/CVE-2018-4063"
-  },
-  {
-    "cve_id": "CVE-2025-14174",
-    "vendor_project": "Google",
-    "product": "Chromium",
-    "vulnerability_name": "Google Chromium Out of Bounds Memory Access Vulnerability",
-    "date_added": "2025-12-12",
-    "short_description": "Google Chromium contains an out of bounds memory access vulnerability in ANGLE that could allow a remote attacker to perform out of bounds memory access via a crafted HTML page. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, Google Chrome, Microsoft Edge, and Opera.",
-    "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-    "due_date": "2026-01-02",
-    "known_ransomware_use": false,
-    "cwes": [],
-    "notes": "https://chromereleases.googleblog.com/2025/12/stable-channel-update-for-desktop_10.html ; https://learn.microsoft.com/en-us/deployedge/microsoft-edge-relnotes-security ; https://nvd.nist.gov/vuln/detail/CVE-2025-14174"
   }
 ]
