@@ -1,0 +1,4 @@
+TITLE: OWASP Flags Top AI Skill Risks in New Security Blueprint
+SOURCE: https://www.darkreading.com/application-security/owasp-flags-top-ai-skill-risks-security-blueprint
+---
+The Open Worldwide Application Security Project has a brand-new top 10 security list tailored for the modern era, and it debuts a Universal Skill Format to add consistency and security to the AI add-ons.

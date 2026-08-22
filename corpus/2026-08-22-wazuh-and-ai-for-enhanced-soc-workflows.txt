@@ -1,0 +1,4 @@
+TITLE: Wazuh and AI For Enhanced SOC Workflows
+SOURCE: https://thehackernews.com/2026/08/wazuh-and-ai-for-enhanced-soc-workflows.html
+---
+Artificial Intelligence (AI) has become one of this decade's defining technologies. From healthcare and finance to manufacturing and education, organizations increasingly rely on AI to automate repetitive tasks, uncover patterns hidden within large datasets, and support faster decision-making. Cybersecurity has experienced a similar transformation. While attackers employ AI to automate

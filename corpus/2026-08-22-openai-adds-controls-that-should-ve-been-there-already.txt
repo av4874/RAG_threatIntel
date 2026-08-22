@@ -1,0 +1,4 @@
+TITLE: OpenAI Adds Controls That Should've Been There Already
+SOURCE: https://www.darkreading.com/application-security/openai-adds-controls-already
+---
+The new AI security controls follow the Hugging Face incident last month, though many of these additions perhaps should have been in place prior to the frontier models escaping.
