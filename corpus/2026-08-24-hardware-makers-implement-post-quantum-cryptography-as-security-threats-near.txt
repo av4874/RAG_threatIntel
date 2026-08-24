@@ -1,0 +1,4 @@
+TITLE: Hardware Makers Implement Post-Quantum Cryptography as Security Threats Near
+SOURCE: https://www.darkreading.com/cyber-risk/hardware-makers-implement-post-quantum-cryptography
+---
+The coming threat of super-powerful computers capable of cracking today’s algorithms requires upgrading encryption now. Tech companies have begun building defenses.

@@ -1,0 +1,4 @@
+TITLE: How an Emerging Industrial Protocol Family Could Put OT at Risk
+SOURCE: https://www.darkreading.com/ics-ot-security/how-emerging-industrial-protocol-family-put-ot-at-risk
+---
+New research shows how attacks against some unprotected TSN protocols could allow attackers to disrupt or manipulate physical processes
