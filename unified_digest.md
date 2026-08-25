@@ -10,14 +10,6 @@
 **Detection Feasibility:** High - The vulnerability allows unauthenticated attackers to escalate privileges, which can be detected through security event logs and endpoint monitoring.
 **Recommendation:** Tune existing rule - Existing rules can be tuned to detect unusual network activity indicative of privilege escalation attempts.
 
-### CVE-2026-15409 - SonicWall SMA1000 Zero-Day Vulnerabilities: Full Technical Details (risk score: 10/10)
-**Vendor/Product:** SonicWall SMA1000 Appliances
-**Vulnerability:** SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability
-**ATT&CK Technique:** T1089 - System Network Connections Discovery (UNVERIFIED)
-**Log Sources:** Windows Security Event Log, Firewall/VPN logs
-**Detection Feasibility:** High - The vulnerabilities allow for command execution and request manipulation, which can be detected through network connection logs.
-**Recommendation:** New use case - Implement new rules to monitor for unusual network connections and command executions.
-
 ### CVE-2026-15410 - SonicWall SMA1000 Zero-Day Vulnerabilities: Full Technical Details (risk score: 10/10)
 **Vendor/Product:** SonicWall SMA1000 Appliances
 **Vulnerability:** SonicWall SMA1000 Appliances Code Injection Vulnerability
@@ -26,17 +18,25 @@
 **Detection Feasibility:** High - The vulnerabilities allow for command execution and request manipulation, which can be detected through network connection logs.
 **Recommendation:** New use case - Implement new rules to monitor for unusual network connections and command executions.
 
-### CVE-2026-56155 - Microsoft's July 2026 Patch Tuesday: 570 Vulnerabilities and 3 Zero-Days (risk score: 8/10)
-**Vendor/Product:** Microsoft Active Directory Federation Services
-**Vulnerability:** Microsoft Active Directory Federation Services Insufficient Granularity of Access Control Vulnerability 
+### CVE-2026-15409 - SonicWall SMA1000 Zero-Day Vulnerabilities: Full Technical Details (risk score: 10/10)
+**Vendor/Product:** SonicWall SMA1000 Appliances
+**Vulnerability:** SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability
+**ATT&CK Technique:** T1089 - System Network Connections Discovery (UNVERIFIED)
+**Log Sources:** Windows Security Event Log, Firewall/VPN logs
+**Detection Feasibility:** High - The vulnerabilities allow for command execution and request manipulation, which can be detected through network connection logs.
+**Recommendation:** New use case - Implement new rules to monitor for unusual network connections and command executions.
+
+### CVE-2026-56164 - Microsoft's July 2026 Patch Tuesday: 570 Vulnerabilities and 3 Zero-Days (risk score: 8/10)
+**Vendor/Product:** Microsoft SharePoint Server
+**Vulnerability:** Microsoft SharePoint Server Missing Authentication for Critical Function Vulnerability
 **ATT&CK Technique:** T1190 - Exploit Public-Facing Application
 **Log Sources:** Windows Security Event Log, EDR/endpoint logs
 **Detection Feasibility:** High - Remote code execution vulnerabilities are highly feasible to detect through security event logs and endpoint detection and response tools.
 **Recommendation:** Tune existing rule - Existing rules can be tuned to specifically look for signs of remote code execution attempts based on the patterns of these vulnerabilities.
 
-### CVE-2026-56164 - Microsoft's July 2026 Patch Tuesday: 570 Vulnerabilities and 3 Zero-Days (risk score: 8/10)
-**Vendor/Product:** Microsoft SharePoint Server
-**Vulnerability:** Microsoft SharePoint Server Missing Authentication for Critical Function Vulnerability
+### CVE-2026-56155 - Microsoft's July 2026 Patch Tuesday: 570 Vulnerabilities and 3 Zero-Days (risk score: 8/10)
+**Vendor/Product:** Microsoft Active Directory Federation Services
+**Vulnerability:** Microsoft Active Directory Federation Services Insufficient Granularity of Access Control Vulnerability 
 **ATT&CK Technique:** T1190 - Exploit Public-Facing Application
 **Log Sources:** Windows Security Event Log, EDR/endpoint logs
 **Detection Feasibility:** High - Remote code execution vulnerabilities are highly feasible to detect through security event logs and endpoint detection and response tools.
@@ -111,6 +111,13 @@
 **Recommendation:** Tune existing rule - Existing security solutions can likely detect malicious activities related to command execution based on known indicators of compromise.
 
 ## KEV-Only (not covered by RAG lane)
+
+### CVE-2026-21962 - Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in
+**Vulnerability:** Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in Improper Access Control Vulnerability
+
+**MITRE CWE:** CWE-284
+
+**References:** https://www.oracle.com/security-alerts/cpujan2026.html ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-21962
 
 ### CVE-2026-73570 - Synacor Zimbra Collaboration Suite (ZCS)
 **Vulnerability:** Zimbra Collaboration Suite (ZCS) OS Command Injection Vulnerability
@@ -314,10 +321,3 @@
 **MITRE CWE:** CWE-78
 
 **References:** https://fortiguard.fortinet.com/psirt/FG-IR-26-141 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-25089
-
-### CVE-2026-39808 - Fortinet FortiSandbox
-**Vulnerability:** Fortinet FortiSandbox OS Command Injection Vulnerability
-
-**MITRE CWE:** CWE-78
-
-**References:** https://fortiguard.fortinet.com/psirt/FG-IR-26-100 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-39808
