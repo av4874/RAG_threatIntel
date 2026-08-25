@@ -1,0 +1,4 @@
+TITLE: ToxicPanda Banking Trojan Matures Into Enterprise Threat
+SOURCE: https://www.darkreading.com/mobile-security/toxicpanda-banking-trojan-matures-enterprise-threat
+---
+The latest version of the Android malware has new features that expand its global reach and put more than users' financial applications at risk.

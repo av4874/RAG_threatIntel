@@ -1,0 +1,4 @@
+TITLE: Tricky 'SynkLoader' Multitool May Herald Ransomware
+SOURCE: https://www.darkreading.com/threat-intelligence/tricky-synkloader-multitool-ransomware
+---
+An advanced, multilingual malware family brings back a trick from yesteryear — screen hijacking — for effective password theft, along with a slew of novel features.

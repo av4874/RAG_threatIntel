@@ -1,0 +1,12 @@
+TITLE: ⚡ Weekly Recap: AI-Powered PLC Attacks, GitLab Attacks, Stripe Key Leaks and More
+SOURCE: https://thehackernews.com/2026/08/weekly-recap-ai-powered-plc-attacks.html
+---
+A package gets installed. A login prompt opens. A box sits exposed to the internet. Nothing looks unusual yet.
+
+That’s roughly the mood this week. Trusted tools turn hostile, old weak spots get fresh attention, AI makes exploit work cheaper, and researchers keep finding attacks that sound harder than they actually are.
+
+Plenty to clean up. Here’s the short version.
+
+⚡ Threat of the Week
+
+U.S.
