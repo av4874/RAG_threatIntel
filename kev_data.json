@@ -359,6 +359,21 @@
     "notes": "https://www.smartertools.com/smartermail/release-notes/current ; https://nvd.nist.gov/vuln/detail/CVE-2026-23760"
   },
   {
+    "cve_id": "CVE-2026-21962",
+    "vendor_project": "Oracle",
+    "product": "HTTP Server and Oracle Weblogic Server Proxy Plug-in",
+    "vulnerability_name": "Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in Improper Access Control Vulnerability",
+    "date_added": "2026-08-24",
+    "short_description": "Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in contain an improper access control vulnerability that can result in unauthorized creation, deletion or modification access to critical data as well as unauthorized access to critical data or complete access to all Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in accessible data.",
+    "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+    "due_date": "2026-08-27",
+    "known_ransomware_use": false,
+    "cwes": [
+      "CWE-284"
+    ],
+    "notes": "https://www.oracle.com/security-alerts/cpujan2026.html ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-21962"
+  },
+  {
     "cve_id": "CVE-2026-73570",
     "vendor_project": "Synacor",
     "product": "Zimbra Collaboration Suite (ZCS)",
@@ -2989,20 +3004,5 @@
       "CWE-416"
     ],
     "notes": "https://support.apple.com/en-us/125884 ; https://support.apple.com/en-us/125892 ; https://support.apple.com/en-us/125885 ; https://support.apple.com/en-us/125886 ; https://support.apple.com/en-us/125889 ; https://nvd.nist.gov/vuln/detail/CVE-2025-43529"
-  },
-  {
-    "cve_id": "CVE-2018-4063",
-    "vendor_project": "Sierra Wireless",
-    "product": "AirLink ALEOS",
-    "vulnerability_name": "Sierra Wireless AirLink ALEOS Unrestricted Upload of File with Dangerous Type Vulnerability",
-    "date_added": "2025-12-12",
-    "short_description": "Sierra Wireless AirLink ALEOS contains an unrestricted upload of file with dangerous type vulnerability. A specially crafted HTTP request can upload a file, resulting in executable code being uploaded, and routable, to the webserver. An attacker can make an authenticated HTTP request to trigger this vulnerability. The impacted product could be end-of-life (EoL) and/or end-of-service (EoS). Users should discontinue product utilization.",
-    "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-    "due_date": "2026-01-02",
-    "known_ransomware_use": false,
-    "cwes": [
-      "CWE-434"
-    ],
-    "notes": "https://www.cisa.gov/news-events/ics-advisories/icsa-19-122-03 ; https://source.sierrawireless.com/resources/airlink/software_reference_docs/technical-bulletin/sierra-wireless-technical-bulletin---swi-psa-2019-003 ; https://source.sierrawireless.com/resources/airlink/hardware_reference_docs/airlink_es450_eol ; https://nvd.nist.gov/vuln/detail/CVE-2018-4063"
   }
 ]
