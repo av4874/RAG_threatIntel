@@ -310,6 +310,19 @@
 
 **References:** https://www.smartertools.com/smartermail/release-notes/current ; https://nvd.nist.gov/vuln/detail/CVE-2026-23760
 
+## CVE-2026-60004 - Gitea Gitea
+**Vulnerability:** Gitea Code Injection Vulnerability
+
+**Description:** Gitea contains a code injection vulnerability that allows an attacker with repository write access to send a malicious patch to the diffpatch API endpoint to plant an executable Git hook and run shell commands as the Gitea service account.
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-08-25 | **Due Date:** 2026-08-28
+
+**MITRE CWE:** CWE-94
+
+**References:** https://github.com/go-gitea/gitea/security/advisories/GHSA-rcr6-4jqh-j84m ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-60004
+
 ## CVE-2026-21962 - Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in
 **Vulnerability:** Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in Improper Access Control Vulnerability
 
@@ -2576,16 +2589,3 @@
 **MITRE CWE:** CWE-798
 
 **References:** https://www.centrestack.com/p/gce_latest_release.html ; https://access.triofox.com/releases_history/; https://support.centrestack.com/hc/en-us/articles/360007159054-Hardening-the-CentreStack-Cluster#h_01JQRV57T37HJFQZKBZH9NBXQP ; https://nvd.nist.gov/vuln/detail/CVE-2025-14611
-
-## CVE-2025-43529 - Apple Multiple Products
-**Vulnerability:** Apple Multiple Products Use-After-Free WebKit Vulnerability
-
-**Description:** Apple iOS, iPadOS, macOS, and other Apple products contain a use-after-free vulnerability in WebKit. Processing maliciously crafted web content may lead to memory corruption. This vulnerability could impact HTML parsers that use WebKit, including but not limited to Apple Safari and non-Apple products which rely on WebKit for HTML processing.
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2025-12-15 | **Due Date:** 2026-01-05
-
-**MITRE CWE:** CWE-416
-
-**References:** https://support.apple.com/en-us/125884 ; https://support.apple.com/en-us/125892 ; https://support.apple.com/en-us/125885 ; https://support.apple.com/en-us/125886 ; https://support.apple.com/en-us/125889 ; https://nvd.nist.gov/vuln/detail/CVE-2025-43529
