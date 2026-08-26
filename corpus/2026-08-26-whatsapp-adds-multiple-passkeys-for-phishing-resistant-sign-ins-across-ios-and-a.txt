@@ -1,0 +1,6 @@
+TITLE: WhatsApp Adds Multiple Passkeys for Phishing-Resistant Sign-Ins Across iOS and Android
+SOURCE: https://thehackernews.com/2026/08/whatsapp-adds-multiple-passkeys-for.html
+---
+Meta on Tuesday announced a set of WhatsApp account security features, including support for multiple passkeys to a single account to help users with both iOS and Android devices sign into their accounts using the phishing-resistant method.
+
+The tech giant said more than 1 billion people use a passkey to log into WhatsApp. Support for passkeys was first introduced in Android in October 2023,

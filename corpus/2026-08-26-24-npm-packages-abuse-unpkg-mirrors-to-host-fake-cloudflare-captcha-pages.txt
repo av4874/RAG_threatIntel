@@ -1,0 +1,6 @@
+TITLE: 24 npm Packages Abuse unpkg Mirrors to Host Fake Cloudflare CAPTCHA Pages
+SOURCE: https://thehackernews.com/2026/08/24-npm-packages-abuse-unpkg-mirrors-to.html
+---
+Cybersecurity researchers have disclosed details of a new campaign that uses a cluster of 24 npm packages as free phishing infrastructure for redirecting to ClickFix-style fake CAPTCHA pages.
+
+"While the malware is simply a single HTML page inside the npm package, and while downloading it wouldn't do harm, the threat actor’s use of npm isn't to infect developers who install it, but to use the
