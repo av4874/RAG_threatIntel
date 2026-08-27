@@ -1,0 +1,6 @@
+TITLE: New GPUThor Rowhammer Defeats ECC on NVIDIA RTX A6000 to Gain Host Root Access
+SOURCE: https://thehackernews.com/2026/08/gputhor-rowhammer-defeats-ecc-on-nvidia.html
+---
+Academic researchers have disclosed a Rowhammer attack impacting NVIDIA workstation GPUs with GDDR6 memory that defeats error correction codes (ECC), the mitigation NVIDIA recommends against GPU Rowhammer, and enables denial-of-service (DoS) and privilege escalation to a root shell.
+
+Dubbed GPUThor, the attack was developed by researchers at the University of Toronto, who hammered four DRAM

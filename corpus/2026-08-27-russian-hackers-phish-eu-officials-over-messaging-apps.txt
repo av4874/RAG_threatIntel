@@ -1,0 +1,4 @@
+TITLE: Russian Hackers Phish EU Officials Over Messaging Apps
+SOURCE: https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-phish-eu-officials-messaging-apps
+---
+EU governments are trying to move away from popular messaging apps as nation-state threat groups shift their focus from email to Signal and WhatsApp.

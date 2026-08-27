@@ -1,0 +1,4 @@
+TITLE: 'HTTP Terminator' Hunts for Novel Desync Attacks
+SOURCE: https://www.darkreading.com/application-security/http-terminator-hunts-novel-desync-attacks
+---
+James Kettle of PortSwigger talks with the Dark Reading News Desk about his AI-powered open source tool, which found new HTTP request-smuggling techniques.

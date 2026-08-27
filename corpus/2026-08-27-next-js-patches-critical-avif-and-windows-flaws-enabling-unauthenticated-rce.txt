@@ -1,0 +1,7 @@
+TITLE: Next.js Patches Critical AVIF and Windows Flaws Enabling Unauthenticated RCE
+SOURCE: https://thehackernews.com/2026/08/nextjs-patches-critical-avif-and.html
+---
+Credit:&nbsp;Hacktron
+Vercel has released security patches for two critical-severity vulnerabilities in the Next.js web framework, both of which allow unauthenticated remote code execution, one exploitable via specially crafted AVIF image files and the other through a path traversal flaw affecting servers that use a Windows filesystem.
+
+The Windows path traversal, tracked as&nbsp;CVE-2026-75604&

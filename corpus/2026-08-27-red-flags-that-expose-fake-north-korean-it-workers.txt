@@ -1,0 +1,4 @@
+TITLE: Red Flags That Expose Fake North Korean IT Workers
+SOURCE: https://www.darkreading.com/insider-threats/red-flags-expose-fake-north-korean-it-workers
+---
+North Korean operatives posing as IT workers are improving their tactics, but researchers say there are still ways to spot them before they do damage.

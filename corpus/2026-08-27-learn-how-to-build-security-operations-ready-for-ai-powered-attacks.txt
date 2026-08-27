@@ -1,0 +1,8 @@
+TITLE: Learn How to Build Security Operations Ready for AI-Powered Attacks
+SOURCE: https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html
+---
+Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act.
+
+Advanced AI models can now help attackers discover vulnerabilities, generate exploit code, and move through weaknesses faster than traditional security processes were built to handle.
+
+The challenge is no longer just finding another vulnerability or

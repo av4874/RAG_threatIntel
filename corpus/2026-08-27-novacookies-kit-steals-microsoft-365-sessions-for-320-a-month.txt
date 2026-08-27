@@ -1,0 +1,4 @@
+TITLE: 'NovaCookies' Kit Steals Microsoft 365 Sessions for $320 a Month
+SOURCE: https://www.darkreading.com/endpoint-security/novacookies-steals-microsoft-365-sessions-320-a-month
+---
+The adversary-in-the-middle (AitM) phishing service lowers the barrier to entry for actors to create attacks and steal more than just user credentials.
