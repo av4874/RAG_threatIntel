@@ -1,0 +1,4 @@
+TITLE: Defining an AI Kill Switch Is Hard, but Necessary
+SOURCE: https://www.darkreading.com/cybersecurity-operations/defining-ai-kill-switch-hard-but-necessary
+---
+Proposed legislation could mandate that companies be able to &quot;throttle, suspend, or shut ... down&quot; AI agents, but how and when to do that remain open questions.

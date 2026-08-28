@@ -1,0 +1,6 @@
+TITLE: APT28-Linked HOOKEDGE Backdoor Targets European Government and Diplomatic Organizations
+SOURCE: https://thehackernews.com/2026/08/apt28-linked-hookedge-backdoor-targets.html
+---
+Cybersecurity researchers have flagged a fresh set of campaigns targeting government and diplomatic organizations in Romania, Spain, and Türkiye between late September 2025 and early April 2026.
+
+These campaigns, per Recorded Future Insikt Group, have led to the deployment of a previously undocumented backdoor dubbed HOOKEDGE, a lightweight Windows batch script that's distributed via

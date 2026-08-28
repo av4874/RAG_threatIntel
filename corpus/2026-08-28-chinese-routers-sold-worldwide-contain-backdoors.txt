@@ -1,0 +1,4 @@
+TITLE: Chinese Routers Sold Worldwide Contain Backdoors
+SOURCE: https://www.darkreading.com/vulnerabilities-threats/chinese-routers-sold-worldwide-backdoors
+---
+An untold number of ZBT routers sold around the world as white-label products come with several implants built by the manufacturer.

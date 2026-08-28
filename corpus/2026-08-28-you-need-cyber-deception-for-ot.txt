@@ -1,0 +1,4 @@
+TITLE: You Need Cyber Deception for OT
+SOURCE: https://www.darkreading.com/ics-ot-security/you-need-cyber-deception-ot
+---
+The frustrating reality after an OT cyberattack: no data, no trail, and no history.
