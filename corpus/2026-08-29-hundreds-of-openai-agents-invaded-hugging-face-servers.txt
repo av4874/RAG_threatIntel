@@ -1,0 +1,4 @@
+TITLE: Hundreds of OpenAI Agents Invaded Hugging Face Servers
+SOURCE: https://www.darkreading.com/cyberattacks-data-breaches/hundreds-openai-agents-invaded-hugging-face-servers
+---
+The Hugging Face incident was bigger and worse than previously thought, with approximately 700 agents collaborating on a sophisticated, multistage attack.

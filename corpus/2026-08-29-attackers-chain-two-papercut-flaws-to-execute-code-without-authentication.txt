@@ -1,0 +1,6 @@
+TITLE: Attackers Chain Two PaperCut Flaws to Execute Code Without Authentication
+SOURCE: https://thehackernews.com/2026/08/attackers-chain-two-papercut-flaws-to.html
+---
+Malicious actors are exploiting a newly patched security flaw in PaperCut NG and MF to execute arbitrary code on susceptible instances, as the company released a fresh emergency fix with additional hardening.
+
+"This vulnerability gives an unauthenticated attacker remote control over PaperCut's trusted configuration, which could be used to execute arbitrary Java code inside the application's

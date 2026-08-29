@@ -1,0 +1,8 @@
+TITLE: Android 17 Adds OS-Wide ECH to Hide Website Visits From Network Providers
+SOURCE: https://thehackernews.com/2026/08/android-17-adds-os-wide-ech-to-hide.html
+---
+Google on Thursday announced new network security protections in Android 17 to bolster connection privacy, address cellular vulnerabilities, and safeguard the privacy of users' home networks.
+
+Topping the list is support for Encrypted Client Hello (ECH), a privacy standard that prevents networks from eavesdropping on which websites a user is visiting.
+
+"This new privacy standard works in tandem
