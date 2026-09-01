@@ -1,0 +1,6 @@
+TITLE: ValleyRAT Backdoor Hides in Signed Adware That Users Add to Antivirus Exclusions
+SOURCE: https://thehackernews.com/2026/08/valleyrat-backdoor-hides-in-signed.html
+---
+The threat actor known as Silver Fox has been observed distributing the ValleyRAT backdoor disguised as a signed Chinese adware application, running the malware under a trusted process to slip past users who add such software to their antivirus exclusions.
+
+Russian cybersecurity vendor Kaspersky said the attackers built the disguise around QN Wallpaper, a genuine Chinese desktop-wallpaper tool

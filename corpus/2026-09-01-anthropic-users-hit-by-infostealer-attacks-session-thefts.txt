@@ -1,0 +1,4 @@
+TITLE: Anthropic Users Hit by Infostealer Attacks, Session Thefts
+SOURCE: https://www.darkreading.com/cyberattacks-data-breaches/anthropic-users-infostealer-attacks-session-thefts
+---
+A threat actor used a variety of infostealers to collect session information and access Claude accounts belonging to an unknown number of users.
