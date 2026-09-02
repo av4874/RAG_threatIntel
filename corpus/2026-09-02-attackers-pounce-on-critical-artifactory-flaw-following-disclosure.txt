@@ -1,0 +1,4 @@
+TITLE: Attackers Pounce on Critical Artifactory Flaw Following Disclosure
+SOURCE: https://www.darkreading.com/application-security/attackers-pounce-critical-artifactory-flaw-disclosure
+---
+CVE-2026-82329 is an authentication bypass flaw in JFrog's repository manager that enables bad actors to gain admin-level access on affected systems.

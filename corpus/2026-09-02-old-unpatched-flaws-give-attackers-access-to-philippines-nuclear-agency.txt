@@ -1,0 +1,4 @@
+TITLE: Old, Unpatched Flaws Give Attackers Access to Philippines Nuclear Agency
+SOURCE: https://www.darkreading.com/cyberattacks-data-breaches/old-unpatched-flaws-attackers-philippines-nuclear-agency
+---
+Threat actors exploited commodity in ownCloud to gain initial access, resulting in stolen reactor databases, personnel records, and credential stores.

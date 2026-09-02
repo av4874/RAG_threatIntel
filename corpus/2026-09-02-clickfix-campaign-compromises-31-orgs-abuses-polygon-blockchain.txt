@@ -1,0 +1,4 @@
+TITLE: ClickFix Campaign Compromises 31 Orgs, Abuses Polygon Blockchain
+SOURCE: https://www.darkreading.com/endpoint-security/clickfix-campaign-comprises-31-orgs-abuses-polygon-blockchain
+---
+The campaign uses EtherHiding to dynamically update its command-and-control server, abusing the blockchain as an attacker-controlled address book.

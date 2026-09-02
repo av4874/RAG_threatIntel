@@ -1,0 +1,6 @@
+TITLE: Threat Actors Don’t Want Better Attacks. They Want Repeatable Ones
+SOURCE: https://thehackernews.com/2026/09/threat-actors-dont-want-better-attacks.html
+---
+The most common way into a company last year was to ask.
+
+A web page tells the visitor to prove they are not a robot. While they read the instructions, it quietly places a command on their clipboard. Then it talks them through opening a terminal and pasting it in. The technique is called ClickFix, and it was the most common initial access method Microsoft’s team observed last year, accounting

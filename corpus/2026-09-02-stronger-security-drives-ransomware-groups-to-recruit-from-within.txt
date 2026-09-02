@@ -1,0 +1,4 @@
+TITLE: Stronger Security Drives Ransomware Groups to Recruit From Within
+SOURCE: https://www.darkreading.com/cyber-risk/stronger-security-drives-ransomware-groups-to-recruit-from-within
+---
+Some security researchers have observed an uptick in insider-assisted ransomware attacks, but malicious insiders pose other threats that cost companies millions.
