@@ -1,0 +1,4 @@
+TITLE: AI Gives Cybercriminals a Dangerous Time Advantage
+SOURCE: https://www.darkreading.com/threat-intelligence/ai-gives-cybercriminals-dangerous-time-advantage
+---
+Former cybercriminal Brett Johnson provides a look inside the mind of a threat actor and discusses where AI provides the most value for attackers.

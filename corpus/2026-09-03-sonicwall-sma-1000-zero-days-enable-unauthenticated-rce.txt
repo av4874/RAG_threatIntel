@@ -1,0 +1,4 @@
+TITLE: SonicWall SMA 1000 Zero-Days Enable Unauthenticated RCE
+SOURCE: https://www.darkreading.com/vulnerabilities-threats/sonicwall-sma-1000-zero-days-unauthenticated-rce
+---
+The exploitation activity follows attacks earlier this summer on two other zero-day vulnerabilities in the vendor's edge devices.

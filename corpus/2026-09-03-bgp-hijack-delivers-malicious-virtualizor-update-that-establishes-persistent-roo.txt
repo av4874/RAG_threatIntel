@@ -1,0 +1,6 @@
+TITLE: BGP Hijack Delivers Malicious Virtualizor Update That Establishes Persistent Root Access
+SOURCE: https://thehackernews.com/2026/09/bgp-hijack-delivers-malicious.html
+---
+Virtualizor said hackers used a Border Gateway Protocol (BGP) hijack to divert Softaculous traffic. The hackers then used the diverted update traffic to deliver a malicious Virtualizor package to some installations. A hosting-provider account separately said 5 of its 34 checked Virtualizor hypervisors sustained root-level compromise.
+
+The incident window ran from approximately August 28 at 20:57

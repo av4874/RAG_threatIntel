@@ -1,0 +1,6 @@
+TITLE: Google, Anthropic, and OpenAI Unveil Cyber AI Models, Safeguards, and Access Programs
+SOURCE: https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html
+---
+Google on Wednesday announced Gemini 3.8 Flash Cyber, which it described as its most capable cybersecurity model, and has made it available to a set of trusted defenders via a new initiative called the Fairwind Program.
+
+"The Fairwind Program gives high-priority defenders (like governments, healthcare providers, and telecommunications services) early access to advanced models that help them

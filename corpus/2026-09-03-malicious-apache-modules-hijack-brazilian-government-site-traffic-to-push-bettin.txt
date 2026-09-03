@@ -1,0 +1,8 @@
+TITLE: Malicious Apache Modules Hijack Brazilian Government Site Traffic to Push Betting Pages
+SOURCE: https://thehackernews.com/2026/09/malicious-apache-modules-hijack.html
+---
+A Chinese-speaking cybercrime cluster known as Gambling Goblin has been observed installing malicious Apache modules on compromised web servers run by Brazilian government and educational institutions, and using them to divert visitors to attacker-controlled pages promoting online gambling and sports betting.
+
+Check Point Research said it has tracked the campaign since mid-2025.
+
+The modules

@@ -1,0 +1,6 @@
+TITLE: Meta Ads Push StreamRat Android Trojan That Can Gain Near-Complete Device Control
+SOURCE: https://thehackernews.com/2026/09/meta-ads-push-streamrat-android-trojan.html
+---
+Cybersecurity researchers have disclosed details of a new Android banking trojan called StreamRat that was promoted to Spanish-speaking users through a fake television-streaming campaign on Meta and can give operators near-complete control of infected devices.
+
+ThreatFabric said the campaign's advertisement focused on Spain and reached an estimated 570,950 Meta accounts in the European Union

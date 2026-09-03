@@ -1,0 +1,4 @@
+TITLE: Threat Gang 'Springs' Vishing Attacks on Microsoft Teams Users
+SOURCE: https://www.darkreading.com/cyberattacks-data-breaches/threat-gang-springs-vishing-attacks-microsoft-teams-users
+---
+The &quot;Spring Ring&quot; operation aims to compromise users of the collaboration suite to remotely access their sessions, spread malware, and even take over infrastructure.
