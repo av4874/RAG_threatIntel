@@ -1,0 +1,6 @@
+TITLE: Thomson Reuters Court Software Breach May Have Exposed SSNs and Sealed Data
+SOURCE: https://thehackernews.com/2026/09/thomson-reuters-court-software-breach.html
+---
+Thomson Reuters disclosed on Wednesday that an unauthorized party obtained files from C-Track, the court case management platform sold by its West Publishing Corporation unit, in March 2026, affecting courts in 11 U.S. states, the U.S. Virgin Islands, and Ontario, Canada.
+
+West Publishing said it discovered the activity on June 30, 2026. A subset of court records could contain individuals' names

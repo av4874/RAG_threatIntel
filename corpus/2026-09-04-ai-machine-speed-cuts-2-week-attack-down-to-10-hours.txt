@@ -1,0 +1,4 @@
+TITLE: AI 'Machine Speed' Cuts 2-Week Attack Down to 10 Hours
+SOURCE: https://www.darkreading.com/cyberattacks-data-breaches/ai-machine-speed-2-week-attack-10-hours
+---
+The incident demonstrates how frontier AI agents can dramatically compress an attack timeline and coordinate a large-scale breach, according to researchers.

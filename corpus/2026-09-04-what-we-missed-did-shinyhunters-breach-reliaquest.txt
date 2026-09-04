@@ -1,0 +1,4 @@
+TITLE: What We Missed: Did ShinyHunters 'Breach' ReliaQuest?
+SOURCE: https://www.darkreading.com/cybersecurity-operations/what-we-missed-did-shinyhunters-breach-reliaquest
+---
+In this video conversation, Dark Reading editors discuss some of the news they didn't get a chance to cover, from the latest antics of ShinyHunters to new research about the prevalence (or lack thereof) of AI-generated malware.
