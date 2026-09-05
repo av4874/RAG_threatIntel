@@ -310,6 +310,19 @@
 
 **References:** https://www.smartertools.com/smartermail/release-notes/current ; https://nvd.nist.gov/vuln/detail/CVE-2026-23760
 
+## CVE-2026-85046 - Google Chromium V8
+**Vulnerability:** Google Chromium V8 Type Confusion Vulnerability
+
+**Description:** Google Chromium V8 contains a type confusion vulnerability that allows a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, Google Chrome, Microsoft Edge, and Opera.
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-09-04 | **Due Date:** 2026-09-18
+
+**MITRE CWE:** CWE-843
+
+**References:** https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_01882797386.html ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-85046
+
 ## CVE-2026-59822 - BerriAI LiteLLM
 **Vulnerability:** BerriAI LiteLLM Improper Authentication Vulnerability
 
@@ -2568,16 +2581,3 @@
 **MITRE CWE:** CWE-88
 
 **References:** This vulnerability could affect an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://cgit.git.savannah.gnu.org/cgit/inetutils.git ; https://codeberg.org/inetutils/inetutils/commit/ccba9f748aa8d50a38d7748e2e60362edd6a32cc; https://codeberg.org/inetutils/inetutils/commit/fd702c02497b2f398e739e3119bed0b23dd7aa7b ; https://nvd.nist.gov/vuln/detail/CVE-2026-24061
-
-## CVE-2026-21509 - Microsoft Office
-**Vulnerability:** Microsoft Office Security Feature Bypass Vulnerability
-
-**Description:** Microsoft Office contains a security feature bypass vulnerability in which reliance on untrusted inputs in a security decision in Microsoft Office could allow an unauthorized attacker to bypass a security feature locally. Some of the impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version.
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2026-01-26 | **Due Date:** 2026-02-16
-
-**MITRE CWE:** CWE-807
-
-**References:** Please adhere to Microsoft’s recommended guidelines to address this vulnerability. Implement all final mitigations provided by the vendor for Office 2021, and apply the interim corresponding mitigations for Office 2016 and Office 2019 until the final patch becomes available. For more information please see: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21509 ; https://nvd.nist.gov/vuln/detail/CVE-2026-21509
