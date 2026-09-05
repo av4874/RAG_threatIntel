@@ -1,0 +1,4 @@
+TITLE: Companies Have 6 Months to Prepare for Automated Attacks
+SOURCE: https://www.darkreading.com/cybersecurity-operations/companies-six-months-prepare-automated-attacks
+---
+Frontier AI models have already demonstrated they can autonomously — and in some cases, inadvertently — conduct end-to-end compromises, but the situation will become more urgent very soon.

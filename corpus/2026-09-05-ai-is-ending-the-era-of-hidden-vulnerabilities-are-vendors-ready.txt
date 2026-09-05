@@ -1,0 +1,4 @@
+TITLE: AI Is Ending the Era of Hidden Vulnerabilities — Are Vendors Ready?
+SOURCE: https://www.darkreading.com/vulnerabilities-threats/ai-ending-era-hidden-vulnerabilities-are-vendors-ready
+---
+A tidal wave of bug reports is overwhelming software vendors, exposing secure-by-design failures and creating disclosure bottlenecks.

@@ -1,0 +1,8 @@
+TITLE: Phishing Campaign Sends Millions of Emails Using Invisible Unicode to Evade Filters
+SOURCE: https://thehackernews.com/2026/09/phishing-campaign-sends-millions-of.html
+---
+Microsoft is alerting of a "high-volume phishing campaign" that's using invisible Unicode tag characters to bypass email filters.
+
+"Instead of using these characters to hide instructions from people while exposing them to AI models, the attacker used them to split financial lure words such as 'funding' to prevent email filters from parsing them," the Microsoft Security Research team said.
+
+The
