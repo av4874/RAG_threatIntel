@@ -1,0 +1,6 @@
+TITLE: Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication
+SOURCE: https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html
+---
+Attackers are exploiting MikroTik routers with their Secure Shell (SSH) remote-access service, which is reachable from the internet, to gain full administrative control without authentication, according to&nbsp;CERT Polska's attack warning, published on September 5.
+
+Successful attacks date to at least September 2. The Hacker News’s September 6 review of the warning found no victim count or

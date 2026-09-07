@@ -1,0 +1,8 @@
+TITLE: Four REVSTEALER-Linked Modules Disable Windows Update and Defender to Run a Crypto Miner
+SOURCE: https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html
+---
+Elastic Security Labs has documented four previously unreported programs associated with REVSTEALER, an emerging Windows information stealer, that remain on an infected machine after the stealer deletes itself.
+
+One of them switches off Windows Update and Microsoft Defender before running a cryptocurrency miner.
+
+The company named the four programs ProManager, WinUpdate, SoftManager, and
