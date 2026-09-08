@@ -1,0 +1,6 @@
+TITLE: BengalSEO Poisons Bing Search Results to Deliver MayaBot and Tech Support Scams
+SOURCE: https://thehackernews.com/2026/09/bengalseo-poisons-bing-search-results.html
+---
+Cybersecurity researchers have disclosed details of a sprawling search engine optimization (SEO) poisoning campaign that paves the way for malware deployment and tech support scams.
+
+The campaign, discovered by the DFIR Report in March 2026, has been codenamed BengalSEO. It has operated out of the Indian state of Rajasthan since at least 2015, driven by two IT service providers named WeConnect
