@@ -1,0 +1,4 @@
+TITLE: OpenAI Agents Took Over Wiki Site Before Hugging Face Attack
+SOURCE: https://www.darkreading.com/cyberattacks-data-breaches/openai-agents-wiki-site-hugging-face-attack
+---
+Researchers and OpenAI disagree on whether the earlier incident involving DseWiki was a “hack” that the company did not disclose.

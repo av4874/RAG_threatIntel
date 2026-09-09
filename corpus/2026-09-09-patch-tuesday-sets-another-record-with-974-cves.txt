@@ -1,0 +1,4 @@
+TITLE: Patch Tuesday Sets Another Record With 974 CVEs
+SOURCE: https://www.darkreading.com/vulnerabilities-threats/patch-tuesday-another-record-974-cves
+---
+Attackers are actively exploiting two of the vulnerabilities and another 58 are more likely to be exploited, according to Microsoft.

@@ -1,0 +1,4 @@
+TITLE: ClickFix Campaigns Abuse Legitimate Services for Persistent Access
+SOURCE: https://www.darkreading.com/endpoint-security/clickfix-campaigns-legitimate-services-persistent-access
+---
+Two separate attacks demonstrate how threat actors are finding new ways to compromise organizations by using the popular social engineering tactic.

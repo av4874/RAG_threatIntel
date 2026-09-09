@@ -1,0 +1,6 @@
+TITLE: New cPanel Flaw Lets a Hosting Account With Mail Privileges Run Code as Root
+SOURCE: https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account.html
+---
+cPanel has patched a flaw that it says lets a single hosting account take control of an entire server. An authenticated account holder with mail-related privileges can create files of their choosing on the server through EmailTrack and, from there, run code as the root user.
+
+cPanel published the&nbsp;advisory on September 8&nbsp;and says every supported version of cPanel and WHM is affected.

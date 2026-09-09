@@ -1,0 +1,8 @@
+TITLE: Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed
+SOURCE: https://thehackernews.com/2026/09/researcher-drops-new-microsoft-defender.html
+---
+The security researcher known as Chaotic Eclipse has dropped a proof-of-concept (PoC) for yet another zero-day in Microsoft Defender.
+
+The vulnerability, codenamed ShieldCrash, is assessed to be a patch bypass for CVE-2026-69414 (CVSS score: 7.8), also called ShieldBreak, which the researcher reported last month.
+
+"Microsoft has failed to properly patch ShieldBreak CVE-2026-69414," Chaotic

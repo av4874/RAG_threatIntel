@@ -1,0 +1,4 @@
+TITLE: Attackers Use Multi-Hop Google Redirects for Phishing Campaign
+SOURCE: https://www.darkreading.com/cyberattacks-data-breaches/attackers-multi-hop-google-redirects-phishing-campaign
+---
+Threat actors are abusing multiple Google services to evade detection, ultimately harvesting credentials or installing ScreenConnect remote access.
