@@ -1,0 +1,6 @@
+TITLE: DeepSeek Harness Flaw Let AI Agents Disable Their Own File Sandbox Without Approval
+SOURCE: https://thehackernews.com/2026/09/deepseek-harness-flaw-let-ai-agents.html
+---
+A flaw in DeepSeek Harness, DeepSeek's open-source tool for running AI coding agents on a developer's machine, let a sandboxed agent turn off its own sandbox with a single command.
+
+The tool runs an agent's commands inside an operating-system sandbox, so that an agent working on untrusted files cannot write outside its workspace. The agent could remove that limit by calling the tool's own web

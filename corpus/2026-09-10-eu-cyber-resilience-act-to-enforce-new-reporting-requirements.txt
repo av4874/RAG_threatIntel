@@ -1,0 +1,4 @@
+TITLE: EU Cyber Resilience Act to Enforce New Reporting Requirements
+SOURCE: https://www.darkreading.com/cybersecurity-operations/eu-cyber-resilience-act-reporting-requirements
+---
+Starting Friday, businesses operating in the EU will have just 24 hours to notify the government any time they discover serious product security incidents.

@@ -1,0 +1,8 @@
+TITLE: Webinar: Learn How to Answer “Are We Exposed?” Faster After a New CVE
+SOURCE: https://thehackernews.com/2026/09/webinar-learn-how-to-answer-are-we.html
+---
+A major vulnerability is disclosed. The alert lands immediately. Then comes the harder question: Are we actually exposed?
+
+For many security teams, answering that means jumping between vulnerability scanners, endpoint tools, cloud inventories, SBOMs, repositories, and application data to build enough context to act.
+
+As AI accelerates vulnerability discovery and research, that delay matters more

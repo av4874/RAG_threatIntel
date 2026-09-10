@@ -1,0 +1,6 @@
+TITLE: Infostealer Logs Expose Replayable AI Tokens That Can Bypass MFA
+SOURCE: https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html
+---
+Cybercriminals are hijacking artificial intelligence (AI) user accounts via information stealer logs to create "stolen keys" that grant illicit access to tools from model providers like Google, Anthropic, and others.&nbsp;
+
+Information stealers like Lumma Stealer or Vidar are equipped to harvest a wide range of data from compromised systems. This can include credential, session tokens, and API

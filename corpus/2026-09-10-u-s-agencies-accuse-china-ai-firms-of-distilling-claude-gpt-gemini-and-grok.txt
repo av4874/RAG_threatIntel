@@ -1,0 +1,6 @@
+TITLE: U.S. Agencies Accuse China AI Firms of Distilling Claude, GPT, Gemini, and Grok
+SOURCE: https://thehackernews.com/2026/09/us-agencies-accuse-china-ai-firms-of.html
+---
+U.S. cybersecurity and intelligence agencies have accused China-based artificial intelligence (AI) companies of conducting "systematic extraction" of proprietary functionalities and capabilities of American frontier models through distillation attacks.
+
+The activity has been described as occurring at an industrial-scale and one that forms the "core" of their AI development strategy, according to

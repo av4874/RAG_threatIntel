@@ -1,0 +1,4 @@
+TITLE: US Government Accuses Chinese AI Firms of Distilling Frontier Models
+SOURCE: https://www.darkreading.com/application-security/us-government-chinese-ai-firms-distilling-frontier-models
+---
+US agencies claim Chinese companies covertly extracted billions of tokens from OpenAI, Anthropic, Google Gemini, and SpaceX's Grok to reduce development costs.

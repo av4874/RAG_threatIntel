@@ -1,0 +1,4 @@
+TITLE: Cybercriminals Hack Brazilian Government Servers to Host Phishing Sites
+SOURCE: https://www.darkreading.com/threat-intelligence/cybercriminals-hack-brazilian-government-servers-host-phishing-sites
+---
+A Chinese-language group is compromising government and education sites to create a reverse-proxy network with gambling-themed sites.
