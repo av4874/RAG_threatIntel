@@ -1,0 +1,4 @@
+TITLE: Indonesia Hit by Android Banking App-Cloning Campaign
+SOURCE: https://www.darkreading.com/mobile-security/indonesia-android-banking-app-cloning-campaign
+---
+The GoldFactory threat group exploits the Android Work Profile feature to deliver the Gigabud Trojan, while Mantax Otax spreads separately.

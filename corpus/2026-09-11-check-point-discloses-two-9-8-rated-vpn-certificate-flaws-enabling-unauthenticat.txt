@@ -1,0 +1,6 @@
+TITLE: Check Point Discloses Two 9.8-Rated VPN Certificate Flaws Enabling Unauthenticated RCE
+SOURCE: https://thehackernews.com/2026/09/check-point-discloses-two-98-rated-vpn.html
+---
+Check Point has patched two critical vulnerabilities in the way its firewall and management products handle VPN certificates. The company says both could allow an unauthenticated remote attacker to run code, but only "under specific conditions" that it has not described.
+
+One flaw affects Check Point's Security Gateways, its firewall appliances. The other affects those gateways and the Security
