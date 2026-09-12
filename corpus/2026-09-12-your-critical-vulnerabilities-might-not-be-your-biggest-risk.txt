@@ -1,0 +1,6 @@
+TITLE: Your Critical Vulnerabilities Might Not Be Your Biggest Risk
+SOURCE: https://thehackernews.com/2026/09/your-critical-vulnerabilities-might-not.html
+---
+Security teams have become exceptionally talented at finding vulnerabilities. Now, it’s time to turn our attention to optimizing the process for determining which of those vulnerabilities actually create a path to compromise.
+
+A critical vulnerability may look alarming on a scanner report, but if it sits behind strong segmentation, identity controls, and other defenses that prevent an attacker

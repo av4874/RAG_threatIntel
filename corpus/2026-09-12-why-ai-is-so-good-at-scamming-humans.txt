@@ -1,0 +1,4 @@
+TITLE: Why AI Is So Good at Scamming Humans
+SOURCE: https://www.darkreading.com/cyber-risk/ai-scamming-humans
+---
+Fred Heiding of Menlo Park Intelligence talks with the Dark Reading News Desk about his research on frontier models, and their ability to influence human behavior and create emotional dependency.

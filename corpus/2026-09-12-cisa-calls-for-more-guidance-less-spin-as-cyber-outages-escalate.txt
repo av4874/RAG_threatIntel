@@ -1,0 +1,4 @@
+TITLE: CISA Calls for More Guidance, Less Spin, as Cyber Outages Escalate
+SOURCE: https://www.darkreading.com/cyber-risk/cisa-calls-for-more-guidance-less-spin-as-cyber-outages-escalate
+---
+A new joint government advisory signals a regulatory shift, pressing organizations to adopt more transparent breach notification and incident response protocols.

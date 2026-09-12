@@ -1,0 +1,4 @@
+TITLE: Papercut AI Swarm Attack Heralds Changes for Cyber Kill Chain
+SOURCE: https://www.darkreading.com/cyberattacks-data-breaches/papercut-ai-swarm-attack-cyber-kill-chain
+---
+From creating lab environments for staging and testing agentic attacks to reconnaissance to lateral movement and exfiltration, the most innovative attackers are widely incorporating AI.
