@@ -1,0 +1,9 @@
+TITLE: Malicious Twitch Browser Extension Leaks OAuth Tokens From Nearly 31,000 Users
+SOURCE: https://thehackernews.com/2026/09/malicious-twitch-browser-extension.html
+---
+A malicious cross-store Twitch browser extension has leaked OAuth tokens associated with nearly 31,000 users to proxy servers operated by a Russian commercial bot service.
+
+The extension, named "Twitch Enhanced Viewer | JeetBot," lists HISHIMIRO/jeetbot.cc as its developer and has the following identifiers on the Google Chrome Web Store and Mozilla Firefox Add-Ons store -
+
+
+  Chrome -
