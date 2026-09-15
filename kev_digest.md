@@ -297,6 +297,19 @@
 
 **References:** Please adhere to the vendor's guidelines to assess exposure and mitigate risks. Check for signs of potential compromise on all internet accessible BeyondTrust products affected by this vulnerability. For more information please: see: https://www.beyondtrust.com/trust-center/security-advisories/bt26-02 ; https://nvd.nist.gov/vuln/detail/CVE-2026-1731
 
+## CVE-2026-76461 - Cisco Secure Email Gateway
+**Vulnerability:** Cisco Secure Email Gateway SQL Injection Vulnerability
+
+**Description:** Cisco AsyncOS software for Cisco Secure Email Gateway (SEG) contains a SQL injection vulnerability that could allow an unauthenticated, remote attacker to execute arbitrary commands with root privileges on the underlying operating system.
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-09-14 | **Due Date:** 2026-09-17
+
+**MITRE CWE:** CWE-89
+
+**References:** https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-inj-2bLVGmhX ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-76461
+
 ## CVE-2026-84869 - ConnectWise ScreenConnect
 **Vulnerability:** ConnectWise ScreenConnect Improper Privilege Management and Missing Authorization Vulnerability
 
@@ -2568,16 +2581,3 @@
 **MITRE CWE:** CWE-693
 
 **References:** https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21510 ; https://nvd.nist.gov/vuln/detail/CVE-2026-21510 
-
-## CVE-2026-21533 - Microsoft Windows
-**Vulnerability:** Microsoft Windows Improper Privilege Management Vulnerability
-
-**Description:** Microsoft Windows Remote Desktop Services contains an improper privilege management vulnerability that could allow an authorized attacker to elevate privileges locally.
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2026-02-10 | **Due Date:** 2026-03-03
-
-**MITRE CWE:** CWE-269
-
-**References:** https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21533 ; https://nvd.nist.gov/vuln/detail/CVE-2026-21533
