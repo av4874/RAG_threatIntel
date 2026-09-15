@@ -1,0 +1,6 @@
+TITLE: LiteSpeed Enterprise Flaw Could Let One Hosting Account Gain Root Access on a Shared Server
+SOURCE: https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html
+---
+A critical vulnerability in LiteSpeed Web Server Enterprise could let a low-privilege website user gain root access on a shared-hosting server, cPanel warned in an&nbsp;advisory published on September 14.
+
+On such servers, many customers' sites run on a single machine, and an attacker with one of those hosting accounts could exploit the flaw to access or alter other sites and the server itself,

@@ -1,0 +1,4 @@
+TITLE: Anthropic CEO: Time to Shift From Improving to Controlling AI
+SOURCE: https://www.darkreading.com/cyber-risk/anthropic-ceo-shift-from-improving-to-controlling-ai
+---
+Dario Amodei says it's time to slow the pace of frontier AI improvements so that security and risk prevention efforts can catch up. What does this mean for enterprises?

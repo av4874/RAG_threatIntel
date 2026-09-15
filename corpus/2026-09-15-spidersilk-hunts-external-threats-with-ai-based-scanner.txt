@@ -1,0 +1,4 @@
+TITLE: SpiderSilk Hunts External Threats With AI-Based Scanner
+SOURCE: https://www.darkreading.com/endpoint-security/spidersilk-hunts-external-threats-ai-scanning
+---
+The Dubai-based threat detection startup uses artificial intelligence tools to scan billions of IP addresses to find exposed assets, leaked data, and zero-day vulnerabilities.
