@@ -1,0 +1,4 @@
+TITLE: Microsoft Issues Emergency Fixes After Massive Patch Tuesday
+SOURCE: https://www.darkreading.com/application-security/microsoft-emergency-fixes-patch-tuesday
+---
+You can't make an omelet without breaking a few eggs, and you can't patch nearly 1,000 CVEs without a few glitches.

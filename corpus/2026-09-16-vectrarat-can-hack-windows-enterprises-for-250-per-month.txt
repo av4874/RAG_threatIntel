@@ -1,0 +1,4 @@
+TITLE: VectraRAT Can Hack Windows Enterprises for $250 per Month
+SOURCE: https://www.darkreading.com/endpoint-security/vectrarat-hack-windows-enterprises
+---
+The full-service malware-as-a-service (MaaS) platform offers a Windows implant, command-and-control (C2) infrastructure, and an operator panel for comprehensive remote access.
