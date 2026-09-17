@@ -10,17 +10,17 @@
 **Detection Feasibility:** High - The vulnerability allows unauthenticated attackers to escalate privileges, which can be detected through security event logs and endpoint monitoring.
 **Recommendation:** Tune existing rule - Existing rules can be tuned to detect unusual network activity indicative of privilege escalation attempts.
 
-### CVE-2026-15409 - SonicWall SMA1000 Zero-Day Vulnerabilities: Full Technical Details (risk score: 10/10)
+### CVE-2026-15410 - SonicWall SMA1000 Zero-Day Vulnerabilities: Full Technical Details (risk score: 10/10)
 **Vendor/Product:** SonicWall SMA1000 Appliances
-**Vulnerability:** SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability
+**Vulnerability:** SonicWall SMA1000 Appliances Code Injection Vulnerability
 **ATT&CK Technique:** T1089 - System Network Connections Discovery (UNVERIFIED)
 **Log Sources:** Windows Security Event Log, Firewall/VPN logs
 **Detection Feasibility:** High - The vulnerabilities allow for command execution and request manipulation, which can be detected through network connection logs.
 **Recommendation:** New use case - Implement new rules to monitor for unusual network connections and command executions.
 
-### CVE-2026-15410 - SonicWall SMA1000 Zero-Day Vulnerabilities: Full Technical Details (risk score: 10/10)
+### CVE-2026-15409 - SonicWall SMA1000 Zero-Day Vulnerabilities: Full Technical Details (risk score: 10/10)
 **Vendor/Product:** SonicWall SMA1000 Appliances
-**Vulnerability:** SonicWall SMA1000 Appliances Code Injection Vulnerability
+**Vulnerability:** SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability
 **ATT&CK Technique:** T1089 - System Network Connections Discovery (UNVERIFIED)
 **Log Sources:** Windows Security Event Log, Firewall/VPN logs
 **Detection Feasibility:** High - The vulnerabilities allow for command execution and request manipulation, which can be detected through network connection logs.
@@ -112,6 +112,27 @@
 
 ## KEV-Only (not covered by RAG lane)
 
+### CVE-2026-58704 - Google Pixel
+**Vulnerability:** Google Pixel Improper Authorization Vulnerability
+
+**MITRE CWE:** CWE-693
+
+**References:** https://source.android.com/docs/security/bulletin/pixel/2026/2026-09-01 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-58704
+
+### CVE-2026-76460 - Cisco Identity Services Engine
+**Vulnerability:** Cisco Identity Services Engine Incorrect Use of Privileged APIs Vulnerability
+
+**MITRE CWE:** CWE-648
+
+**References:** https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ISE-ABP-VNSW7Tn5 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-76460
+
+### CVE-2026-87886 - Acronis Backup
+**Vulnerability:** Acronis Backup Incorrect Default Permissions Vulnerability
+
+**MITRE CWE:** CWE-276
+
+**References:** https://security-advisory.acronis.com/advisories/SEC-10986 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-87886
+
 ### CVE-2026-76461 - Cisco Secure Email Gateway
 **Vulnerability:** Cisco Secure Email Gateway SQL Injection Vulnerability
 
@@ -152,7 +173,7 @@
 
 **MITRE CWE:** CWE-88
 
-**References:**  ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-86060
+**References:** https://mikrotik.com/supportsec/september-2026-vulnerability ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-86060
 
 ### CVE-2026-67277 - MikroTik RouterOS
 **Vulnerability:** MikroTik RouterOS Missing Authentication for Critical Function Vulnerability
@@ -298,22 +319,3 @@
 **Vulnerability:** Linux Kernel Unspecified Vulnerability
 
 **References:** This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: ; https://git.kernel.org/stable/c/14200d435af9a9eeb444f529fc2f689a236b7962; https://git.kernel.org/stable/c/65fb14cbebb0cd0eff903a22d33537ddc8b95769; https://git.kernel.org/stable/c/46f201f8b4c39633a1fa3dc12459f506d470993d; https://git.kernel.org/stable/c/6374fb9edf72c67a118a2c214a0dddd04c921e0a; https://git.kernel.org/stable/c/e9eacf19281ea2498b36291b56c9606118c2d74e; https://git.kernel.org/stable/c/736b380e28d0480c7bc3e022f1950f31fe53a7c5 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-53362
-
-### CVE-2026-66384 - JFrog Artifactory
-**Vulnerability:** JFrog Artifactory Improper Limitation of a Pathname to a Restricted Directory Vulnerability
-
-**MITRE CWE:** CWE-22
-
-**References:** https://docs.jfrog.com/releases/docs/jfrog-security-advisories ; https://docs.jfrog.com/releases/docs/artifactory-self-managed-releases ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-66384
-
-### CVE-2021-23758 - Ajax.NET Professional Ajax.NET Professional
-**Vulnerability:** Ajax.NET Professional Deserialization of Untrusted Data Vulnerability
-
-**MITRE CWE:** CWE-502
-
-**References:** This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://github.com/michaelschwarz/Ajax.NET-Professional/commit/b0e63be5f0bb20dfce507cb8a1a9568f6e73de57 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2021-23758
-
-### CVE-2015-3246 - Red Hat Libuser
-**Vulnerability:** Red Hat Libuser Race Condition Vulnerability
-
-**References:** This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://access.redhat.com/articles/1537873 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2015-3246
