@@ -1,0 +1,6 @@
+TITLE: N0va Phishkit Targets US and EU Businesses: A New Challenge for Identity Security
+SOURCE: https://thehackernews.com/2026/09/n0va-phishkit-targets-us-and-eu.html
+---
+N0va is targeting organizations across North America and Europe with phishing campaigns that impersonate trusted services and abuse legitimate authentication flows. Successful attacks can give threat actors access to valid accounts without relying on obvious malware activity.
+
+From there, a single compromised identity can open the door to sensitive data, business systems, and additional cloud

@@ -1,0 +1,4 @@
+TITLE: AI Security Spending Jumps as Fear Outpaces Proof of Value
+SOURCE: https://www.darkreading.com/cybersecurity-operations/ai-security-spending-jumps-fear-outpaces-proof-value
+---
+CISOs are not waiting for AI to prove its cybersecurity value before investing in the technology. Is it the right move?

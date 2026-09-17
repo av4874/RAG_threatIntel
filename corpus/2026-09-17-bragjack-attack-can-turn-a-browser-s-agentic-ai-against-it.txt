@@ -1,0 +1,4 @@
+TITLE: BragJack Attack Can Turn a Browser's Agentic AI Against It
+SOURCE: https://www.darkreading.com/endpoint-security/bragjack-browser-agentic-ai
+---
+A new type of attack hijacks the AI assistant built directly into various browsers to access sensitive information, execute malicious actions, and exfiltrate data.

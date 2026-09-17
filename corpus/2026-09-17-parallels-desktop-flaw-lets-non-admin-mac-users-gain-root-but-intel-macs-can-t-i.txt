@@ -1,0 +1,8 @@
+TITLE: Parallels Desktop Flaw Lets Non-Admin Mac Users Gain Root, but Intel Macs Can't Install Fix
+SOURCE: https://thehackernews.com/2026/09/parallels-desktop-flaw-lets-non-admin.html
+---
+Parallels Desktop for Mac has a flaw that lets an ordinary local account run code as root, the highest level of access on a Mac, software company JFrog said this week.
+
+The attack needs code already running on the machine as a normal user, so it does not work over the network. JFrog says the fix is in Parallels Desktop 27, a version that Intel Macs cannot install.
+
+Yuval Moravchick, who leads
