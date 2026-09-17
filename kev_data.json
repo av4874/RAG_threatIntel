@@ -344,6 +344,51 @@
     "notes": "Please adhere to the vendor's guidelines to assess exposure and mitigate risks. Check for signs of potential compromise on all internet accessible BeyondTrust products affected by this vulnerability. For more information please: see: https://www.beyondtrust.com/trust-center/security-advisories/bt26-02 ; https://nvd.nist.gov/vuln/detail/CVE-2026-1731"
   },
   {
+    "cve_id": "CVE-2026-58704",
+    "vendor_project": "Google",
+    "product": "Pixel",
+    "vulnerability_name": "Google Pixel Improper Authorization Vulnerability",
+    "date_added": "2026-09-16",
+    "short_description": "Google Pixel devices contain an improper authorization vulnerability in the cellular modem. A logic error may allow an attacker to bypass permission checks and escalate privileges.",
+    "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+    "due_date": "2026-09-19",
+    "known_ransomware_use": false,
+    "cwes": [
+      "CWE-693"
+    ],
+    "notes": "https://source.android.com/docs/security/bulletin/pixel/2026/2026-09-01 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-58704"
+  },
+  {
+    "cve_id": "CVE-2026-76460",
+    "vendor_project": "Cisco",
+    "product": "Identity Services Engine",
+    "vulnerability_name": "Cisco Identity Services Engine Incorrect Use of Privileged APIs Vulnerability",
+    "date_added": "2026-09-16",
+    "short_description": "Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) contain an incorrect use of privileged APIs vulnerability that could allow an unauthenticated, remote attacker to gain unauthorized access to the affected device by bypassing the web-based management interface.",
+    "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+    "due_date": "2026-09-19",
+    "known_ransomware_use": false,
+    "cwes": [
+      "CWE-648"
+    ],
+    "notes": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ISE-ABP-VNSW7Tn5 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-76460"
+  },
+  {
+    "cve_id": "CVE-2026-87886",
+    "vendor_project": "Acronis",
+    "product": "Backup",
+    "vulnerability_name": "Acronis Backup Incorrect Default Permissions Vulnerability",
+    "date_added": "2026-09-16",
+    "short_description": "Acronis Backup plugin for cPanel & WHM and extension for Plesk contains an incorrect default permissions vulnerability that could allow for privilege escalation.",
+    "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+    "due_date": "2026-09-19",
+    "known_ransomware_use": false,
+    "cwes": [
+      "CWE-276"
+    ],
+    "notes": "https://security-advisory.acronis.com/advisories/SEC-10986 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-87886"
+  },
+  {
     "cve_id": "CVE-2026-76461",
     "vendor_project": "Cisco",
     "product": "Secure Email Gateway",
@@ -364,7 +409,7 @@
     "product": "ScreenConnect",
     "vulnerability_name": "ConnectWise ScreenConnect Improper Privilege Management and Missing Authorization Vulnerability",
     "date_added": "2026-09-11",
-    "short_description": "ConnectWise ScreenConnect contains both an improper privilege management and missing authorization vulnerability that may allow an attacker to file transfer and execution through an active remote sessions without authorization or host confirmation.",
+    "short_description": "ConnectWise ScreenConnect contains both an improper privilege management and missing authorization vulnerability that may allow an attacker to transfer and execute files through an active remote session without authorization or host confirmation.",
     "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
     "due_date": "2026-09-14",
     "known_ransomware_use": false,
@@ -380,7 +425,7 @@
     "product": "Artifactory",
     "vulnerability_name": "JFrog Artifactory Incorrect Authorization Vulnerability",
     "date_added": "2026-09-11",
-    "short_description": "JFrog Artifactory contains an incorrect authorization vulnerability that allows leads to privilege escalation attack due to a validation check of the token signature/issuer and not the token\u2019s scope.",
+    "short_description": "JFrog Artifactory contains an incorrect authorization vulnerability that leads to a privilege escalation attack due to a validation check of the token signature/issuer and not the token\u2019s scope.",
     "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
     "due_date": "2026-09-25",
     "known_ransomware_use": false,
@@ -425,14 +470,14 @@
     "product": "RouterOS",
     "vulnerability_name": "MikroTik RouterOS Improper Neutralization of Argument Delimiters in a Command Vulnerability",
     "date_added": "2026-09-10",
-    "short_description": "MikroTik RouterOS contains an improper neutralization of argument delimiters in a command vulnerability which allows an attacked to change the trusted RouterOS policy mask, leading to privilege escalation.",
+    "short_description": "MikroTik RouterOS contains an improper neutralization of argument delimiters in a command vulnerability which allows an attacker to change the trusted RouterOS policy mask, leading to privilege escalation.",
     "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
     "due_date": "2026-09-13",
     "known_ransomware_use": false,
     "cwes": [
       "CWE-88"
     ],
-    "notes": " ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-86060"
+    "notes": "https://mikrotik.com/supportsec/september-2026-vulnerability ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-86060"
   },
   {
     "cve_id": "CVE-2026-67277",
@@ -440,7 +485,7 @@
     "product": "RouterOS",
     "vulnerability_name": "MikroTik RouterOS Missing Authentication for Critical Function Vulnerability",
     "date_added": "2026-09-10",
-    "short_description": "MikroTik RouterOS contains a missing authenticaion for critical function vulnerability which allows kernel memory disclosure and denial of service in the btest service.",
+    "short_description": "MikroTik RouterOS contains a missing authentication for critical function vulnerability which allows kernel memory disclosure and denial of service in the btest service.",
     "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
     "due_date": "2026-09-13",
     "known_ransomware_use": false,
@@ -2958,50 +3003,5 @@
       "CWE-693"
     ],
     "notes": "https://documentation.solarwinds.com/en/success_center/whd/content/release_notes/whd_2026-1_release_notes.htm ; https://www.solarwinds.com/trust-center/security-advisories/CVE-2025-40536 ; https://nvd.nist.gov/vuln/detail/CVE-2025-40536"
-  },
-  {
-    "cve_id": "CVE-2026-21513",
-    "vendor_project": "Microsoft",
-    "product": "Windows",
-    "vulnerability_name": "Microsoft MSHTML Framework Protection Mechanism Failure Vulnerability",
-    "date_added": "2026-02-10",
-    "short_description": "Microsoft MSHTML Framework contains a protection mechanism failure vulnerability that could allow an unauthorized attacker to bypass a security feature over a network.",
-    "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-    "due_date": "2026-03-03",
-    "known_ransomware_use": false,
-    "cwes": [
-      "CWE-693"
-    ],
-    "notes": "https://msrc.microsoft.com/update-guide/advisory/CVE-2026-21513 ; https://nvd.nist.gov/vuln/detail/CVE-2026-21513"
-  },
-  {
-    "cve_id": "CVE-2026-21525",
-    "vendor_project": "Microsoft",
-    "product": "Windows",
-    "vulnerability_name": "Microsoft Windows NULL Pointer Dereference Vulnerability",
-    "date_added": "2026-02-10",
-    "short_description": "Microsoft Windows Remote Access Connection Manager contains a NULL pointer dereference that could allow an unauthorized attacker to deny service locally.",
-    "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-    "due_date": "2026-03-03",
-    "known_ransomware_use": false,
-    "cwes": [
-      "CWE-476"
-    ],
-    "notes": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21525 ; https://nvd.nist.gov/vuln/detail/CVE-2026-21525"
-  },
-  {
-    "cve_id": "CVE-2026-21510",
-    "vendor_project": "Microsoft",
-    "product": "Windows",
-    "vulnerability_name": "Microsoft Windows Shell Protection Mechanism Failure Vulnerability",
-    "date_added": "2026-02-10",
-    "short_description": "Microsoft Windows Shell contains a protection mechanism failure vulnerability that could allow an unauthorized attacker to bypass a security feature over a network. ",
-    "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-    "due_date": "2026-03-03",
-    "known_ransomware_use": false,
-    "cwes": [
-      "CWE-693"
-    ],
-    "notes": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21510 ; https://nvd.nist.gov/vuln/detail/CVE-2026-21510 "
   }
 ]
