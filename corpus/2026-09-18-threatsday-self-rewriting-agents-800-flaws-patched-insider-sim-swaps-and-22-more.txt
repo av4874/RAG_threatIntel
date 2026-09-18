@@ -1,0 +1,8 @@
+TITLE: ThreatsDay: Self-Rewriting Agents, 800+ Flaws Patched, Insider SIM Swaps and 22 More New Stories
+SOURCE: https://thehackernews.com/2026/09/threatsday-self-rewriting-agents-800.html
+---
+Attackers keep finding new keys. The funny part is that defenders keep inventing where to store them.
+
+This week, those keys sit in AI tools, exposed services, old bugs, weak logins, and software sold like a monthly subscription. Some attacks use new tricks. Others just reuse what was already lying around. Both work often enough.
+
+So the threat landscape is not getting cleaner. It is just

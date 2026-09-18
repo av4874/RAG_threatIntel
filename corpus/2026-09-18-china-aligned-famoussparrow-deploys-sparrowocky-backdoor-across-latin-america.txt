@@ -1,0 +1,6 @@
+TITLE: China-Aligned FamousSparrow Deploys SparroWocky Backdoor Across Latin America
+SOURCE: https://thehackernews.com/2026/09/china-aligned-famoussparrow-deploys.html
+---
+The China-aligned state-sponsored threat actor known as FamousSparrow has been observed deploying a previously unreported backdoor called SparroWocky in attacks targeting multiple countries in Latin America since at least August 2025.
+
+"SparroWocky is a modular, C++ backdoor," ESET security researchers Alexandre Côté Cyr and Romain Dumont said in a technical report shared with The Hacker News

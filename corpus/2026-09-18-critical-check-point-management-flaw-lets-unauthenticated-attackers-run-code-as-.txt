@@ -1,0 +1,6 @@
+TITLE: Critical Check Point Management Flaw Lets Unauthenticated Attackers Run Code as Root
+SOURCE: https://thehackernews.com/2026/09/critical-check-point-management-server.html
+---
+A critical vulnerability in Check Point's Security Management and Log Servers could allow an attacker without login credentials to run code as root on those servers over the network.
+
+The Security Management Server is the system that controls firewall policy and administrator access. Check Point has released a fix through its LivePatch update channel and says it has no indication that the flaw

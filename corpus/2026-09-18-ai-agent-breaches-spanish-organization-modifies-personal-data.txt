@@ -1,0 +1,4 @@
+TITLE: AI Agent Breaches Spanish Organization, Modifies Personal Data
+SOURCE: https://www.darkreading.com/cyberattacks-data-breaches/ai-agent-breaches-spanish-organization-personal-data
+---
+AI-driven cyberattacks used to be exotic. Soon, it'll be odd if threat actors aren't using agents to do all of their bidding.

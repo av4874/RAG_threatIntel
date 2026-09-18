@@ -1,0 +1,6 @@
+TITLE: Iran-Linked Handala Hack Tied to HEAVYGRAM Telegram Backdoor That Can Steal Passwords
+SOURCE: https://thehackernews.com/2026/09/iran-linked-handala-hack-tied-to.html
+---
+The Iran-linked "hacktivist" persona known as Handala Hack has been attributed to a Telegram-based surveillance backdoor called HEAVYGRAM and a Delphi-based utility known as CRUDEEXCLUDE.
+
+"HEAVYGRAM offers builtin commands supporting remote command execution, system, network and process information discovery, data and Telegram session files exfiltration, screenshot capture, DLL sideloading,
