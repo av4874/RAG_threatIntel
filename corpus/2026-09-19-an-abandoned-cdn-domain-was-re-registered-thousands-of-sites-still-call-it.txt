@@ -1,0 +1,6 @@
+TITLE: An Abandoned CDN Domain Was Re-Registered. Thousands of Sites Still Call It.
+SOURCE: https://thehackernews.com/2026/09/an-abandoned-cdn-domain-was-re.html
+---
+In July 2025, someone registered a domain that used to belong to a content delivery network.&nbsp; The CDN had been wound down years earlier, and the domain it served assets from was allowed to expire. What it had not lost were its callers. Thousands of websites, code repositories, and documentation pages still carry hard-coded references to hostnames beneath it.&nbsp;
+
+The new owner holds

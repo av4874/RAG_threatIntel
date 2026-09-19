@@ -1,0 +1,4 @@
+TITLE: Cisco Zero-Day Highlights API Endpoint Authentication Issues
+SOURCE: https://www.darkreading.com/vulnerabilities-threats/cisco-zero-day-api-endpoint-authentication-issues
+---
+The authentication bypass flaw CVE-2026-76460 impacts Cisco's Identity Services Engine (ISE) and received a maximum 10 out of 10 CVSS score.

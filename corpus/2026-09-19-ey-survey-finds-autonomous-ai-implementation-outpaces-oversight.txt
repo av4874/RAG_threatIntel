@@ -1,0 +1,4 @@
+TITLE: EY Survey Finds Autonomous AI Implementation Outpaces Oversight
+SOURCE: https://www.darkreading.com/cyberattacks-data-breaches/ey-survey-autonomous-ai-implementation-outpaces-oversight
+---
+A new survey of senior AI execs shows that while organizations are rapidly deploying AI and autonomous systems, their process and controls are not keeping pace.

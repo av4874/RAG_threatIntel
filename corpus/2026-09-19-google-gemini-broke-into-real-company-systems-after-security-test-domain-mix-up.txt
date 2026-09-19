@@ -1,0 +1,6 @@
+TITLE: Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up
+SOURCE: https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html
+---
+Google's Gemini model has become the latest artificial intelligence (AI) system to access the internet and break into other companies during a cybersecurity evaluation. The development was first reported by The Wall Street Journal.
+
+The incidents occurred in May 2026 as part of a test run conducted by Israeli company Irregular. The evaluation partner was also involved in similar hacks disclosed

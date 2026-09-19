@@ -1,0 +1,4 @@
+TITLE: MFA Won't Save You From OAuth Consent Abuse
+SOURCE: https://www.darkreading.com/vulnerabilities-threats/mfa-oauth-consent-abuse
+---
+MFA is essential, but it cannot replace OAuth governance, least-privilege scopes, consent monitoring, and rapid revocation.
