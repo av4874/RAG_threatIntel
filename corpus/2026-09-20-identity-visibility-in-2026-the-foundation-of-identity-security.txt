@@ -1,0 +1,4 @@
+TITLE: Identity Visibility in 2026: The Foundation of Identity Security
+SOURCE: https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html
+---
+Identity visibility is a starting point for modern identity security, because stolen and misused credentials are among the most frequently reported initial access vectors in breach research, including Verizon's annual Data Breach Investigations Report. This article explains what identity visibility means in IAM, why cloud and multicloud environments complicate it, which capabilities matter in
