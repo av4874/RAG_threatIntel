@@ -1,0 +1,6 @@
+TITLE: ClickFix Lures Deploy ChainScript RAT Using Polygon to Rotate C2 Infrastructure
+SOURCE: https://thehackernews.com/2026/09/clickfix-lures-deploy-chainscript-rat.html
+---
+Threat actors are leveraging ClickFix-like lures to deliver a previously undocumented remote access trojan (RAT) called ChainScript.
+
+"ChainScript has appeared under multiple build names, including ComponentTask33, UpdateDigital, HostShared, and OrchidViolet66, while presenting itself as Spotify, Zoom Workplace, and Microsoft Teams software," Blackpoint Adversary Pursuit Group (APG)

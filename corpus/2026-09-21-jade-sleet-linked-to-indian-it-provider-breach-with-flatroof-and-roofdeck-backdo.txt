@@ -1,0 +1,6 @@
+TITLE: Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors
+SOURCE: https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html
+---
+The North Korean threat actor known as Jade Sleet has been attributed to the compromise of an India-based "much smaller organization" in the information technology (IT) services industry, once again highlighting how the adversary continues to target developers to breach target networks.
+
+Cybersecurity company SentinelOne, which disclosed details of the activity, said it involved the use of Apple
