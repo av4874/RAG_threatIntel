@@ -297,6 +297,19 @@
 
 **References:** Please adhere to the vendor's guidelines to assess exposure and mitigate risks. Check for signs of potential compromise on all internet accessible BeyondTrust products affected by this vulnerability. For more information please: see: https://www.beyondtrust.com/trust-center/security-advisories/bt26-02 ; https://nvd.nist.gov/vuln/detail/CVE-2026-1731
 
+## CVE-2026-7273 - Zyxel GS1900 Series Switches
+**Vulnerability:** Zyxel GS1900 Series Switches Stack-Based Buffer Overflow Vulnerability
+
+**Description:** Zyxel GS1900 series switches contain a stack-based buffer overflow vulnerability in the CGI program which could allow a LAN-based, unauthenticated attacker to exploit the flaw and potentially execute OS commands via a crafted HTTP request.
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-09-21 | **Due Date:** 2026-09-24
+
+**MITRE CWE:** CWE-121
+
+**References:** https://www.zyxel.com/global/en/support/security-advisories/zyxel-security-advisory-for-stack-based-buffer-overflow-vulnerability-in-gs1900-series-switches-06-16-2026 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-7273
+
 ## CVE-2025-39964 - Linux Kernel
 **Vulnerability:** Linux Kernel Race Condition Vulnerability
 
@@ -2568,16 +2581,3 @@
 **MITRE CWE:** CWE-416
 
 **References:** https://chromereleases.googleblog.com/2026/02/stable-channel-update-for-desktop_13.html ; https://nvd.nist.gov/vuln/detail/CVE-2026-2441
-
-## CVE-2026-20700 - Apple Multiple Products
-**Vulnerability:** Apple Multiple Buffer Overflow Vulnerability
-
-**Description:** Apple iOS, macOS, tvOS, watchOS, and visionOS contain an improper restriction of operations within the bounds of a memory buffer vulnerability that could allow an attacker with memory write the capability to execute arbitrary code.
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2026-02-12 | **Due Date:** 2026-03-05
-
-**MITRE CWE:** CWE-119
-
-**References:** https://support.apple.com/en-us/126346 ; https://support.apple.com/en-us/126348 ; https://support.apple.com/en-us/126351 ; https://support.apple.com/en-us/126352 ; https://support.apple.com/en-us/126353 ; https://nvd.nist.gov/vuln/detail/CVE-2026-20700
