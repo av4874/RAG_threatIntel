@@ -1,0 +1,4 @@
+TITLE: Rogue Behavior: OpenAI Reveals More Model Misalignment Incidents
+SOURCE: https://www.darkreading.com/cyber-risk/rogue-behavior-openai-more-model-misalignment-incidents
+---
+The AI giant disclosed six examples of concerning model activity and published a new framework for investigating and disclosing such incidents.

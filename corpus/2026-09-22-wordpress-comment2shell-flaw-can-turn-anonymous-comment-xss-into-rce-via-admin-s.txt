@@ -1,0 +1,6 @@
+TITLE: WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session
+SOURCE: https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html
+---
+A new flaw in WordPress core let an anonymous visitor leave a comment that planted a hidden script on the page. If a logged-in administrator later opened that page, the script could run code on the site's server.
+
+WordPress fixed the flaw, tracked as&nbsp;CVE-2026-93485&nbsp;and dubbed "Comment2Shell," on September 17 in&nbsp;version 7.1.1&nbsp;and told site owners to update right away. The

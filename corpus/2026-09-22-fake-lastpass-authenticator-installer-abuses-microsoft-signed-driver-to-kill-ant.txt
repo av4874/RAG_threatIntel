@@ -1,0 +1,6 @@
+TITLE: Fake LastPass Authenticator Installer Abuses Microsoft-Signed Driver to Kill Antivirus and EDR
+SOURCE: https://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html
+---
+A fake LastPass Authenticator installer offered on GitHub installs a Windows kernel driver that shuts off antivirus and other security software before a password stealer runs if a victim downloads and runs it, researchers at LastPass and Delphos Labs said on September 17.
+
+Microsoft's own hardware-compatibility program signs the driver, scored zero detections on VirusTotal when researchers
