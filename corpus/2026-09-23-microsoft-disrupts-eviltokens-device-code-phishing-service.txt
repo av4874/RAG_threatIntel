@@ -1,0 +1,4 @@
+TITLE: Microsoft Disrupts EvilTokens Device Code Phishing Service
+SOURCE: https://www.darkreading.com/identity-access-management-security/microsoft-disrupts-eviltokens-device-code-phishing-service
+---
+Microsoft seized 50 websites and disabled more than 150 domains as part of a coordinated disruption effort against a phishing-as-a-service platform targeting Microsoft 365 accounts.

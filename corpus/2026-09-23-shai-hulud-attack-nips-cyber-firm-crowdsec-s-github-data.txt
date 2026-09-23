@@ -1,0 +1,4 @@
+TITLE: Shai-Hulud Attack Nips Cyber-Firm CrowdSec's GitHub Data
+SOURCE: https://www.darkreading.com/cyberattacks-data-breaches/shai-hulud-attack-cyber-firm-crowdsec-github-data
+---
+Threat actors stole 170 private repositories using an OAuth token stolen from a former employee's computer through the TanStack npm supply chain attack.

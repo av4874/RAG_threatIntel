@@ -1,0 +1,6 @@
+TITLE: Critical Next.js ImageResponse Flaw Can Lead to Server Code Execution via Crafted SVG Input
+SOURCE: https://thehackernews.com/2026/09/critical-nextjs-imageresponse-flaw-can.html
+---
+A new security vulnerability in Next.js could allow attackers to run code on a server via&nbsp;ImageResponse, the feature that generates Open Graph and other social preview images, Vercel said.
+
+The risk applies when an app puts values an attacker controls, such as text read from the request URL, into the image. Vercel, which develops Next.js,&nbsp;fixed the flaw&nbsp;on September 22 in version

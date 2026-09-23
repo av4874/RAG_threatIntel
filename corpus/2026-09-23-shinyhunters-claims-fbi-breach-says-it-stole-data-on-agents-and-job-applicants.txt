@@ -1,0 +1,6 @@
+TITLE: ShinyHunters Claims FBI Breach, Says It Stole Data on Agents and Job Applicants
+SOURCE: https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html
+---
+The cyber extortion group known as ShinyHunters on Tuesday claimed it had breached the U.S. Federal Bureau of Investigation and stolen data belonging to current and former employees at the agency.
+
+"We have compromised the FBI. We hold very sensitive data on almost ALL FBI Agents and individuals who filed an application with the FBI for a job," the group said in a statement posted on their dark
