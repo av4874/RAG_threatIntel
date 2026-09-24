@@ -1,0 +1,4 @@
+TITLE: Deception by Design: CISA's Guide to Tricking Cybercriminals
+SOURCE: https://www.darkreading.com/cybersecurity-operations/deception-by-design-cisa-s-guide-to-tricking-cybercriminals
+---
+The Cybersecurity and Infrastructure Security Agency (CISA) is going old school to help organizations with limited resources set traps for hackers.

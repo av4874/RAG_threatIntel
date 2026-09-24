@@ -1,0 +1,4 @@
+TITLE: 545 Hackers Tested It First. Now XRanges for AI Scores Your Security Agent
+SOURCE: https://thehackernews.com/2026/09/545-hackers-tested-it-first-now-xranges.html
+---
+Autonomous security agents are getting good at finding bugs. Nobody has a good way to measure how good. Point one at a realistic target and what comes back is a report the agent wrote about itself: confident prose, a list of findings, and no way to tell which of them happened. Someone with a security background then sits down and checks every claim against the target. Which findings are real,

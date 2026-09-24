@@ -1,0 +1,8 @@
+TITLE: New cPanel Flaw Lets a Hosting Account Run Code as Root, Take Full Server Control
+SOURCE: https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account_0272795595.html
+---
+A flaw in cPanel's&nbsp;CalDAV and CardDAV service&nbsp;lets anyone with a cPanel hosting account run code as root and take "full control of the server," the company said on September 22.
+
+A&nbsp;second bug in the WP Toolkit plugin, used to install and manage WordPress sites, allows an account holder to change databases that belong to other accounts.
+
+cPanel has released fixed versions for both,

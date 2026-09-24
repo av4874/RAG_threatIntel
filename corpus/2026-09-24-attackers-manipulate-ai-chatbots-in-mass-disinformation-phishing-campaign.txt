@@ -1,0 +1,4 @@
+TITLE: Attackers Manipulate AI Chatbots in Mass Disinformation, Phishing Campaign
+SOURCE: https://www.darkreading.com/threat-intelligence/attackers-manipulate-ai-chatbots-mass-disinformation-phishing-campaign
+---
+Threat actors are poisoning ChatGPT, Gemini, and Google AI Overview answers by seeding the Web with malicious links and data and then optimizing the content.
