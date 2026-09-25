@@ -1,0 +1,4 @@
+TITLE: How to Build A SASE Framework for Modern Cybersecurity
+SOURCE: https://www.darkreading.com/cloud-security/how-to-build-sase-framework
+---
+Keeping edge computing safe requires organizations to fundamentally rethink security governance. Here is a path forward: a step-by-step guide to building a SASE framework.

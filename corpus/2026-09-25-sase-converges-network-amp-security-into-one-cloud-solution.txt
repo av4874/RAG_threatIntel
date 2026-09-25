@@ -1,0 +1,4 @@
+TITLE: SASE Converges Network &amp; Security Into One Cloud Solution
+SOURCE: https://www.darkreading.com/cloud-security/sase-converges-network-security-one-cloud
+---
+Enterprise computing is moving to the edge. Keeping it secure requires tactics far beyond putting up firewalls.

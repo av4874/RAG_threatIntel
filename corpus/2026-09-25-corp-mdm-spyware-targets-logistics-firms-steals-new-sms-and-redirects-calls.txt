@@ -1,0 +1,8 @@
+TITLE: Corp MDM Spyware Targets Logistics Firms, Steals New SMS and Redirects Calls
+SOURCE: https://thehackernews.com/2026/09/corp-mdm-spyware-targets-logistics.html
+---
+The logistics sector has become the target of a new malicious cyber campaign that distributes an Android spyware codenamed Corp MDM.
+
+According to Have I Been Squatted, the campaign uses fake Google Play pages branded as CEVA and TKW Logistics to distribute an Android Package Kit (APK) file that's dressed up as a system service. The delivered app has the package name "com.corp.mdm"
+
+Corp MDM

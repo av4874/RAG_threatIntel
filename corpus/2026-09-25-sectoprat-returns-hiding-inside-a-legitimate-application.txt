@@ -1,0 +1,4 @@
+TITLE: SectopRAT Returns, Hiding Inside a Legitimate Application
+SOURCE: https://www.darkreading.com/cyberattacks-data-breaches/sectoprat-returns-hiding-inside-legitimate-application
+---
+The latest activity from the remote access Trojan (RAT) shows why organizations should monitor the behavior of applications rather than blindly trusting them, experts say.
