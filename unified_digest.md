@@ -26,17 +26,17 @@
 **Detection Feasibility:** High - The vulnerabilities allow for command execution and request manipulation, which can be detected through network connection logs.
 **Recommendation:** New use case - Implement new rules to monitor for unusual network connections and command executions.
 
-### CVE-2026-56164 - Microsoft's July 2026 Patch Tuesday: 570 Vulnerabilities and 3 Zero-Days (risk score: 8/10)
-**Vendor/Product:** Microsoft SharePoint Server
-**Vulnerability:** Microsoft SharePoint Server Missing Authentication for Critical Function Vulnerability
+### CVE-2026-56155 - Microsoft's July 2026 Patch Tuesday: 570 Vulnerabilities and 3 Zero-Days (risk score: 8/10)
+**Vendor/Product:** Microsoft Active Directory Federation Services
+**Vulnerability:** Microsoft Active Directory Federation Services Insufficient Granularity of Access Control Vulnerability 
 **ATT&CK Technique:** T1190 - Exploit Public-Facing Application
 **Log Sources:** Windows Security Event Log, EDR/endpoint logs
 **Detection Feasibility:** High - Remote code execution vulnerabilities are highly feasible to detect through security event logs and endpoint detection and response tools.
 **Recommendation:** Tune existing rule - Existing rules can be tuned to specifically look for signs of remote code execution attempts based on the patterns of these vulnerabilities.
 
-### CVE-2026-56155 - Microsoft's July 2026 Patch Tuesday: 570 Vulnerabilities and 3 Zero-Days (risk score: 8/10)
-**Vendor/Product:** Microsoft Active Directory Federation Services
-**Vulnerability:** Microsoft Active Directory Federation Services Insufficient Granularity of Access Control Vulnerability 
+### CVE-2026-56164 - Microsoft's July 2026 Patch Tuesday: 570 Vulnerabilities and 3 Zero-Days (risk score: 8/10)
+**Vendor/Product:** Microsoft SharePoint Server
+**Vulnerability:** Microsoft SharePoint Server Missing Authentication for Critical Function Vulnerability
 **ATT&CK Technique:** T1190 - Exploit Public-Facing Application
 **Log Sources:** Windows Security Event Log, EDR/endpoint logs
 **Detection Feasibility:** High - Remote code execution vulnerabilities are highly feasible to detect through security event logs and endpoint detection and response tools.
@@ -111,6 +111,27 @@
 **Recommendation:** Tune existing rule - Existing security solutions can likely detect malicious activities related to command execution based on known indicators of compromise.
 
 ## KEV-Only (not covered by RAG lane)
+
+### CVE-2026-67279 - MikroTik RouterOS
+**Vulnerability:** Mikrotik RouterOS Improper Enforcement of Behavioral Workflow Vulnerability
+
+**MITRE CWE:** CWE-841
+
+**References:** https://mikrotik.com/supportsec/september-2026-vulnerability/?utm_source=chatgpt.com ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-67279
+
+### CVE-2026-65660 - Microsoft SharePoint
+**Vulnerability:** Microsoft SharePoint Code Injection Vulnerability
+
+**MITRE CWE:** CWE-94
+
+**References:** https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-65660 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-65660
+
+### CVE-2026-87902 - WordPress Core
+**Vulnerability:** WordPress Core Remote File Inclusion Vulnerability
+
+**MITRE CWE:** CWE-98
+
+**References:** https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-7hp8-65ch-5whp ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-87902
 
 ### CVE-2026-5430 - WSO2 Multiple Products
 **Vulnerability:** WSO2 Multiple Products Path Traversal Vulnerability 
@@ -300,24 +321,3 @@
 **MITRE CWE:** CWE-96
 
 **References:** https://status.n-able.com/2026/09/06/n-central-2026-3-hotfix-4-cve-2026-86218/ ; https://me.n-able.com/s/security-advisory/aArVy0000002Ld3KAE/cve202686218-preauthentication-remote-code-execution ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-86218
-
-### CVE-2026-85880 - Microsoft Windows
-**Vulnerability:** Microsoft Windows Heap-Based Buffer Overflow Vulnerability
-
-**MITRE CWE:** CWE-122, CWE-908
-
-**References:** https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-85880 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-85880
-
-### CVE-2026-85046 - Google Chromium V8
-**Vulnerability:** Google Chromium V8 Type Confusion Vulnerability
-
-**MITRE CWE:** CWE-843
-
-**References:** https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_01882797386.html ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-85046
-
-### CVE-2026-59822 - BerriAI LiteLLM
-**Vulnerability:** BerriAI LiteLLM Improper Authentication Vulnerability
-
-**MITRE CWE:** CWE-287, CWE-306
-
-**References:** https://github.com/BerriAI/litellm/security/advisories/GHSA-7488-6r32-c95q ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-59822
