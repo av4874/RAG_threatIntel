@@ -1,0 +1,4 @@
+TITLE: AI Sandbox Escapes: Why Forensic Readiness Matters More Than Containment
+SOURCE: https://www.darkreading.com/cyberattacks-data-breaches/ai-sandbox-escapes-forensic-readiness
+---
+When autonomous AI agents &quot;escape the sandbox,&quot; the real story isn't rogue machines — it's the same access-control failures we've seen for decades.
