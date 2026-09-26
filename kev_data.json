@@ -344,6 +344,51 @@
     "notes": "https://www.solarwinds.com/trust-center/security-advisories/cve-2025-26399 ; https://documentation.solarwinds.com/en/success_center/whd/content/release_notes/whd_12-8-7-hotfix-1_release_notes.htm ; https://nvd.nist.gov/vuln/detail/CVE-2025-26399"
   },
   {
+    "cve_id": "CVE-2026-67279",
+    "vendor_project": "MikroTik",
+    "product": "RouterOS",
+    "vulnerability_name": "Mikrotik RouterOS Improper Enforcement of Behavioral Workflow Vulnerability",
+    "date_added": "2026-09-25",
+    "short_description": "Mikrotik RouterOS contains an improper enforcement of behavioral workflow vulnerability that could allow an unauthenticated client to open a session channel and send an exec request. This vulnerability can be chained to achieve unauthenticated exploitation of CVE-2026-86060.",
+    "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+    "due_date": "2026-09-28",
+    "known_ransomware_use": false,
+    "cwes": [
+      "CWE-841"
+    ],
+    "notes": "https://mikrotik.com/supportsec/september-2026-vulnerability/?utm_source=chatgpt.com ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-67279"
+  },
+  {
+    "cve_id": "CVE-2026-65660",
+    "vendor_project": "Microsoft",
+    "product": "SharePoint",
+    "vulnerability_name": "Microsoft SharePoint Code Injection Vulnerability",
+    "date_added": "2026-09-25",
+    "short_description": "Microsoft SharePoint contains a code injection vulnerability which could allow an authorized attacker to execute code over a network.",
+    "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+    "due_date": "2026-09-28",
+    "known_ransomware_use": false,
+    "cwes": [
+      "CWE-94"
+    ],
+    "notes": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-65660 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-65660"
+  },
+  {
+    "cve_id": "CVE-2026-87902",
+    "vendor_project": "WordPress",
+    "product": "Core",
+    "vulnerability_name": "WordPress Core Remote File Inclusion Vulnerability",
+    "date_added": "2026-09-25",
+    "short_description": "WordPress Core contains a remote file inclusion vulnerability which could allow an unauthenticated attacker to make page-template resolution include a chosen readable local `.php` file outside the active theme directories, leading to remote code execution.",
+    "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+    "due_date": "2026-09-28",
+    "known_ransomware_use": false,
+    "cwes": [
+      "CWE-98"
+    ],
+    "notes": "https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-7hp8-65ch-5whp ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-87902"
+  },
+  {
     "cve_id": "CVE-2026-5430",
     "vendor_project": "WSO2",
     "product": "Multiple Products",
@@ -2960,50 +3005,5 @@
       "CWE-78"
     ],
     "notes": "https://jvn.jp/en/jp/JVN84622767/ ; https://nvd.nist.gov/vuln/detail/CVE-2026-25108"
-  },
-  {
-    "cve_id": "CVE-2025-49113",
-    "vendor_project": "Roundcube",
-    "product": "Webmail",
-    "vulnerability_name": "RoundCube Webmail Deserialization of Untrusted Data Vulnerability",
-    "date_added": "2026-02-20",
-    "short_description": "RoundCube Webmail contains a deserialization of untrusted data vulnerability that allows remote code execution by authenticated users because the _from parameter in a URL is not validated in program/actions/settings/upload.php.",
-    "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-    "due_date": "2026-03-13",
-    "known_ransomware_use": false,
-    "cwes": [
-      "CWE-502"
-    ],
-    "notes": "https://roundcube.net/news/2025/06/01/security-updates-1.6.11-and-1.5.10 ; https://github.com/roundcube/roundcubemail/releases/tag/1.5.10 ; https://github.com/roundcube/roundcubemail/releases/tag/1.6.11 ; https://nvd.nist.gov/vuln/detail/CVE-2025-49113"
-  },
-  {
-    "cve_id": "CVE-2025-68461",
-    "vendor_project": "Roundcube",
-    "product": "Webmail",
-    "vulnerability_name": "RoundCube Webmail Cross-site Scripting Vulnerability",
-    "date_added": "2026-02-20",
-    "short_description": "RoundCube Webmail contains a cross-site scripting vulnerability via the animate tag in an SVG document.",
-    "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-    "due_date": "2026-03-13",
-    "known_ransomware_use": false,
-    "cwes": [
-      "CWE-79"
-    ],
-    "notes": "https://roundcube.net/news/2025/12/13/security-updates-1.6.12-and-1.5.12 ; https://github.com/roundcube/roundcubemail/commit/bfa032631c36b900e7444dfa278340b33cbf7cdb ; https://nvd.nist.gov/vuln/detail/CVE-2025-68461"
-  },
-  {
-    "cve_id": "CVE-2021-22175",
-    "vendor_project": "GitLab",
-    "product": "GitLab",
-    "vulnerability_name": "GitLab Server-Side Request Forgery (SSRF) Vulnerability",
-    "date_added": "2026-02-18",
-    "short_description": "GitLab contains a server-side request forgery (SSRF) vulnerability when requests to the internal network for webhooks are enabled.",
-    "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-    "due_date": "2026-03-11",
-    "known_ransomware_use": false,
-    "cwes": [
-      "CWE-918"
-    ],
-    "notes": "https://gitlab.com/gitlab-org/cves/-/blob/master/2021/CVE-2021-22175.json ; https://nvd.nist.gov/vuln/detail/CVE-2021-22175"
   }
 ]

@@ -297,6 +297,45 @@
 
 **References:** https://www.solarwinds.com/trust-center/security-advisories/cve-2025-26399 ; https://documentation.solarwinds.com/en/success_center/whd/content/release_notes/whd_12-8-7-hotfix-1_release_notes.htm ; https://nvd.nist.gov/vuln/detail/CVE-2025-26399
 
+## CVE-2026-67279 - MikroTik RouterOS
+**Vulnerability:** Mikrotik RouterOS Improper Enforcement of Behavioral Workflow Vulnerability
+
+**Description:** Mikrotik RouterOS contains an improper enforcement of behavioral workflow vulnerability that could allow an unauthenticated client to open a session channel and send an exec request. This vulnerability can be chained to achieve unauthenticated exploitation of CVE-2026-86060.
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-09-25 | **Due Date:** 2026-09-28
+
+**MITRE CWE:** CWE-841
+
+**References:** https://mikrotik.com/supportsec/september-2026-vulnerability/?utm_source=chatgpt.com ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-67279
+
+## CVE-2026-65660 - Microsoft SharePoint
+**Vulnerability:** Microsoft SharePoint Code Injection Vulnerability
+
+**Description:** Microsoft SharePoint contains a code injection vulnerability which could allow an authorized attacker to execute code over a network.
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-09-25 | **Due Date:** 2026-09-28
+
+**MITRE CWE:** CWE-94
+
+**References:** https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-65660 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-65660
+
+## CVE-2026-87902 - WordPress Core
+**Vulnerability:** WordPress Core Remote File Inclusion Vulnerability
+
+**Description:** WordPress Core contains a remote file inclusion vulnerability which could allow an unauthenticated attacker to make page-template resolution include a chosen readable local `.php` file outside the active theme directories, leading to remote code execution.
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-09-25 | **Due Date:** 2026-09-28
+
+**MITRE CWE:** CWE-98
+
+**References:** https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-7hp8-65ch-5whp ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-87902
+
 ## CVE-2026-5430 - WSO2 Multiple Products
 **Vulnerability:** WSO2 Multiple Products Path Traversal Vulnerability 
 
@@ -2544,42 +2583,3 @@
 **MITRE CWE:** CWE-78
 
 **References:** https://jvn.jp/en/jp/JVN84622767/ ; https://nvd.nist.gov/vuln/detail/CVE-2026-25108
-
-## CVE-2025-49113 - Roundcube Webmail
-**Vulnerability:** RoundCube Webmail Deserialization of Untrusted Data Vulnerability
-
-**Description:** RoundCube Webmail contains a deserialization of untrusted data vulnerability that allows remote code execution by authenticated users because the _from parameter in a URL is not validated in program/actions/settings/upload.php.
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2026-02-20 | **Due Date:** 2026-03-13
-
-**MITRE CWE:** CWE-502
-
-**References:** https://roundcube.net/news/2025/06/01/security-updates-1.6.11-and-1.5.10 ; https://github.com/roundcube/roundcubemail/releases/tag/1.5.10 ; https://github.com/roundcube/roundcubemail/releases/tag/1.6.11 ; https://nvd.nist.gov/vuln/detail/CVE-2025-49113
-
-## CVE-2025-68461 - Roundcube Webmail
-**Vulnerability:** RoundCube Webmail Cross-site Scripting Vulnerability
-
-**Description:** RoundCube Webmail contains a cross-site scripting vulnerability via the animate tag in an SVG document.
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2026-02-20 | **Due Date:** 2026-03-13
-
-**MITRE CWE:** CWE-79
-
-**References:** https://roundcube.net/news/2025/12/13/security-updates-1.6.12-and-1.5.12 ; https://github.com/roundcube/roundcubemail/commit/bfa032631c36b900e7444dfa278340b33cbf7cdb ; https://nvd.nist.gov/vuln/detail/CVE-2025-68461
-
-## CVE-2021-22175 - GitLab GitLab
-**Vulnerability:** GitLab Server-Side Request Forgery (SSRF) Vulnerability
-
-**Description:** GitLab contains a server-side request forgery (SSRF) vulnerability when requests to the internal network for webhooks are enabled.
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2026-02-18 | **Due Date:** 2026-03-11
-
-**MITRE CWE:** CWE-918
-
-**References:** https://gitlab.com/gitlab-org/cves/-/blob/master/2021/CVE-2021-22175.json ; https://nvd.nist.gov/vuln/detail/CVE-2021-22175
