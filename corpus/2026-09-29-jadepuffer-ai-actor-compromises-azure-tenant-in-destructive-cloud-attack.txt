@@ -1,0 +1,4 @@
+TITLE: JadePuffer AI Actor Compromises Azure Tenant in Destructive Cloud Attack
+SOURCE: https://www.darkreading.com/cloud-security/jadepuffer-ai-actor-azure-tenant-destructive-cloud-attack
+---
+The &quot;agentic threat actor&quot; may have used exposed credentials to access resources and delete cloud-based storage, applications, and databases.

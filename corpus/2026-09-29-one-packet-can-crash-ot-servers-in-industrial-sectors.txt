@@ -1,0 +1,4 @@
+TITLE: One Packet Can Crash OT Servers in Industrial Sectors
+SOURCE: https://www.darkreading.com/ics-ot-security/one-packet-crash-servers-tdengine
+---
+A high-severity zero-day vulnerability affects the TDengine time-series database used across industrial, IoT, energy, and automotive environments.

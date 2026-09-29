@@ -1,0 +1,4 @@
+TITLE: Chrome Store Hosts 'Poper Blocker' Spyware Downloaded by Millions
+SOURCE: https://www.darkreading.com/application-security/chrome-store-poper-blocker-spyware-downloaded-millions
+---
+A purported ad-blocker exfiltrates reams of sensitive information and benefits from having Google's stamp of approval despite researcher warnings.

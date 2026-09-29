@@ -1,0 +1,6 @@
+TITLE: IAM for AI agents: A Practical Enterprise Framework
+SOURCE: https://thehackernews.com/2026/09/iam-for-ai-agent.html
+---
+What is IAM for AI agents?
+
+AI agents authenticate, invoke tools, and act across enterprise systems with delegated authority. IAM for AI Agents is the identity-control architecture that governs those actors. This guide covers the limits of conventional provisioning, the components that matter, how to evaluate framework choices, and what runtime evidence proves an agent behaved as intended.

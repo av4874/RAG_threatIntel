@@ -1,0 +1,4 @@
+TITLE: Carbonato Botnet Puts an AI Agent on Hacked Docker Hosts
+SOURCE: https://www.darkreading.com/identity-access-management-security/carbonato-botnet-ai-agent-hacked-docker-hosts
+---
+The botnet uses the open source Hermes Agent AI framework to execute commands via Telegram and steal AI API keys from exposed Docker hosts.
