@@ -1,0 +1,4 @@
+TITLE: Nvidia Launches AI Agent Safety Platform to Prevent Rogue Activities
+SOURCE: https://www.darkreading.com/cyber-risk/nvidia-launches-ai-agent-safety-platform-prevent-rogue-activities
+---
+The Open Agent Safety Platform relies on both hardware and software components to monitor agent activities and quarantine unruly agents before they cause harm.

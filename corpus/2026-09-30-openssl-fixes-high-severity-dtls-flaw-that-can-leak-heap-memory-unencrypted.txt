@@ -1,0 +1,6 @@
+TITLE: OpenSSL Fixes High-Severity DTLS Flaw That Can Leak Heap Memory Unencrypted
+SOURCE: https://thehackernews.com/2026/09/openssl-fixes-high-severity-dtls-flaw.html
+---
+A High-severity OpenSSL flaw can leak heap memory to the other side of a DTLS connection or crash the program,&nbsp;OpenSSL said&nbsp;on September 29 as it released fixes.
+
+DTLS, the TLS variant used for UDP traffic, resends a handshake message if no reply arrives before the timer expires. The leak or crash can happen when such a resend starts while a larger handshake message is stuck part-way

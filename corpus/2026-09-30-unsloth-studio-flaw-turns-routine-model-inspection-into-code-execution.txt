@@ -1,0 +1,4 @@
+TITLE: Unsloth Studio Flaw Turns Routine Model Inspection Into Code Execution
+SOURCE: https://www.darkreading.com/application-security/unsloth-studio-flaw-model-inspection-code-execution
+---
+A patched Unsloth Studio vulnerability allows malicious AI models to execute arbitrary Python code during inspection, via the trust_remote_code setting.

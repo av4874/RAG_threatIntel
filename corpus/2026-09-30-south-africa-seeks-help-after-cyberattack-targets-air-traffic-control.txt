@@ -1,0 +1,4 @@
+TITLE: South Africa Seeks Help After Cyberattack Targets Air Traffic Control
+SOURCE: https://www.darkreading.com/cyberattacks-data-breaches/south-africa-help-cyberattack-air-traffic-control
+---
+As aviation infrastructure suffers more cyberattacks, air traffic systems are the latest target, with a ransomware toolkit installed on at least one operational network.

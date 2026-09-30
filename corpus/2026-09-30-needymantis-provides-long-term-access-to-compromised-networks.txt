@@ -1,0 +1,4 @@
+TITLE: 'NeedyMantis' Provides Long-Term Access to Compromised Networks
+SOURCE: https://www.darkreading.com/threat-intelligence/needymantis-long-term-access-compromised-networks
+---
+Microsoft observed a China-based actor using a previously unidentified malware framework in targeted intrusions against telcos, universities, medical, and government-related organizations.
