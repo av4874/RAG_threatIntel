@@ -1,0 +1,6 @@
+TITLE: OpenAI Disrupts Reasoning Extraction Campaign Linked to Moonshot AI Associates
+SOURCE: https://thehackernews.com/2026/10/openai-disrupts-reasoning-extraction.html
+---
+OpenAI on Wednesday said it identified and disrupted a coordinated distillation campaign that was designed to illicitly extract protected reasoning from its artificial intelligence (AI) models.
+
+A "core cluster of the activity," going back to the first week of July, has been attributed to individuals associated with Moonshot AI, a Chinese AI company based in Beijing. It did not cite any

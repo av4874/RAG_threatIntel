@@ -1,0 +1,6 @@
+TITLE: Bitget Confirms Third-Party Zero-Day Behind $387.5 Million Cryptocurrency Theft
+SOURCE: https://thehackernews.com/2026/10/bitget-confirms-third-party-zero-day.html
+---
+Cryptocurrency exchange Bitget on Wednesday confirmed that attackers who stole $387.5 million last week exploited a zero-day flaw in third-party security products, citing ongoing investigation findings from SlowMist.
+
+"Their investigation identified malicious activity involving third-party security products, including a zero-day vulnerability, and recovered a customized tool used by the attacker

@@ -1,0 +1,4 @@
+TITLE: As AI Reshapes the SOC Career Ladder, Satisfaction Rises for 91%, but Entry Gets Harder for Nearly Half
+SOURCE: https://www.darkreading.com/cybersecurity-careers/ai-reshapes-soc-career-ladder
+---
+New Swimlane research underscores a paradox: While AI detection and response is essential to giving defenders an edge, one in four security pros say AI limits their skill development.

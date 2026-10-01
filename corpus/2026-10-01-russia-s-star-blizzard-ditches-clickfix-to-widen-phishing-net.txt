@@ -1,0 +1,4 @@
+TITLE: Russia's Star Blizzard Ditches ClickFix to Widen Phishing Net
+SOURCE: https://www.darkreading.com/threat-intelligence/russia-star-blizzard-apt-ditches-clickfix-widen-phishing-net
+---
+The APT actor is using a new tactic, dubbed &quot;RedFlick,&quot; against Ukrainian-linked targets such as NGOs, think tanks, and journalists to deploy its CosmicPulse backdoor.

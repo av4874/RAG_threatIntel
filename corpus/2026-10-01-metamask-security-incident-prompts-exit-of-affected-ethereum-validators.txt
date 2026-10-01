@@ -1,0 +1,8 @@
+TITLE: MetaMask Security Incident Prompts Exit of Affected Ethereum Validators
+SOURCE: https://thehackernews.com/2026/10/metamask-security-incident-prompts-exit.html
+---
+MetaMask on Thursday said it's responding to what it described as an "ongoing security incident" impacting part of its infrastructure.
+
+"We are actively addressing and remediating the issue internally, in coordination with external partners and security advisors," the software cryptocurrency wallet maker said. "At this time, we have identified no immediate threat to MetaMask wallets."
+
+MetaMask
