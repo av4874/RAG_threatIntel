@@ -297,6 +297,19 @@
 
 **References:** https://www.solarwinds.com/trust-center/security-advisories/cve-2025-26399 ; https://documentation.solarwinds.com/en/success_center/whd/content/release_notes/whd_12-8-7-hotfix-1_release_notes.htm ; https://nvd.nist.gov/vuln/detail/CVE-2025-26399
 
+## CVE-2026-76504 - Cisco Catalyst SD-WAN Manager
+**Vulnerability:** Cisco Catalyst SD-WAN Manager Hex Encoding Vulnerability
+
+**Description:** Cisco Catalyst SD-WAN Manager contains a hex encoding vulnerability that could allow an unauthenticated, remote attacker to access an affected system with privileges of the admin user due to improper handling of URI encoding in an HTTP request.
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-09-30 | **Due Date:** 2026-10-03
+
+**MITRE CWE:** CWE-177
+
+**References:** https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-webauth-xr8beuuU ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-76504
+
 ## CVE-2026-86950 - Apple Multiple Products
 **Vulnerability:** Apple Multiple Products Out-of-Bounds Write Vulnerability
 
@@ -2570,16 +2583,3 @@
 **MITRE CWE:** CWE-77
 
 **References:** https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/36947 ; https://knowledge.broadcom.com/external/article/430349 ; https://nvd.nist.gov/vuln/detail/CVE-2026-22719
-
-## CVE-2026-21385 - Qualcomm Multiple Chipsets
-**Vulnerability:** Qualcomm Multiple Chipsets Memory Corruption Vulnerability
-
-**Description:** Multiple Qualcomm chipsets contain a memory corruption vulnerability while using alignments for memory allocation. 
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2026-03-03 | **Due Date:** 2026-03-24
-
-**MITRE CWE:** CWE-190
-
-**References:** Please check with specific vendors (OEMs,) for information on patching status. For more information, please see: https://source.android.com/docs/security/bulletin/2026/2026-03-01 ; https://nvd.nist.gov/vuln/detail/CVE-2026-21385
