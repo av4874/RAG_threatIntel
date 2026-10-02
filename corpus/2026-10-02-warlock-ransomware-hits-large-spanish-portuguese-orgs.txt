@@ -1,0 +1,4 @@
+TITLE: Warlock Ransomware Hits Large Spanish, Portuguese Orgs
+SOURCE: https://www.darkreading.com/cyberattacks-data-breaches/warlock-ransomware-spanish-portuguese
+---
+A year-old Chinese threat actor looks like a cybercrime gang, acts like a state-associated APT, and attacks organizations in unexpected places.

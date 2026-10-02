@@ -1,0 +1,6 @@
+TITLE: Android 17 Advanced Protection Locks Accessibility Services to Verified Accessibility Tools
+SOURCE: https://thehackernews.com/2026/10/android-17-advanced-protection-locks.html
+---
+Google has announced a new security measure that limits access to Android's accessibility services to verified applications classified as Accessibility Tools when Advanced Protection is enabled.
+
+With malicious Android applications abusing the API serving as the main conduit for malware and financial fraud, the tech giant said the move would block a major attack pathway. Advanced Protection is a
