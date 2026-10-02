@@ -297,6 +297,19 @@
 
 **References:** https://www.solarwinds.com/trust-center/security-advisories/cve-2025-26399 ; https://documentation.solarwinds.com/en/success_center/whd/content/release_notes/whd_12-8-7-hotfix-1_release_notes.htm ; https://nvd.nist.gov/vuln/detail/CVE-2025-26399
 
+## CVE-2026-104286 - Fortinet FortiMail
+**Vulnerability:** Fortinet FortiMail Path Traversal Vulnerability
+
+**Description:** Fortinet FortiMail contains a path traversal and an improper neutralization of NULL byte or NULL character vulnerability that may allow an unauthenticated attacker to write arbitrary files on the underlying system via crafted HTTP or HTTPS requests.
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-10-01 | **Due Date:** 2026-10-04
+
+**MITRE CWE:** CWE-22, CWE-158
+
+**References:** https://fortiguard.fortinet.com/psirt/FG-IR-26-175 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-104286
+
 ## CVE-2026-76504 - Cisco Catalyst SD-WAN Manager
 **Vulnerability:** Cisco Catalyst SD-WAN Manager Hex Encoding Vulnerability
 
@@ -2570,16 +2583,3 @@
 **MITRE CWE:** CWE-416
 
 **References:** https://support.apple.com/en-us/HT213938 ; https://support.apple.com/kb/HT213938 ; https://nvd.nist.gov/vuln/detail/CVE-2023-41974
-
-## CVE-2026-22719 - Broadcom VMware Aria Operations
-**Vulnerability:** Broadcom VMware Aria Operations Command Injection Vulnerability
-
-**Description:** Broadcom VMware Aria Operations formerly known as vRealize Operations (vROps) contains a command injection vulnerability that allows an unauthenticated attacker to execute arbitrary commands, potentially leading to remote code execution during support‑assisted product migration.
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2026-03-03 | **Due Date:** 2026-03-24
-
-**MITRE CWE:** CWE-77
-
-**References:** https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/36947 ; https://knowledge.broadcom.com/external/article/430349 ; https://nvd.nist.gov/vuln/detail/CVE-2026-22719
