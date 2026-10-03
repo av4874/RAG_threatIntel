@@ -297,6 +297,32 @@
 
 **References:** https://www.solarwinds.com/trust-center/security-advisories/cve-2025-26399 ; https://documentation.solarwinds.com/en/success_center/whd/content/release_notes/whd_12-8-7-hotfix-1_release_notes.htm ; https://nvd.nist.gov/vuln/detail/CVE-2025-26399
 
+## CVE-2026-102490 - Zammad GmbH Zammad
+**Vulnerability:** Zammad GmbH Zammad Improper Privilege Management Vulnerability
+
+**Description:** Zammad GmbH Zammad contains an improper privilege management vulnerability that can allow the local zammad user to escalate privileges to root. This vulnerability can be chained with CVE-2026-102489.
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-10-02 | **Due Date:** 2026-10-05
+
+**MITRE CWE:** CWE-269
+
+**References:** https://zammad.com/en/product/releases/ ; https://community.zammad.org/t/take-care-local-privilege-escalation-cve-2026-102490-is-reported-as-being-actively-exploited/21297/2 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-102490
+
+## CVE-2026-102489 - Zammad GmbH Zammad
+**Vulnerability:** Zammad GmbH Zammad Session Fixation Vulnerability
+
+**Description:** Zammad GmbH Zammad contains a session fixation vulnerability that can lead to remote code execution as the zammad user. This vulnerability can be chained with CVE-2026-102490.
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-10-02 | **Due Date:** 2026-10-05
+
+**MITRE CWE:** CWE-384
+
+**References:** https://zammad.com/en/product/releases/ ; https://community.zammad.org/t/take-care-local-privilege-escalation-cve-2026-102490-is-reported-as-being-actively-exploited/21297/2 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-102489
+
 ## CVE-2026-104286 - Fortinet FortiMail
 **Vulnerability:** Fortinet FortiMail Path Traversal Vulnerability
 
@@ -2557,29 +2583,3 @@
 **MITRE CWE:** CWE-416
 
 **References:** https://support.apple.com/en-us/120324 ; https://support.apple.com/en-us/120331 ; https://support.apple.com/en-us/120338 ; https://nvd.nist.gov/vuln/detail/CVE-2023-43000
-
-## CVE-2021-30952 - Apple Multiple Products
-**Vulnerability:** Apple Multiple Products Integer Overflow or Wraparound Vulnerability
-
-**Description:** Apple tvOS, macOS, Safari, iPadOS and watchOS contain an integer overflow or wraparound vulnerability due to the processing of maliciously crafted web content that may lead to arbitrary code execution.
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2026-03-05 | **Due Date:** 2026-03-26
-
-**MITRE CWE:** CWE-190
-
-**References:** https://support.apple.com/en-us/HT212975 ; https://support.apple.com/en-us/HT212976 ; https://support.apple.com/en-us/HT212978 ; https://support.apple.com/en-us/HT212980 ; https://support.apple.com/en-us/HT212982 ; https://nvd.nist.gov/vuln/detail/CVE-2021-30952
-
-## CVE-2023-41974 - Apple iOS and iPadOS
-**Vulnerability:** Apple iOS and iPadOS Use-After-Free Vulnerability
-
-**Description:** Apple iOS and iPadOS contain a use-after-free vulnerability. An app may be able to execute arbitrary code with kernel privileges.
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2026-03-05 | **Due Date:** 2026-03-26
-
-**MITRE CWE:** CWE-416
-
-**References:** https://support.apple.com/en-us/HT213938 ; https://support.apple.com/kb/HT213938 ; https://nvd.nist.gov/vuln/detail/CVE-2023-41974
