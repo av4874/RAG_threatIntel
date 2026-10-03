@@ -1,0 +1,4 @@
+TITLE: SWIFT Banking &amp; Government Middleware Enables RCE
+SOURCE: https://www.darkreading.com/cybersecurity-operations/swift-banking-govt-middleware-rce
+---
+Patch middleware vulnerabilities now to avoid hardware-based MFA exploits in ultra-sensitive environments.

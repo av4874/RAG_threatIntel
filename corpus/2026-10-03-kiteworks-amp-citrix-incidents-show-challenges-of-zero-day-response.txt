@@ -1,0 +1,4 @@
+TITLE: Kiteworks &amp; Citrix Incidents Show Challenges of Zero-Day Response
+SOURCE: https://www.darkreading.com/cybersecurity-operations/kiteworks-citrix-incidents-challenges-zero-day-response
+---
+One company told customers to power down its data-protection platform during a nine-hour window, while the other remained mum on reported attacks prior to releasing a patch for its product.

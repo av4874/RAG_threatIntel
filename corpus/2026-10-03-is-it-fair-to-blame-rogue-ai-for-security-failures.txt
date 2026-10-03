@@ -1,0 +1,4 @@
+TITLE: Is It Fair to Blame 'Rogue' AI for Security Failures?
+SOURCE: https://www.darkreading.com/insider-threats/blame-rogue-ai-security-failures
+---
+&quot;Rogue AI&quot; terminology anthropomorphizes LLMs and shifts risk responsibility from vendors. Defenders should treat agents as untrusted, nondeterministic software systems, not sentient beings with malicious intent.

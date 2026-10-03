@@ -1,0 +1,6 @@
+TITLE: OpenAI Parts Ways With Three Safety Researchers Over Sensitive Information Mishandling
+SOURCE: https://thehackernews.com/2026/10/openai-parts-ways-with-three-safety.html
+---
+OpenAI has parted ways with three members of its safety team after they leaked private information in violation of company policies, The Wall Street Journal reported.
+
+"We have parted ways with three individuals for violating our policies on accessing and handling sensitive company information," a spokesperson for the company was quoted as saying. "Our investigation confirmed that these

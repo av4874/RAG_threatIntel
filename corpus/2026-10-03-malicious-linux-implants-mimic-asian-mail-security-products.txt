@@ -1,0 +1,4 @@
+TITLE: Malicious Linux Implants Mimic Asian Mail Security Products
+SOURCE: https://www.darkreading.com/threat-intelligence/malicious-linux-implants-mimic-asian-mail-security
+---
+A trio of newly discovered backdoors walk and quack like legitimate edge solutions, so it's hard to tell they're not.

@@ -1,0 +1,4 @@
+TITLE: RemoteThreat Bets Security Teams Need to Test What Happens After Defenses Fail
+SOURCE: https://www.darkreading.com/cybersecurity-operations/remotethreat-bets-security-teams-need-to-test-what-happens-after-defenses-fail
+---
+The offensive cyber operations startup looks to evolve red teaming beyond traditional methods to simulate attackers' increasingly advanced capabilities.
