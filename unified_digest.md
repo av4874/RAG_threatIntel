@@ -26,17 +26,17 @@
 **Detection Feasibility:** High - The vulnerabilities allow for command execution and request manipulation, which can be detected through network connection logs.
 **Recommendation:** New use case - Implement new rules to monitor for unusual network connections and command executions.
 
-### CVE-2026-56164 - Microsoft's July 2026 Patch Tuesday: 570 Vulnerabilities and 3 Zero-Days (risk score: 8/10)
-**Vendor/Product:** Microsoft SharePoint Server
-**Vulnerability:** Microsoft SharePoint Server Missing Authentication for Critical Function Vulnerability
+### CVE-2026-56155 - Microsoft's July 2026 Patch Tuesday: 570 Vulnerabilities and 3 Zero-Days (risk score: 8/10)
+**Vendor/Product:** Microsoft Active Directory Federation Services
+**Vulnerability:** Microsoft Active Directory Federation Services Insufficient Granularity of Access Control Vulnerability 
 **ATT&CK Technique:** T1190 - Exploit Public-Facing Application
 **Log Sources:** Windows Security Event Log, EDR/endpoint logs
 **Detection Feasibility:** High - Remote code execution vulnerabilities are highly feasible to detect through security event logs and endpoint detection and response tools.
 **Recommendation:** Tune existing rule - Existing rules can be tuned to specifically look for signs of remote code execution attempts based on the patterns of these vulnerabilities.
 
-### CVE-2026-56155 - Microsoft's July 2026 Patch Tuesday: 570 Vulnerabilities and 3 Zero-Days (risk score: 8/10)
-**Vendor/Product:** Microsoft Active Directory Federation Services
-**Vulnerability:** Microsoft Active Directory Federation Services Insufficient Granularity of Access Control Vulnerability 
+### CVE-2026-56164 - Microsoft's July 2026 Patch Tuesday: 570 Vulnerabilities and 3 Zero-Days (risk score: 8/10)
+**Vendor/Product:** Microsoft SharePoint Server
+**Vulnerability:** Microsoft SharePoint Server Missing Authentication for Critical Function Vulnerability
 **ATT&CK Technique:** T1190 - Exploit Public-Facing Application
 **Log Sources:** Windows Security Event Log, EDR/endpoint logs
 **Detection Feasibility:** High - Remote code execution vulnerabilities are highly feasible to detect through security event logs and endpoint detection and response tools.
@@ -111,6 +111,20 @@
 **Recommendation:** Tune existing rule - Existing security solutions can likely detect malicious activities related to command execution based on known indicators of compromise.
 
 ## KEV-Only (not covered by RAG lane)
+
+### CVE-2026-102490 - Zammad GmbH Zammad
+**Vulnerability:** Zammad GmbH Zammad Improper Privilege Management Vulnerability
+
+**MITRE CWE:** CWE-269
+
+**References:** https://zammad.com/en/product/releases/ ; https://community.zammad.org/t/take-care-local-privilege-escalation-cve-2026-102490-is-reported-as-being-actively-exploited/21297/2 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-102490
+
+### CVE-2026-102489 - Zammad GmbH Zammad
+**Vulnerability:** Zammad GmbH Zammad Session Fixation Vulnerability
+
+**MITRE CWE:** CWE-384
+
+**References:** https://zammad.com/en/product/releases/ ; https://community.zammad.org/t/take-care-local-privilege-escalation-cve-2026-102490-is-reported-as-being-actively-exploited/21297/2 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-102489
 
 ### CVE-2026-104286 - Fortinet FortiMail
 **Vulnerability:** Fortinet FortiMail Path Traversal Vulnerability
@@ -307,17 +321,3 @@
 **MITRE CWE:** CWE-306
 
 **References:** https://mikrotik.com/supportsec/september-2026-vulnerability/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-67277
-
-### CVE-2026-19490 - Citrix NetScaler
-**Vulnerability:** Citrix NetScaler Authentication Bypass Using an Alternate Path or Channel Vulnerability
-
-**MITRE CWE:** CWE-288
-
-**References:** https://support.citrix.com/external/article/CTX696939/netscaler-adc-and-netscaler-gateway-secu.html ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-19490
-
-### CVE-2025-25249 - Fortinet Multiple Products
-**Vulnerability:** Fortinet Multiple Products Heap-based Buffer Overflow Vulnerability
-
-**MITRE CWE:** CWE-122, CWE-787
-
-**References:** https://fortiguard.fortinet.com/psirt/FG-IR-25-084 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2025-25249
