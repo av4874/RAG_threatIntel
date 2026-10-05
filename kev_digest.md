@@ -297,6 +297,19 @@
 
 **References:** https://www.solarwinds.com/trust-center/security-advisories/cve-2025-26399 ; https://documentation.solarwinds.com/en/success_center/whd/content/release_notes/whd_12-8-7-hotfix-1_release_notes.htm ; https://nvd.nist.gov/vuln/detail/CVE-2025-26399
 
+## CVE-2026-88779 - Citrix NetScaler
+**Vulnerability:** Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability
+
+**Description:** Citrix NetScaler ADC (formerly Citrix ADC) and Citrix NetScaler Gateway (formerly Citrix Gateway) contain an improper restriction of operations within the bounds of a memory buffer vulnerability that could allow for a denial of service.
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-10-04 | **Due Date:** 2026-10-07
+
+**MITRE CWE:** CWE-119
+
+**References:** https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX697174 ; https://community.citrix.com/techzone-blogs/110_security-updates/understanding-and-addressing-cve-2026-88779-in-citrix-netscaler-adc-and-citrix-netscaler-gateway/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-88779
+
 ## CVE-2026-102490 - Zammad GmbH Zammad
 **Vulnerability:** Zammad GmbH Zammad Improper Privilege Management Vulnerability
 
@@ -2570,16 +2583,3 @@
 **MITRE CWE:** CWE-522
 
 **References:** https://support.rockwellautomation.com/app/answers/answer_view/a_id/1130301/~/cve-2021-22681%3A-authentication-bypass-vulnerability-found-in-logix-controllers- ; https://www.cisa.gov/news-events/ics-advisories/icsa-21-056-03 ; https://nvd.nist.gov/vuln/detail/CVE-2021-22681
-
-## CVE-2023-43000 - Apple Multiple Products
-**Vulnerability:** Apple Multiple products Use-After-Free Vulnerability
-
-**Description:** Apple macOS, iOS, iPadOS, and Safari 16.6 contain a use-after-free vulnerability due to the processing of maliciously crafted web content that may lead to memory corruption.
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2026-03-05 | **Due Date:** 2026-03-26
-
-**MITRE CWE:** CWE-416
-
-**References:** https://support.apple.com/en-us/120324 ; https://support.apple.com/en-us/120331 ; https://support.apple.com/en-us/120338 ; https://nvd.nist.gov/vuln/detail/CVE-2023-43000
