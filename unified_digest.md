@@ -112,6 +112,13 @@
 
 ## KEV-Only (not covered by RAG lane)
 
+### CVE-2026-88779 - Citrix NetScaler
+**Vulnerability:** Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability
+
+**MITRE CWE:** CWE-119
+
+**References:** https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX697174 ; https://community.citrix.com/techzone-blogs/110_security-updates/understanding-and-addressing-cve-2026-88779-in-citrix-netscaler-adc-and-citrix-netscaler-gateway/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-88779
+
 ### CVE-2026-102490 - Zammad GmbH Zammad
 **Vulnerability:** Zammad GmbH Zammad Improper Privilege Management Vulnerability
 
@@ -314,10 +321,3 @@
 **MITRE CWE:** CWE-88
 
 **References:** https://mikrotik.com/supportsec/september-2026-vulnerability ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-86060
-
-### CVE-2026-67277 - MikroTik RouterOS
-**Vulnerability:** MikroTik RouterOS Missing Authentication for Critical Function Vulnerability
-
-**MITRE CWE:** CWE-306
-
-**References:** https://mikrotik.com/supportsec/september-2026-vulnerability/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-67277
