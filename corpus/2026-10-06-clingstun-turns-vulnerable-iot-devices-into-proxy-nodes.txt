@@ -1,0 +1,4 @@
+TITLE: ClingSTUN Turns Vulnerable IoT Devices Into Proxy Nodes
+SOURCE: https://www.darkreading.com/iot/clingstun-vulnerable-iot-devices-proxy-nodes
+---
+The Linux backdoor exploits 24 known flaws to compromise IoT devices and uses legitimate public STUN servers to obscure communications.

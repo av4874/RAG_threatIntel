@@ -1,0 +1,6 @@
+TITLE: Google Pauses OSS Product Bug Bounty Rewards After Surge in Invalid Automated Reports
+SOURCE: https://thehackernews.com/2026/10/google-pauses-oss-product-bug-bounty.html
+---
+Google has stopped accepting product vulnerability reports through its bug bounty program for its open-source software.
+
+The change, in effect since October 1, means researchers can no longer submit security flaws in the code of projects such as Go, Angular, and Protocol Buffers there for a reward. Reports about supply chain compromises are still accepted, and reports filed before October 1 are

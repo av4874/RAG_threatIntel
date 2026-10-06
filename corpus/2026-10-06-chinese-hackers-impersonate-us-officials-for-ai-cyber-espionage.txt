@@ -1,0 +1,4 @@
+TITLE: Chinese Hackers Impersonate US Officials for AI Cyber Espionage
+SOURCE: https://www.darkreading.com/cyberattacks-data-breaches/chinese-actor-impersonates-us-officials-cyber-espionage
+---
+An emerging threat group known as TA419 established seemingly legitimate professional relationships with AI policy experts working for US think tanks, universities, and legal organizations.

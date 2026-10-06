@@ -1,0 +1,6 @@
+TITLE: Denmark Says Attackers Accessed CPR Data for 8.8 Million People via Company Account
+SOURCE: https://thehackernews.com/2026/10/denmark-says-attackers-accessed-cpr.html
+---
+Unauthorized parties have gained access to the names, addresses, and personal identification numbers of about 8.8 million people, living and dead, in Denmark's national population register, the country's digitalization ministry&nbsp;said on October 5.
+
+They used a private Danish company's lawful right to look up records in the Central Person Register (CPR). The ministry has told people never to
