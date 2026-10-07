@@ -1,0 +1,4 @@
+TITLE: ClickFix Attacks Evolve to Better Hide Malicious Payloads
+SOURCE: https://www.darkreading.com/cyberattacks-data-breaches/clickfix-attacks-evolve-better-hide-malicious-payloads
+---
+Threat actors are now hiding payloads by using DNS TXT records and browser cache pre-fetching, making it tougher to spot early attack stages.

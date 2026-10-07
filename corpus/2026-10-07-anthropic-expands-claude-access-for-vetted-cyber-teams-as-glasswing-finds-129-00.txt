@@ -1,0 +1,6 @@
+TITLE: Anthropic Expands Claude Access for Vetted Cyber Teams as Glasswing Finds 129,000 Flaws
+SOURCE: https://thehackernews.com/2026/10/anthropic-expands-claude-access-for.html
+---
+Anthropic on Tuesday said it's expanding a program that allows vetted cybersecurity professionals to test its advanced artificial intelligence (AI) models with reduced safeguards and blocking classifiers, as the company claimed its Project Glasswing initiative uncovered at least 129,000 verified software vulnerabilities between April and July 2026.
+
+The company said it also found an additional

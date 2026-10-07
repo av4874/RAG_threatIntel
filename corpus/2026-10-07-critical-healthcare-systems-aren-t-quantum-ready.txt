@@ -1,0 +1,4 @@
+TITLE: Critical Healthcare Systems Aren't Quantum-Ready
+SOURCE: https://www.darkreading.com/iot/exposed-healthcare-systems-quantum-ready
+---
+A study of 2.5 million devices across 50 healthcare organization suggests the sector has a long way to go in getting ready for the post-quantum cryptography era.

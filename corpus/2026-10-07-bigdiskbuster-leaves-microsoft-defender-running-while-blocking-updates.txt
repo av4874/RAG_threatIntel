@@ -1,0 +1,4 @@
+TITLE: 'BigDiskBuster' Leaves Microsoft Defender Running While Blocking Updates
+SOURCE: https://www.darkreading.com/application-security/bigdiskbuster-microsoft-defender-running-blocking-updates
+---
+Not quite an EDR-killer, but the proof-of-concept cyber technique creates a silent virus detection gap while service runs normally, no exploit required.

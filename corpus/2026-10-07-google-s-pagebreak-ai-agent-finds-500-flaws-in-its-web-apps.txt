@@ -1,0 +1,4 @@
+TITLE: Google's PageBreak AI Agent Finds 500 Flaws in Its Web Apps
+SOURCE: https://www.darkreading.com/application-security/google-pagebreak-ai-agent-500-flaws-web-apps
+---
+The situation illustrates a trend toward using AI and deterministic validation to identify flaws and exploitability, and provide a risk assessment.

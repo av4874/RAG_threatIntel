@@ -1,0 +1,6 @@
+TITLE: Linux Backdoors Impersonate Email Security Tools to Evade Detection in Korea and Taiwan
+SOURCE: https://thehackernews.com/2026/10/linux-backdoors-impersonate-email.html
+---
+Linux backdoors targeting telecom and network appliances in South Korea and Taiwan have been disguising their traffic as email services and seemingly legitimate processes to blend in and evade detection.
+
+Threat actors are known to name their malicious software after a legitimate operating system component or a process as a defense evasion measure. By borrowing the name of a real binary, it may
