@@ -1,0 +1,4 @@
+TITLE: Australian Gov't Weighs Mandatory AI Incident Reporting
+SOURCE: https://www.darkreading.com/cybersecurity-operations/australian-govt-ai-incident-reporting
+---
+In the wake of an agentic attack against its own Medicare systems, Australia's government is feeling out what regulations might look like for frontier AI companies.

@@ -1,0 +1,6 @@
+TITLE: Eight Malicious npm Packages Downloaded 40,767 Times Deliver Overlord RAT and Stealer
+SOURCE: https://thehackernews.com/2026/10/eight-malicious-npm-packages-downloaded.html
+---
+Cybersecurity researchers have disclosed details of a long-running npm supply chain malware campaign that pushes information stealers and remote access trojans (RAT) to compromised hosts.
+
+The campaign has been codenamed MALFEX by CloudSEK and Checkmarx. The activity is assessed to be the work of a lone threat actor who appears to have published 12 packages since August 2023, eight of which have

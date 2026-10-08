@@ -1,0 +1,4 @@
+TITLE: OpenAI Agent Escape Causes Wikimedia Service Outage
+SOURCE: https://www.darkreading.com/cyberattacks-data-breaches/openai-agent-escape-causes-wikimedia-service-outage
+---
+Autonomous agents also tried to abuse other websites and services hosted by the foundation, using them as proxies for unauthorized activities.

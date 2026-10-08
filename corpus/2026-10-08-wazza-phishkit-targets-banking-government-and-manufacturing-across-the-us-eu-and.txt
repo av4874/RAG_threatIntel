@@ -1,0 +1,6 @@
+TITLE: Wazza Phishkit Targets Banking, Government, and Manufacturing Across the US, EU, and Australia
+SOURCE: https://thehackernews.com/2026/10/wazza-phishkit-targets-banking.html
+---
+Phishing kits are no longer limited to copying a familiar login page and waiting for a victim to enter credentials. Attackers are increasingly building filtering, session management, and traffic controls into the infrastructure that delivers the phishing page itself.
+
+ANY.RUN has identified Wazza, a new phishkit targeting banking, manufacturing, and government organizations across the US, Europe
