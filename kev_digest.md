@@ -284,18 +284,70 @@
 
 **References:** https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-rce-NKhnULJh ; https://nvd.nist.gov/vuln/detail/CVE-2026-20131
 
-## CVE-2025-26399 - SolarWinds Web Help Desk (RANSOMWARE-LINKED)
-**Vulnerability:** SolarWinds Web Help Desk Deserialization of Untrusted Data Vulnerability
+## CVE-2015-5477 - ISC BIND
+**Vulnerability:**  ISC BIND Data Processing Errors Vulnerability
 
-**Description:** SolarWinds Web Help Desk contain a deserialization of untrusted data vulnerability in AjaxProxy that could allow an attacker to run commands on the host machine.
+**Description:** ISC BIND contains a data processing errors vulnerability that could allow remote attackers to cause a denial of service via TKEY queries.
 
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
-**Date Added:** 2026-03-09 | **Due Date:** 2026-03-12
+**Date Added:** 2026-10-08 | **Due Date:** 2026-10-11
 
-**MITRE CWE:** CWE-502
+**MITRE CWE:** CWE-19
 
-**References:** https://www.solarwinds.com/trust-center/security-advisories/cve-2025-26399 ; https://documentation.solarwinds.com/en/success_center/whd/content/release_notes/whd_12-8-7-hotfix-1_release_notes.htm ; https://nvd.nist.gov/vuln/detail/CVE-2025-26399
+**References:** This vulnerability could affect an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://web.archive.org/web/20150729014733/https://kb.isc.org/article/AA-01272 ; https://access.redhat.com/errata/RHSA-2015:1513.html; https://supportportal.juniper.net/s/article/2016-01-Security-Bulletin-Junos-Vulnerability-in-ISC-BIND-named-CVE-2015-5477 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2015-5477
+
+## CVE-2016-3081 - Apache Struts
+**Vulnerability:** Apache Struts Command Injection Vulnerability
+
+**Description:** Apache Struts contains a command injection vulnerability that could allow remote attackers to execute arbitrary code via method:prefix when Dynamic Method Invocation is enabled.
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-10-08 | **Due Date:** 2026-10-11
+
+**MITRE CWE:** CWE-77
+
+**References:** This vulnerability could affect an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://cwiki.apache.org/confluence/display/WW/S2-032 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2016-3081
+
+## CVE-2023-22894 - Strapi Strapi
+**Vulnerability:** Strapi Cleartext Storage of Sensitive Information Vulnerability
+
+**Description:** Strapi contains a cleartext storage of sensitive information vulnerability that could allow attackers with access to the admin panel to discover sensitive user details via the query filter. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version. This vulnerability can be chained with CVE-2023-22621 to achieve remote code execution. 
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-10-08 | **Due Date:** 2026-10-11
+
+**MITRE CWE:** CWE-312
+
+**References:** This vulnerability could affect an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://strapi.io/blog/security-disclosure-of-vulnerabilities-cve ; https://github.com/strapi/strapi/releases ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2023-22894
+
+## CVE-2021-3199 - ONLYOFFICE Docs
+**Vulnerability:** ONLYOFFICE Docs Server Path Traversal Vulnerability
+
+**Description:** ONLYOFFICE Docs contains a path traversal vulnerability that can occur when JWT is used, via a /.. sequence in an image upload parameter and could allow for remote code execution.
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-10-08 | **Due Date:** 2026-10-11
+
+**MITRE CWE:** CWE-22
+
+**References:** This vulnerability could affect an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: ; https://github.com/ONLYOFFICE/DocumentServer/blob/903fe5ab7a275bd69c3c3346af2d21cf87ebeabf/CHANGELOG.md#563 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2021-3199
+
+## CVE-2015-3306 - ProFTPD ProFTPD
+**Vulnerability:** ProFTPD Improper Access Control Vulnerability
+
+**Description:** ProFTPD contains an improper access control vulnerability that could allow remote attackers to read and write to arbitrary files via the site cpfr and site cpto commands.
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-10-08 | **Due Date:** 2026-10-11
+
+**MITRE CWE:** CWE-284
+
+**References:** This vulnerability could affect an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: http://www.proftpd.org/ ; https://lists.debian.org/debian-security-announce/2015/msg00154.html ; https://lists.opensuse.org/archives/list/updates@lists.opensuse.org/message/WE6YZRG5UVXMGQ7IVDRYBPIWV4M6UUGM/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2015-3306
 
 ## CVE-2026-88779 - Citrix NetScaler
 **Vulnerability:** Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability
@@ -369,7 +421,7 @@
 
 **Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
-**Date Added:** 2026-09-29 | **Due Date:** 2026-10-02
+**Date Added:** 2026-09-29 | **Due Date:** 2026-10-13
 
 **MITRE CWE:** CWE-787
 
@@ -1013,7 +1065,7 @@
 
 **Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
-**Date Added:** 2026-08-26 | **Due Date:** 2026-09-09
+**Date Added:** 2026-08-26 | **Due Date:** 2026-08-29
 
 **MITRE CWE:** CWE-787
 
@@ -2531,55 +2583,3 @@
 **MITRE CWE:** CWE-913
 
 **References:** https://github.com/n8n-io/n8n/security/advisories/GHSA-v98v-ff95-f3cp ; https://nvd.nist.gov/vuln/detail/CVE-2025-68613
-
-## CVE-2021-22054 - Omnissa Workspace One UEM
-**Vulnerability:** Omnissa Workspace ONE Server-Side Request Forgery
-
-**Description:** Omnissa Workspace One UEM formerly known as VMware Workspace One UEM contains a server-side request forgery (SSRF) vulnerability that could allow a malicious actor with network access to UEM to send their requests without authentication and to gain access to sensitive information.
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2026-03-09 | **Due Date:** 2026-03-23
-
-**MITRE CWE:** CWE-918
-
-**References:** https://web.archive.org/web/20211222154335/https://www.vmware.com/security/advisories/VMSA-2021-0029.html ; https://nvd.nist.gov/vuln/detail/CVE-2021-22054
-
-## CVE-2026-1603 - Ivanti  Endpoint Manager (EPM)
-**Vulnerability:** Ivanti Endpoint Manager (EPM) Authentication Bypass Vulnerability
-
-**Description:** Ivanti Endpoint Manager (EPM) contains an authentication bypass using an alternate path or channel vulnerability that could allow a remote unauthenticated attacker to leak specific stored credential data.
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2026-03-09 | **Due Date:** 2026-03-23
-
-**MITRE CWE:** CWE-288
-
-**References:** https://hub.ivanti.com/s/article/Security-Advisory-EPM-February-2026-for-EPM-2024?language=en_US ; https://nvd.nist.gov/vuln/detail/CVE-2026-1603
-
-## CVE-2017-7921 - Hikvision Multiple Products
-**Vulnerability:** Hikvision Multiple Products Improper Authentication Vulnerability
-
-**Description:** Multiple Hikvision products contain an improper authentication vulnerability that could allow a malicious user to escalate privileges on the system and gain access to sensitive information.
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2026-03-05 | **Due Date:** 2026-03-26
-
-**MITRE CWE:** CWE-287
-
-**References:** https://www.hikvision.com/us-en/support/document-center/special-notices/privilege-escalating-vulnerability-in-certain-hikvision-ip-cameras/ ; https://nvd.nist.gov/vuln/detail/CVE-2017-7921
-
-## CVE-2021-22681 - Rockwell Multiple Products
-**Vulnerability:** Rockwell Multiple Products Insufficient Protected Credentials Vulnerability
-
-**Description:** Multiple Rockwell products contain an insufficient protected credentials vulnerability. Studio 5000 Logix Designer software may allow a key to be discovered. This key is used to verify Logix controllers are communicating with Rockwell Automation design software. If successfully exploited, this vulnerability could allow an unauthorized application to connect with Logix controllers. To leverage this vulnerability, an unauthorized user would require network access to the controller.
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2026-03-05 | **Due Date:** 2026-03-26
-
-**MITRE CWE:** CWE-522
-
-**References:** https://support.rockwellautomation.com/app/answers/answer_view/a_id/1130301/~/cve-2021-22681%3A-authentication-bypass-vulnerability-found-in-logix-controllers- ; https://www.cisa.gov/news-events/ics-advisories/icsa-21-056-03 ; https://nvd.nist.gov/vuln/detail/CVE-2021-22681
