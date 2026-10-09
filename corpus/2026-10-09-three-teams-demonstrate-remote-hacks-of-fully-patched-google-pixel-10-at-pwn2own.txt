@@ -1,0 +1,6 @@
+TITLE: Three Teams Demonstrate Remote Hacks of Fully Patched Google Pixel 10 at Pwn2Own
+SOURCE: https://thehackernews.com/2026/10/three-teams-demonstrate-remote-hacks-of.html
+---
+Three research teams broke into Google's Pixel 10 on October 8 at Pwn2Own Ireland, a hacking contest in Cork whose rules require every target to be fully patched. The contest pays researchers to show working exploits and passes the flaws to the vendors. One of the three Pixel exploits earned Ikotas Labs $300,000, the contest's top prize, and made the team the overall winner.
+
+Trend Micro's Zero

@@ -1,0 +1,6 @@
+TITLE: FBI Seizes 7 Domains, Disrupts Flax Typhoon Tools Used in Critical Infrastructure Intrusions
+SOURCE: https://thehackernews.com/2026/10/fbi-seizes-7-domains-disrupts-flax.html
+---
+The U.S. Federal Bureau of Investigation (FBI) and Department of Justice (DoJ) have announced the disruption of malicious tools used by a China-linked advanced persistent threat group known as Flax Typhoon.
+
+To that end, the agencies seized several domains and blocked access to platforms that were used to scan, and in some cases infiltrate, U.S. critical infrastructure. The list of seized

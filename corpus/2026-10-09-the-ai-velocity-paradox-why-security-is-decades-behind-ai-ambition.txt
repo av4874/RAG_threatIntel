@@ -1,0 +1,4 @@
+TITLE: The AI Velocity Paradox: Why Security Is Decades Behind AI Ambition
+SOURCE: https://thehackernews.com/2026/10/the-ai-velocity-paradox-why-security-is.html
+---
+As enterprises race to deploy autonomous AI agents to accelerate business, a new report reveals they are tethered to security architectures built for a different era. The "Horizons of Identity Security" report from SailPoint highlights a critical “velocity paradox,” in which organizations invest in AI-speed business operations while continuing to rely on human-speed security controls, creating a

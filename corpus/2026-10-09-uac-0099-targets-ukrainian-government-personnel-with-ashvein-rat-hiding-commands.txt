@@ -1,0 +1,8 @@
+TITLE: UAC-0099 Targets Ukrainian Government Personnel With ASHVEIN RAT Hiding Commands in HTML
+SOURCE: https://thehackernews.com/2026/10/uac-0099-targets-ukrainian-government.html
+---
+The Russia-aligned threat actor known as UAC-0099 has been attributed to a previously undocumented .NET infostealer and remote access trojan (RAT) codenamed ASHVEIN.
+
+According to TrendAI, the malware has been put to use in attacks targeting Ukrainian government personnel. The cybersecurity company is tracking the cluster under the name Earth Sirrush (previously SHADOW-EARTH-065).
+
+ASHVEIN,
