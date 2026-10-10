@@ -1,0 +1,4 @@
+TITLE: What We Missed: FBI Strikes Back at ShinyHunters
+SOURCE: https://www.darkreading.com/identity-access-management-security/fbi-shinyhunters-claims-hack
+---
+In this video conversation, Dark Reading editors discuss some of the news they didn't get a chance to cover, from the arrest of a suspected ShinyHunters operative to the compromise of a Pentagon-run data center.

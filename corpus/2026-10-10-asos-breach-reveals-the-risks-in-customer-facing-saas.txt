@@ -1,0 +1,4 @@
+TITLE: ASOS Breach Reveals the Risks in Customer-Facing SaaS
+SOURCE: https://www.darkreading.com/cyberattacks-data-breaches/asos-breach-risks-customer-facing-saas
+---
+The attack on the British retailer shows that compromising a single identity can lead to much deeper penetration of the corporate network.

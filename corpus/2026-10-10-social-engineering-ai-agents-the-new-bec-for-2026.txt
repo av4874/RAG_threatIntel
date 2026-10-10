@@ -1,0 +1,4 @@
+TITLE: Social Engineering AI Agents: The New BEC for 2026
+SOURCE: https://www.darkreading.com/cybersecurity-operations/social-engineering-ai-agents-bec-2026
+---
+As AI agents gain authority over business systems, attackers can manipulate them like business email compromise (BEC) victims.
