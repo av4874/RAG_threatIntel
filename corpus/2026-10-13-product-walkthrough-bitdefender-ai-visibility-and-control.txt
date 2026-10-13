@@ -1,0 +1,8 @@
+TITLE: Product Walkthrough: Bitdefender AI Visibility and Control
+SOURCE: https://thehackernews.com/2026/10/product-walkthrough-bitdefender-ai.html
+---
+A user opens a browser tab, pastes data into a chat assistant, and nothing is installed.
+
+A developer adds a coding&nbsp;assistant as an editor extension, and nothing shows up in the installed programs list.
+
+Someone downloads a local model runtime, a program that runs models directly on the machine instead of sending data to an external service, because they were told not to send company data

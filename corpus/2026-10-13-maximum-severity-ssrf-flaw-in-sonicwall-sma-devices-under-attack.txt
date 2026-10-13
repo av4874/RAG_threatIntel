@@ -1,0 +1,4 @@
+TITLE: Maximum-Severity SSRF Flaw in SonicWall SMA Devices Under Attack
+SOURCE: https://www.darkreading.com/vulnerabilities-threats/max-severity-ssrf-flaw-sonicwall-sma-devices-under-attack
+---
+Attackers are currently targeting a critical vulnerability in SMA 1000 appliances, putting SonicWall customers in a familiar yet unenviable position.

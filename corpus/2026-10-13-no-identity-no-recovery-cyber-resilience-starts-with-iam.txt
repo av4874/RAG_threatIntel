@@ -1,0 +1,4 @@
+TITLE: No Identity, No Recovery: Cyber Resilience Starts With IAM
+SOURCE: https://www.darkreading.com/cybersecurity-operations/cyber-resilience-starts-with-iam
+---
+The proliferation of enterprise apps and the centrality of cloud identity providers requires an identity security rethink.

@@ -1,0 +1,6 @@
+TITLE: Attackers Heat French Supermarket Fridges Up to 50°C by Hijacking Danfoss Controllers
+SOURCE: https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html
+---
+Attackers took remote control of fridges and freezers at hundreds of French supermarkets on the night of October 11 and warmed them, forcing stores to throw food away, several retail chains said.
+
+The attackers reached them through the controller that runs all of a store's fridges and freezers, a device made by Danish company Danfoss that maintenance firms can manage remotely. Les Mousquetaires

@@ -1,0 +1,6 @@
+TITLE: GitLab Patches CVSS 10.0 Flaw That Could Let Unauthenticated Users Run Server Code
+SOURCE: https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html
+---
+GitLab has released patches for a maximum-severity security flaw impacting its Community Edition (CE) and Enterprise Edition (EE) software that could result in arbitrary code execution.
+
+"GitLab has remediated an issue that, under certain conditions, could have allowed an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD
