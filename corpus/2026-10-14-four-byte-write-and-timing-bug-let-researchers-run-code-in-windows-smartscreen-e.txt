@@ -1,0 +1,8 @@
+TITLE: Four-Byte Write and Timing Bug Let Researchers Run Code in Windows SmartScreen Enclave
+SOURCE: https://thehackernews.com/2026/10/four-byte-write-and-timing-bug-let.html
+---
+Security researchers ran their own code inside a protected part of Windows that is meant to stay sealed off even when the rest of the computer is taken over.
+
+The protected area is a VBS enclave, an isolated slice of memory the operating system uses to guard secrets, and the one they broke into handles passwords for a Windows anti-phishing feature.
+
+The work was done in a lab as a proof of

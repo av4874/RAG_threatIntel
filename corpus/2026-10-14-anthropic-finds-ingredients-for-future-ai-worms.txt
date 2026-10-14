@@ -1,0 +1,4 @@
+TITLE: Anthropic Finds Ingredients for Future AI Worms
+SOURCE: https://www.darkreading.com/perimeter/anthropic-ingredients-future-ai-worms
+---
+Anthropic's latest study combined IoT and network tests to explore AI self-replication, which researchers said would be &quot;challenging&quot; to shut down.

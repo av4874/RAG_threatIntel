@@ -1,0 +1,6 @@
+TITLE: Xandr Fined a Record €8.6 Million for Relaying Grindr Data Revealing Sexual Orientation
+SOURCE: https://thehackernews.com/2026/10/xandr-fined-record-86-million-for.html
+---
+The Norwegian Data Protection Authority (DPA) has fined Xandr, an advertising unit owned by Microsoft, €8.6 million ($9.62 million) for illegally relaying ​Grindr users' sensitive data to advertisers.
+
+The administrative penalty is the largest issued by the data protection watchdog, arguing the case merited a high fine because of the "very serious" nature of the breach. The infringements
