@@ -284,6 +284,32 @@
 
 **References:** https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-rce-NKhnULJh ; https://nvd.nist.gov/vuln/detail/CVE-2026-20131
 
+## CVE-2026-104935 - Ivanti Connect Secure
+**Vulnerability:** Ivanti Connect Secure Authentication Bypass by Spoofing Vulnerability
+
+**Description:** Ivanti Connect Secure contains an authentication bypass by spoofing vulnerability that allows a remote unauthenticated attacker to execute arbitrary commands.
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-10-13 | **Due Date:** 2026-10-16
+
+**MITRE CWE:** CWE-290
+
+**References:** https:/forums.ivanti.com/s/article/Security-Advisory-Ivanti-Connect-Secure-CVE-2026-104935 ; https://nvd.nist.gov/vuln/detail/CVE-2026-104935
+
+## CVE-2026-96951 - Microsoft Windows
+**Vulnerability:** Microsoft Windows Command Injection Vulnerability
+
+**Description:** Microsoft Windows Shell contains a command injection vulnerability that allows an unauthorized attacker to bypass a security feature over a network.
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-10-13 | **Due Date:** 2026-10-16
+
+**MITRE CWE:** CWE-77
+
+**References:** https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-96951 ; BOD 26-04: BOD 26-04: Prioritizing Security Updates Based on Risk | CISA ; Forensics Triage Requirements: BOD 26-04: Implementation Guidance for Prioritizing Security Updates Based on Risk | CISA ;  https://nvd.nist.gov/vuln/detail/CVE-2026-96951
+
 ## CVE-2015-5477 - ISC BIND
 **Vulnerability:**  ISC BIND Data Processing Errors Vulnerability
 
@@ -2557,29 +2583,3 @@
 **MITRE CWE:** CWE-119
 
 **References:** https://chromereleases.googleblog.com/2026/03/stable-channel-update-for-desktop_12.html ; https://nvd.nist.gov/vuln/detail/CVE-2026-3910
-
-## CVE-2026-3909 - Google Skia
-**Vulnerability:** Google Skia Out-of-Bounds Write Vulnerability
-
-**Description:** Google Skia contains an out-of-bounds write vulnerability that could allow a remote attacker to perform out of bounds memory access via a crafted HTML page. This vulnerability affects Google Chrome and ChromeOS, Android, Flutter, and possibly other products.
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2026-03-13 | **Due Date:** 2026-03-27
-
-**MITRE CWE:** CWE-787
-
-**References:** This vulnerability affects a common open-source component, third-party library, or a protocol used by different products. Please check with specific vendors for information on patching status. For more information, please see: https://chromereleases.googleblog.com/2026/03/stable-channel-update-for-desktop_13.html ; https://nvd.nist.gov/vuln/detail/CVE-2026-3909
-
-## CVE-2025-68613 - n8n n8n
-**Vulnerability:** n8n Improper Control of Dynamically-Managed Code Resources Vulnerability
-
-**Description:** n8n contains an improper control of dynamically managed code resources vulnerability in its workflow expression evaluation system that allows for remote code execution.
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2026-03-11 | **Due Date:** 2026-03-25
-
-**MITRE CWE:** CWE-913
-
-**References:** https://github.com/n8n-io/n8n/security/advisories/GHSA-v98v-ff95-f3cp ; https://nvd.nist.gov/vuln/detail/CVE-2025-68613
