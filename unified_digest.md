@@ -10,14 +10,6 @@
 **Detection Feasibility:** High - The vulnerability allows unauthenticated attackers to escalate privileges, which can be detected through security event logs and endpoint monitoring.
 **Recommendation:** Tune existing rule - Existing rules can be tuned to detect unusual network activity indicative of privilege escalation attempts.
 
-### CVE-2026-15410 - SonicWall SMA1000 Zero-Day Vulnerabilities: Full Technical Details (risk score: 10/10)
-**Vendor/Product:** SonicWall SMA1000 Appliances
-**Vulnerability:** SonicWall SMA1000 Appliances Code Injection Vulnerability
-**ATT&CK Technique:** T1089 - System Network Connections Discovery (UNVERIFIED)
-**Log Sources:** Windows Security Event Log, Firewall/VPN logs
-**Detection Feasibility:** High - The vulnerabilities allow for command execution and request manipulation, which can be detected through network connection logs.
-**Recommendation:** New use case - Implement new rules to monitor for unusual network connections and command executions.
-
 ### CVE-2026-15409 - SonicWall SMA1000 Zero-Day Vulnerabilities: Full Technical Details (risk score: 10/10)
 **Vendor/Product:** SonicWall SMA1000 Appliances
 **Vulnerability:** SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability
@@ -26,17 +18,25 @@
 **Detection Feasibility:** High - The vulnerabilities allow for command execution and request manipulation, which can be detected through network connection logs.
 **Recommendation:** New use case - Implement new rules to monitor for unusual network connections and command executions.
 
-### CVE-2026-56164 - Microsoft's July 2026 Patch Tuesday: 570 Vulnerabilities and 3 Zero-Days (risk score: 8/10)
-**Vendor/Product:** Microsoft SharePoint Server
-**Vulnerability:** Microsoft SharePoint Server Missing Authentication for Critical Function Vulnerability
+### CVE-2026-15410 - SonicWall SMA1000 Zero-Day Vulnerabilities: Full Technical Details (risk score: 10/10)
+**Vendor/Product:** SonicWall SMA1000 Appliances
+**Vulnerability:** SonicWall SMA1000 Appliances Code Injection Vulnerability
+**ATT&CK Technique:** T1089 - System Network Connections Discovery (UNVERIFIED)
+**Log Sources:** Windows Security Event Log, Firewall/VPN logs
+**Detection Feasibility:** High - The vulnerabilities allow for command execution and request manipulation, which can be detected through network connection logs.
+**Recommendation:** New use case - Implement new rules to monitor for unusual network connections and command executions.
+
+### CVE-2026-56155 - Microsoft's July 2026 Patch Tuesday: 570 Vulnerabilities and 3 Zero-Days (risk score: 8/10)
+**Vendor/Product:** Microsoft Active Directory Federation Services
+**Vulnerability:** Microsoft Active Directory Federation Services Insufficient Granularity of Access Control Vulnerability 
 **ATT&CK Technique:** T1190 - Exploit Public-Facing Application
 **Log Sources:** Windows Security Event Log, EDR/endpoint logs
 **Detection Feasibility:** High - Remote code execution vulnerabilities are highly feasible to detect through security event logs and endpoint detection and response tools.
 **Recommendation:** Tune existing rule - Existing rules can be tuned to specifically look for signs of remote code execution attempts based on the patterns of these vulnerabilities.
 
-### CVE-2026-56155 - Microsoft's July 2026 Patch Tuesday: 570 Vulnerabilities and 3 Zero-Days (risk score: 8/10)
-**Vendor/Product:** Microsoft Active Directory Federation Services
-**Vulnerability:** Microsoft Active Directory Federation Services Insufficient Granularity of Access Control Vulnerability 
+### CVE-2026-56164 - Microsoft's July 2026 Patch Tuesday: 570 Vulnerabilities and 3 Zero-Days (risk score: 8/10)
+**Vendor/Product:** Microsoft SharePoint Server
+**Vulnerability:** Microsoft SharePoint Server Missing Authentication for Critical Function Vulnerability
 **ATT&CK Technique:** T1190 - Exploit Public-Facing Application
 **Log Sources:** Windows Security Event Log, EDR/endpoint logs
 **Detection Feasibility:** High - Remote code execution vulnerabilities are highly feasible to detect through security event logs and endpoint detection and response tools.
@@ -111,6 +111,34 @@
 **Recommendation:** Tune existing rule - Existing security solutions can likely detect malicious activities related to command execution based on known indicators of compromise.
 
 ## KEV-Only (not covered by RAG lane)
+
+### CVE-2026-105134 - Ahsay AhsayCBS
+**Vulnerability:** Ahsay AhsayCBS Command Injection Vulnerability
+
+**MITRE CWE:** CWE-77, CWE-78
+
+**References:** https://www.ahsay.com/en/company/announcements/patch-cve-105133-105134-update ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-105134
+
+### CVE-2026-76519 - Cisco Secure Email Gateway
+**Vulnerability:** Cisco Secure Email Gateway Relative Path Traversal Vulnerability
+
+**MITRE CWE:** CWE-23
+
+**References:** https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-afw-zqYJkjxp ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-76519
+
+### CVE-2026-105133 - Ahsay AhsayCBS
+**Vulnerability:** Ahsay AhsayCBS Improper Authentication Vulnerability
+
+**MITRE CWE:** CWE-287
+
+**References:** https://www.ahsay.com/en/company/announcements/patch-cve-105133-105134-update ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-105133
+
+### CVE-2026-0322 - Palo Alto Networks PAN-OS
+**Vulnerability:** Palo Alto Networks PAN-OS Code Injection Vulnerability
+
+**MITRE CWE:** CWE-94
+
+**References:** https://security.paloaltonetworks.com/CVE-2026-0322 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-0322
 
 ### CVE-2026-104935 - Ivanti Connect Secure
 **Vulnerability:** Ivanti Connect Secure Authentication Bypass by Spoofing Vulnerability
@@ -293,31 +321,3 @@
 **MITRE CWE:** CWE-362
 
 **References:** This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: ; https://git.kernel.org/stable/c/0f28c4adbc4a97437874c9b669fd7958a8c6d6ce; https://git.kernel.org/stable/c/e4c1ec11132ec466f7362a95f36a506ce4dc08c9; https://git.kernel.org/stable/c/1f323a48e9b5ebfe6dc7d130fdf5c3c0e92a07c8; https://git.kernel.org/stable/c/7c4491b5644e3a3708f3dbd7591be0a570135b84; https://git.kernel.org/stable/c/9aee87da5572b3a14075f501752e209801160d3d; https://git.kernel.org/stable/c/45bcf60fe49b37daab1acee57b27211ad1574042; https://git.kernel.org/stable/c/1b34cbbf4f011a121ef7b2d7d6e6920a036d5285 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2025-39964
-
-### CVE-2026-53266 - Linux Kernel
-**Vulnerability:** Linux Kernel Out-of-Bounds Write Vulnerability
-
-**MITRE CWE:** CWE-787
-
-**References:** This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: ; https://git.kernel.org/stable/c/bf84ad7c7a9ede46e31afaa41a1ba06a159e8c87; https://git.kernel.org/stable/c/76280b78cc9f23bdc6438e10ad6dff148ef8375b; https://git.kernel.org/stable/c/b7e91939ba9be805a62a257fa4e227dffbb88fa0; https://git.kernel.org/stable/c/afd64b59c3de9bbbdd3759e834fdc55cda716e0b; https://git.kernel.org/stable/c/153ea96c806aea395daba907a4f88480b6ad5093; https://git.kernel.org/stable/c/b18675263db1147c8e1cab625400c13a0d87bd2d; https://git.kernel.org/stable/c/c9b5ff59feffb92a147a84a5aa28acd2cb8ff4c5; https://git.kernel.org/stable/c/67ba971ae02514d85818fe0c32549ab4bfa3bf49 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-53266
-
-### CVE-2025-39682 - Linux Kernel
-**Vulnerability:** Linux Kernel Improper Check for Unusual or Exceptional Conditions Vulnerability
-
-**MITRE CWE:** CWE-754
-
-**References:** This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: ; https://git.kernel.org/stable/c/2902c3ebcca52ca845c03182000e8d71d3a5196f; https://git.kernel.org/stable/c/c09dd3773b5950e9cfb6c9b9a5f6e36d06c62677; https://git.kernel.org/stable/c/3439c15ae91a517cf3c650ea15a8987699416ad9; https://git.kernel.org/stable/c/29c0ce3c8cdb6dc5d61139c937f34cb888a6f42e; https://git.kernel.org/stable/c/62708b9452f8eb77513115b17c4f8d1a22ebf843 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2025-39682
-
-### CVE-2026-58704 - Google Pixel
-**Vulnerability:** Google Pixel Improper Authorization Vulnerability
-
-**MITRE CWE:** CWE-693
-
-**References:** https://source.android.com/docs/security/bulletin/pixel/2026/2026-09-01 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-58704
-
-### CVE-2026-76460 - Cisco Identity Services Engine
-**Vulnerability:** Cisco Identity Services Engine Incorrect Use of Privileged APIs Vulnerability
-
-**MITRE CWE:** CWE-648
-
-**References:** https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ISE-ABP-VNSW7Tn5 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-76460
