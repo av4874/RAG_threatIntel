@@ -284,6 +284,58 @@
 
 **References:** https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-rce-NKhnULJh ; https://nvd.nist.gov/vuln/detail/CVE-2026-20131
 
+## CVE-2026-105134 - Ahsay AhsayCBS
+**Vulnerability:** Ahsay AhsayCBS Command Injection Vulnerability
+
+**Description:** Ahsay AhsayCBS contains a command injection vulnerability that could allow a remote attacker to execute operating system commands via manipulation of the random parameter in the Replication Receiver component’s /rps/api/json/UpdateReceivers.do endpoint. This vulnerability can be chained with CVE-2026-105133.
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-10-14 | **Due Date:** 2026-10-17
+
+**MITRE CWE:** CWE-77, CWE-78
+
+**References:** https://www.ahsay.com/en/company/announcements/patch-cve-105133-105134-update ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-105134
+
+## CVE-2026-76519 - Cisco Secure Email Gateway
+**Vulnerability:** Cisco Secure Email Gateway Relative Path Traversal Vulnerability
+
+**Description:** Cisco Secure Email Gateway contains a relative path traversal vulnerability that could allow an unauthenticated, remote attacker to write arbitrary files on the underlying operating system.
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-10-14 | **Due Date:** 2026-10-17
+
+**MITRE CWE:** CWE-23
+
+**References:** https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-afw-zqYJkjxp ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-76519
+
+## CVE-2026-105133 - Ahsay AhsayCBS
+**Vulnerability:** Ahsay AhsayCBS Improper Authentication Vulnerability
+
+**Description:** Ahsay AhsayCBS contains an improper authentication vulnerability that could allow a remote attacker to bypass authentication via manipulation of the random parameter in the API component’s checkSysPwd function. This vulnerability can be chained with CVE-2026-105134.
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-10-14 | **Due Date:** 2026-10-17
+
+**MITRE CWE:** CWE-287
+
+**References:** https://www.ahsay.com/en/company/announcements/patch-cve-105133-105134-update ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-105133
+
+## CVE-2026-0322 - Palo Alto Networks PAN-OS
+**Vulnerability:** Palo Alto Networks PAN-OS Code Injection Vulnerability
+
+**Description:** Palo Alto Networks PAN-OS contains a code injection vulnerability that could allow an authenticated attacker with network access to execute arbitrary code with root privileges on the firewall.
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-10-14 | **Due Date:** 2026-10-17
+
+**MITRE CWE:** CWE-94
+
+**References:** https://security.paloaltonetworks.com/CVE-2026-0322 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-0322
+
 ## CVE-2026-104935 - Ivanti Connect Secure
 **Vulnerability:** Ivanti Connect Secure Authentication Bypass by Spoofing Vulnerability
 
@@ -2531,55 +2583,3 @@
 **MITRE CWE:** CWE-119
 
 **References:** https://support.apple.com/en-us/124147 ; https://support.apple.com/en-us/124149 ; https://support.apple.com/en-us/124152 ; https://support.apple.com/en-us/124153 ; https://support.apple.com/en-us/124155 ; https://nvd.nist.gov/vuln/detail/CVE-2025-31277
-
-## CVE-2025-66376 - Synacor Zimbra Collaboration Suite (ZCS)
-**Vulnerability:** Synacor Zimbra Collaboration Suite (ZCS) Cross-Site Scripting Vulnerability
-
-**Description:** Synacor Zimbra Collaboration Suite (ZCS) contains a cross-site scripting vulnerability in the Classic UI where attackers could abuse Cascading Style Sheets (CSS) @import directives in email HTML.
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2026-03-18 | **Due Date:** 2026-04-01
-
-**MITRE CWE:** CWE-79
-
-**References:** https://wiki.zimbra.com/wiki/Zimbra_Security_Advisories ; https://nvd.nist.gov/vuln/detail/CVE-2025-66376
-
-## CVE-2026-20963 - Microsoft SharePoint
-**Vulnerability:** Microsoft SharePoint Deserialization of Untrusted Data Vulnerability
-
-**Description:** Microsoft SharePoint contains a deserialization of untrusted data vulnerability that allows an unauthorized attacker to execute code over a network.
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2026-03-18 | **Due Date:** 2026-03-21
-
-**MITRE CWE:** CWE-502
-
-**References:** https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-20963 ; https://nvd.nist.gov/vuln/detail/CVE-2026-20963
-
-## CVE-2025-47813 - Wing FTP Server Wing FTP Server
-**Vulnerability:** Wing FTP Server Information Disclosure Vulnerability
-
-**Description:** Wing FTP Server contains a generation of error message containing sensitive information vulnerability when using a long value in the UID cookie.
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2026-03-16 | **Due Date:** 2026-03-30
-
-**MITRE CWE:** CWE-209
-
-**References:** https://www.wftpserver.com/serverhistory.htm ; https://nvd.nist.gov/vuln/detail/CVE-2025-47813
-
-## CVE-2026-3910 - Google Chromium V8
-**Vulnerability:** Google Chromium V8 Improper Restriction of Operations Within the Bounds of a Memory Buffer Vulnerability
-
-**Description:** Google Chromium V8 contains an improper restriction of operations within the bounds of a memory buffer vulnerability that could allow a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, Google Chrome, Microsoft Edge, and Opera.
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2026-03-13 | **Due Date:** 2026-03-27
-
-**MITRE CWE:** CWE-119
-
-**References:** https://chromereleases.googleblog.com/2026/03/stable-channel-update-for-desktop_12.html ; https://nvd.nist.gov/vuln/detail/CVE-2026-3910
