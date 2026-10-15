@@ -1,0 +1,4 @@
+TITLE: Anthropic 'SneakPeek' Flaw Is a Silent Zero-Click Threat
+SOURCE: https://www.darkreading.com/threat-intelligence/new-anthropic-sneakpeek-silent-zero-click-threat
+---
+A bug in Claude Code Desktop's preview pane can allow adversaries to quietly steal credentials from developers, including SSH private keys, AWS credentials, and Claude 0Auth tokens.

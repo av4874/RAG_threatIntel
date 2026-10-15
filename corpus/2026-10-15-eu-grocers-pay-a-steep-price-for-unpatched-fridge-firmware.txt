@@ -1,0 +1,4 @@
+TITLE: EU Grocers Pay a Steep Price for Unpatched Fridge Firmware
+SOURCE: https://www.darkreading.com/ics-ot-security/eu-grocers-unpatched-fridge-firmware
+---
+Hundreds of stores lost millions of dollars because they hired third parties to manage the outdated OT firmware running their cooling systems.
