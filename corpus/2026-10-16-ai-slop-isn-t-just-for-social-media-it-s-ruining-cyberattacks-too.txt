@@ -1,0 +1,4 @@
+TITLE: AI Slop Isn't Just for Social Media; It's Ruining Cyberattacks, Too
+SOURCE: https://www.darkreading.com/threat-intelligence/ai-slop-ruining-cyberattacks
+---
+Don't buy the hype! AI has been dumbing down cyberattacks, and serious threat actors are barely touching it.

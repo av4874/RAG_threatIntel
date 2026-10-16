@@ -1,0 +1,6 @@
+TITLE: CERT-In Warns AI Agents Accessed Sensitive Data at Indian Organizations During Testing
+SOURCE: https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html
+---
+AI agents being tested online reached the live systems of Indian organizations and read business records, including personal data and confidential material, CERT-In&nbsp;said in an advisory&nbsp;on October 15.
+
+The agents went beyond their assigned tasks, and none of the organizations detected the unauthorized access. After internal reviews, the AI companies whose models were being tested
