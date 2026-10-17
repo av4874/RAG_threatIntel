@@ -314,6 +314,36 @@
     "notes": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-21529 ; https://nvd.nist.gov/vuln/detail/CVE-2023-21529"
   },
   {
+    "cve_id": "CVE-2026-102764",
+    "vendor_project": "BeyondTrust",
+    "product": "Remote Support",
+    "vulnerability_name": "BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability",
+    "date_added": "2026-10-16",
+    "short_description": "BeyondTrust Remote Support contains an authentication bypass by spoofing vulnerability that could allow a remote attacker to perform file operations on the appliance.",
+    "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+    "due_date": "2026-10-19",
+    "known_ransomware_use": false,
+    "cwes": [
+      "CWE-290"
+    ],
+    "notes": "https://www.beyondtrust.com/trust-center/security-advisories/bt26-05 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-102764"
+  },
+  {
+    "cve_id": "CVE-2025-61624",
+    "vendor_project": "Fortinet",
+    "product": "Multiple Products",
+    "vulnerability_name": "Fortinet Multiple Products Path Traversal Vulnerability",
+    "date_added": "2026-10-16",
+    "short_description": "FortiOS, FortiPAM, FortiProxy, and FortiSwitchManager contain a path traversal vulnerability that may allow an authenticated attacker with admin profile and at least read-write permissions to write or delete arbitrary files via specific CLI commands.",
+    "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+    "due_date": "2026-10-19",
+    "known_ransomware_use": false,
+    "cwes": [
+      "CWE-22"
+    ],
+    "notes": "https://fortiguard.fortinet.com/psirt/FG-IR-26-122 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2025-61624"
+  },
+  {
     "cve_id": "CVE-2026-21589",
     "vendor_project": "Atlassian",
     "product": "Multiple Products",
@@ -2976,35 +3006,5 @@
       "CWE-667"
     ],
     "notes": "https://support.apple.com/en-us/125632 ; https://support.apple.com/en-us/125633 ; https://support.apple.com/en-us/125634 ; https://support.apple.com/en-us/125635 ; https://support.apple.com/en-us/125636 ; https://support.apple.com/en-us/125637 ; https://support.apple.com/en-us/125638 ; https://support.apple.com/en-us/125639 ; https://nvd.nist.gov/vuln/detail/CVE-2025-43510"
-  },
-  {
-    "cve_id": "CVE-2025-43520",
-    "vendor_project": "Apple",
-    "product": "Multiple Products",
-    "vulnerability_name": "Apple Multiple Products Classic Buffer Overflow Vulnerability",
-    "date_added": "2026-03-20",
-    "short_description": "Apple watchOS, iOS, iPadOS, macOS, visionOS, and tvOS contain a classic buffer overflow vulnerability which could allow a malicious application to cause unexpected system termination or write kernel memory.",
-    "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-    "due_date": "2026-04-03",
-    "known_ransomware_use": false,
-    "cwes": [
-      "CWE-120"
-    ],
-    "notes": "https://support.apple.com/en-us/125632 ; https://support.apple.com/en-us/125633 ; https://support.apple.com/en-us/125634 ; https://support.apple.com/en-us/125635 ; https://support.apple.com/en-us/125636 ; https://support.apple.com/en-us/125637 ; https://support.apple.com/en-us/125638 ; https://support.apple.com/en-us/125639 ; https://nvd.nist.gov/vuln/detail/CVE-2025-43520"
-  },
-  {
-    "cve_id": "CVE-2025-31277",
-    "vendor_project": "Apple",
-    "product": "Multiple Products",
-    "vulnerability_name": "Apple Multiple Products Buffer Overflow Vulnerability",
-    "date_added": "2026-03-20",
-    "short_description": "Apple Safari, iOS, watchOS, visionOS, iPadOS, macOS, and tvOS contain a buffer overflow vulnerability that could allow the processing of maliciously crafted web content which may lead to memory corruption.",
-    "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-    "due_date": "2026-04-03",
-    "known_ransomware_use": false,
-    "cwes": [
-      "CWE-119"
-    ],
-    "notes": "https://support.apple.com/en-us/124147 ; https://support.apple.com/en-us/124149 ; https://support.apple.com/en-us/124152 ; https://support.apple.com/en-us/124153 ; https://support.apple.com/en-us/124155 ; https://nvd.nist.gov/vuln/detail/CVE-2025-31277"
   }
 ]

@@ -271,6 +271,32 @@
 
 **References:** https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-21529 ; https://nvd.nist.gov/vuln/detail/CVE-2023-21529
 
+## CVE-2026-102764 - BeyondTrust Remote Support
+**Vulnerability:** BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability
+
+**Description:** BeyondTrust Remote Support contains an authentication bypass by spoofing vulnerability that could allow a remote attacker to perform file operations on the appliance.
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-10-16 | **Due Date:** 2026-10-19
+
+**MITRE CWE:** CWE-290
+
+**References:** https://www.beyondtrust.com/trust-center/security-advisories/bt26-05 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-102764
+
+## CVE-2025-61624 - Fortinet Multiple Products
+**Vulnerability:** Fortinet Multiple Products Path Traversal Vulnerability
+
+**Description:** FortiOS, FortiPAM, FortiProxy, and FortiSwitchManager contain a path traversal vulnerability that may allow an authenticated attacker with admin profile and at least read-write permissions to write or delete arbitrary files via specific CLI commands.
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-10-16 | **Due Date:** 2026-10-19
+
+**MITRE CWE:** CWE-22
+
+**References:** https://fortiguard.fortinet.com/psirt/FG-IR-26-122 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2025-61624
+
 ## CVE-2026-21589 - Atlassian Multiple Products
 **Vulnerability:** Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerability
 
@@ -2557,29 +2583,3 @@
 **MITRE CWE:** CWE-667
 
 **References:** https://support.apple.com/en-us/125632 ; https://support.apple.com/en-us/125633 ; https://support.apple.com/en-us/125634 ; https://support.apple.com/en-us/125635 ; https://support.apple.com/en-us/125636 ; https://support.apple.com/en-us/125637 ; https://support.apple.com/en-us/125638 ; https://support.apple.com/en-us/125639 ; https://nvd.nist.gov/vuln/detail/CVE-2025-43510
-
-## CVE-2025-43520 - Apple Multiple Products
-**Vulnerability:** Apple Multiple Products Classic Buffer Overflow Vulnerability
-
-**Description:** Apple watchOS, iOS, iPadOS, macOS, visionOS, and tvOS contain a classic buffer overflow vulnerability which could allow a malicious application to cause unexpected system termination or write kernel memory.
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2026-03-20 | **Due Date:** 2026-04-03
-
-**MITRE CWE:** CWE-120
-
-**References:** https://support.apple.com/en-us/125632 ; https://support.apple.com/en-us/125633 ; https://support.apple.com/en-us/125634 ; https://support.apple.com/en-us/125635 ; https://support.apple.com/en-us/125636 ; https://support.apple.com/en-us/125637 ; https://support.apple.com/en-us/125638 ; https://support.apple.com/en-us/125639 ; https://nvd.nist.gov/vuln/detail/CVE-2025-43520
-
-## CVE-2025-31277 - Apple Multiple Products
-**Vulnerability:** Apple Multiple Products Buffer Overflow Vulnerability
-
-**Description:** Apple Safari, iOS, watchOS, visionOS, iPadOS, macOS, and tvOS contain a buffer overflow vulnerability that could allow the processing of maliciously crafted web content which may lead to memory corruption.
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2026-03-20 | **Due Date:** 2026-04-03
-
-**MITRE CWE:** CWE-119
-
-**References:** https://support.apple.com/en-us/124147 ; https://support.apple.com/en-us/124149 ; https://support.apple.com/en-us/124152 ; https://support.apple.com/en-us/124153 ; https://support.apple.com/en-us/124155 ; https://nvd.nist.gov/vuln/detail/CVE-2025-31277
