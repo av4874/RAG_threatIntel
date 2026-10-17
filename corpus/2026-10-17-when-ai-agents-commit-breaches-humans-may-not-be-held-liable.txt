@@ -1,0 +1,4 @@
+TITLE: When AI Agents Commit Breaches, Humans May Not Be Held Liable
+SOURCE: https://www.darkreading.com/insider-threats/ai-agents-breaches-humans-liable
+---
+As agents escape containment and access external systems, responsibility remains human. Accountability, however, is much less settled.

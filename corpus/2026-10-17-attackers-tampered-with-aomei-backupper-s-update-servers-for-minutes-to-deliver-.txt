@@ -1,0 +1,6 @@
+TITLE: Attackers Tampered with AOMEI Backupper's Update Servers for Minutes to Deliver a Backdoor
+SOURCE: https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html
+---
+Attackers repeatedly changed the files that AOMEI Backupper fetches from the vendor's own update servers, in windows of five to ten minutes at a time between May and July 2026, so that any copy of the Windows backup program that checked for an update during one of those windows would download and run a backdoor.
+
+Google Threat Intelligence Group, Mandiant, and&nbsp;ManageEngine's Threat Analysis
