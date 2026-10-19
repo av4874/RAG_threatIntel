@@ -1,0 +1,6 @@
+TITLE: Unpatched Broadcom Wi-Fi Flaw Lets Attackers in Range Run Code as Root on Routers
+SOURCE: https://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html
+---
+A flaw in Broadcom's Wi-Fi setup software lets an attacker within radio range run code as root on Broadcom-based routers, without the network password or any pairing step, security researcher Quentin Kaiser&nbsp;disclosed&nbsp;on October 16.
+
+He showed the attack working against home gateways supplied by three Belgian internet providers, in one case reading the Wi-Fi password off the device
