@@ -1,0 +1,4 @@
+TITLE: 'AdFection' Turns Ad Impressions Into Zero-Click Spyware Delivery
+SOURCE: https://www.darkreading.com/data-privacy/adfection-online-ads-spyware-delivery
+---
+Spyware vendors are exploiting targeted ad bidding in the digital ecosystem to identify and track individuals and organizations of interest.

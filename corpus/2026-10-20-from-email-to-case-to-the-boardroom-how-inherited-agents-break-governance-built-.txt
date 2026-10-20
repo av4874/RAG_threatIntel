@@ -1,0 +1,4 @@
+TITLE: From Email-to-Case to the Boardroom: How Inherited Agents Break Governance Built for Software
+SOURCE: https://thehackernews.com/2026/10/from-email-to-case-to-boardroom-how.html
+---
+In Salesforce Agentforce, the recommended way to make an agent respond to events is a Flow: a record is created or a case is updated, and the Flow passes data into the agent's prompt. Separately, Email-to-Case and Web-to-Case turn inbound customer messages into case records; it is how airlines and hotels run support intake. Both are standard, documented, as-designed features. Chained together,

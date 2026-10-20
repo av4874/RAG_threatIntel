@@ -1,0 +1,6 @@
+TITLE: ⚡ Weekly Recap: 98 Zero-Days, Rogue AI Agents, $100M Crypto Theft, 700 Supermarkets Hit and More
+SOURCE: https://thehackernews.com/2026/10/weekly-recap-98-zero-days-rogue-ai.html
+---
+The worst problems don't always come with a warning. Sometimes they arrive through a service everyone trusts, a device someone bought, or a system nobody thought to check. By the time something looks wrong, the damage may already be done.
+
+This week had plenty of that. Trusted connections became a problem. Hardware wasn't as safe as it looked. Old bugs found new victims, and some systems were

@@ -1,0 +1,4 @@
+TITLE: Researchers Infiltrate Microsoft Tech Support Scam Operation
+SOURCE: https://www.darkreading.com/threat-intelligence/microsoft-tech-support-scam-operation
+---
+A large-scale scam operation impersonating Microsoft uses a malicious traffic distribution system (TDS) run by a Russian organization and abuses thousands of Cloudflare links.

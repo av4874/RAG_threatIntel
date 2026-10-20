@@ -1,0 +1,4 @@
+TITLE: OnlyFans Copyright Takedowns Expose Compromised Websites
+SOURCE: https://www.darkreading.com/vulnerabilities-threats/onlyfans-copyright-takedowns-expose-compromised-websites
+---
+Copyright takedown requests tied to OnlyFans and other adult content creators are revealing how attackers exploit vulnerable university and government websites to manipulate search results. UpGuard's Greg Pollock explains what universities, government websites, and security teams need to think about next.

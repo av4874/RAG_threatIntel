@@ -1,0 +1,6 @@
+TITLE: Hackers Use New ROMULUS ClickFix Platform to Deliver LegionLoader and Other Malware
+SOURCE: https://thehackernews.com/2026/10/romulus-clickfix-platform-tricks-users.html
+---
+Cybersecurity researchers have disclosed details of a ClickFix delivery platform called ROMULUS that's being used to distribute malware such as Legion Loader.
+
+According to Forescout Research - Vedere Labs, ROMULUS is akin to a malware delivery service that employs ClickFix-style lures on bogus landing pages to trick unsuspecting users into running malicious commands and infecting their own
