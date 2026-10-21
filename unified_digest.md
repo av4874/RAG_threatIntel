@@ -10,17 +10,17 @@
 **Detection Feasibility:** High - The vulnerability allows unauthenticated attackers to escalate privileges, which can be detected through security event logs and endpoint monitoring.
 **Recommendation:** Tune existing rule - Existing rules can be tuned to detect unusual network activity indicative of privilege escalation attempts.
 
-### CVE-2026-15409 - SonicWall SMA1000 Zero-Day Vulnerabilities: Full Technical Details (risk score: 10/10)
+### CVE-2026-15410 - SonicWall SMA1000 Zero-Day Vulnerabilities: Full Technical Details (risk score: 10/10)
 **Vendor/Product:** SonicWall SMA1000 Appliances
-**Vulnerability:** SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability
+**Vulnerability:** SonicWall SMA1000 Appliances Code Injection Vulnerability
 **ATT&CK Technique:** T1089 - System Network Connections Discovery (UNVERIFIED)
 **Log Sources:** Windows Security Event Log, Firewall/VPN logs
 **Detection Feasibility:** High - The vulnerabilities allow for command execution and request manipulation, which can be detected through network connection logs.
 **Recommendation:** New use case - Implement new rules to monitor for unusual network connections and command executions.
 
-### CVE-2026-15410 - SonicWall SMA1000 Zero-Day Vulnerabilities: Full Technical Details (risk score: 10/10)
+### CVE-2026-15409 - SonicWall SMA1000 Zero-Day Vulnerabilities: Full Technical Details (risk score: 10/10)
 **Vendor/Product:** SonicWall SMA1000 Appliances
-**Vulnerability:** SonicWall SMA1000 Appliances Code Injection Vulnerability
+**Vulnerability:** SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability
 **ATT&CK Technique:** T1089 - System Network Connections Discovery (UNVERIFIED)
 **Log Sources:** Windows Security Event Log, Firewall/VPN logs
 **Detection Feasibility:** High - The vulnerabilities allow for command execution and request manipulation, which can be detected through network connection logs.
@@ -111,6 +111,48 @@
 **Recommendation:** Tune existing rule - Existing security solutions can likely detect malicious activities related to command execution based on known indicators of compromise.
 
 ## KEV-Only (not covered by RAG lane)
+
+### CVE-2026-106931 - EG Secure Solutions SiteGuard Server Edition
+**Vulnerability:** EG Secure Solutions SiteGuard Server Edition OS Command Injection Vulnerability
+
+**MITRE CWE:** CWE-78
+
+**References:** https://www.eg-secure.co.jp/siteguard/news/alert-202610-1 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-106931
+
+### CVE-2026-96656 - Plex Media Server
+**Vulnerability:** Plex Media Server External Control of File Name or Path Vulnerability
+
+**MITRE CWE:** CWE-73
+
+**References:** https://forums.plex.tv/t/important-security-update-for-plex-media-server-v1-43-2-and-earlier/942319 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-96656
+
+### CVE-2026-96655 - Plex Media Server
+**Vulnerability:** Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability
+
+**MITRE CWE:** CWE-918
+
+**References:** https://forums.plex.tv/t/important-security-update-for-plex-media-server-v1-43-2-and-earlier/942319 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-96655
+
+### CVE-2026-96654 - Plex Media Server
+**Vulnerability:** Plex Media Server Improper Neutralization of Encoded URI Schemes in a Web Page Vulnerability
+
+**MITRE CWE:** CWE-84
+
+**References:** https://forums.plex.tv/t/important-security-update-for-plex-media-server-v1-43-2-and-earlier/942319 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-96654
+
+### CVE-2026-96652 - Plex Media Server
+**Vulnerability:** Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability
+
+**MITRE CWE:** CWE-918
+
+**References:** https://forums.plex.tv/t/important-security-update-for-plex-media-server-v1-43-2-and-earlier/942319 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-96652
+
+### CVE-2026-110936 - Siemens Software Center
+**Vulnerability:** Siemens Software Center Uncontrolled Search Path Element Vulnerability
+
+**MITRE CWE:** CWE-427
+
+**References:** https://productcert.siemens.com/productcert/html/ssa-580366.html ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-110936
 
 ### CVE-2026-102764 - BeyondTrust Remote Support
 **Vulnerability:** BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability
@@ -279,45 +321,3 @@
 **MITRE CWE:** CWE-94
 
 **References:** https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-65660 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-65660
-
-### CVE-2026-87902 - WordPress Core
-**Vulnerability:** WordPress Core Remote File Inclusion Vulnerability
-
-**MITRE CWE:** CWE-98
-
-**References:** https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-7hp8-65ch-5whp ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-87902
-
-### CVE-2026-5430 - WSO2 Multiple Products
-**Vulnerability:** WSO2 Multiple Products Path Traversal Vulnerability 
-
-**MITRE CWE:** CWE-347
-
-**References:** https://security.docs.wso2.com/en/latest/security-announcements/security-advisories/2026/WSO2-2026-5328/ ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-5430
-
-### CVE-2026-71362 - Adobe Commerce and Magento 
-**Vulnerability:** Adobe Commerce and Magento Incorrect Authorization Vulnerability 
-
-**MITRE CWE:** CWE-863
-
-**References:** https://helpx.adobe.com/security/products/magento/apsb26-92.html ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-71362
-
-### CVE-2026-93952 - Arista VeloCloud Orchestrator
-**Vulnerability:** Arista VeloCloud Orchestrator Improper Input Validation Vulnerability
-
-**MITRE CWE:** CWE-20
-
-**References:** https://www.arista.com/en/support/advisories-notices/security-advisory/24765-security-advisory-0183 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-93952
-
-### CVE-2026-94127 - F5 BIG-IP APM
-**Vulnerability:** F5 BIG-IP APM Heap-based Buffer Overflow Vulnerability
-
-**MITRE CWE:** CWE-122
-
-**References:** For temporary mitigation to allow for proactive forensic triage, apply the vendor-provided iRule. Once completed, install the final vendor patch as soon as possible. For more information please see: https://my.f5.com/manage/s/article/K000162605 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-94127
-
-### CVE-2026-93616 - Check Point Multiple Products
-**Vulnerability:** Check Point Multiple Products Path Traversal Vulnerability
-
-**MITRE CWE:** CWE-22
-
-**References:** https://support.checkpoint.com/results/sk/sk1000171/ ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-93616
