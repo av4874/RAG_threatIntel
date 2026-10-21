@@ -314,6 +314,96 @@
     "notes": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-21529 ; https://nvd.nist.gov/vuln/detail/CVE-2023-21529"
   },
   {
+    "cve_id": "CVE-2026-106931",
+    "vendor_project": "EG Secure Solutions",
+    "product": "SiteGuard Server Edition",
+    "vulnerability_name": "EG Secure Solutions SiteGuard Server Edition OS Command Injection Vulnerability",
+    "date_added": "2026-10-20",
+    "short_description": "EG Secure Solutions SiteGuard Server Edition contains an OS command injection vulnerability which may allow an attacker to execute arbitrary OS commands with root or SYSTEM privileges on the system running the affected product.",
+    "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+    "due_date": "2026-10-23",
+    "known_ransomware_use": false,
+    "cwes": [
+      "CWE-78"
+    ],
+    "notes": "https://www.eg-secure.co.jp/siteguard/news/alert-202610-1 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-106931"
+  },
+  {
+    "cve_id": "CVE-2026-96656",
+    "vendor_project": "Plex",
+    "product": "Media Server",
+    "vulnerability_name": "Plex Media Server External Control of File Name or Path Vulnerability",
+    "date_added": "2026-10-20",
+    "short_description": "Plex Media Server contains an external control of file name or path vulnerability which can allow an admin user to write arbitrary files that may be executed on load. This vulnerability can be chained with CVE-2026-96652, CVE-2026-96654, and CVE-2026-96655.",
+    "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+    "due_date": "2026-10-23",
+    "known_ransomware_use": false,
+    "cwes": [
+      "CWE-73"
+    ],
+    "notes": "https://forums.plex.tv/t/important-security-update-for-plex-media-server-v1-43-2-and-earlier/942319 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-96656"
+  },
+  {
+    "cve_id": "CVE-2026-96655",
+    "vendor_project": "Plex",
+    "product": "Media Server",
+    "vulnerability_name": "Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
+    "date_added": "2026-10-20",
+    "short_description": "Plex Media Server contains a server-side request forgery (SSRF) vulnerability that could allow an authenticated user to request arbitrary internal or external addresses via the '/video/:/transcode/universal' path parameter. This vulnerability can be chained with CVE-2026-96652, CVE-2026-96654, and CVE-2026-96656.",
+    "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+    "due_date": "2026-11-03",
+    "known_ransomware_use": false,
+    "cwes": [
+      "CWE-918"
+    ],
+    "notes": "https://forums.plex.tv/t/important-security-update-for-plex-media-server-v1-43-2-and-earlier/942319 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-96655"
+  },
+  {
+    "cve_id": "CVE-2026-96654",
+    "vendor_project": "Plex",
+    "product": "Media Server",
+    "vulnerability_name": "Plex Media Server Improper Neutralization of Encoded URI Schemes in a Web Page Vulnerability",
+    "date_added": "2026-10-20",
+    "short_description": "Plex Media Server contains an improper neutralization of encoded URI schemes in a web page vulnerability that could allow an attacker to call other plugins' functions and supply their own parameters. This vulnerability can be chained with CVE-2026-96652, CVE-2026-96655, and CVE-2026-96656.",
+    "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+    "due_date": "2026-10-23",
+    "known_ransomware_use": false,
+    "cwes": [
+      "CWE-84"
+    ],
+    "notes": "https://forums.plex.tv/t/important-security-update-for-plex-media-server-v1-43-2-and-earlier/942319 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-96654"
+  },
+  {
+    "cve_id": "CVE-2026-96652",
+    "vendor_project": "Plex",
+    "product": "Media Server",
+    "vulnerability_name": "Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
+    "date_added": "2026-10-20",
+    "short_description": "Plex Media Server contains a server-side request forgery (SSRF) vulnerability which could allow an attacker using any X-Plex-Token value to include a full URL in the 'protocol' parameter and force the Plex server to POST to the attacker's chosen destination. This vulnerability can be chained with CVE-2026-96654, CVE-2026-96655, and CVE-2026-96656. ",
+    "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+    "due_date": "2026-11-03",
+    "known_ransomware_use": false,
+    "cwes": [
+      "CWE-918"
+    ],
+    "notes": "https://forums.plex.tv/t/important-security-update-for-plex-media-server-v1-43-2-and-earlier/942319 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-96652"
+  },
+  {
+    "cve_id": "CVE-2026-110936",
+    "vendor_project": "Siemens",
+    "product": "Software Center",
+    "vulnerability_name": "Siemens Software Center Uncontrolled Search Path Element Vulnerability",
+    "date_added": "2026-10-20",
+    "short_description": "Siemens Software Center contains an uncontrolled search path element vulnerability that could allow an authenticated local attacker to place a specially crafted DLL in a directory that the application searches, leading to arbitrary code execution with the privileges of the affected application.",
+    "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+    "due_date": "2026-11-03",
+    "known_ransomware_use": false,
+    "cwes": [
+      "CWE-427"
+    ],
+    "notes": "https://productcert.siemens.com/productcert/html/ssa-580366.html ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-110936"
+  },
+  {
     "cve_id": "CVE-2026-102764",
     "vendor_project": "BeyondTrust",
     "product": "Remote Support",
@@ -2914,97 +3004,5 @@
       "CWE-125"
     ],
     "notes": "https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX696300&articleURL=NetScaler_ADC_and_NetScaler_Gateway_Security_Bulletin_for_CVE_2026_3055_and_CVE_2026_4368 ; https://nvd.nist.gov/vuln/detail/CVE-2026-3055"
-  },
-  {
-    "cve_id": "CVE-2025-53521",
-    "vendor_project": "F5",
-    "product": "BIG-IP",
-    "vulnerability_name": "F5 BIG-IP Stack-Based Buffer Overflow Vulnerability",
-    "date_added": "2026-03-27",
-    "short_description": "F5 BIG-IP APM contains a stack-based buffer overflow vulnerability that could allow a threat actor to achieve remote code execution.",
-    "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-    "due_date": "2026-03-30",
-    "known_ransomware_use": false,
-    "cwes": [
-      "CWE-121"
-    ],
-    "notes": "Please adhere to F5\u2019s guidelines to assess exposure and mitigate risks. Check for signs of potential compromise on all internet accessible F5 products affected by this vulnerability. For more information please see: https://my.f5.com/manage/s/article/K000156741 ; https://my.f5.com/manage/s/article/K000160486 ; https://my.f5.com/manage/s/article/K11438344 ; https://nvd.nist.gov/vuln/detail/CVE-2025-53521"
-  },
-  {
-    "cve_id": "CVE-2026-33634",
-    "vendor_project": "Aquasecurity",
-    "product": "Trivy",
-    "vulnerability_name": "Aquasecurity Trivy Embedded Malicious Code Vulnerability",
-    "date_added": "2026-03-26",
-    "short_description": "Aquasecurity Trivy contains an embedded malicious code vulnerability that could allow an attacker to gain access to everything in the CI/CD environment, including all tokens, SSH keys, cloud credentials, database passwords, and any sensitive configuration in memory.",
-    "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-    "due_date": "2026-04-09",
-    "known_ransomware_use": false,
-    "cwes": [
-      "CWE-506"
-    ],
-    "notes": "This vulnerability involves a supply\u2011chain compromise in a product that may be used across multiple products and environments. Additional vendor\u2011provided guidance must be followed to ensure full remediation. For more information, please see: https://github.com/advisories/GHSA-69fq-xp46-6x23 ; https://nvd.nist.gov/vuln/detail/CVE-2026-33634"
-  },
-  {
-    "cve_id": "CVE-2026-33017",
-    "vendor_project": "Langflow",
-    "product": "Langflow",
-    "vulnerability_name": "Langflow Code Injection Vulnerability",
-    "date_added": "2026-03-25",
-    "short_description": "Langflow contains a code injection vulnerability that could allow building public flows without requiring authentication.",
-    "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-    "due_date": "2026-04-08",
-    "known_ransomware_use": false,
-    "cwes": [
-      "CWE-94",
-      "CWE-95",
-      "CWE-306"
-    ],
-    "notes": "https://github.com/langflow-ai/langflow/security/advisories/GHSA-vwmf-pq79-vjvx ; https://nvd.nist.gov/vuln/detail/CVE-2026-33017"
-  },
-  {
-    "cve_id": "CVE-2025-32432",
-    "vendor_project": "Craft CMS",
-    "product": "Craft CMS",
-    "vulnerability_name": "Craft CMS Code Injection Vulnerability",
-    "date_added": "2026-03-20",
-    "short_description": "Craft CMS contains a code injection vulnerability that allows a remote attacker to execute arbitrary code.",
-    "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-    "due_date": "2026-04-03",
-    "known_ransomware_use": false,
-    "cwes": [
-      "CWE-94"
-    ],
-    "notes": "https://craftcms.com/knowledge-base/craft-cms-cve-2025-32432 ; https://github.com/craftcms/cms/security/advisories/GHSA-f3gw-9ww9-jmc3 ; https://nvd.nist.gov/vuln/detail/CVE-2025-32432"
-  },
-  {
-    "cve_id": "CVE-2025-54068",
-    "vendor_project": "Laravel",
-    "product": "Livewire",
-    "vulnerability_name": "Laravel Livewire Code Injection Vulnerability",
-    "date_added": "2026-03-20",
-    "short_description": "Laravel Livewire contain a code injection vulnerability that could allow unauthenticated attackers to achieve remote command execution in specific scenarios.",
-    "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-    "due_date": "2026-04-03",
-    "known_ransomware_use": false,
-    "cwes": [
-      "CWE-94"
-    ],
-    "notes": "https://github.com/livewire/livewire/security/advisories/GHSA-29cq-5w36-x7w3 ; https://github.com/livewire/livewire/commit/ef04be759da41b14d2d129e670533180a44987dc ; https://nvd.nist.gov/vuln/detail/CVE-2025-54068"
-  },
-  {
-    "cve_id": "CVE-2025-43510",
-    "vendor_project": "Apple",
-    "product": "Multiple Products",
-    "vulnerability_name": "Apple Multiple Products Improper Locking Vulnerability",
-    "date_added": "2026-03-20",
-    "short_description": "Apple watchOS, iOS, iPadOS, macOS, visionOS, and tvOS contain an improper locking vulnerability that could allow a malicious application to cause unexpected changes in memory shared between processes.",
-    "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-    "due_date": "2026-04-03",
-    "known_ransomware_use": false,
-    "cwes": [
-      "CWE-667"
-    ],
-    "notes": "https://support.apple.com/en-us/125632 ; https://support.apple.com/en-us/125633 ; https://support.apple.com/en-us/125634 ; https://support.apple.com/en-us/125635 ; https://support.apple.com/en-us/125636 ; https://support.apple.com/en-us/125637 ; https://support.apple.com/en-us/125638 ; https://support.apple.com/en-us/125639 ; https://nvd.nist.gov/vuln/detail/CVE-2025-43510"
   }
 ]
