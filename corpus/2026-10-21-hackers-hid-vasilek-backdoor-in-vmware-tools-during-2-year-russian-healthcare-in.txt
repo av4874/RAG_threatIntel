@@ -1,0 +1,8 @@
+TITLE: Hackers Hid Vasilek Backdoor in VMware Tools During 2-Year Russian Healthcare Intrusion
+SOURCE: https://thehackernews.com/2026/10/hackers-hid-vasilek-backdoor-in-vmware.html
+---
+A Belarus-aligned hacktivist group spent nearly two years within the network of a Russian healthcare organization.
+
+According to a report published by Russian cybersecurity firm Solar, the activity has been attributed to a threat cluster dubbed Partisan Zmiy, which is also known as the Cyber Partisans.
+
+Known to be active since at least 2020, the group has a track record of striking industrial

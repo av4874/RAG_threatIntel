@@ -1,0 +1,6 @@
+TITLE: Attackers Abuse UpdraftCentral Keys to Plant Backdoors on WordPress Sites
+SOURCE: https://thehackernews.com/2026/10/attackers-abuse-updraftcentral-keys-to.html
+---
+Unknown threat actors breached TeamUpdraft's website and potentially gained unauthorized access to customers' connection keys for UpdraftCentral, UpdraftVault, and UpdraftClone, using them to backdoor WordPress sites.
+
+TeamUpdraft is the developer behind UpdraftPlus, a popular WordPress backup plugin with over four million active installations. The vendor also offers UpdraftCentral, a remote

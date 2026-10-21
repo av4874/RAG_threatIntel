@@ -1,0 +1,4 @@
+TITLE: Hackers Abuse AI Pen-Test Tool Cairn to Automate Massive Attack Spree
+SOURCE: https://www.darkreading.com/cyberattacks-data-breaches/hackers-abuse-ai-pen-test-tool-cairn
+---
+A Chinese-speaking attacker has compromised hundreds of websites across the globe, looting from big fish like John Deere, SharkNinja, and engine manufacturer Cummins.

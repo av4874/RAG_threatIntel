@@ -1,0 +1,4 @@
+TITLE: Close Identity Gaps in Software Development Before Unleashing AI
+SOURCE: https://www.darkreading.com/application-security/close-identity-gaps-sdlc-before-ai
+---
+Artificial Intelligence is complicating security in the software development lifecycle, but a Dark Reading roundtable found collaboration, better identity visibility, and reduced testing costs offer CISOs a way ahead.
