@@ -1,0 +1,4 @@
+TITLE: Cloud Security Alliance Survey Finds Data Loss Prevention Often Detects Data Loss Only After It Happens
+SOURCE: https://www.darkreading.com/cloud-security/cloud-security-alliance-survey-data-loss-prevention-detects-data-loss
+---
+Research finds that, among respondents experiencing data loss, only 16% said DLP blocked their most significant incidents before data left the organization.

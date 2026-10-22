@@ -1,0 +1,8 @@
+TITLE: Google Chrome Adds ClickFix Warnings to Stop Users From Running Malicious Commands
+SOURCE: https://thehackernews.com/2026/10/google-chrome-adds-clickfix-warnings-to.html
+---
+Google on Tuesday said it's rolling out improved safeguards in its Chrome browser to secure users against ClickFix attacks when Enhanced Protection is enabled.
+
+ClickFix is a popular social engineering technique in which bad actors trick users into copying and pasting malicious code directly into their computer's operating system, thereby bypassing conventional security controls.
+
+As part of

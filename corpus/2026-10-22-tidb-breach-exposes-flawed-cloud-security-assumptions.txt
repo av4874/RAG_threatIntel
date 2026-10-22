@@ -1,0 +1,4 @@
+TITLE: TiDB Breach Exposes Flawed Cloud Security Assumptions
+SOURCE: https://www.darkreading.com/cloud-security/tidb-breach-flawed-cloud-security
+---
+Cloud providers may be storing sensitive customer data, without either party knowing it. But when a provider is breached, the data comes home to roost.

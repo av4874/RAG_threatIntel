@@ -1,0 +1,4 @@
+TITLE: 'PHP2Shell' Bugs Signal Red Alert for Security Industry
+SOURCE: https://www.darkreading.com/application-security/php2shell-bugs-red-alert-security-industry
+---
+Security teams are scrambling to remediate two critical PHP vulnerabilities following leaked details and reports of exploitation attempts.

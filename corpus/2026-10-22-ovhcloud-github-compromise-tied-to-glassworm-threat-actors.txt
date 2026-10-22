@@ -1,0 +1,4 @@
+TITLE: OVHcloud GitHub Compromise Tied to GlassWorm Threat Actors
+SOURCE: https://www.darkreading.com/cyberattacks-data-breaches/ovhcloud-github-compromise-glassworm-threat-actors
+---
+A developer's GitHub account that was compromised several months earlier was used to push malicious code to unsuspecting users.

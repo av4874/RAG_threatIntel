@@ -1,0 +1,6 @@
+TITLE: China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack
+SOURCE: https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html
+---
+Microsoft on Wednesday disclosed that a China state-aligned actor dubbed Storm-0940 was behind the recent supply chain compromise of the ConnectWise Cloud Backup application.
+
+During the incident, Storm-0940 used ARTEX, a Go-based agentic AI penetration testing framework that was made closed-source in the wake of its abuse in cyber attacks targeting South Korean financial institutions, to speed

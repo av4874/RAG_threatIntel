@@ -1,0 +1,4 @@
+TITLE: Decades-Old Windows Utility Powers Modern ClickFix Attack
+SOURCE: https://www.darkreading.com/cyberattacks-data-breaches/decades-old-windows-utility-modern-clickfix-attack
+---
+The attack uses malicious Google search results related to Amazon and leverages the &quot;finger&quot; utility to launch a CAPTCHA that installs malware, including the Lumma stealer.

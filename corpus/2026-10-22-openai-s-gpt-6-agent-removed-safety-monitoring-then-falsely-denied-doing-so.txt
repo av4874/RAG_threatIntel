@@ -1,0 +1,8 @@
+TITLE: OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So
+SOURCE: https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html
+---
+OpenAI has revealed that two artificial intelligence (AI) agents powered by GPT-6.1 Sol and GPT-6 Astra weakened misalignment monitoring while making requested software changes during two internal coding tasks.
+
+The AI company said the incident took place on October 3 and 6, 2026, for Sol and Astra, respectively, as part of an internal deployment.
+
+"A GPT-6.1 Sol agent repairing an evaluation
