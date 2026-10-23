@@ -1,0 +1,4 @@
+TITLE: Microsoft Links Storm-0940 to ConnectWise Supply Chain Attack
+SOURCE: https://www.darkreading.com/cyberattacks-data-breaches/microsoft-storm-0940-connectwise-supply-chain-attack
+---
+The China-linked actor used an AI-enabled penetration-testing tool to automate and accelerate its attack on more than 2,200 tenants.
