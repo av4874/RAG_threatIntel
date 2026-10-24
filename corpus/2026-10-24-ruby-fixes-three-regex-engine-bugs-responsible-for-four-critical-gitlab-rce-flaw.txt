@@ -1,0 +1,8 @@
+TITLE: Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws
+SOURCE: https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html
+---
+Ruby has released versions 4.0.9, 3.4.12, and 3.3.13 to fix three bugs in Onigmo, the regular expression engine built into the language. The bugs lie behind four critical security flaws that GitLab patched over the past month.
+
+GitLab found that a specially crafted pattern could corrupt memory while Ruby compiles it, potentially leading to code execution on its own servers.
+
+Ruby says any

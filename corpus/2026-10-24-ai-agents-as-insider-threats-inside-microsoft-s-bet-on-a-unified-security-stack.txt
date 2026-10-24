@@ -1,0 +1,4 @@
+TITLE: AI Agents as Insider Threats: Inside Microsoft's Bet on a Unified Security Stack
+SOURCE: https://www.darkreading.com/cybersecurity-operations/ai-agents-insider-threats-inside-microsoft-unified-security-stack
+---
+Microsoft's Project Perception adds Guardian Agents to monitor and contain anomalous AI agents, but experts warn that policing unpredictable agents with other agents may compound — not contain — the risk.

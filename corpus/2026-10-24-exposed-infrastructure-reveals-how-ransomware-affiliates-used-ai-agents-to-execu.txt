@@ -1,0 +1,6 @@
+TITLE: Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions
+SOURCE: https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html
+---
+Cybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups.
+
+Central to the operation is an "Autonomous Red Team Kill Chain Framework" referred to as Phantom. The threat actor is assessed to be Russian-speaking and functions both as an intrusion and data-extortion operator, as well as an

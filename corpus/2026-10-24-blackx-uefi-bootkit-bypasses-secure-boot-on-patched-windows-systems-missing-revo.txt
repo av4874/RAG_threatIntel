@@ -1,0 +1,6 @@
+TITLE: BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations
+SOURCE: https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html
+---
+Diplomatic organizations in Central Asia have been targeted by a sophisticated new Unified Extensible Firmware Interface (UEFI) bootkit called BlackX.
+
+The activity, which singled out diplomatic entities in Tajikistan, Uzbekistan, and Turkmenistan in early 2026, is suspected to be orchestrated by a China-linked state-sponsored hacking group known as APT41, Kaspersky said in a technical report
