@@ -112,6 +112,20 @@
 
 ## KEV-Only (not covered by RAG lane)
 
+### CVE-2026-114625 - Arista VeloCloud Orchestrator
+**Vulnerability:** Arista VeloCloud Orchestrator SQL Injection Vulnerability
+
+**MITRE CWE:** CWE-89
+
+**References:** https://www.arista.com/en/support/advisories-notices/security-advisory/24838-security-advisory-0199 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-114625
+
+### CVE-2026-110447 - Collabora Collabora Online – Built-in CODE Server
+**Vulnerability:** Collabora Online – Built-in CODE Server OS Command Injection Vulnerability
+
+**MITRE CWE:** CWE-78
+
+**References:** https://help.nextcloud.com/t/to-collabora-built-in-user-update-asap/250516 ; https://github.com/CollaboraOnline/online/security/advisories/GHSA-g3vx-3m76-fghh ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-110447
+
 ### CVE-2026-106931 - EG Secure Solutions SiteGuard Server Edition
 **Vulnerability:** EG Secure Solutions SiteGuard Server Edition OS Command Injection Vulnerability
 
@@ -307,17 +321,3 @@
 **MITRE CWE:** CWE-119
 
 **References:** Running the provided IOCs in the NetScaler console may help identify indicators of exploitation. Customers must conduct forensic triage as directed by BOD 26‑04 and follow Citrix’s published guidance for mitigations. For more information, please see: https://community.citrix.com/techzone-blogs/110_security-updates/netscaler-adc-and-netscaler-gateway-security-bulletin-for-cve-2026-88771-through-cve-2026-88778 ; https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX697096 ; https://support.citrix.com/external/article/CTX694799/steps-to-take-if-netscaler-adc-is-suspec.html ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-88772
-
-### CVE-2026-67279 - MikroTik RouterOS
-**Vulnerability:** Mikrotik RouterOS Improper Enforcement of Behavioral Workflow Vulnerability
-
-**MITRE CWE:** CWE-841
-
-**References:** https://mikrotik.com/supportsec/september-2026-vulnerability ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-67279
-
-### CVE-2026-65660 - Microsoft SharePoint
-**Vulnerability:** Microsoft SharePoint Code Injection Vulnerability
-
-**MITRE CWE:** CWE-94
-
-**References:** https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-65660 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-65660
