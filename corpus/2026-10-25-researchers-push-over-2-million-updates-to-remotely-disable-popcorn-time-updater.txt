@@ -1,0 +1,8 @@
+TITLE: Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet
+SOURCE: https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html
+---
+Between November 2025 and March 2026, the Dutch security firm Eye Security pushed more than 2 million updates to computers it did not own to switch off a background updater that it said could have allowed an outsider to take over the machine.
+
+The updater belongs to Time4Popcorn, an abandoned copy of Popcorn Time, a free app that streamed pirated films and TV over BitTorrent.
+
+Popcorn Time was
