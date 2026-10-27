@@ -1,0 +1,4 @@
+TITLE: In-the-Wild Attack Abuses AI Agents' Trust in Markdown
+SOURCE: https://www.darkreading.com/application-security/in-the-wild-attack-ai-agents-trust-markdown
+---
+A new AI agent prompt injection technique exploits how coding assistants consume local instruction files, blurring the line between text documents and executable actions.

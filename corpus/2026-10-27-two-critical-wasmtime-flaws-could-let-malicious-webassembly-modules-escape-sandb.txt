@@ -1,0 +1,6 @@
+TITLE: Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes
+SOURCE: https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html
+---
+Two critical flaws in&nbsp;Wasmtime, a WebAssembly runtime that can be built into other software, could allow a malicious WebAssembly module to escape the sandbox intended to contain it, the project's maintainers say.
+
+An attacker would first need a vulnerable Wasmtime build to compile a module they control, and one of the flaws affects only ARM64 systems. Fixed versions were released on

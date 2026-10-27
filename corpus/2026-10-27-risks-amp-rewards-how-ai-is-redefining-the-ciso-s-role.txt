@@ -1,0 +1,4 @@
+TITLE: Risks &amp; Rewards: How AI Is Redefining the CISO's Role
+SOURCE: https://www.darkreading.com/cybersecurity-careers/risks-rewards-ai-redefining-ciso-role
+---
+Nvidia security executive Mark Weatherford says CISOs must help business leaders weigh AI's pros and cons, and ensure those deploying it own the risks.

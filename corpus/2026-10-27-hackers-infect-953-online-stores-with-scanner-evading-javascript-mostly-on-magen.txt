@@ -1,0 +1,8 @@
+TITLE: Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento
+SOURCE: https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html
+---
+An unknown threat actor has infected 953 online stores, most of them running Magento, as part of a long-running campaign active since July 2025.
+
+According to Dutch e-commerce security company Sansec, the activity is designed to add a small piece of code to the store's pages that, when visited by unsuspecting users, serves malicious JavaScript loader code through Magento CMS blocks.
+
+"When you

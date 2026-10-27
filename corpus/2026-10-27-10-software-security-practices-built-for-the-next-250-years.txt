@@ -1,0 +1,4 @@
+TITLE: 10 Software Security Practices Built for the Next 250 Years
+SOURCE: https://www.darkreading.com/cyberattacks-data-breaches/10-software-security-practices-built-250-years
+---
+This Cybersecurity Awareness Month's theme, &quot;Securing the Next 250,&quot; asks us to look beyond vulnerabilities and consider what will make our digital systems resilient for generations.
