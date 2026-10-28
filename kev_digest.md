@@ -271,6 +271,32 @@
 
 **References:** https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-21529 ; https://nvd.nist.gov/vuln/detail/CVE-2023-21529
 
+## CVE-2026-48356 - Adobe Commerce and Magento
+**Vulnerability:** Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability
+
+**Description:** Adobe Commerce and Magento contain an unrestricted upload of file with dangerous type vulnerability that could result in arbitrary code execution in the context of the current user, potentially gaining elevated access or control over the victim's account or session.
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-10-27 | **Due Date:** 2026-11-10
+
+**MITRE CWE:** CWE-434
+
+**References:** https://www.adobe.com/trust/security/products/commerce/apsb26-73.html ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-48356
+
+## CVE-2026-111497 - Google Brotli
+**Vulnerability:** Google Brotli Unchecked Return Value Vulnerability
+
+**Description:** Google Brotli contains an unchecked return value vulnerability that allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a crafted Brotli-compressed stream.
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-10-27 | **Due Date:** 2026-11-10
+
+**MITRE CWE:** CWE-252, CWE-787
+
+**References:** This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://github.com/google/brotli/releases/tag/v1.2.1 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-111497
+
 ## CVE-2026-109618 - PHP Group PHP
 **Vulnerability:** PHP Memory Corruption Vulnerability
 
@@ -2557,29 +2583,3 @@
 **MITRE CWE:** CWE-89
 
 **References:** https://fortiguard.fortinet.com/psirt/FG-IR-25-1142 ; https://nvd.nist.gov/vuln/detail/CVE-2026-21643
-
-## CVE-2026-34621 - Adobe Acrobat and Reader
-**Vulnerability:** Adobe Acrobat and Reader Prototype Pollution Vulnerability
-
-**Description:** Adobe Acrobat and Reader contain a prototype pollution vulnerability that allows for arbitrary code execution.
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2026-04-13 | **Due Date:** 2026-04-27
-
-**MITRE CWE:** CWE-1321
-
-**References:** https://helpx.adobe.com/security/products/acrobat/apsb26-43.html ; https://nvd.nist.gov/vuln/detail/CVE-2026-34621
-
-## CVE-2026-1340 - Ivanti Endpoint Manager Mobile (EPMM)
-**Vulnerability:** Ivanti Endpoint Manager Mobile (EPMM) Code Injection Vulnerability
-
-**Description:** Ivanti Endpoint Manager Mobile (EPMM) contains a code injection vulnerability that could allow attackers to achieve unauthenticated remote code execution.
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2026-04-08 | **Due Date:** 2026-04-11
-
-**MITRE CWE:** CWE-94
-
-**References:** Please adhere to Ivanti's guidelines to assess exposure and mitigate risks. Check for signs of potential compromise on all internet accessible Ivanti products affected by this vulnerability. Apply any final mitigations provided by the vendor as soon as possible. For more information please see: https://hub.ivanti.com/s/article/Security-Advisory-Ivanti-Endpoint-Manager-Mobile-EPMM-CVE-2026-1281-CVE-2026-1340?language=en_US ; https://support.mobileiron.com/mi/vsp/AB1786671/ivanti-security-update-1761642-1.1.0S-5.noarch.rpm ; https://support.mobileiron.com/mi/vsp/AB1786671/ivanti-security-update-1761642-1.1.0L-5.noarch.rpm ; https://nvd.nist.gov/vuln/detail/CVE-2026-1340
