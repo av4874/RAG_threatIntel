@@ -1,0 +1,4 @@
+TITLE: 'Aokigahara' Stealer Targets 'Developer Keyrings' &amp; AI Assistants
+SOURCE: https://www.darkreading.com/endpoint-security/aokigahara-stealer-developer-keyrings-ai-assistants
+---
+The malware's focus on AI tools expands the traditional infostealer playbook to expose a forest of AI sessions, sensitive business data, and developer infrastructure from a single compromised endpoint.

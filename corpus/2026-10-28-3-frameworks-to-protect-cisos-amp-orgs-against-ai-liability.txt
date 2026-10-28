@@ -1,0 +1,4 @@
+TITLE: 3 Frameworks to Protect CISOs &amp; Orgs Against AI Liability
+SOURCE: https://www.darkreading.com/cyber-risk/3-frameworks-cisos-ai-liability
+---
+Cyber leaders can get ahead of AI liability with rigorous documentation, transparency, and smart contract negotiations with AI vendors.

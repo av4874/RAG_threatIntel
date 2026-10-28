@@ -1,0 +1,6 @@
+TITLE: Tailscale Patches SSH Flaws That Could Let Hacked Devices Gain Root Access on Other Servers
+SOURCE: https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html
+---
+Tailscale has released&nbsp;version 1.104.4&nbsp;to fix flaws in its built-in SSH server that could let an attacker reach services and files on other servers that only the&nbsp;root&nbsp;user should be able to touch.
+
+The flaws are in how&nbsp;Tailscale SSH&nbsp;forwards network connections, a job the Tailscale background process carries out with root privileges. To use them, an attacker must

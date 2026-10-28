@@ -1,0 +1,4 @@
+TITLE: Beware the Slasher: AI Could Kill Off Cybersecurity Pros' Skills
+SOURCE: https://www.darkreading.com/cybersecurity-operations/ai-kill-off-cybersecurity-pros-skills
+---
+Nathan Hamiel outlines potential SecOps horror in the AI midst, as core technical capabilities go the way of reading an atlas or remembering phone numbers.

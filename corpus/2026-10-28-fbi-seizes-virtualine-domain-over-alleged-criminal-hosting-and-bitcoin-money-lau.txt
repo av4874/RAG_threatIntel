@@ -1,0 +1,6 @@
+TITLE: FBI Seizes Virtualine Domain Over Alleged Criminal Hosting and Bitcoin Money Laundering
+SOURCE: https://thehackernews.com/2026/10/fbi-seizes-virtualine-domain-over.html
+---
+The U.S. Department of Justice (DoJ) on Tuesday announced the seizure of a domain associated with a bulletproof hosting provider (BPH) named Virtualine.
+
+The move was in response to the service being used to commit and facilitate prolific criminal activity, including "the advertisement of sexually explicit images of minors, the intentional disclosure of nonconsensual intimate visual depictions
