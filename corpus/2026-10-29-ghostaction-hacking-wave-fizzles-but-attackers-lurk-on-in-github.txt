@@ -1,0 +1,4 @@
+TITLE: GhostAction Hacking Wave Fizzles, But Attackers Lurk on in GitHub
+SOURCE: https://www.darkreading.com/application-security/ghostaction-hacking-wave-fizzles-attackers-github
+---
+The supply chain attack campaign's shift toward developer endpoints and cloud access signals what could be next for the cybercrime outfit.

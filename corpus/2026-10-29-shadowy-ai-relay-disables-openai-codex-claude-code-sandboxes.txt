@@ -1,0 +1,4 @@
+TITLE: Shadowy AI Relay Disables OpenAI Codex, Claude Code Sandboxes
+SOURCE: https://www.darkreading.com/threat-intelligence/ai-relay-service-openai-codex-claude-code-sandboxes
+---
+The enigmatic service is providing popular AI coding tools to mainland China and other regions where OpenAI and Anthropic products are not officially for sale — but with key security features turned off.
