@@ -271,6 +271,32 @@
 
 **References:** https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-21529 ; https://nvd.nist.gov/vuln/detail/CVE-2023-21529
 
+## CVE-2026-41709 - Broadcom VMware ESX
+**Vulnerability:** Broadcom VMWare ESX Insufficient Logging Vulnerability
+
+**Description:** Broadcom VMWare ESX contains an insufficient logging vulnerability that could allow a malicious actor with admin access to perform certain operations without being logged.
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-10-28 | **Due Date:** 2026-11-11
+
+**MITRE CWE:** CWE-778
+
+**References:** https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/38017 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-41709
+
+## CVE-2026-46300 - Linux Kernel
+**Vulnerability:** Linux Kernel Missing Initialization of a Variable Vulnerability
+
+**Description:** Linux Kernel contains a missing initialization of a variable vulnerability that could allow for unintended modification of page-cache-backed data via failure to preserve the shared-fragment marker during socket buffer coalescing, causing ESP input processing to decrypt shared fragments in place. This vulnerability can be chained with CVE-2026-109618 and CVE-2026-109619 to implant PHP webshells and run commands as root.
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-10-28 | **Due Date:** 2026-10-31
+
+**MITRE CWE:** CWE-456
+
+**References:** This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: ; https://git.kernel.org/stable/c/3599e6b3cc1ada96883d496a50a210d3afbb6987 ; https://git.kernel.org/stable/c/2f2b16022a2e10ca7bccfb98db5ed2ec0f72641c ; https://git.kernel.org/stable/c/9d3e5fd19fe1063bf607219e8562fbd567b8e8d5 ; https://git.kernel.org/stable/c/78bf6b6bb19541d19fbda6242e7cfe2c682763c0 ; https://git.kernel.org/stable/c/760e1addc27ba1a7beb4a0a7e8b3e9ec49e7a34e ; https://git.kernel.org/stable/c/3bd9e113d50034db99d7ef69fd8e5242d15e414a ; https://git.kernel.org/stable/c/3884358a9286b17f389a72b1426fc4547c23c111 ; https://git.kernel.org/stable/c/f84eca5817390257cef78013d0112481c503b4a3 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-46300
+
 ## CVE-2026-48356 - Adobe Commerce and Magento
 **Vulnerability:** Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability
 
@@ -2557,29 +2583,3 @@
 **MITRE CWE:** CWE-125
 
 **References:** https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2023-36424 ; https://nvd.nist.gov/vuln/detail/CVE-2023-36424
-
-## CVE-2020-9715 - Adobe Acrobat
-**Vulnerability:** Adobe Acrobat Use-After-Free Vulnerability
-
-**Description:** Adobe Acrobat contains a use-after-free vulnerability that allows for code execution
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2026-04-13 | **Due Date:** 2026-04-27
-
-**MITRE CWE:** CWE-416
-
-**References:** https://helpx.adobe.com/security/products/acrobat/apsb20-48.html ; https://nvd.nist.gov/vuln/detail/CVE-2020-9715
-
-## CVE-2026-21643 - Fortinet FortiClient EMS
-**Vulnerability:** Fortinet FortiClient EMS SQL Injection Vulnerability
-
-**Description:** Fortinet FortiClient EMS contains a SQL injection vulnerability that may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP requests.
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2026-04-13 | **Due Date:** 2026-04-16
-
-**MITRE CWE:** CWE-89
-
-**References:** https://fortiguard.fortinet.com/psirt/FG-IR-25-1142 ; https://nvd.nist.gov/vuln/detail/CVE-2026-21643
