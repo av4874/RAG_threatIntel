@@ -1,0 +1,4 @@
+TITLE: AI Takes Root in Hospital Corridors, Raises Security Stakes
+SOURCE: https://www.darkreading.com/cybersecurity-operations/ai-root-hospital-corridors-raised-security-stakes
+---
+Artificial intelligence (AI) is everywhere in healthcare, from doctors’ intake forms to cancer screenings. But in some cases, life-and-death uses are outpacing cybersecurity.

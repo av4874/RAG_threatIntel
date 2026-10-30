@@ -1,0 +1,8 @@
+TITLE: Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls
+SOURCE: https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html
+---
+A flaw in Telegram for Android could be chained with two other bugs to take full control of a victim's phone through a voice call, once the victim answered, according to security startup NebuSec.
+
+The attacker needed only an ordinary Telegram account. Telegram fixed the flaw in version 12.10.4 of the app, released in late September, and NebuSec&nbsp;disclosed it on October 29.
+
+Combined with an

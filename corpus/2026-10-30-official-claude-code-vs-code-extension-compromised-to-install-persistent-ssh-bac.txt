@@ -1,0 +1,8 @@
+TITLE: Official Claude Code VS Code Extension Compromised to Install Persistent SSH Backdoor
+SOURCE: https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html
+---
+Cybersecurity researchers have disclosed that the official Anthropic Claude Code extension was compromised on the Open VSX registry to install a persistent SSH backdoor on infected hosts.
+
+The issue has since been traced to the compromise of the Cursor Marketplace, prompting the AI coding platform Cursor to briefly take down the service to remove the malware.
+
+"We identified a security incident

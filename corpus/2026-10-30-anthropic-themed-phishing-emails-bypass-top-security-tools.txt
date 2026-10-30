@@ -1,0 +1,4 @@
+TITLE: Anthropic-Themed Phishing Emails Bypass Top Security Tools
+SOURCE: https://www.darkreading.com/cyberattacks-data-breaches/anthropic-phishing-emails-bypass-security-tools
+---
+Obvious phishing emails with numerous red flags are somehow getting past some of the industry-leading secure email gateway (SEG) products.
