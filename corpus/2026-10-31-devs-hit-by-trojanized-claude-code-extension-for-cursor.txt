@@ -1,0 +1,4 @@
+TITLE: Devs Hit by Trojanized Claude Code Extension for Cursor
+SOURCE: https://www.darkreading.com/cyberattacks-data-breaches/devs-trojanized-claude-code-extension-cursor
+---
+Two serious security issues hit Cursor on the same day, highlighting the risks for AI-powered integrated development environments (IDEs).

@@ -1,0 +1,4 @@
+TITLE: L’Italia è afflitta da vulnerabilità informatiche, senza una causa chiara
+SOURCE: https://www.darkreading.com/cybersecurity-analytics/cyber-vulnerabilities-besiege-italy-italian
+---
+I ricercatori non riescono a spiegare del tutto perché le minacce informatiche in Italia siano così diverse rispetto a quelle di qualsiasi altro Paese.

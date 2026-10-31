@@ -1,0 +1,4 @@
+TITLE: Behind the Scenes of How Operation Blackout Went Down
+SOURCE: https://www.darkreading.com/cybersecurity-operations/behind-the-scenes-how-operation-blackout-went-down
+---
+A recent law enforcement operation to dismantle harmful scam centers was a big success. A threat intelligence expert walks us through what happened and why he wants more of the same.

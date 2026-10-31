@@ -1,0 +1,4 @@
+TITLE: Why CTF Competitions May Be More Important Than Ever
+SOURCE: https://www.darkreading.com/cybersecurity-operations/why-ctf-more-important-than-ever
+---
+As artificial intelligence squeezes early-career learning opportunities, capture-the-flag contests could be one way to help pick up the slack.

@@ -1,0 +1,4 @@
+TITLE: Undead Software Projects Continue to Raise Security Risks
+SOURCE: https://www.darkreading.com/application-security/undead-software-projects-raise-security-risks
+---
+A security firm patched a decade-old app to prevent the takeover of millions of machines, highlighting that abandoned domains remain a boon to attackers.

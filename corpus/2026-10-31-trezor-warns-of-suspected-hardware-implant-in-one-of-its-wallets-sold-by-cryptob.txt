@@ -1,0 +1,8 @@
+TITLE: Trezor Warns of Suspected Hardware Implant in One of Its Wallets Sold by CryptoBilis
+SOURCE: https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html
+---
+A Trezor Safe 5 hardware wallet bought from the reseller CryptoBilis has an extra circuit board that sends out the recovery phrase over a mobile network, a customer has reported.
+
+Trezor has not yet examined the device. It is telling everyone who bought a Trezor from CryptoBilis since March 2026 to move their funds to a new wallet with a new recovery phrase.
+
+Trezor said in a&nbsp;blog post&nbsp
