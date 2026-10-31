@@ -245,18 +245,31 @@
 
 **References:** https://www.jetbrains.com/privacy-security/issues-fixed/ ; https://blog.jetbrains.com/teamcity/2024/03/additional-critical-security-issues-affecting-teamcity-on-premises-cve-2024-27198-and-cve-2024-27199-update-to-2023-11-4-now/ ; https://nvd.nist.gov/vuln/detail/CVE-2024-27199
 
-## CVE-2025-60710 - Microsoft Windows (RANSOMWARE-LINKED)
-**Vulnerability:** Microsoft Windows Link Following Vulnerability
+## CVE-2026-118527 - Ivanti Connect Secure
+**Vulnerability:** Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability
 
-**Description:** Microsoft Windows contains a link following vulnerability that allows for privilege escalation
+**Description:** Ivanti Connect Secure contains a generation of predictable numbers or identifiers vulnerability that allows a remote authenticated attacker to upload files with attacker-controlled content to a known location on disk. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-111357.
 
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
-**Date Added:** 2026-04-13 | **Due Date:** 2026-04-27
+**Date Added:** 2026-10-30 | **Due Date:** 2026-11-13
 
-**MITRE CWE:** CWE-59
+**MITRE CWE:** CWE-340
 
-**References:** https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-60710 ; https://nvd.nist.gov/vuln/detail/CVE-2025-60710
+**References:** https://hub.ivanti.com/s/article/Security-Advisory-Ivanti-Connect-Secure-CVE-2026-104935?language=en_US ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-118527
+
+## CVE-2026-111357 - Ivanti Connect Secure
+**Vulnerability:** Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability
+
+**Description:** Ivanti Connect Secure contains a missing authentication for critical function vulnerability that could allow a local authenticated attacker to escalate their privileges. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-118527.
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-10-30 | **Due Date:** 2026-11-02
+
+**MITRE CWE:** CWE-306, CWE-862, CWE-345
+
+**References:** https://hub.ivanti.com/s/article/Security-Advisory-Ivanti-Connect-Secure-CVE-2026-104935?language=en_US ; https://www.cisa.gov/news-events/alerts/2026/10/13/cisa-urges-patching-newly-exploited-vulnerability-ivanti-connect-secure ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-111357
 
 ## CVE-2026-97229 - GitLab Community Edition and Enterprise Edition
 **Vulnerability:** GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound Vulnerability
@@ -2570,16 +2583,3 @@
 **MITRE CWE:** CWE-20
 
 **References:** https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-32201 ; https://nvd.nist.gov/vuln/detail/CVE-2026-32201
-
-## CVE-2012-1854 - Microsoft Visual Basic for Applications (VBA)
-**Vulnerability:** Microsoft Visual Basic for Applications Insecure Library Loading Vulnerability
-
-**Description:** Microsoft Visual Basic for Applications (VBA) contains an insecure library loading vulnerability that could allow for remote code execution.
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2026-04-13 | **Due Date:** 2026-04-27
-
-**MITRE CWE:** CWE-426
-
-**References:** https://learn.microsoft.com/en-us/security-updates/securitybulletins/2012/ms12-046 ; https://nvd.nist.gov/vuln/detail/CVE-2012-1854
