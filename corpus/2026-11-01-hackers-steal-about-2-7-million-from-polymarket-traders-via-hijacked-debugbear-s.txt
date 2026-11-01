@@ -1,0 +1,6 @@
+TITLE: Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script
+SOURCE: https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html
+---
+Malicious code on the website of prediction market Polymarket sold some signed-in traders' positions and moved their funds to the hackers on October 29. The code had replaced a page-speed script that the site loaded from an outside company.
+
+Polymarket says&nbsp;it is refunding about $2.7 million to 726 affected wallets.&nbsp;Blockchain records&nbsp;show crypto worth about $2.64 million reached
