@@ -1,0 +1,6 @@
+TITLE: Government Linux Servers Targeted With SysGoRAT and Suspected AI-Generated Scripts
+SOURCE: https://thehackernews.com/2026/11/government-linux-servers-targeted-with.html
+---
+Cybersecurity researchers have disclosed details of a cyber espionage campaign specifically targeting Linux infrastructure associated with government entities and state-affiliated infrastructure.
+
+The activity, observed by Palo Alto Networks Unit 42 between October 2025 and April 2026, has been tracked under the moniker CL-UNK-1211, where "CL" refers to cluster and "UNK" stands for unknown

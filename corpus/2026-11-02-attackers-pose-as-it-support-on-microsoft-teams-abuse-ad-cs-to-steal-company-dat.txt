@@ -1,0 +1,6 @@
+TITLE: Attackers Pose as IT Support on Microsoft Teams, Abuse AD CS to Steal Company Data
+SOURCE: https://thehackernews.com/2026/11/attackers-pose-as-it-support-on.html
+---
+Attackers posing as IT support on Microsoft Teams talked employees into giving them remote control of their PCs. They then used insecure Active Directory Certificate Services (AD CS) settings to obtain login certificates for privileged accounts, including one for a domain controller.
+
+Microsoft said in&nbsp;a report&nbsp;that it investigated two such intrusions, one of which resulted in company
