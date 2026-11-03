@@ -1,0 +1,4 @@
+TITLE: PapRAT Cyber-Espionage Campaign Leaves a 'Bitter' Taste in South Asia
+SOURCE: https://www.darkreading.com/cyberattacks-data-breaches/paprat-cyberespionage-campaign-bitter-south-asia
+---
+Organizations in the region face growing cyberattacks from the known India-linked threat group, which leverages legitimate Windows functionality in three distinct attack chains.

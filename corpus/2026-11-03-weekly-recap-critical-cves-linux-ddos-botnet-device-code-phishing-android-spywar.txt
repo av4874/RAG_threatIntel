@@ -1,0 +1,6 @@
+TITLE: ⚡ Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More
+SOURCE: https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html
+---
+Some attacks this week didn't need much of a trick. A fake support call, a trusted extension, a shared link, or a device with no password. Small things that people barely think about. Yet each was enough to cause serious trouble.
+
+Then there were the bigger messes. Billions stolen, hidden networks of hacked devices, poisoned software, and attackers finding new ways to turn normal tools against

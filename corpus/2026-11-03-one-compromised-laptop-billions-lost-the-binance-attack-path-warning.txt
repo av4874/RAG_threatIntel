@@ -1,0 +1,4 @@
+TITLE: One Compromised Laptop, Billions Lost: The Binance Attack-Path Warning
+SOURCE: https://www.darkreading.com/cyberattacks-data-breaches/binance-hack-test-attack-paths
+---
+The record theft shows how weak system separation, inadequate controls, and untested attack possibilities can turn one breach into systemic loss.

@@ -1,0 +1,4 @@
+TITLE: Microsoft's AI Risk Report Misses This Key Detail
+SOURCE: https://www.darkreading.com/cyberattacks-data-breaches/microsoft-ai-cyber-risk-report-miss
+---
+The latest &quot;Digital Defense Report&quot; identifies government agencies as prime targets for AI attacks but doesn't mention that they are broadly being targeted through Microsoft bugs.
