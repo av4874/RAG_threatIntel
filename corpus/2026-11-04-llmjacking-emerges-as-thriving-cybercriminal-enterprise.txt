@@ -1,0 +1,4 @@
+TITLE: LLMjacking Emerges as Thriving Cybercriminal Enterprise
+SOURCE: https://www.darkreading.com/cloud-security/llmjacking-thriving-cybercriminal-enterprise
+---
+Cybercriminals have turned reselling cloud access to LLMs into a lucrative business model, with some victims paying as much as $1 million in resource consumption before access was revoked.

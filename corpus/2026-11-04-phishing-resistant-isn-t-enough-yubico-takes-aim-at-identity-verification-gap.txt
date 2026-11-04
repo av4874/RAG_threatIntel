@@ -1,0 +1,4 @@
+TITLE: Phishing-Resistant Isn't Enough; Yubico Takes Aim at Identity-Verification Gap
+SOURCE: https://www.darkreading.com/identity-access-management-security/beyond-phishing-resistant-yubico-identity-verification-gap
+---
+The new YubiID service bridges identity verification with credential enrollment and recovery across existing identity platforms, closing a phishing-resistant authentication gap. Plus: post-quantum YubiKey beta.

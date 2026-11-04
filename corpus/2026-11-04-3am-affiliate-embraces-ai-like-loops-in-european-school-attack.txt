@@ -1,0 +1,4 @@
+TITLE: 3AM Affiliate Embraces AI-Like Loops in European School Attack
+SOURCE: https://www.darkreading.com/data-privacy/3am-affiliate-ai-loops-european-school-attack
+---
+Evidence suggests a model may have generated and revised commands during the ransom gang's breach, though researchers stopped short of claiming full automation.

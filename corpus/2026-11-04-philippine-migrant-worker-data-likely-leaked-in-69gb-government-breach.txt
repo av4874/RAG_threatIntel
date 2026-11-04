@@ -1,0 +1,4 @@
+TITLE: Philippine Migrant Worker Data Likely Leaked in 69GB Government Breach
+SOURCE: https://www.darkreading.com/cyberattacks-data-breaches/philippine-migrant-worker-data-69gb-government-breach
+---
+An unknown operator appears to have exfiltrated SQL Server backups from the Philippine Overseas Employment Administration in under a half hour.
