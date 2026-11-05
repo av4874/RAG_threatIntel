@@ -1,0 +1,4 @@
+TITLE: Incidents Move Too Fast for Pen &amp; Paper
+SOURCE: https://www.darkreading.com/cybersecurity-operations/incidents-move-fast-pen-paper
+---
+Organizations may not be ready for completely autonomous communication processes, but there are places where automating information updates would alleviate pressure.

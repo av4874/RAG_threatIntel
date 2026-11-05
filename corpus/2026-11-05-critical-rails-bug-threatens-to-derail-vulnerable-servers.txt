@@ -1,0 +1,4 @@
+TITLE: Critical Rails Bug Threatens to Derail Vulnerable Servers
+SOURCE: https://www.darkreading.com/application-security/critical-rails-bug-derail-vulnerable-servers
+---
+An attacker could write arbitrary files and read sensitive files via images uploaded to the Rails Active Storage ImageMagick integration, possibly positioning a threat actor for lateral movement.
