@@ -1,0 +1,4 @@
+TITLE: US Government Email Systems Open to Abuse Thanks to Typos
+SOURCE: https://www.darkreading.com/cybersecurity-operations/us-government-email-systems-abuse-typos
+---
+Erroneous or outdated DNS records can give attackers surprising powers over organizations' email systems.

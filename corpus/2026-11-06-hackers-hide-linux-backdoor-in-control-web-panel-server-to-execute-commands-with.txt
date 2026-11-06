@@ -1,0 +1,6 @@
+TITLE: Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs
+SOURCE: https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html
+---
+A backdoor has been found hiding in the web server that runs Control Web Panel (CWP), a free panel for managing Linux hosting servers, researchers at QiAnXin's XLab said this week.
+
+The backdoored web server executes commands that attackers send via web requests, and those requests never appear in its access logs. Installing it takes root access, so the attackers must already control the server.

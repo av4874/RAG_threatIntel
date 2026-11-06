@@ -1,0 +1,4 @@
+TITLE: SecurityDataPipeline.com Launches as a New Educational Resource for the AI Era
+SOURCE: https://www.darkreading.com/cybersecurity-operations/securitydatapipeline-com-launches-as-a-new-educational-resource-for-the-ai-era
+---
+The ungated resource explains how security data pipelines reduce SIEM ingestion costs, preserve detection coverage, and prepare the data layer for AI-driven security operations.
