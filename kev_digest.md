@@ -245,6 +245,19 @@
 
 **References:** https://www.jetbrains.com/privacy-security/issues-fixed/ ; https://blog.jetbrains.com/teamcity/2024/03/additional-critical-security-issues-affecting-teamcity-on-premises-cve-2024-27198-and-cve-2024-27199-update-to-2023-11-4-now/ ; https://nvd.nist.gov/vuln/detail/CVE-2024-27199
 
+## CVE-2026-19868 - SonicWall SonicOS SSLVPN
+**Vulnerability:** SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability
+
+**Description:** SonicWall SonicOS SSLVPN contains a use of single-factor authentication vulnerability that may allow a user with valid credentials for an alternate authentication method to bypass SAML authentication controls. Successful exploitation may also bypass SAML-enforced multi-factor authentication (MFA).
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-11-06 | **Due Date:** 2026-11-20
+
+**MITRE CWE:** CWE-308
+
+**References:** https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2026-0014 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-19868
+
 ## CVE-2024-27834 - Apple Multiple Products
 **Vulnerability:** Apple Multiple Products Improper Authentication Vulnerability
 
@@ -2570,16 +2583,3 @@
 **MITRE CWE:** CWE-287
 
 **References:** https://support.quest.com/kb/4379499/quest-response-to-kace-sma-vulnerabilities-cve-2025-32975-cve-2025-32976-cve-2025-32977-cve-2025-32978 ; https://nvd.nist.gov/vuln/detail/CVE-2025-32975
-
-## CVE-2026-34197 - Apache ActiveMQ
-**Vulnerability:** Apache ActiveMQ Improper Input Validation Vulnerability
-
-**Description:** Apache ActiveMQ contains an improper input validation vulnerability that allows for code injection.
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2026-04-16 | **Due Date:** 2026-04-30
-
-**MITRE CWE:** CWE-20, CWE-94
-
-**References:** https://activemq.apache.org/security-advisories.data/CVE-2026-34197-announcement.txt ; https://nvd.nist.gov/vuln/detail/CVE-2026-34197
