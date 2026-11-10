@@ -1,0 +1,4 @@
+TITLE: NIST: Solo Shouldn't Mean Less Secure
+SOURCE: https://www.darkreading.com/cybersecurity-operations/nist-solo-shouldnt-mean-less-secure
+---
+New guidance provides a basic framework for less-technical solo business owners, but it may miss the mark on how to secure technology that requires no human oversight.

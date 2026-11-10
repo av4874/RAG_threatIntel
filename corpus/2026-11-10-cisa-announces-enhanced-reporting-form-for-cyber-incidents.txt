@@ -1,0 +1,4 @@
+TITLE: CISA Announces Enhanced Reporting Form for Cyber Incidents
+SOURCE: https://www.darkreading.com/cyberattacks-data-breaches/cisa-announces-enhanced-reporting-form-cyber-incidents
+---
+New questionnaire captures critical data and information that improves the agency’s ability to assess incidents, identify trends and prioritize response actions.

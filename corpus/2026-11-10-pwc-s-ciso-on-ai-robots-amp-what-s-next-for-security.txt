@@ -1,0 +1,4 @@
+TITLE: PwC's CISO on AI, Robots &amp; What's Next for Security
+SOURCE: https://www.darkreading.com/cybersecurity-operations/pwc-ciso-ai-robots-security
+---
+As AI accelerates change across the enterprise, PwC's James Shira explains why security teams must rethink their approach to risk and adapt their strategies.
