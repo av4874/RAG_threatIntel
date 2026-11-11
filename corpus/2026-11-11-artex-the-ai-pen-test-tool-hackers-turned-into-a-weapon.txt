@@ -1,0 +1,4 @@
+TITLE: Artex: The AI Pen-Test Tool Hackers Turned Into a Weapon
+SOURCE: https://www.darkreading.com/cyberattacks-data-breaches/artex-ai-pen-test-tool-hackers-weapon
+---
+Forks of the open source Artex framework, along with 45 similar pen-testing tools, remain capable of executing credential attacks and cloud breaches at machine speed across multiple industries.

@@ -1,0 +1,4 @@
+TITLE: F-Secure Identifies 26 Ways AI Can Harm Consumers, and Where to Stop Them
+SOURCE: https://www.darkreading.com/application-security/f-secure-26-ways-ai-harm-consumers-where-to-stop-them
+---
+New AI Harms Taxonomy traces how harm moves through AI systems, from misleading chatbot answers to compromised autonomous agents, and identifies where defenses can intervene.

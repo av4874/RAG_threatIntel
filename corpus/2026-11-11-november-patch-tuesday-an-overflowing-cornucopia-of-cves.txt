@@ -1,0 +1,4 @@
+TITLE: November Patch Tuesday: An Overflowing Cornucopia of CVEs
+SOURCE: https://www.darkreading.com/vulnerabilities-threats/november-patch-tuesday-cornucopia-cves
+---
+Microsoft serves up an actively exploited Outlook zero-day, and a wave of critical Exchange, SharePoint, Windows Search, and LDAP bugs that exhausted defenders need to prioritize fast.
