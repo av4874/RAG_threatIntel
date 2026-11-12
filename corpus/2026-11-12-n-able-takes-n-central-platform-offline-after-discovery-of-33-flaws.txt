@@ -1,0 +1,4 @@
+TITLE: N-able Takes N-central Platform Offline After Discovery of 33 Flaws
+SOURCE: https://www.darkreading.com/endpoint-security/n-able-n-central-offline-33-flaws
+---
+The RMM provider also released a hotfix as a recommended mitigation to address public exploits for the alleged zero-days, which allow for attacker takeover.

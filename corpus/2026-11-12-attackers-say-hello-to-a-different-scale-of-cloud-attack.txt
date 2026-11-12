@@ -1,0 +1,4 @@
+TITLE: Attackers Say 'Hello' to a Different Scale of Cloud Attack
+SOURCE: https://www.darkreading.com/cloud-security/attackers-hello-scale-cloud-attack
+---
+Researchers dubbed an attack chain &quot;Greeter&quot; after discovering that attackers deliberately covered their trail by leaving &quot;hello&quot; messages in logs.

@@ -1,0 +1,4 @@
+TITLE: Inside an AI Attack Against a US Retailer
+SOURCE: https://www.darkreading.com/cyberattacks-data-breaches/inside-ai-attack-us-retailer
+---
+When hand-typed commands failed to breach a US retailer, the attacker turned to AI-generated scripts, achieving lateral movement in minutes.
