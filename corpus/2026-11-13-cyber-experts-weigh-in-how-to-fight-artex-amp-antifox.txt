@@ -1,0 +1,4 @@
+TITLE: Cyber Experts Weigh In: How to Fight Artex &amp; AntiFox
+SOURCE: https://www.darkreading.com/cybersecurity-operations/cyber-experts-fight-artex-antifox
+---
+Cybercriminals using agentic pen-testing tools is a proverbial genie out of the bottle at this point, so enterprises need to get a defense plan in place right away.
