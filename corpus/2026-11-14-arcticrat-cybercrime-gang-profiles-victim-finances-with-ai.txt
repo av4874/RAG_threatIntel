@@ -1,0 +1,4 @@
+TITLE: ArcticRAT Cybercrime Gang Profiles Victim Finances With AI
+SOURCE: https://www.darkreading.com/mobile-security/arcticrat-cybercrime-gang-profiles-victim-finances-ai
+---
+The Android malware has expanded from focusing on crypto theft to full device control, and the attackers have added advanced analysis of stolen information.
