@@ -1,0 +1,4 @@
+TITLE: China-Nexus Actors Breach 10 Organizations in AI-Driven Attacks
+SOURCE: https://www.darkreading.com/cyberattacks-data-breaches/china-nexus-actors-breach-10-organizations-ai-driven-attacks
+---
+Attackers used Cairn once again in autonomous attacks that targeted advanced manufacturing and defense sectors, as well as civil and human rights organizations.

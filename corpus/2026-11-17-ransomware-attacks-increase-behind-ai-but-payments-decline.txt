@@ -1,0 +1,4 @@
+TITLE: Ransomware Attacks Increase Behind AI, But Payments Decline
+SOURCE: https://www.darkreading.com/threat-intelligence/ransomware-attacks-increase-ai-payments-decline
+---
+Large language models and other AI systems allow a growing number of ransomware groups to create convincing phishing emails and identify sensitive data quickly.
