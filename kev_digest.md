@@ -180,6 +180,19 @@
 
 **References:** https://www.connectwise.com/company/trust/security-bulletins/connectwise-screenconnect-23.9.8 ; https://nvd.nist.gov/vuln/detail/CVE-2024-1708
 
+## CVE-2026-115731 - Perforce Puppet Enterprise
+**Vulnerability:** Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability
+
+**Description:** Perforce Puppet Enterprise contains a deserialization of untrusted data vulnerability in Puppet’s report-processing code that allows a client with any CA-signed agent certificate to execute arbitrary code on the Puppet Server as the service user by submitting a report containing a crafted rich-data type through a PUT request. If the certificate authority automatically signs requests without strong verification, an unauthenticated network attacker can obtain a valid certificate and exploit the vulnerability.
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-11-17 | **Due Date:** 2026-12-01
+
+**MITRE CWE:** CWE-502, CWE-94
+
+**References:** https://portal.perforce.com/s/cve/a91Qi000003IaHpIAK/report-deserialization-code-execution ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-115731
+
 ## CVE-2026-114713 - UnrealIRCd UnrealIRCd
 **Vulnerability:** UnrealIRCd Improper Neutralization of Delimiters Vulnerability
 
@@ -2057,7 +2070,7 @@
 
 **References:** https://helpx.adobe.com/security/products/coldfusion/apsb26-68.html ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-48282
 
-## CVE-2026-48558 - SimpleHelp  SimpleHelp
+## CVE-2026-48558 - SimpleHelp SimpleHelp
 **Vulnerability:** SimpleHelp Authentication Bypass Vulnerability
 
 **Description:** SimpleHelp contains an authentication bypass vulnerability in the OIDC authentication flow. When OIDC authentication is configured, identity tokens submitted during login are accepted without verifying their cryptographic signature. In a vulnerable configuration, a remote, unauthenticated attacker can submit a forged token containing arbitrary identity claims to obtain a fully authenticated technician session. In some configurations, this may also allow bypass of multi-factor authentication.
@@ -2570,16 +2583,3 @@
 **MITRE CWE:** CWE-77
 
 **References:** https://supportannouncement.us.dlink.com/security/publication.aspx?name=SAP10469 ; https://nvd.nist.gov/vuln/detail/CVE-2025-29635
-
-## CVE-2024-7399 - Samsung MagicINFO 9 Server
-**Vulnerability:** Samsung MagicINFO 9 Server Path Traversal Vulnerability
-
-**Description:** Samsung MagicINFO 9 Server contains a path traversal vulnerability that could allow an attacker to write arbitrary files as system authority.
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2026-04-24 | **Due Date:** 2026-05-08
-
-**MITRE CWE:** CWE-22, CWE-434
-
-**References:** https://security.samsungtv.com/securityUpdates ; https://nvd.nist.gov/vuln/detail/CVE-2024-7399
