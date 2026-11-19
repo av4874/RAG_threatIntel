@@ -1,0 +1,4 @@
+TITLE: AttackIQ Research Reveals How Iranian Cyber Groups Hand Off Network Access to Enable Destructive Attacks
+SOURCE: https://www.darkreading.com/threat-intelligence/attackiq-research-reveals-iranian-cyber-groups
+---
+Analysis of 20 Iranian state-sponsored threat groups details how espionage, ransomware, and hacktivism intersect in state-backed cyber campaigns.

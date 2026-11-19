@@ -1,0 +1,4 @@
+TITLE: Java4Shell Flaw Threatens Global Enterprises, Java Application Ecosystem
+SOURCE: https://www.darkreading.com/vulnerabilities-threats/java4shell-flaw-threatens-global-java-application-ecosystem
+---
+Discovered using AI, the memory corruption vulnerability affects the OpenJDK runtime and could allow unauthenticated attackers to take over systems.

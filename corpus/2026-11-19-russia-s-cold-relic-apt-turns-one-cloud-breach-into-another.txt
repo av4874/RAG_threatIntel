@@ -1,0 +1,4 @@
+TITLE: Russia's Cold Relic APT Turns One Cloud Breach Into Another
+SOURCE: https://www.darkreading.com/cyberattacks-data-breaches/cold-relic-turns-one-cloud-breach-into-another
+---
+The state-sponsored threat group is using data stolen from one victim to target others via convincing impersonations and social engineering attacks.

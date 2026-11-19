@@ -1,0 +1,4 @@
+TITLE: Why Holiday Security Can't Wait for Black Friday
+SOURCE: https://www.darkreading.com/cybersecurity-operations/why-holiday-security-cant-wait-black-friday
+---
+Bot-driven fraud and holiday social engineering attacks stretch across many weeks, straining security teams and small businesses alike.
