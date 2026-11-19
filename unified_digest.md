@@ -10,17 +10,17 @@
 **Detection Feasibility:** High - The vulnerability allows unauthenticated attackers to escalate privileges, which can be detected through security event logs and endpoint monitoring.
 **Recommendation:** Tune existing rule - Existing rules can be tuned to detect unusual network activity indicative of privilege escalation attempts.
 
-### CVE-2026-15410 - SonicWall SMA1000 Zero-Day Vulnerabilities: Full Technical Details (risk score: 10/10)
+### CVE-2026-15409 - SonicWall SMA1000 Zero-Day Vulnerabilities: Full Technical Details (risk score: 10/10)
 **Vendor/Product:** SonicWall SMA1000 Appliances
-**Vulnerability:** SonicWall SMA1000 Appliances Code Injection Vulnerability
+**Vulnerability:** SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability
 **ATT&CK Technique:** T1089 - System Network Connections Discovery (UNVERIFIED)
 **Log Sources:** Windows Security Event Log, Firewall/VPN logs
 **Detection Feasibility:** High - The vulnerabilities allow for command execution and request manipulation, which can be detected through network connection logs.
 **Recommendation:** New use case - Implement new rules to monitor for unusual network connections and command executions.
 
-### CVE-2026-15409 - SonicWall SMA1000 Zero-Day Vulnerabilities: Full Technical Details (risk score: 10/10)
+### CVE-2026-15410 - SonicWall SMA1000 Zero-Day Vulnerabilities: Full Technical Details (risk score: 10/10)
 **Vendor/Product:** SonicWall SMA1000 Appliances
-**Vulnerability:** SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability
+**Vulnerability:** SonicWall SMA1000 Appliances Code Injection Vulnerability
 **ATT&CK Technique:** T1089 - System Network Connections Discovery (UNVERIFIED)
 **Log Sources:** Windows Security Event Log, Firewall/VPN logs
 **Detection Feasibility:** High - The vulnerabilities allow for command execution and request manipulation, which can be detected through network connection logs.
@@ -111,6 +111,34 @@
 **Recommendation:** Tune existing rule - Existing security solutions can likely detect malicious activities related to command execution based on known indicators of compromise.
 
 ## KEV-Only (not covered by RAG lane)
+
+### CVE-2024-10441 - Synology DiskStation Manager (DSM)
+**Vulnerability:** Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability
+
+**MITRE CWE:** CWE-116
+
+**References:** https://www.synology.com/zh-tw/security/advisory/Synology_SA_24_20 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2024-10441
+
+### CVE-2026-40217 - BerriAI LiteLLM
+**Vulnerability:** BerriAI LiteLLM Unprotected Alternate Channel Vulnerability
+
+**MITRE CWE:** CWE-420
+
+**References:** https://github.com/BerriAI/litellm/security/advisories/GHSA-wxxx-gvqv-xp7p ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-40217
+
+### CVE-2026-90817 - Vanderbilt University Research Electronic Data Capture (REDCap)
+**Vulnerability:** Vanderbilt University Research Electronic Data Capture (REDCap) Code Injection Vulnerability
+
+**MITRE CWE:** CWE-73, CWE-94
+
+**References:** https://projectredcap.org/resources/community ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-90817
+
+### CVE-2026-90436 - Apache Axis
+**Vulnerability:** Apache Axis Unsafe Reflection Vulnerability
+
+**MITRE CWE:** CWE-470
+
+**References:** This vulnerability could affect an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: ; https://lists.apache.org/thread/8slf0j9gz35z56t0glt5h0ncwlbn4bdz ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-90436
 
 ### CVE-2026-115731 - Perforce Puppet Enterprise
 **Vulnerability:** Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability
@@ -293,31 +321,3 @@
 **MITRE CWE:** CWE-416, CWE-755, CWE-824, CWE-1325, CWE-1419
 
 **References:** This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://www.php.net/ ; https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ;  https://nvd.nist.gov/vuln/detail/CVE-2026-109619
-
-### CVE-2026-114625 - Arista VeloCloud Orchestrator
-**Vulnerability:** Arista VeloCloud Orchestrator SQL Injection Vulnerability
-
-**MITRE CWE:** CWE-89
-
-**References:** https://www.arista.com/en/support/advisories-notices/security-advisory/24838-security-advisory-0199 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-114625
-
-### CVE-2026-110447 - Collabora Collabora Online – Built-in CODE Server
-**Vulnerability:** Collabora Online – Built-in CODE Server OS Command Injection Vulnerability
-
-**MITRE CWE:** CWE-78
-
-**References:** https://help.nextcloud.com/t/to-collabora-built-in-user-update-asap/250516 ; https://github.com/CollaboraOnline/online/security/advisories/GHSA-g3vx-3m76-fghh ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-110447
-
-### CVE-2026-106931 - EG Secure Solutions SiteGuard Server Edition
-**Vulnerability:** EG Secure Solutions SiteGuard Server Edition OS Command Injection Vulnerability
-
-**MITRE CWE:** CWE-78
-
-**References:** https://www.eg-secure.co.jp/siteguard/news/alert-202610-1 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-106931
-
-### CVE-2026-96656 - Plex Media Server
-**Vulnerability:** Plex Media Server External Control of File Name or Path Vulnerability
-
-**MITRE CWE:** CWE-73
-
-**References:** https://forums.plex.tv/t/important-security-update-for-plex-media-server-v1-43-2-and-earlier/942319 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-96656
