@@ -1,0 +1,4 @@
+TITLE: Critical PHP Flaws Allow Code Execution, But Don't Panic 'PHP2Shell'-Style
+SOURCE: https://www.darkreading.com/application-security/critical-php-flaws-code-execution-panic-php2shell
+---
+November's monthly security release patches seven critical PHP flaws that should be addressed ASAP, though experts say exploitability varies and depends heavily on configuration.
