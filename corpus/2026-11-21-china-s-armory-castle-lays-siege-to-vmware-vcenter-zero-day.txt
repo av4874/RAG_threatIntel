@@ -1,0 +1,4 @@
+TITLE: China's 'Armory Castle' Lays Siege to VMware vCenter Zero-Day
+SOURCE: https://www.darkreading.com/cyberattacks-data-breaches/china-armory-castle-vmware-vcenter-zero-day
+---
+During the last wave of major VMware vCenter security updates, a China-nexus threat group likely already had its next zero-day up its sleeve.
