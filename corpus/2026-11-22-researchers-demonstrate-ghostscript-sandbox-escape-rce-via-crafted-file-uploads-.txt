@@ -1,0 +1,8 @@
+TITLE: Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps
+SOURCE: https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html
+---
+A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it.
+
+Ghostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the application calling it directly.
+
+Security firm pwn.ai showed this week that ordinary upload,
