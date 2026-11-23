@@ -1,0 +1,4 @@
+TITLE: Microsoft Debuts Offensive, Defensive Security Tools for the AI Era
+SOURCE: https://www.darkreading.com/endpoint-security/microsoft-offense-defense-ai-security-tools
+---
+Microsoft uses its Ignite technical conference to announce new AI agent security tools and transparency standards to protect enterprise systems.

@@ -1,0 +1,6 @@
+TITLE: AI-Assisted Cyber Attacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms
+SOURCE: https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html
+---
+The Indian Computer Emergency Response Team (CERT-In) has warned that threat actors are carrying out artificial intelligence (AI)-assisted cyber attacks targeting information and communication technology (ICT) assets in the country.
+
+This unsanctioned activity has resulted in unauthorized financial transactions at banking and financial services entities, as well as technology service providers

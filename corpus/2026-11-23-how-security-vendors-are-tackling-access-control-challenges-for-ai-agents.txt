@@ -1,0 +1,4 @@
+TITLE: How Security Vendors Are Tackling Access-Control Challenges for AI Agents
+SOURCE: https://www.darkreading.com/identity-access-management-security/ai-agents-bring-enterprises-new-access-control-challenges
+---
+Identity, runtime, and development controls are converging as enterprises look for ways to keep agents within their assigned tasks. But vendors' approaches vary, so CISOs face a choice.
