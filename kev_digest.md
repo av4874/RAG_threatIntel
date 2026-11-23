@@ -1,5 +1,18 @@
 # CISA KEV Digest
 
+## CVE-2024-10441 - Synology DiskStation Manager (DSM) (RANSOMWARE-LINKED)
+**Vulnerability:** Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability
+
+**Description:** Synology DSM contains an improper encoding or escaping of output vulnerability in the system plugin daemon in Synology BeeStation OS (BSM) that could allow a remote attacker to execute arbitrary code via unspecified vectors.
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-11-18 | **Due Date:** 2026-11-21
+
+**MITRE CWE:** CWE-116
+
+**References:** https://www.synology.com/zh-tw/security/advisory/Synology_SA_24_20 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2024-10441
+
 ## CVE-2026-59310 - Broadcom VMware vCenter (RANSOMWARE-LINKED)
 **Vulnerability:** Broadcom VMware vCenter Path Traversal Vulnerability
 
@@ -205,19 +218,6 @@
 **MITRE CWE:** CWE-798
 
 **References:** https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vcs-static-cred-hr7EWZ8t ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-76466
-
-## CVE-2024-10441 - Synology DiskStation Manager (DSM)
-**Vulnerability:** Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability
-
-**Description:** Synology DSM contains an improper encoding or escaping of output vulnerability in the system plugin daemon in Synology BeeStation OS (BSM) that could allow a remote attacker to execute arbitrary code via unspecified vectors.
-
-**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
-
-**Date Added:** 2026-11-18 | **Due Date:** 2026-11-21
-
-**MITRE CWE:** CWE-116
-
-**References:** https://www.synology.com/zh-tw/security/advisory/Synology_SA_24_20 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2024-10441
 
 ## CVE-2026-40217 - BerriAI LiteLLM
 **Vulnerability:** BerriAI LiteLLM Unprotected Alternate Channel Vulnerability
