@@ -1,0 +1,4 @@
+TITLE: CrowdStrike Makes AI Security Push With Blockbuster Zscaler Deal
+SOURCE: https://www.darkreading.com/endpoint-security/crowdstrike-ai-security-push-zscaler-deal
+---
+CrowdStrike's $44 billion acquisition of Zscaler would unite endpoint protection and zero-trust network security to obtain greater control over AI agents.

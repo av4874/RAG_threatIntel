@@ -1,0 +1,4 @@
+TITLE: Industrial Serial Gateways Broadcast That They're Insecure
+SOURCE: https://www.darkreading.com/ics-ot-security/industrial-serial-gateways-broadcast-insecure
+---
+Critical OT access devices will often tell you, and anyone else, whether they're protected by authentication — and many aren't.

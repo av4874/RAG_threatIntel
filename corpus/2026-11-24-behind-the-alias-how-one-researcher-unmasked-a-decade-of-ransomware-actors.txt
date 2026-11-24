@@ -1,0 +1,4 @@
+TITLE: Behind the Alias: How One Researcher Unmasked a Decade of Ransomware Actors
+SOURCE: https://www.darkreading.com/cybersecurity-operations/alias-researcher-unmasked-ransomware-actors
+---
+Ransomware isn't slowing down. A new framework gives security teams the edge to trace attackers back to their source.
