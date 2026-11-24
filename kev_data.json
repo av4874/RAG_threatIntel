@@ -194,6 +194,81 @@
     "notes": "This vulnerability could affect an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://github.com/TanStack/router/security/advisories/GHSA-g7cv-rxg3-hmpx ; https://nvd.nist.gov/vuln/detail/CVE-2026-45321"
   },
   {
+    "cve_id": "CVE-2026-132224",
+    "vendor_project": "Optimizely",
+    "product": "Web Experimentation",
+    "vulnerability_name": "Optimizely Web Experimentation External Control of Critical State Data Vulnerability",
+    "date_added": "2026-11-24",
+    "short_description": "Optimizely Web Experimentation contains an external control of critical state data vulnerability in its account signup flow that could allow an attacker to impersonate existing customer users and modify Project JavaScript. Successful exploitation can result in attacker-controlled JavaScript being distributed through Optimizely-hosted assets and executed in browsers visiting affected customer websites.",
+    "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+    "due_date": "2026-11-27",
+    "known_ransomware_use": false,
+    "cwes": [
+      "CWE-642"
+    ],
+    "notes": "https://pages.optimizely.com/rs/947-RKE-048/images/Security%20Incident%20Report%20-%20Optimizely%20Web%20Experimentation%20-%20Nov%2017%202026.pdf ; https://status.optimizely.com/incidents/ftw0fh9wx43z ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-132224"
+  },
+  {
+    "cve_id": "CVE-2026-131914",
+    "vendor_project": "Idunno",
+    "product": "AntiCsrf",
+    "vulnerability_name": "Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability",
+    "date_added": "2026-11-24",
+    "short_description": "Idunno AntiCsrf contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via object injection. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version.",
+    "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+    "due_date": "2026-11-27",
+    "known_ransomware_use": false,
+    "cwes": [
+      "CWE-502"
+    ],
+    "notes": "This vulnerability could affect an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2026/MNDT-2026-0048.md ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-131914"
+  },
+  {
+    "cve_id": "CVE-2026-132165",
+    "vendor_project": "Drupal",
+    "product": "Core",
+    "vulnerability_name": "Drupal Core Remote Code Execution Vulnerability",
+    "date_added": "2026-11-24",
+    "short_description": "Drupal Core contains a not failing securely vulnerability that could allow an unauthenticated attacker to take over an existing site or execute arbitrary code via the Drupal installer. Under specific conditions, the attacker can use install.php to attempt to reinstall Drupal on the site.",
+    "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+    "due_date": "2026-11-27",
+    "known_ransomware_use": false,
+    "cwes": [
+      "CWE-636"
+    ],
+    "notes": "https://www.drupal.org/sa-core-2026-017 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-132165"
+  },
+  {
+    "cve_id": "CVE-2026-133968",
+    "vendor_project": "Project MONAI",
+    "product": "MONAI Label",
+    "vulnerability_name": "Project MONAI MONAI Label Path Traversal Vulnerability",
+    "date_added": "2026-11-23",
+    "short_description": "Project MONAI MONAI Label contains a path traversal vulnerability that allows an unauthenticated remote attacker to write arbitrary files outside the intended datastore directory, potentially resulting in remote code execution.",
+    "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+    "due_date": "2026-11-26",
+    "known_ransomware_use": false,
+    "cwes": [
+      "CWE-24"
+    ],
+    "notes": "https://github.com/Project-MONAI/MONAILabel/security/advisories/GHSA-qc22-rmgc-vg94 ; https://github.com/Project-MONAI/MONAILabel/pull/1915 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-133968"
+  },
+  {
+    "cve_id": "CVE-2026-134624",
+    "vendor_project": "N-able",
+    "product": "MailAssure",
+    "vulnerability_name": "N-able MailAssure (SpamExperts) Server-Side Request Forgery (SSRF) Vulnerability",
+    "date_added": "2026-11-23",
+    "short_description": "N-able MailAssure (SpamExperts) contains a server-side request forgery vulnerability in the LDAP synchronization connection check that allows an authenticated API user to connect to arbitrary internal hosts and ports, determine which are reachable, and send crafted data to internal services.",
+    "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+    "due_date": "2026-11-26",
+    "known_ransomware_use": false,
+    "cwes": [
+      "CWE-918"
+    ],
+    "notes": "https://me.n-able.com/s/security-advisory/aArVy0000002mrlKAA ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-134624"
+  },
+  {
     "cve_id": "CVE-2026-129448",
     "vendor_project": "Apache",
     "product": "Roller",
@@ -2946,78 +3021,5 @@
       "CWE-416"
     ],
     "notes": "https://learn.microsoft.com/en-us/security-updates/SecurityAdvisories/2010/979352 ; https://nvd.nist.gov/vuln/detail/CVE-2010-0249"
-  },
-  {
-    "cve_id": "CVE-2010-0806",
-    "vendor_project": "Microsoft",
-    "product": "Internet Explorer",
-    "vulnerability_name": "Microsoft Internet Explorer Use-After-Free Vulnerability",
-    "date_added": "2026-05-20",
-    "short_description": "Microsoft Internet Explorer contains an use-after-free vulnerability that could allow remote attackers to execute arbitrary code via vectors involving access to an invalid pointer after the deletion of an object. The impacted product could be end-of-life (EoL) and/or end-of-service (EoS). Users should discontinue product utilization.",
-    "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-    "due_date": "2026-06-03",
-    "known_ransomware_use": false,
-    "cwes": [
-      "CWE-399"
-    ],
-    "notes": "https://learn.microsoft.com/en-us/security-updates/securityadvisories/2010/981374 ; https://nvd.nist.gov/vuln/detail/CVE-2010-0806"
-  },
-  {
-    "cve_id": "CVE-2026-41091",
-    "vendor_project": "Microsoft",
-    "product": "Defender",
-    "vulnerability_name": "Microsoft Defender Link Following Vulnerability",
-    "date_added": "2026-05-20",
-    "short_description": "Microsoft Defender contains a link following vulnerability that allows an authorized attacker to elevate privileges locally.",
-    "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-    "due_date": "2026-06-03",
-    "known_ransomware_use": false,
-    "cwes": [
-      "CWE-59"
-    ],
-    "notes": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-41091 ; https://nvd.nist.gov/vuln/detail/CVE-2026-41091"
-  },
-  {
-    "cve_id": "CVE-2026-45498",
-    "vendor_project": "Microsoft",
-    "product": "Defender",
-    "vulnerability_name": "Microsoft Defender Denial of Service Vulnerability",
-    "date_added": "2026-05-20",
-    "short_description": "Microsoft Defender contains an unspecified vulnerability that allows for denial of service.",
-    "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-    "due_date": "2026-06-03",
-    "known_ransomware_use": false,
-    "cwes": [],
-    "notes": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-45498 ; https://nvd.nist.gov/vuln/detail/CVE-2026-45498"
-  },
-  {
-    "cve_id": "CVE-2026-42897",
-    "vendor_project": "Microsoft",
-    "product": "Microsoft",
-    "vulnerability_name": "Microsoft Exchange Server Cross-Site Scripting Vulnerability",
-    "date_added": "2026-05-15",
-    "short_description": "Microsoft Exchange Server contains a cross-site scripting vulnerability during web page generation in Outlook Web Access and when certain interaction conditions are met, arbitrary JavaScript can be executed in the browser context.",
-    "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-    "due_date": "2026-05-29",
-    "known_ransomware_use": false,
-    "cwes": [
-      "CWE-79"
-    ],
-    "notes": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-42897 ; https://learn.microsoft.com/en-us/exchange/plan-and-deploy/post-installation-tasks/security-best-practices/exchange-emergency-mitigation-service ; https://nvd.nist.gov/vuln/detail/CVE-2026-42897"
-  },
-  {
-    "cve_id": "CVE-2026-20182",
-    "vendor_project": "Cisco",
-    "product": "Catalyst SD-WAN",
-    "vulnerability_name": "Cisco Catalyst SD-WAN Controller Authentication Bypass Vulnerability",
-    "date_added": "2026-05-14",
-    "short_description": "Cisco Catalyst SD-WAN Controller & Manager contain an authentication bypass vulnerability that allows an unauthenticated, remote attacker to bypass authentication and obtain administrative privileges on an affected system.",
-    "required_action": "Please adhere to CISA\u2019s guidelines to assess exposure and mitigate risks associated with Cisco SD-WAN devices as outlined in CISA\u2019s Emergency Directive 26-03 (URL listed below in Notes) and CISA\u2019s Hunt & Hardening Guidance for Cisco SD-WAN Devices (URL listed below in Notes). Adhere to the applicable BOD 22-01 guidance for cloud services or discontinue use of the product if mitigations are not available.",
-    "due_date": "2026-05-17",
-    "known_ransomware_use": false,
-    "cwes": [
-      "CWE-287"
-    ],
-    "notes": "CISA Mitigation Instructions: https://www.cisa.gov/news-events/directives/ed-26-03-mitigate-vulnerabilities-cisco-sd-wan-systems ; https://www.cisa.gov/news-events/directives/supplemental-direction-ed-26-03-hunt-and-hardening-guidance-cisco-sd-wan-systems ; https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-rpa2-v69WY2SW ; https://nvd.nist.gov/vuln/detail/CVE-2026-20182"
   }
 ]
