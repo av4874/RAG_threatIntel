@@ -1,0 +1,4 @@
+TITLE: Attackers Target .NET Developers With Poisoned Job Assessments
+SOURCE: https://www.darkreading.com/threat-intelligence/attackers-net-developers-poisoned-job-assessments
+---
+Researchers discovered 13 malicious NuGet packages as part of a fake recruitment campaign that spreads malware and gives attackers access to developers' machines.

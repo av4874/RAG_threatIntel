@@ -1,0 +1,4 @@
+TITLE: 'God Mode' Flaws Could Wreak Border-Control Havoc
+SOURCE: https://www.darkreading.com/vulnerabilities-threats/god-mode-flaws-wreak-border-control-havoc
+---
+Attackers could have disrupted traveler entry into Nigeria, Ethiopia, Zambia, Sri Lanka, Fiji, and Ghana via several vulnerabilities in their online visa and immigration systems.

@@ -1,0 +1,4 @@
+TITLE: How Southeastern University Got a Handle on Its Data
+SOURCE: https://www.darkreading.com/cybersecurity-operations/how-southeastern-university-handle-data
+---
+Data security posture management (DSPM) allowed the university to uncover sensitive information, tighten access controls, and lay the groundwork for safer AI adoption.
