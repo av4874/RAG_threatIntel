@@ -1,0 +1,4 @@
+TITLE: Cyprus Becomes Espionage Target for Iranian Hackers
+SOURCE: https://www.darkreading.com/cyberattacks-data-breaches/cyprus-espionage-target-iranian-hackers
+---
+A previously undocumented Iranian threat group called &quot;Volant Manticore&quot; is targeting Cypriot organizations as part of an intelligence-gathering effort for Tehran.
