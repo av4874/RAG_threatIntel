@@ -10,17 +10,17 @@
 **Detection Feasibility:** High - The vulnerability allows unauthenticated attackers to escalate privileges, which can be detected through security event logs and endpoint monitoring.
 **Recommendation:** Tune existing rule - Existing rules can be tuned to detect unusual network activity indicative of privilege escalation attempts.
 
-### CVE-2026-15409 - SonicWall SMA1000 Zero-Day Vulnerabilities: Full Technical Details (risk score: 10/10)
+### CVE-2026-15410 - SonicWall SMA1000 Zero-Day Vulnerabilities: Full Technical Details (risk score: 10/10)
 **Vendor/Product:** SonicWall SMA1000 Appliances
-**Vulnerability:** SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability
+**Vulnerability:** SonicWall SMA1000 Appliances Code Injection Vulnerability
 **ATT&CK Technique:** T1089 - System Network Connections Discovery (UNVERIFIED)
 **Log Sources:** Windows Security Event Log, Firewall/VPN logs
 **Detection Feasibility:** High - The vulnerabilities allow for command execution and request manipulation, which can be detected through network connection logs.
 **Recommendation:** New use case - Implement new rules to monitor for unusual network connections and command executions.
 
-### CVE-2026-15410 - SonicWall SMA1000 Zero-Day Vulnerabilities: Full Technical Details (risk score: 10/10)
+### CVE-2026-15409 - SonicWall SMA1000 Zero-Day Vulnerabilities: Full Technical Details (risk score: 10/10)
 **Vendor/Product:** SonicWall SMA1000 Appliances
-**Vulnerability:** SonicWall SMA1000 Appliances Code Injection Vulnerability
+**Vulnerability:** SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability
 **ATT&CK Technique:** T1089 - System Network Connections Discovery (UNVERIFIED)
 **Log Sources:** Windows Security Event Log, Firewall/VPN logs
 **Detection Feasibility:** High - The vulnerabilities allow for command execution and request manipulation, which can be detected through network connection logs.
@@ -118,6 +118,69 @@
 **MITRE CWE:** CWE-78
 
 **References:** https://supportportal.juniper.net/s/article/2026-10-On-Demand-Security-Bulletin-Session-Smart-Router-and-Session-Smart-Conductor-Multiple-internally-discovered-vulnerabilities-resolved ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-103406
+
+### CVE-2026-133469 - Vates Xen Orchestra
+**Vulnerability:** Vates Xen Orchestra Improper Validation of Specified Type of Input Vulnerability
+
+**MITRE CWE:** CWE-287, CWE-1287
+
+**References:** This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://docs.vates.tech/security-advisories/advisories/2026/vates-sa-2026-062/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-133469
+
+### CVE-2025-41450 - Danfoss AK-SM 800A Series
+**Vulnerability:** Danfoss AK-SM 800A Series Improper Authentication Vulnerability
+
+**MITRE CWE:** CWE-305
+
+**References:** https://www.danfoss.com/en/service-and-support/coordinated-vulnerability-disclosure/danfoss-security-advisories/dsa-2025-03-01 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2025-41450
+
+### CVE-2023-25914 - Danfoss AK-SM 800A Series
+**Vulnerability:** Danfoss AK-SM 800A Series Path Traversal Vulnerability
+
+**MITRE CWE:** CWE-22
+
+**References:** https://www.danfoss.com/en/service-and-support/coordinated-vulnerability-disclosure/danfoss-security-advisories/dsa-2023-08-01 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2023-25914
+
+### CVE-2023-25915 - Danfoss AK-SM 800A Series
+**Vulnerability:** Danfoss AK-SM 800A Series Improper Input Validation Vulnerability
+
+**MITRE CWE:** CWE-20
+
+**References:** https://www.danfoss.com/en/service-and-support/coordinated-vulnerability-disclosure/danfoss-security-advisories/dsa-2023-08-01 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2023-25915
+
+### CVE-2026-133324 - Mitel MiCollab
+**Vulnerability:** Mitel MiCollab Not Failing Securely Vulnerability
+
+**MITRE CWE:** CWE-636
+
+**References:** https://www.mitel.com/support/security-advisories/mitel-product-security-advisory-misa-2026-0012 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-133324
+
+### CVE-2026-133275 - Mitel MiCollab
+**Vulnerability:** Mitel MiCollab Unrestricted Upload of File with Dangerous Type Vulnerability
+
+**MITRE CWE:** CWE-434
+
+**References:** https://www.mitel.com/support/security-advisories/mitel-product-security-advisory-misa-2026-0012 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-133275
+
+### CVE-2026-133311 - Mitel MiCollab
+**Vulnerability:** Mitel MiCollab Weak Authentication Vulnerability
+
+**MITRE CWE:** CWE-1390
+
+**References:** https://www.mitel.com/support/security-advisories/mitel-product-security-advisory-misa-2026-0012 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-133311
+
+### CVE-2026-133303 - Mitel MiCollab
+**Vulnerability:** Mitel MiCollab XML Injection Vulnerability
+
+**MITRE CWE:** CWE-91
+
+**References:** https://www.mitel.com/support/security-advisories/mitel-product-security-advisory-misa-2026-0012 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-133303
+
+### CVE-2026-133323 - Mitel MiCollab
+**Vulnerability:** Mitel MiCollab OS Command Injection Vulnerability
+
+**MITRE CWE:** CWE-78
+
+**References:** https://www.mitel.com/support/security-advisories/mitel-product-security-advisory-misa-2026-0012 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-133323
 
 ### CVE-2026-132224 - Optimizely Web Experimentation
 **Vulnerability:** Optimizely Web Experimentation External Control of Critical State Data Vulnerability
@@ -258,66 +321,3 @@
 **MITRE CWE:** CWE-78
 
 **References:** https://trust.barracuda.com/security/pre-authentication-authorization-bypass-command-injection ; https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2026/MNDT-2026-0041.md ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-111560
-
-### CVE-2026-116606 - Barracuda Networks Barracuda Email Security Gateway (ESG)
-**Vulnerability:** Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability
-
-**MITRE CWE:** CWE-288
-
-**References:** https://trust.barracuda.com/security/pre-authentication-authorization-bypass-command-injection ; https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2026/MNDT-2026-0042.md ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-116606
-
-### CVE-2026-125350 - Google Chromium
-**Vulnerability:** Google Chromium Use-After-Free Vulnerability
-
-**MITRE CWE:** CWE-416
-
-**References:** https://chromereleases.googleblog.com/2026/11/stable-channel-update-for-desktop_018223192.html ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-125350
-
-### CVE-2026-102895 - GPUStack GPUStack
-**Vulnerability:** GPUStack Improper Authentication Vulnerability
-
-**MITRE CWE:** CWE-287, CWE-290, CWE-346
-
-**References:** This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: ; https://github.com/gpustack/gpustack/security/advisories/GHSA-gj9m-f8ph-pmhr ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-102895
-
-### CVE-2026-123158 - OpenBSD OpenSSH
-**Vulnerability:** OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability
-
-**MITRE CWE:** CWE-394
-
-**References:** This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://www.openssh.org/releasenotes.html ; https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/ ; https://github.com/openssh/openssh-portable/commit/4353fdc43ef646c43a8dda7025cc1a898caf1482 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-123158
-
-### CVE-2026-116779 - SignalWire FreeSwitch
-**Vulnerability:** SignalWire FreeSwitch Code Injection Vulnerability
-
-**MITRE CWE:** CWE-77, CWE-78, CWE-749
-
-**References:** This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://github.com/signalwire/freeswitch/security/advisories/GHSA-mg63-h38w-8p9p ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-116779
-
-### CVE-2026-123218 - IBM Aspera Faspex
-**Vulnerability:** IBM Aspera Faspex Incorrect Authorization Vulnerability
-
-**MITRE CWE:** CWE-863
-
-**References:** https://www.ibm.com/support/pages/node/7295921 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-123218
-
-### CVE-2026-19868 - SonicWall SonicOS SSLVPN
-**Vulnerability:** SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability
-
-**MITRE CWE:** CWE-308
-
-**References:** https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2026-0014 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-19868
-
-### CVE-2024-27834 - Apple Multiple Products
-**Vulnerability:** Apple Multiple Products Improper Authentication Vulnerability
-
-**MITRE CWE:** CWE-287
-
-**References:** https://support.apple.com/en-us/120896 ; https://support.apple.com/en-us/120898 ; https://support.apple.com/en-us/120901 ; https://support.apple.com/en-us/120902 ; https://support.apple.com/en-us/120903 ; https://support.apple.com/en-us/120905 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2024-27834
-
-### CVE-2026-119977 - WordPress WordPress Core
-**Vulnerability:** WordPress WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability
-
-**MITRE CWE:** CWE-367
-
-**References:** https://wordpress.org/news/2026/10/wordpress-7-1-4 ; https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-core/wordpress-core-470-713-unauthenticated-upgrade-window-staged-installer-remote-code-execution ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-119977
