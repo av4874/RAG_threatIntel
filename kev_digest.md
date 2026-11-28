@@ -130,31 +130,44 @@
 
 **References:** https://blog.checkpoint.com/security/check-point-releases-important-hotfix-for-vulnerabilities-in-deprecated-ikev1-vpn-protocol/ ; https://support.checkpoint.com/results/sk/sk185033?_gl=1*1wqeqhc*_gcl_au*MTI1MzE5MjI2LjE3ODA5MzQ1NTM. ; https://nvd.nist.gov/vuln/detail/CVE-2026-50751
 
-## CVE-2026-0257 - Palo Alto Networks PAN-OS (RANSOMWARE-LINKED)
-**Vulnerability:** Palo Alto Networks PAN-OS Authentication Bypass Vulnerability
+## CVE-2026-120705 - OSGeo GeoServer
+**Vulnerability:** OSGeo GeoServer XML Injection Vulnerability
 
-**Description:** Palo Alto Networks PAN-OS contains an authentication bypass vulnerability that allows attackers to bypass security restrictions and establish an unauthorized VPN connection.
+**Description:** OsGeo GeoServer contains an XML injection vulnerability that allows an unauthenticated remote attacker to cause the server to read local text files accessible to the GeoServer process or fetch attacker-specified HTTP or HTTPS URLs via a crafted ID parameter in the WFS 2.0 GetFeatureById stored query. This vulnerability can be chained with CVE-2026-129244, CVE-2026-129243, CVE-2026-129245, and CVE-2026-129242 to achieve unauthenticated remote code execution on an affected GeoServer instance.
 
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
-**Date Added:** 2026-05-29 | **Due Date:** 2026-06-01
+**Date Added:** 2026-11-27 | **Due Date:** 2026-11-30
 
-**MITRE CWE:** CWE-565
+**MITRE CWE:** CWE-91, CWE-611, CWE-918
 
-**References:** https://security.paloaltonetworks.com/CVE-2026-0257 ; https://nvd.nist.gov/vuln/detail/CVE-2026-0257
+**References:** https://geoserver.org/vulnerability/2026/11/23/cve-update.html ; https://github.com/geoserver/geoserver/security/advisories/GHSA-39mw-5chv-jh47 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-120705
 
-## CVE-2026-48027 - Nx Nx Console (RANSOMWARE-LINKED)
-**Vulnerability:** Nx Console Embedded Malicious Code Vulnerability
+## CVE-2026-129243 - OSGeo GeoServer
+**Vulnerability:** OSGeo GeoServer Incorrect Authorization Vulnerability
 
-**Description:** Nx Console contains an embedded malicious code vulnerability that allowed a malicious version of Nx Console to be published. The compromised extension fetched an obfuscated payload that could harvested credentials from multiple sources on disk and in memory.
+**Description:** GeoServer contains an incorrect authorization vulnerability that allows an unauthenticated remote attacker to bypass service-level role checks and invoke operations protected solely by those checks via a request with a prefixed service parameter. This vulnerability can be chained with CVE-2026-129244, CVE-2026-120705, CVE-2026-129245, and CVE-2026-129242 to achieve unauthenticated remote code execution on an affected GeoServer instance.
 
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
-**Date Added:** 2026-05-27 | **Due Date:** 2026-06-10
+**Date Added:** 2026-11-27 | **Due Date:** 2026-11-30
 
-**MITRE CWE:** CWE-506
+**MITRE CWE:** CWE-863
 
-**References:** This vulnerability could affect an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://github.com/nrwl/nx-console/security/advisories/GHSA-c9j4-9m59-847w ; https://nvd.nist.gov/vuln/detail/CVE-2026-48027
+**References:** https://geoserver.org/vulnerability/2026/11/23/cve-update.html ; https://github.com/geoserver/geoserver/security/advisories/GHSA-rv5g-g2r9-58rj ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-129243
+
+## CVE-2026-136716 - Drupal Core
+**Vulnerability:** Drupal Core Improper Check for Unusual or Exceptional Conditions Vulnerability
+
+**Description:** Drupal Core contains an improper check for unusual or exceptional conditions vulnerability that allows an unauthenticated remote attacker to take over a site via the exposed Drupal installer when the site is in one of the affected unusual or incomplete installation states.
+
+**Required Action:** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+
+**Date Added:** 2026-11-27 | **Due Date:** 2026-11-30
+
+**MITRE CWE:** CWE-754
+
+**References:** https://www.drupal.org/sa-core-2026-019 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-136716
 
 ## CVE-2026-103406 - Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router
 **Vulnerability:** Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router OS Command Injection Vulnerability
@@ -2578,14 +2591,3 @@
 **MITRE CWE:** CWE-190
 
 **References:** https://source.android.com/docs/security/bulletin/2026/2026-06-01 ; https://nvd.nist.gov/vuln/detail/CVE-2025-48595
-
-## CVE-2024-21182 - Oracle WebLogic Server
-**Vulnerability:** Oracle WebLogic Server Unspecified Vulnerability
-
-**Description:** Oracle WebLogic contains an unspecified vulnerability that could allow an unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data.
-
-**Required Action:** Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-
-**Date Added:** 2026-06-01 | **Due Date:** 2026-06-04
-
-**References:** https://www.oracle.com/security-alerts/cpujul2024.html ; https://nvd.nist.gov/vuln/detail/CVE-2024-21182
